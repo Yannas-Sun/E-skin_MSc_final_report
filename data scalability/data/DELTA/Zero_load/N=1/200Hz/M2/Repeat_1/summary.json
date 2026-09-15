@@ -1,0 +1,1128 @@
+{
+  "schema_version": 2,
+  "run_id": "20260907_013624_365237",
+  "started_at": "2026-09-07T01:36:24.365237+01:00",
+  "duration_seconds": 40.00114300000132,
+  "requested_duration_seconds": 40.0,
+  "settle_seconds": 10.0,
+  "capture_overrun_seconds": 0.0011430000013206154,
+  "reason": "capture duration reached",
+  "completed_requested_duration": true,
+  "port": "COM9",
+  "baud": 2000000,
+  "metadata": {
+    "target_modules": [
+      2
+    ],
+    "module_selection_source": "automatic",
+    "target_mode": "DELTA",
+    "target_hz": 200,
+    "delta_threshold": 8,
+    "spi_setting_hz": 10000000,
+    "condition": "zero_load",
+    "block": "1",
+    "repeat": "1",
+    "operator": "",
+    "load_protocol_id": "",
+    "load_layers": "unspecified",
+    "load_notes": "",
+    "notes": "",
+    "deployment_note": "",
+    "deployment_confirmed": false,
+    "board_identity_handling": "slots_only",
+    "physical_modules_to_slots": {},
+    "board_identity_source": "unknown_not_transmitted_by_protocol",
+    "target_hz_source": "GUI default 200 Hz; not firmware readback",
+    "module_detection_at_record": {
+      "source": "recent_successful_protocol_slots_not_board_uids",
+      "ready": true,
+      "modules": [
+        2
+      ],
+      "mode": "DELTA",
+      "slot_modes": {
+        "2": "DELTA"
+      },
+      "slot_last_success_monotonic": {
+        "2": 195181.1223383
+      },
+      "last_packet_monotonic": 195181.1223383,
+      "observed_at_monotonic": 195181.1223383,
+      "window_span_seconds": 1.4986369999824092,
+      "window_seconds": 1.5,
+      "stale_seconds": 0.5,
+      "packet_count": 302,
+      "limitation": "No response cannot establish whether a board is physically attached. The recent union can retain a briefly missing slot; recording freezes the set."
+    },
+    "observed_mode_at_record": "DELTA",
+    "observed_mul1_rate_at_record_Hz": 200.17878654422182,
+    "spi_setting_source": "local firmware configuration; not measured or read back",
+    "delta_threshold_source": "local firmware configuration; not measured or read back",
+    "module_identity_source": "CS/IRQ slot; protocol carries no unique board identity",
+    "N": 1,
+    "M": 4,
+    "local_provenance": {
+      "source": "local_files_not_device_flash_readback",
+      "firmware_variant": "four-module-variable-spi",
+      "files": {
+        "stm32_elf": {
+          "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\stm32\\combined-system\\build\\Release\\ESKIN_STM32.elf",
+          "sha256": "8fb1791504f3c2bf23dce9d57ca9b877b8cd1653d167dfe5a58b0c5176c4c8b6"
+        },
+        "teensy_hex": {
+          "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\build\\teensy\\four_module.ino.hex",
+          "sha256": "32a95ff60bef1029a8b25a62d4ece524abc97813955e6586fc50fc9bf4cd2a67"
+        },
+        "pc_monitor": {
+          "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\four-module-fsr-monitor.py",
+          "sha256": "f3cb2910054e26300a223cbac611e08eb4eae6ac6fa2a60ebd3c414695758949"
+        },
+        "pc_recorder": {
+          "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_recording.py",
+          "sha256": "aff5787daa91bdb16719b0601d71707307e9d3471f636192cc5308445bf1b9ed"
+        },
+        "pc_controls": {
+          "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_controls.py",
+          "sha256": "9e7ff3b5678de04c46dbf9653385e7dbac9a8ec59f95737122020de50299b194"
+        },
+        "pc_module_detection": {
+          "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\module_detection.py",
+          "sha256": "52e35e8991c13e70e8f1e64d7b32d6b25bfa0fa7aeda8ec2333033540eb59ec1"
+        }
+      }
+    },
+    "batch_id": "BATCH_b2fdee22f9b94a5f97759036b00fa981",
+    "batch_repeat_index": 1,
+    "batch_repeat_count": 3,
+    "batch_recording_method": "consecutive_capture_windows_same_setup",
+    "batch_interpretation": "Temporal repeats under one setup; not independent setup blocks or automatic reloading",
+    "batch_initial_observations": "GUI at_record fields describe the initial batch request; each run measures its own statistics",
+    "module_detection_at_repeat_start": {
+      "source": "recent_successful_protocol_slots_not_board_uids",
+      "ready": true,
+      "modules": [
+        2
+      ],
+      "mode": "DELTA",
+      "slot_modes": {
+        "2": "DELTA"
+      },
+      "slot_last_success_monotonic": {
+        "2": 195181.1275526
+      },
+      "last_packet_monotonic": 195181.1275526,
+      "observed_at_monotonic": 195181.1336828,
+      "window_span_seconds": 1.4889194999996107,
+      "window_seconds": 1.5,
+      "stale_seconds": 0.5,
+      "packet_count": 299,
+      "limitation": "No response cannot establish whether a board is physically attached. The recent union can retain a briefly missing slot; recording freezes the set."
+    },
+    "module_detection_at_worker_start": {
+      "source": "recent_successful_protocol_slots_not_board_uids",
+      "ready": true,
+      "modules": [
+        2
+      ],
+      "mode": "DELTA",
+      "slot_modes": {
+        "2": "DELTA"
+      },
+      "slot_last_success_monotonic": {
+        "2": 195181.1275526
+      },
+      "last_packet_monotonic": 195181.1275526,
+      "observed_at_monotonic": 195181.1339028,
+      "window_span_seconds": 1.4889194999996107,
+      "window_seconds": 1.5,
+      "stale_seconds": 0.5,
+      "packet_count": 299,
+      "limitation": "No response cannot establish whether a board is physically attached. The recent union can retain a briefly missing slot; recording freezes the set."
+    },
+    "pre_record_commands": [
+      {
+        "command": "MODE DELTA",
+        "source": "user",
+        "sent_at": "2026-09-07T01:31:23.516160+01:00"
+      }
+    ],
+    "stream_start_offset": 739717315,
+    "live_parser_buffer_bytes_at_start": 1,
+    "live_parser_continuous_across_recordings": true
+  },
+  "metadata_warnings": [
+    "deployment_not_confirmed_by_operator; local hashes do not verify device flash"
+  ],
+  "test_condition": {
+    "target_modules": [
+      2
+    ],
+    "module_selection_source": "automatic",
+    "target_mode": "DELTA",
+    "target_hz": 200,
+    "delta_threshold": 8,
+    "spi_setting_hz": 10000000,
+    "condition": "zero_load",
+    "block": "1",
+    "repeat": "1",
+    "operator": "",
+    "load_protocol_id": "",
+    "load_layers": "unspecified",
+    "load_notes": "",
+    "notes": "",
+    "deployment_note": "",
+    "deployment_confirmed": false,
+    "board_identity_handling": "slots_only",
+    "physical_modules_to_slots": {},
+    "board_identity_source": "unknown_not_transmitted_by_protocol",
+    "target_hz_source": "GUI default 200 Hz; not firmware readback",
+    "module_detection_at_record": {
+      "source": "recent_successful_protocol_slots_not_board_uids",
+      "ready": true,
+      "modules": [
+        2
+      ],
+      "mode": "DELTA",
+      "slot_modes": {
+        "2": "DELTA"
+      },
+      "slot_last_success_monotonic": {
+        "2": 195181.1223383
+      },
+      "last_packet_monotonic": 195181.1223383,
+      "observed_at_monotonic": 195181.1223383,
+      "window_span_seconds": 1.4986369999824092,
+      "window_seconds": 1.5,
+      "stale_seconds": 0.5,
+      "packet_count": 302,
+      "limitation": "No response cannot establish whether a board is physically attached. The recent union can retain a briefly missing slot; recording freezes the set."
+    },
+    "observed_mode_at_record": "DELTA",
+    "observed_mul1_rate_at_record_Hz": 200.17878654422182,
+    "spi_setting_source": "local firmware configuration; not measured or read back",
+    "delta_threshold_source": "local firmware configuration; not measured or read back",
+    "module_identity_source": "CS/IRQ slot; protocol carries no unique board identity",
+    "N": 1,
+    "M": 4,
+    "local_provenance": {
+      "source": "local_files_not_device_flash_readback",
+      "firmware_variant": "four-module-variable-spi",
+      "files": {
+        "stm32_elf": {
+          "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\stm32\\combined-system\\build\\Release\\ESKIN_STM32.elf",
+          "sha256": "8fb1791504f3c2bf23dce9d57ca9b877b8cd1653d167dfe5a58b0c5176c4c8b6"
+        },
+        "teensy_hex": {
+          "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\build\\teensy\\four_module.ino.hex",
+          "sha256": "32a95ff60bef1029a8b25a62d4ece524abc97813955e6586fc50fc9bf4cd2a67"
+        },
+        "pc_monitor": {
+          "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\four-module-fsr-monitor.py",
+          "sha256": "f3cb2910054e26300a223cbac611e08eb4eae6ac6fa2a60ebd3c414695758949"
+        },
+        "pc_recorder": {
+          "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_recording.py",
+          "sha256": "aff5787daa91bdb16719b0601d71707307e9d3471f636192cc5308445bf1b9ed"
+        },
+        "pc_controls": {
+          "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_controls.py",
+          "sha256": "9e7ff3b5678de04c46dbf9653385e7dbac9a8ec59f95737122020de50299b194"
+        },
+        "pc_module_detection": {
+          "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\module_detection.py",
+          "sha256": "52e35e8991c13e70e8f1e64d7b32d6b25bfa0fa7aeda8ec2333033540eb59ec1"
+        }
+      }
+    },
+    "batch_id": "BATCH_b2fdee22f9b94a5f97759036b00fa981",
+    "batch_repeat_index": 1,
+    "batch_repeat_count": 3,
+    "batch_recording_method": "consecutive_capture_windows_same_setup",
+    "batch_interpretation": "Temporal repeats under one setup; not independent setup blocks or automatic reloading",
+    "batch_initial_observations": "GUI at_record fields describe the initial batch request; each run measures its own statistics",
+    "module_detection_at_repeat_start": {
+      "source": "recent_successful_protocol_slots_not_board_uids",
+      "ready": true,
+      "modules": [
+        2
+      ],
+      "mode": "DELTA",
+      "slot_modes": {
+        "2": "DELTA"
+      },
+      "slot_last_success_monotonic": {
+        "2": 195181.1275526
+      },
+      "last_packet_monotonic": 195181.1275526,
+      "observed_at_monotonic": 195181.1336828,
+      "window_span_seconds": 1.4889194999996107,
+      "window_seconds": 1.5,
+      "stale_seconds": 0.5,
+      "packet_count": 299,
+      "limitation": "No response cannot establish whether a board is physically attached. The recent union can retain a briefly missing slot; recording freezes the set."
+    },
+    "module_detection_at_worker_start": {
+      "source": "recent_successful_protocol_slots_not_board_uids",
+      "ready": true,
+      "modules": [
+        2
+      ],
+      "mode": "DELTA",
+      "slot_modes": {
+        "2": "DELTA"
+      },
+      "slot_last_success_monotonic": {
+        "2": 195181.1275526
+      },
+      "last_packet_monotonic": 195181.1275526,
+      "observed_at_monotonic": 195181.1339028,
+      "window_span_seconds": 1.4889194999996107,
+      "window_seconds": 1.5,
+      "stale_seconds": 0.5,
+      "packet_count": 299,
+      "limitation": "No response cannot establish whether a board is physically attached. The recent union can retain a briefly missing slot; recording freezes the set."
+    },
+    "pre_record_commands": [
+      {
+        "command": "MODE DELTA",
+        "source": "user",
+        "sent_at": "2026-09-07T01:31:23.516160+01:00"
+      }
+    ],
+    "stream_start_offset": 739717315,
+    "live_parser_buffer_bytes_at_start": 1,
+    "live_parser_continuous_across_recordings": true,
+    "module_count": 1,
+    "algorithm": "DELTA",
+    "modules": [
+      "M2"
+    ],
+    "active_module_ids": [
+      "M2"
+    ],
+    "scan_hz": 200,
+    "target_scan_rate_hz": 200,
+    "load_label": "zero_load"
+  },
+  "provenance_note": "Local artifact hashes identify source/build files; no device flash readback was performed by this recorder.",
+  "expected_module_mask": "0x04",
+  "commands": [],
+  "recorded_bytes": 1377280,
+  "raw_sha256": "125a0aecb36c743aae6df3387e2303f482af41389dc37a8987820f1d104ff470",
+  "recorded_candidate_rows": 8003,
+  "complete_mul_count": 8003,
+  "capture_start_boundary_packets": 1,
+  "result": "PASS: main window checks passed",
+  "result_scope": "main",
+  "scopes": {
+    "full_run": {
+      "start_elapsed_s": 0.0,
+      "end_elapsed_s": 40.00114300000132,
+      "actual_duration_seconds": 40.00114300000132,
+      "requested_duration_seconds": 40.0,
+      "counts": {
+        "raw_arrival_bytes": 1377280,
+        "raw_chunks": 11929,
+        "capture_start_boundary_packets": 1,
+        "capture_start_boundary_errors": 0,
+        "packet_candidates": 8003,
+        "candidate_packet_bytes": 1377098,
+        "valid_outer_packets": 8003,
+        "valid_outer_packet_bytes": 1377098,
+        "expected_module_update_opportunities": 8003,
+        "diagnostic_payload_bytes": 0,
+        "valid_module_frames": 8003,
+        "valid_module_payload_bytes": 1056978,
+        "valid_expected_module_frames": 8003,
+        "ESKD": 7963,
+        "initial_unanchored_delta": 154,
+        "missing_valid_expected_updates": 0,
+        "all_expected_modules_updated_packets": 8003,
+        "valid_inner_packets": 8003,
+        "raw_offset_errors": 0,
+        "ESKF": 40,
+        "applied_full_baseline": 40,
+        "applied_delta": 7809,
+        "known_start_boundary_bytes": 181,
+        "unassigned_raw_bytes": 1,
+        "trailing_unassigned_raw_bytes": 1
+      },
+      "status": "CHECK REQUIRED",
+      "review_reasons": [
+        "initial_delta_prefix_cache_not_verifiable_from_file",
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "raw_arrival_bytes": 1377280,
+      "raw_arrival_bytes_per_s": 34431.016133712845,
+      "raw_arrival_Mbit_per_s": 0.27544812906970273,
+      "valid_outer_packet_bytes": 1377098,
+      "Lmean_valid_packet_B": 172.07272272897663,
+      "packet_completion_Mbit_per_s": 0.275411730109803,
+      "valid_outer_packet_rate_Hz": 200.0692830202311,
+      "all_expected_modules_updated_rate_Hz": 200.0692830202311,
+      "valid_expected_module_frames": 8003,
+      "expected_module_update_opportunities": 8003,
+      "q_ESKF": 0.004998125702861427,
+      "K_ESKD_pooled": {
+        "n": 7963,
+        "mean": 21.74595001883712,
+        "sd_population": 12.178622944480365,
+        "min": 0,
+        "max": 45,
+        "p05": 0.0,
+        "p25": 8.0,
+        "median": 29.0,
+        "p75": 32.0,
+        "p95": 33.0,
+        "zero_fraction": 0.05663694587467035
+      },
+      "modules": {
+        "M0": {
+          "expected": false,
+          "counts": {
+            "slot_observations": 8003
+          },
+          "status_counts": {
+            "0x83": 8003
+          },
+          "flags_counts": {},
+          "q_ESKF": null,
+          "K": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K1": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K2": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K_histogram": {},
+          "valid_update_rate_Hz": 0.0,
+          "ESKF_interval_count": 0,
+          "ESKF_interval_mean_s": null,
+          "ESKF_interval_min_s": null,
+          "ESKF_interval_max_s": null,
+          "ESKF_trigger_reason": "unknown_without_correlated_firmware_events"
+        },
+        "M1": {
+          "expected": false,
+          "counts": {
+            "slot_observations": 8003
+          },
+          "status_counts": {
+            "0x83": 8003
+          },
+          "flags_counts": {},
+          "q_ESKF": null,
+          "K": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K1": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K2": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K_histogram": {},
+          "valid_update_rate_Hz": 0.0,
+          "ESKF_interval_count": 0,
+          "ESKF_interval_mean_s": null,
+          "ESKF_interval_min_s": null,
+          "ESKF_interval_max_s": null,
+          "ESKF_trigger_reason": "unknown_without_correlated_firmware_events"
+        },
+        "M2": {
+          "expected": true,
+          "counts": {
+            "slot_observations": 8003,
+            "valid_frames": 8003,
+            "payload_bytes": 1056978,
+            "ESKD": 7963,
+            "initial_unanchored_delta": 154,
+            "ESKF": 40,
+            "applied_full_baseline": 40,
+            "applied_delta": 7809
+          },
+          "status_counts": {
+            "0x00": 8003
+          },
+          "flags_counts": {
+            "0x33": 8003
+          },
+          "q_ESKF": 0.004998125702861427,
+          "K": {
+            "n": 7963,
+            "mean": 21.74595001883712,
+            "sd_population": 12.178622944480365,
+            "min": 0,
+            "max": 45,
+            "p05": 0.0,
+            "p25": 8.0,
+            "median": 29.0,
+            "p75": 32.0,
+            "p95": 33.0,
+            "zero_fraction": 0.05663694587467035
+          },
+          "K1": {
+            "n": 7963,
+            "mean": 21.54414165515509,
+            "sd_population": 12.130166160538865,
+            "min": 0,
+            "max": 39,
+            "p05": 0.0,
+            "p25": 8.0,
+            "median": 29.0,
+            "p75": 31.0,
+            "p95": 33.0,
+            "zero_fraction": 0.06743689564234585
+          },
+          "K2": {
+            "n": 7963,
+            "mean": 0.2018083636820294,
+            "sd_population": 0.6070759822447124,
+            "min": 0,
+            "max": 11,
+            "p05": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p95": 1.0,
+            "zero_fraction": 0.8431495667462012
+          },
+          "K_histogram": {
+            "0": 451,
+            "1": 223,
+            "2": 198,
+            "3": 356,
+            "4": 377,
+            "5": 185,
+            "6": 92,
+            "7": 72,
+            "8": 61,
+            "9": 67,
+            "10": 60,
+            "11": 39,
+            "12": 35,
+            "13": 58,
+            "14": 53,
+            "15": 57,
+            "16": 43,
+            "17": 41,
+            "18": 21,
+            "19": 125,
+            "20": 104,
+            "21": 164,
+            "22": 113,
+            "23": 169,
+            "24": 99,
+            "25": 85,
+            "26": 83,
+            "27": 105,
+            "28": 338,
+            "29": 681,
+            "30": 715,
+            "31": 652,
+            "32": 1306,
+            "33": 460,
+            "34": 175,
+            "35": 32,
+            "36": 12,
+            "37": 6,
+            "38": 17,
+            "39": 11,
+            "40": 7,
+            "41": 4,
+            "42": 1,
+            "43": 7,
+            "44": 1,
+            "45": 2
+          },
+          "valid_update_rate_Hz": 200.0692830202311,
+          "ESKF_interval_count": 39,
+          "ESKF_interval_mean_s": 0.9991469564101396,
+          "ESKF_interval_min_s": 0.893196099990746,
+          "ESKF_interval_max_s": 1.1063676000048872,
+          "ESKF_trigger_reason": "unknown_without_correlated_firmware_events"
+        },
+        "M3": {
+          "expected": false,
+          "counts": {
+            "slot_observations": 8003
+          },
+          "status_counts": {
+            "0x85": 8003
+          },
+          "flags_counts": {},
+          "q_ESKF": null,
+          "K": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K1": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K2": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K_histogram": {},
+          "valid_update_rate_Hz": 0.0,
+          "ESKF_interval_count": 0,
+          "ESKF_interval_mean_s": null,
+          "ESKF_interval_min_s": null,
+          "ESKF_interval_max_s": null,
+          "ESKF_trigger_reason": "unknown_without_correlated_firmware_events"
+        }
+      },
+      "session_counter_delta_at_packet_observation": {
+        "candidate_packets": 8004,
+        "valid_packets": 8004,
+        "outer_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "inner_crc_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "byte_window_note": "raw by chunk arrival; complete packet bytes by completion and only for packets fully contained in raw; start-boundary packets are excluded",
+      "session_counter_delta": {
+        "candidate_packets": 8004,
+        "valid_packets": 8004,
+        "outer_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "inner_crc_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "unassigned_raw_bytes": 1,
+      "known_start_boundary_bytes": 181,
+      "raw_boundary_warnings": [
+        "trailing_unassigned_raw_bytes"
+      ]
+    },
+    "main": {
+      "start_elapsed_s": 10.0,
+      "end_elapsed_s": 40.00114300000132,
+      "actual_duration_seconds": 30.00114300000132,
+      "requested_duration_seconds": 30.0,
+      "counts": {
+        "raw_arrival_bytes": 1026697,
+        "raw_chunks": 8786,
+        "packet_candidates": 6003,
+        "candidate_packet_bytes": 1026696,
+        "valid_outer_packets": 6003,
+        "valid_outer_packet_bytes": 1026696,
+        "expected_module_update_opportunities": 6003,
+        "diagnostic_payload_bytes": 0,
+        "valid_module_frames": 6003,
+        "valid_module_payload_bytes": 786576,
+        "valid_expected_module_frames": 6003,
+        "ESKD": 5973,
+        "applied_delta": 5973,
+        "missing_valid_expected_updates": 0,
+        "all_expected_modules_updated_packets": 6003,
+        "valid_inner_packets": 6003,
+        "raw_offset_errors": 0,
+        "ESKF": 30,
+        "applied_full_baseline": 30,
+        "known_start_boundary_bytes": 0,
+        "unassigned_raw_bytes": 1,
+        "trailing_unassigned_raw_bytes": 1
+      },
+      "status": "PASS",
+      "review_reasons": [],
+      "raw_arrival_bytes": 1026697,
+      "raw_arrival_bytes_per_s": 34221.929477818725,
+      "raw_arrival_Mbit_per_s": 0.27377543582254976,
+      "valid_outer_packet_bytes": 1026696,
+      "Lmean_valid_packet_B": 171.0304847576212,
+      "packet_completion_Mbit_per_s": 0.2737751691660427,
+      "valid_outer_packet_rate_Hz": 200.09237648044729,
+      "all_expected_modules_updated_rate_Hz": 200.09237648044729,
+      "valid_expected_module_frames": 6003,
+      "expected_module_update_opportunities": 6003,
+      "q_ESKF": 0.004997501249375313,
+      "K_ESKD_pooled": {
+        "n": 5973,
+        "mean": 21.222501255650428,
+        "sd_population": 11.859022437133964,
+        "min": 0,
+        "max": 44,
+        "p05": 1.0,
+        "p25": 8.0,
+        "median": 27.0,
+        "p75": 32.0,
+        "p95": 33.0,
+        "zero_fraction": 0.03934371337686255
+      },
+      "modules": {
+        "M0": {
+          "expected": false,
+          "counts": {
+            "slot_observations": 6003
+          },
+          "status_counts": {
+            "0x83": 6003
+          },
+          "flags_counts": {},
+          "q_ESKF": null,
+          "K": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K1": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K2": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K_histogram": {},
+          "valid_update_rate_Hz": 0.0,
+          "ESKF_interval_count": 0,
+          "ESKF_interval_mean_s": null,
+          "ESKF_interval_min_s": null,
+          "ESKF_interval_max_s": null,
+          "ESKF_trigger_reason": "unknown_without_correlated_firmware_events"
+        },
+        "M1": {
+          "expected": false,
+          "counts": {
+            "slot_observations": 6003
+          },
+          "status_counts": {
+            "0x83": 6003
+          },
+          "flags_counts": {},
+          "q_ESKF": null,
+          "K": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K1": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K2": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K_histogram": {},
+          "valid_update_rate_Hz": 0.0,
+          "ESKF_interval_count": 0,
+          "ESKF_interval_mean_s": null,
+          "ESKF_interval_min_s": null,
+          "ESKF_interval_max_s": null,
+          "ESKF_trigger_reason": "unknown_without_correlated_firmware_events"
+        },
+        "M2": {
+          "expected": true,
+          "counts": {
+            "slot_observations": 6003,
+            "valid_frames": 6003,
+            "payload_bytes": 786576,
+            "ESKD": 5973,
+            "applied_delta": 5973,
+            "ESKF": 30,
+            "applied_full_baseline": 30
+          },
+          "status_counts": {
+            "0x00": 6003
+          },
+          "flags_counts": {
+            "0x33": 6003
+          },
+          "q_ESKF": 0.004997501249375313,
+          "K": {
+            "n": 5973,
+            "mean": 21.222501255650428,
+            "sd_population": 11.859022437133964,
+            "min": 0,
+            "max": 44,
+            "p05": 1.0,
+            "p25": 8.0,
+            "median": 27.0,
+            "p75": 32.0,
+            "p95": 33.0,
+            "zero_fraction": 0.03934371337686255
+          },
+          "K1": {
+            "n": 5973,
+            "mean": 21.02611752887996,
+            "sd_population": 11.81324007894596,
+            "min": 0,
+            "max": 39,
+            "p05": 1.0,
+            "p25": 8.0,
+            "median": 27.0,
+            "p75": 32.0,
+            "p95": 33.0,
+            "zero_fraction": 0.04637535576762096
+          },
+          "K2": {
+            "n": 5973,
+            "mean": 0.19638372677046712,
+            "sd_population": 0.569708289675811,
+            "min": 0,
+            "max": 7,
+            "p05": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p95": 1.0,
+            "zero_fraction": 0.844299347061778
+          },
+          "K_histogram": {
+            "0": 235,
+            "1": 115,
+            "2": 88,
+            "3": 318,
+            "4": 359,
+            "5": 178,
+            "6": 91,
+            "7": 70,
+            "8": 61,
+            "9": 67,
+            "10": 60,
+            "11": 39,
+            "12": 35,
+            "13": 58,
+            "14": 53,
+            "15": 57,
+            "16": 43,
+            "17": 41,
+            "18": 21,
+            "19": 125,
+            "20": 104,
+            "21": 164,
+            "22": 113,
+            "23": 169,
+            "24": 99,
+            "25": 85,
+            "26": 83,
+            "27": 97,
+            "28": 234,
+            "29": 417,
+            "30": 403,
+            "31": 320,
+            "32": 1015,
+            "33": 342,
+            "34": 139,
+            "35": 25,
+            "36": 10,
+            "37": 6,
+            "38": 12,
+            "39": 8,
+            "40": 5,
+            "41": 4,
+            "42": 1,
+            "43": 3,
+            "44": 1
+          },
+          "valid_update_rate_Hz": 200.09237648044729,
+          "ESKF_interval_count": 29,
+          "ESKF_interval_mean_s": 0.9990605896545558,
+          "ESKF_interval_min_s": 0.9601920999994036,
+          "ESKF_interval_max_s": 1.0363470999873243,
+          "ESKF_trigger_reason": "unknown_without_correlated_firmware_events"
+        },
+        "M3": {
+          "expected": false,
+          "counts": {
+            "slot_observations": 6003
+          },
+          "status_counts": {
+            "0x85": 6003
+          },
+          "flags_counts": {},
+          "q_ESKF": null,
+          "K": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K1": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K2": {
+            "n": 0,
+            "mean": null,
+            "sd_population": null,
+            "min": null,
+            "max": null,
+            "p05": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "p95": null,
+            "zero_fraction": null
+          },
+          "K_histogram": {},
+          "valid_update_rate_Hz": 0.0,
+          "ESKF_interval_count": 0,
+          "ESKF_interval_mean_s": null,
+          "ESKF_interval_min_s": null,
+          "ESKF_interval_max_s": null,
+          "ESKF_trigger_reason": "unknown_without_correlated_firmware_events"
+        }
+      },
+      "session_counter_delta_at_packet_observation": {
+        "candidate_packets": 6003,
+        "valid_packets": 6003,
+        "outer_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "inner_crc_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "byte_window_note": "raw by chunk arrival; complete packet bytes by completion and only for packets fully contained in raw; start-boundary packets are excluded",
+      "unassigned_raw_bytes": 1,
+      "known_start_boundary_bytes": 0,
+      "raw_boundary_warnings": [
+        "trailing_unassigned_raw_bytes"
+      ]
+    }
+  },
+  "counters": {
+    "candidate_packets": 8004,
+    "valid_packets": 8004,
+    "outer_crc_errors": 0,
+    "sequence_gap_events": 0,
+    "lost_frames": 0,
+    "duplicate_frames": 0,
+    "out_of_order_frames": 0,
+    "format_errors": 0,
+    "inner_crc_errors": 0,
+    "delta_base_mismatches": 0
+  },
+  "session_counters": {
+    "start": {
+      "candidate_packets": 362574,
+      "valid_packets": 362574,
+      "outer_crc_errors": 0,
+      "sequence_gap_events": 0,
+      "lost_frames": 0,
+      "duplicate_frames": 0,
+      "out_of_order_frames": 0,
+      "format_errors": 0,
+      "inner_crc_errors": 0,
+      "delta_base_mismatches": 0,
+      "last_mul1_sequence": 2707459
+    },
+    "end": {
+      "candidate_packets": 370578,
+      "valid_packets": 370578,
+      "outer_crc_errors": 0,
+      "sequence_gap_events": 0,
+      "lost_frames": 0,
+      "duplicate_frames": 0,
+      "out_of_order_frames": 0,
+      "format_errors": 0,
+      "inner_crc_errors": 0,
+      "delta_base_mismatches": 0,
+      "last_mul1_sequence": 2715463
+    },
+    "delta": {
+      "candidate_packets": 8004,
+      "valid_packets": 8004,
+      "outer_crc_errors": 0,
+      "sequence_gap_events": 0,
+      "lost_frames": 0,
+      "duplicate_frames": 0,
+      "out_of_order_frames": 0,
+      "format_errors": 0,
+      "inner_crc_errors": 0,
+      "delta_base_mismatches": 0
+    },
+    "reset_keys": []
+  },
+  "definitions": {
+    "initial_unanchored_delta": "valid ESKD before first recorded baseline, not proven loss",
+    "main_cache": "cache is built from complete packets in recorded settle prefix and carried into main; start-boundary packets do not seed the file cache",
+    "module_missing": "target slot has no valid update; not a count of lost physical scans",
+    "q": "ESKF/(ESKF+ESKD) over valid module frames; no trigger-cause attribution",
+    "K": "ordinary ESKD mask popcount only; histogram SD is within-run population SD",
+    "session_main": "counter increments attributed at next complete or known start-boundary packet observation; independent backend window audits remain separate",
+    "complete_packet_bytes": "only complete packet candidates fully contained in this raw file; known start-boundary packets do not contribute complete counts, rates, K or q",
+    "known_start_boundary_bytes": "actual raw suffix bytes of independently validated outer/layout packets whose prefix arrived before recording; counted by chunk arrival, without writing pre-record bytes; module/parser errors remain explicit",
+    "unassigned_raw": "bytes outside logged candidate and validated start-boundary suffix ranges, attributed by chunk arrival; interior gaps require review; other leading/trailing fragments retain boundary warnings in main and require review in full capture",
+    "outer_sequence": "Teensy enqueue sequence, not STM32 physical scan count"
+  },
+  "files": {
+    "raw_usb": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_013624_365237\\mul1_raw.bin",
+    "packet_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_013624_365237\\packet_log.csv",
+    "module_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_013624_365237\\module_log.csv",
+    "events": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_013624_365237\\events.jsonl",
+    "summary": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_013624_365237\\summary.json",
+    "experiment_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_013624_365237\\experiment_log.md"
+  }
+}

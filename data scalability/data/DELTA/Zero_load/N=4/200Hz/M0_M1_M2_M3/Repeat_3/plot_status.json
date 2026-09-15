@@ -1,0 +1,433 @@
+{
+  "plot_schema_version": 1,
+  "created_at": "2026-09-07T03:59:02.300658+00:00",
+  "run_directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_3",
+  "status": "OK",
+  "errors": [],
+  "warnings": [],
+  "sources": {
+    "summary.json": {
+      "sha256": "6489ba7d0c298686c5f2fc7bdd94c10d3ded60914d33f8e01741a7ea3a84bf9c",
+      "bytes": 45754,
+      "sha256_after": "6489ba7d0c298686c5f2fc7bdd94c10d3ded60914d33f8e01741a7ea3a84bf9c",
+      "unchanged": true
+    },
+    "packet_log.csv": {
+      "sha256": "65813dd5617d47d80712ba69f5160368c88812106b02605d3ecb0533a80e7aff",
+      "bytes": 1416356,
+      "sha256_after": "65813dd5617d47d80712ba69f5160368c88812106b02605d3ecb0533a80e7aff",
+      "unchanged": true
+    }
+  },
+  "outputs": {
+    "mul1_length_over_time.png": {
+      "status": "OK",
+      "sha256": "fdc244e094564420b2209ebed317fd9e92b4cf4ec544947e83a5216f301d1b3e"
+    },
+    "usb_throughput_over_time.png": {
+      "status": "OK",
+      "sha256": "2bbfef1cdd70e09c915c67d91ca16ad40a69085d067230cd3e88e710e544039e"
+    }
+  },
+  "definitions": {
+    "time": "packet_log.elapsed_s is PC packet-completion monotonic elapsed time",
+    "valid_bytes": "outer_crc_ok=True and received_bytes=declared_length>0, regardless of inner parse_ok",
+    "throughput": "valid completed bytes*8 / actual PC bin width / 1e6; empty bins retained",
+    "ESKF": "included in mean and throughput; omitted from ordinary trace and its maximum annotation; per-slot vertical dashed event lines; trigger cause unknown",
+    "length_trace": "ordinary DELTA packets joined across omitted ESKF events; no ESKF height spikes; no mean/bin values changed",
+    "independent_review": "exact run_id lookup in local run_index.csv files, stopping at data root; absent review is unknown",
+    "K0_reference": "all metadata.target_modules transmit ESKD with K=0 and no ESKF"
+  },
+  "counts": {
+    "candidate_rows": 8020,
+    "outer_valid_complete_rows": 8020,
+    "invalid_candidates": 0,
+    "outer_crc_not_true": 0,
+    "length_invalid_or_incomplete": 0,
+    "outer_valid_parse_not_ok": 0,
+    "invalid_completion_time": 0,
+    "plotted_outer_valid_packets": 8020,
+    "plotted_outer_valid_bytes": 3777412
+  },
+  "main_calculated": {
+    "valid_outer_packets": 6004,
+    "valid_outer_packet_bytes": 2826872,
+    "Lmean_valid_packet_B": 470.83144570286476,
+    "packet_completion_Mbit_per_s": 0.7537242055780361
+  },
+  "bins": [
+    {
+      "start_s": 0.0,
+      "end_s": 1.0,
+      "bytes": 104172,
+      "packets": 215,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.833376
+    },
+    {
+      "start_s": 1.0,
+      "end_s": 2.0,
+      "bytes": 95618,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.764944
+    },
+    {
+      "start_s": 2.0,
+      "end_s": 3.0,
+      "bytes": 94068,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.752544
+    },
+    {
+      "start_s": 3.0,
+      "end_s": 4.0,
+      "bytes": 93414,
+      "packets": 198,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.747312
+    },
+    {
+      "start_s": 4.0,
+      "end_s": 5.0,
+      "bytes": 94482,
+      "packets": 202,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.755856
+    },
+    {
+      "start_s": 5.0,
+      "end_s": 6.0,
+      "bytes": 93298,
+      "packets": 199,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.746384
+    },
+    {
+      "start_s": 6.0,
+      "end_s": 7.0,
+      "bytes": 94116,
+      "packets": 201,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.752928
+    },
+    {
+      "start_s": 7.0,
+      "end_s": 8.0,
+      "bytes": 94068,
+      "packets": 201,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.752544
+    },
+    {
+      "start_s": 8.0,
+      "end_s": 9.0,
+      "bytes": 94032,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.752256
+    },
+    {
+      "start_s": 9.0,
+      "end_s": 10.0,
+      "bytes": 93272,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.746176
+    },
+    {
+      "start_s": 10.0,
+      "end_s": 11.0,
+      "bytes": 93460,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.74768
+    },
+    {
+      "start_s": 11.0,
+      "end_s": 12.0,
+      "bytes": 94064,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.752512
+    },
+    {
+      "start_s": 12.0,
+      "end_s": 13.0,
+      "bytes": 92792,
+      "packets": 199,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.742336
+    },
+    {
+      "start_s": 13.0,
+      "end_s": 14.0,
+      "bytes": 93638,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.749104
+    },
+    {
+      "start_s": 14.0,
+      "end_s": 15.0,
+      "bytes": 94820,
+      "packets": 201,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.75856
+    },
+    {
+      "start_s": 15.0,
+      "end_s": 16.0,
+      "bytes": 94318,
+      "packets": 201,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.754544
+    },
+    {
+      "start_s": 16.0,
+      "end_s": 17.0,
+      "bytes": 94682,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.757456
+    },
+    {
+      "start_s": 17.0,
+      "end_s": 18.0,
+      "bytes": 94794,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.758352
+    },
+    {
+      "start_s": 18.0,
+      "end_s": 19.0,
+      "bytes": 93856,
+      "packets": 199,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.750848
+    },
+    {
+      "start_s": 19.0,
+      "end_s": 20.0,
+      "bytes": 94096,
+      "packets": 201,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.752768
+    },
+    {
+      "start_s": 20.0,
+      "end_s": 21.0,
+      "bytes": 95418,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.763344
+    },
+    {
+      "start_s": 21.0,
+      "end_s": 22.0,
+      "bytes": 93520,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.74816
+    },
+    {
+      "start_s": 22.0,
+      "end_s": 23.0,
+      "bytes": 94318,
+      "packets": 201,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.754544
+    },
+    {
+      "start_s": 23.0,
+      "end_s": 24.0,
+      "bytes": 94520,
+      "packets": 199,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.75616
+    },
+    {
+      "start_s": 24.0,
+      "end_s": 25.0,
+      "bytes": 93926,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.751408
+    },
+    {
+      "start_s": 25.0,
+      "end_s": 26.0,
+      "bytes": 94636,
+      "packets": 201,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.757088
+    },
+    {
+      "start_s": 26.0,
+      "end_s": 27.0,
+      "bytes": 94406,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.755248
+    },
+    {
+      "start_s": 27.0,
+      "end_s": 28.0,
+      "bytes": 93934,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.751472
+    },
+    {
+      "start_s": 28.0,
+      "end_s": 29.0,
+      "bytes": 93522,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.748176
+    },
+    {
+      "start_s": 29.0,
+      "end_s": 30.0,
+      "bytes": 93670,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.74936
+    },
+    {
+      "start_s": 30.0,
+      "end_s": 31.0,
+      "bytes": 94152,
+      "packets": 201,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.753216
+    },
+    {
+      "start_s": 31.0,
+      "end_s": 32.0,
+      "bytes": 93958,
+      "packets": 199,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.751664
+    },
+    {
+      "start_s": 32.0,
+      "end_s": 33.0,
+      "bytes": 94166,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.753328
+    },
+    {
+      "start_s": 33.0,
+      "end_s": 34.0,
+      "bytes": 93930,
+      "packets": 201,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.75144
+    },
+    {
+      "start_s": 34.0,
+      "end_s": 35.0,
+      "bytes": 94968,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.759744
+    },
+    {
+      "start_s": 35.0,
+      "end_s": 36.0,
+      "bytes": 94742,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.757936
+    },
+    {
+      "start_s": 36.0,
+      "end_s": 37.0,
+      "bytes": 94470,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.75576
+    },
+    {
+      "start_s": 37.0,
+      "end_s": 38.0,
+      "bytes": 94930,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.75944
+    },
+    {
+      "start_s": 38.0,
+      "end_s": 39.0,
+      "bytes": 95312,
+      "packets": 201,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.762496
+    },
+    {
+      "start_s": 39.0,
+      "end_s": 40.0,
+      "bytes": 93854,
+      "packets": 200,
+      "width_s": 1.0,
+      "Mbit_per_s": 0.750832
+    },
+    {
+      "start_s": 40.0,
+      "end_s": 40.00431170000229,
+      "bytes": 0,
+      "packets": 0,
+      "width_s": 0.0043117000022903085,
+      "Mbit_per_s": 0.0
+    }
+  ],
+  "target_modules": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "wrapper_bytes": 40,
+  "independent_review": {
+    "status": "PASS",
+    "matches": [
+      {
+        "index_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\run_index.csv",
+        "index_sha256": "294feeb9d4685d797293b38787b30969b44610d473a0eadc6f606c15ca5807f8",
+        "independent_raw_audit": "PASS_no_detected_internal_transport_or_cache_chain_errors",
+        "main_eligible": "True",
+        "review_reasons": ""
+      },
+      {
+        "index_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\run_index.csv",
+        "index_sha256": "634881bdea52b9adb42a7fed4e9bac0e819f38b9425507598efa678a4401acaa",
+        "independent_raw_audit": "PASS_no_detected_internal_transport_or_cache_chain_errors",
+        "main_eligible": "True",
+        "review_reasons": ""
+      },
+      {
+        "index_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\run_index.csv",
+        "index_sha256": "257ba74325b3d98f4d4d28575b3dba068a2de33a5c302100dae6a2ee007c8ec1",
+        "independent_raw_audit": "PASS_no_detected_internal_transport_or_cache_chain_errors",
+        "main_eligible": "True",
+        "review_reasons": ""
+      }
+    ],
+    "lookup_errors": []
+  },
+  "recording_status": {
+    "main": "PASS",
+    "full_run": "CHECK REQUIRED"
+  },
+  "recording_review_reasons": {
+    "main": [],
+    "full_run": [
+      "initial_delta_prefix_cache_not_verifiable_from_file",
+      "unassigned_raw_bytes_in_full_capture"
+    ]
+  }
+}
