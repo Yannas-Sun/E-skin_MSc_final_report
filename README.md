@@ -51,27 +51,25 @@ The report's layered acquisition and communication path is reproduced here for o
 
 Only N = 1–4 is experimentally measured. The crossing counts are extrapolations from the reported packet models and interface rates.
 
-<img src="data%20scalability/figures/exports/02_four_panel_overview.png" alt="Communication scaling overview" width="900">
+<img src="README_assets/report-core-data-scaling.png" alt="Report figure: transport-model validation and capacity projection" width="900">
 
-<img src="data%20scalability/figures/exports/07_delta_model_k.png" alt="DELTA K model and projection" width="900">
-
-[Communication data and analyses](<data scalability/README.md>) · [Communication figures](<data scalability/figures/exports>)
+[Report source: transport-model validation and capacity projection](<Imperial College Individual Project Template_LaTeX/figures/data/v2_11/full_model_validation.pdf>) · [Communication data and analyses](<data scalability/README.md>)
 
 ### Power
 
 The power experiment records static voltage, branch current and temperature readings for all 15 non-empty combinations of M0–M3 under the configured 200 Hz FULL acquisition. The four-module branch-current readings were 72.513 mA and 78.720 mA in the reported branches, and the lowest accepted module minimum was 3.236 V. These static readings do not establish transient supply capacity.
 
-<img src="power%20scalability/DATA/analysis/current/report_v2_8_figures/current_power_scaling.png" alt="Current and power scaling" width="900">
+<img src="README_assets/report-core-power-scaling.png" alt="Report figure: continuous-read electrical demand" width="900">
 
-[Power data and analyses](<power scalability/README.md>) · [Power figures](<power scalability/DATA/analysis/current/report_v2_8_figures>)
+[Report source: continuous-read electrical demand](<Imperial College Individual Project Template_LaTeX/figures/power/v2_9/current_power_scaling.pdf>) · [Power data and analyses](<power scalability/README.md>)
 
 ### Calibration
 
 FSR1 and FSR2 were calibrated in separate 22-point sweeps from 0 to 5000 g. In the FSR2 evaluation, FIT PRESS produced a 10.22% mean layer-estimate APE and 171.69 g mean per-cell MAE across 21 validation captures, with a 40.12 g zero-load estimate. The report treats these metrics as comparator- and metric-dependent.
 
-<img src="Calibration%20scalability/paper_figures/fsr2_load_error_vs_load.png" alt="FSR2 validation error versus load" width="900">
+<img src="README_assets/report-core-calibration-validation.png" alt="Report figure: FSR2 load reconstruction error" width="900">
 
-[Calibration data and analyses](<Calibration scalability/README.md>) · [Calibration figures](<Calibration scalability/paper_figures>)
+[Report source: FSR2 load reconstruction error](<Imperial College Individual Project Template_LaTeX/figures/calibration/v2_7/fsr2_load_error_vs_load.pdf>) · [Calibration data and analyses](<Calibration scalability/README.md>)
 
 ## Hardware overview
 
@@ -104,7 +102,7 @@ The ACC board shown below is an existing prototype interface. It is retained as 
 | [power scalability](<power scalability>) | Canonical electrical records, matched photographs, power analyses and figures. |
 | [hardware](hardware/README.md) | Prototype design files, manufacturing exports, shared libraries, renderings and firmware. |
 | [LaTeX supplementary package](<Imperial College Individual Project Template_LaTeX/figures>) | Report-linked figures and [audit evidence](<Imperial College Individual Project Template_LaTeX/audit>). |
-| [README assets](README_assets) | Rendered copy of the report data-path figure used by this README. |
+| [README assets](README_assets) | Rendered copies of the report data-path and core result figures used by this README. |
 | [figure_style.py](figure_style.py) | Shared plotting-style helper retained with the evidence package. |
 
 The complete report source, build outputs and report-version archive are intentionally ignored by Git. The report remains the reference document; this repository publishes the supporting records and selected supplementary material rather than a standalone report compiler.
