@@ -28,7 +28,7 @@ The measured communication and power records cover one to four modules. Values b
 
 The report's layered acquisition and communication path is reproduced here for orientation.
 
-<img src="README_assets/report-data-path-flow.png" alt="Layered acquisition and communication path from the report" width="900">
+<img src="hardware/firmware/renderings/report-data-path-flow.png" alt="Layered acquisition and communication path from the report" width="900">
 
 [Open the original report flow figure](<Imperial College Individual Project Template_LaTeX/figures/data/data_path_flow.pdf>).
 
@@ -102,7 +102,7 @@ The ACC board shown below is an existing prototype interface. It is retained as 
 | [power scalability](<power scalability>) | Canonical electrical records, matched photographs, power analyses and figures. |
 | [hardware](hardware/README.md) | Prototype design files, manufacturing exports, shared libraries, renderings and firmware. |
 | [LaTeX supplementary package](<Imperial College Individual Project Template_LaTeX/figures>) | Report-linked figures and [audit evidence](<Imperial College Individual Project Template_LaTeX/audit>). |
-| [README assets](README_assets) | Rendered copies of the report data-path and core result figures used by this README. |
+| [README assets](README_assets) | Rendered copies of the core report result figures used by this README; the data-path rendering is stored with firmware. |
 | [figure_style.py](figure_style.py) | Shared plotting-style helper retained with the evidence package. |
 
 The complete report source, build outputs and report-version archive are intentionally ignored by Git. The report remains the reference document; this repository publishes the supporting records and selected supplementary material rather than a standalone report compiler.
