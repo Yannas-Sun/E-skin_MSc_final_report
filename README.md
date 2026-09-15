@@ -31,7 +31,7 @@ flowchart LR
 - hardware/: prototype design files, manufacturing outputs, shared KiCad libraries and active firmware.
 - Imperial College Individual Project Template_LaTeX/: report-linked figures, audit tables and the final PDF archive.
 
-The current report is Imperial College Individual Project Template_LaTeX/report_versions/main_final.pdf. The release package keeps evidence and supplementary figures; the full LaTeX report source and build outputs are excluded by .gitignore.
+The reviewed report PDF is maintained locally at `Imperial College Individual Project Template_LaTeX/report_versions/main_final.pdf`; that report archive, full LaTeX source and build outputs are excluded by `.gitignore`. This repository publishes the report-linked evidence and supplementary figures.
 
 ## Evidence boundaries
 
