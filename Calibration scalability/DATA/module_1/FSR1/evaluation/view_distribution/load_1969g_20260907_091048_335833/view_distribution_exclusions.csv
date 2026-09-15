@@ -1,0 +1,4 @@
+view,row,column,source_value,unit,exclusion_reason
+LINEAR,6,15,,g,invalid_two_point_endpoint_or_span
+GAMMA,6,15,,g,invalid_two_point_endpoint_or_span
+FIT_PRESS,6,15,,g,invalid_two_point_endpoint_or_span

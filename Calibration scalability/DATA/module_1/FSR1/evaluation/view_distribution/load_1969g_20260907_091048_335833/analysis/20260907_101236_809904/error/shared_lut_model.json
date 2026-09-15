@@ -1,0 +1,80 @@
+{
+  "format": "e-skin-shared-mean-training-adc-lut-baseline",
+  "version": 1,
+  "method": "GLOBAL_LUT",
+  "label": "Shared LUT",
+  "protocol_id": "whole_layer_shared_endpoints_v3",
+  "module_id": 1,
+  "fsr": "FSR1",
+  "load_range_g": [
+    0.0,
+    5000.0
+  ],
+  "unit": "g",
+  "lut": {
+    "x": [
+      168.341796875,
+      263.314453125,
+      340.20703125,
+      449.81640625,
+      538.330078125,
+      627.37109375,
+      721.951171875,
+      809.00390625,
+      870.5625,
+      918.953125,
+      959.56640625,
+      1006.09375,
+      1037.568359375,
+      1069.73828125,
+      1092.072265625,
+      1130.4609375,
+      1155.828125,
+      1177.26953125,
+      1193.556640625,
+      1281.224609375,
+      1355.328125,
+      1394.767578125
+    ],
+    "y": [
+      0.0,
+      73.0,
+      143.0,
+      216.0,
+      288.0,
+      360.0,
+      430.0,
+      497.0,
+      570.0,
+      640.0,
+      713.0,
+      778.0,
+      850.0,
+      921.0,
+      994.0,
+      1061.0,
+      1145.0,
+      1213.0,
+      1282.0,
+      1932.0,
+      3000.0,
+      5000.0
+    ]
+  },
+  "source_model": {
+    "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\Calibration scalability\\DATA\\module_1\\FSR1\\evaluation\\view_distribution\\load_0g_20260907_090552_136850\\models\\pressure_response_model.json",
+    "sha256": "26962ba76b9a973f54681a8bf5a299720170c3afbaafa0291a620963f1479f4e",
+    "version": 3,
+    "lut_location": "fit.mean_cell.pressure_from_adc"
+  },
+  "training_sweep": {
+    "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\Calibration scalability\\DATA\\module_1\\FSR1\\fit\\raw\\FSR1_pressure_sweep_20260907_082602_404396.json",
+    "sha256": "60642624c1cc168804d24c5aa18116a20afa7189d2377a766b29105a45c879ff",
+    "verification": "provenance copied from the hash-verified frozen FIT model; training sweep not reread"
+  },
+  "definition": "Average the 256 training RAW ADC values at each load, then apply the same PAVA and inverse-LUT construction; not the mean of 256 inverse functions",
+  "prediction_rule": "Apply the one shared ADC-to-g LUT separately to each validation cell, then clamp predictions to [0,U]; preserve nonfinite RAW as NaN",
+  "aggregation_rule": "Any summary is computed after per-cell prediction, never by predicting the mean validation RAW first",
+  "validation_used_for_construction": false,
+  "model_rebuilt": false
+}

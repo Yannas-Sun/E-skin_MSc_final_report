@@ -1,0 +1,60 @@
+{
+  "format": "e-skin-calibration-function-comparison",
+  "version": 3,
+  "created_at": "2026-09-07T07:59:19.842495+00:00",
+  "protocol_id": "whole_layer_shared_endpoints_v3",
+  "module_id": 1,
+  "fsr": "FSR1",
+  "load_range_g": [
+    0,
+    5000.0
+  ],
+  "source_sweep": {
+    "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\Calibration scalability\\DATA\\module_1\\FSR1\\fit\\raw\\FSR1_pressure_sweep_20260907_082602_404396.json",
+    "sha256": "60642624c1cc168804d24c5aa18116a20afa7189d2377a766b29105a45c879ff"
+  },
+  "gamma": 4.0,
+  "gamma_policy": "prescribed; cannot be identified from only two endpoints",
+  "panels": [
+    "representative_cell_load_to_adc",
+    "representative_cell_adc_to_load"
+  ],
+  "inverse_input_axis": {
+    "quantity": "raw_adc_code",
+    "range": [
+      0,
+      1387.0
+    ],
+    "upper_bound_source": "selected cell's shared measured RAW ADC endpoint at the maximum calibration load U",
+    "upper_bound_load_g": 5000.0
+  },
+  "representative_cell": {
+    "row": 8,
+    "column": 8
+  },
+  "common_cell_policy": "all finite positive two-point endpoint spans; no error-dependent cell filtering",
+  "plotted_cells": 1,
+  "available_positive_span_cells": 255,
+  "excluded_nonpositive_span_cells": 1,
+  "two_point_problem_cell_count": 23,
+  "limitations": [
+    "Same RAW endpoints; output range 0-5000 g. Right ADC axis: 0-1387, ending at this cell's measured endpoint at U.",
+    "Multi-point uses a linear inverse LUT, not an exact PCHIP inverse; plateaus and endpoint offsets remain.",
+    "GAMMA is prescribed. Endpoint clamping is retained; separation of these functions is not evidence of accuracy."
+  ],
+  "synthetic_test_only": false,
+  "sources": [
+    {
+      "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\Calibration scalability\\DATA\\module_1\\FSR1\\two_point\\FSR1_calibration_20260907_082603_458190.json",
+      "sha256": "346e66141ddfe0f2c487578d94b1de457d62c6953c33ad552b3b964f79ea7c59"
+    },
+    {
+      "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\Calibration scalability\\DATA\\module_1\\FSR1\\fit\\analysis\\20260907_082603_615037\\pressure_response_model.json",
+      "sha256": "26962ba76b9a973f54681a8bf5a299720170c3afbaafa0291a620963f1479f4e"
+    }
+  ],
+  "outputs": [
+    "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\Calibration scalability\\DATA\\module_1\\FSR1\\fit\\analysis\\20260907_082603_615037\\comparison_two_panel\\calibration_comparison.png",
+    "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\Calibration scalability\\DATA\\module_1\\FSR1\\fit\\analysis\\20260907_082603_615037\\comparison_two_panel\\calibration_comparison.pdf"
+  ]
+}
