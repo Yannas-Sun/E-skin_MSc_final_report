@@ -1,0 +1,3275 @@
+﻿{
+    "status":  "VERIFIED_SHA256",
+    "source_root":  "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data",
+    "archived_data_root":  "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\history\\pre_variable_spi_20260906\\data",
+    "created_at_utc":  "2026-09-06T20:12:40.5985017Z",
+    "file_count":  470,
+    "total_bytes":  503037879,
+    "runs":  [
+                 {
+                     "run_id":  "20260901_212641",
+                     "started_at":  "2026-09-01T21:26:41.390616+01:00",
+                     "summary_relative_path":  "DELTA\\Dynamic_load\\M1\\High_frequency_rolling\\Repeat_1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_210355",
+                     "started_at":  "2026-09-01T21:03:55.800797+01:00",
+                     "summary_relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_210456",
+                     "started_at":  "2026-09-01T21:04:56.986169+01:00",
+                     "summary_relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_210531",
+                     "started_at":  "2026-09-01T21:05:31.148679+01:00",
+                     "summary_relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_192429",
+                     "started_at":  "2026-09-05T19:24:29.023932+01:00",
+                     "summary_relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_4\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_192558",
+                     "started_at":  "2026-09-05T19:25:58.158405+01:00",
+                     "summary_relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_5\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_192704",
+                     "started_at":  "2026-09-05T19:27:04.382105+01:00",
+                     "summary_relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_6\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_211257",
+                     "started_at":  "2026-09-01T21:12:57.197875+01:00",
+                     "summary_relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_211411",
+                     "started_at":  "2026-09-01T21:14:11.952499+01:00",
+                     "summary_relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_211445",
+                     "started_at":  "2026-09-01T21:14:45.324977+01:00",
+                     "summary_relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_193003",
+                     "started_at":  "2026-09-05T19:30:03.035054+01:00",
+                     "summary_relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_4\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_193110",
+                     "started_at":  "2026-09-05T19:31:10.561791+01:00",
+                     "summary_relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_5\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_193204",
+                     "started_at":  "2026-09-05T19:32:04.380221+01:00",
+                     "summary_relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_6\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_220515",
+                     "started_at":  "2026-09-01T22:05:15.784578+01:00",
+                     "summary_relative_path":  "DELTA\\Dynamic_load\\N=2\\M1_M3\\Full_coverage_all_FSR\\Repeat_1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_215751",
+                     "started_at":  "2026-09-01T21:57:51.996795+01:00",
+                     "summary_relative_path":  "DELTA\\Dynamic_load\\N=4\\M0_M1_M2_M3\\Full_coverage_all_FSR\\Repeat_1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_192407",
+                     "started_at":  "2026-09-01T19:24:07.964352+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_192450",
+                     "started_at":  "2026-09-01T19:24:50.257341+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_192525",
+                     "started_at":  "2026-09-01T19:25:25.911603+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_185935",
+                     "started_at":  "2026-09-05T18:59:35.680069+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_4\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_190017",
+                     "started_at":  "2026-09-05T19:00:17.383430+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_5\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_190049",
+                     "started_at":  "2026-09-05T19:00:49.339390+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_6\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_192613",
+                     "started_at":  "2026-09-01T19:26:13.861628+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_192646",
+                     "started_at":  "2026-09-01T19:26:46.795167+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_192721",
+                     "started_at":  "2026-09-01T19:27:21.745247+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_190158",
+                     "started_at":  "2026-09-05T19:01:58.980735+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_4\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_190232",
+                     "started_at":  "2026-09-05T19:02:32.712613+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_5\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_192812",
+                     "started_at":  "2026-09-01T19:28:12.524039+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_192844",
+                     "started_at":  "2026-09-01T19:28:44.689702+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_192933",
+                     "started_at":  "2026-09-01T19:29:33.274853+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_190327",
+                     "started_at":  "2026-09-05T19:03:27.204541+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_4\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_190358",
+                     "started_at":  "2026-09-05T19:03:58.793715+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_5\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_190430",
+                     "started_at":  "2026-09-05T19:04:30.631968+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_6\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_190503",
+                     "started_at":  "2026-09-05T19:05:03.107304+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_7\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_193036",
+                     "started_at":  "2026-09-01T19:30:36.444487+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_193117",
+                     "started_at":  "2026-09-01T19:31:17.219666+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_193149",
+                     "started_at":  "2026-09-01T19:31:49.499417+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_190722",
+                     "started_at":  "2026-09-05T19:07:22.475480+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_4\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_190838",
+                     "started_at":  "2026-09-05T19:08:38.535617+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_5\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_190910",
+                     "started_at":  "2026-09-05T19:09:10.265626+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_6\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_200355",
+                     "started_at":  "2026-09-01T20:03:55.766443+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=2\\M0_M1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_201006",
+                     "started_at":  "2026-09-01T20:10:06.921281+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=2\\M0_M2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_201106",
+                     "started_at":  "2026-09-01T20:11:06.880253+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=2\\M0_M3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_202827",
+                     "started_at":  "2026-09-01T20:28:27.960900+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=2\\M1_M2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_202930",
+                     "started_at":  "2026-09-01T20:29:30.561423+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=2\\M1_M3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_203045",
+                     "started_at":  "2026-09-01T20:30:45.529454+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=2\\M2_M3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_203359",
+                     "started_at":  "2026-09-01T20:33:59.102455+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_204308",
+                     "started_at":  "2026-09-01T20:43:08.179625+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_191210",
+                     "started_at":  "2026-09-05T19:12:10.316198+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_191244",
+                     "started_at":  "2026-09-05T19:12:44.963476+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_191317",
+                     "started_at":  "2026-09-05T19:13:17.409814+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_4\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_205014",
+                     "started_at":  "2026-09-01T20:50:14.379672+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_191433",
+                     "started_at":  "2026-09-05T19:14:33.190543+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_191504",
+                     "started_at":  "2026-09-05T19:15:04.667307+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_191537",
+                     "started_at":  "2026-09-05T19:15:37.660842+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_4\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_204633",
+                     "started_at":  "2026-09-01T20:46:33.707160+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_191911",
+                     "started_at":  "2026-09-05T19:19:11.674437+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_191946",
+                     "started_at":  "2026-09-05T19:19:46.632219+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_192018",
+                     "started_at":  "2026-09-05T19:20:18.909721+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_4\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_205141",
+                     "started_at":  "2026-09-01T20:51:41.204058+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_184520",
+                     "started_at":  "2026-09-05T18:45:20.431932+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_184604",
+                     "started_at":  "2026-09-05T18:46:04.452457+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_185602",
+                     "started_at":  "2026-09-05T18:56:02.783765+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R4\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_185647",
+                     "started_at":  "2026-09-05T18:56:47.923096+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R5\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260905_185720",
+                     "started_at":  "2026-09-05T18:57:20.028774+01:00",
+                     "summary_relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R6\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_184454",
+                     "started_at":  "2026-09-01T18:44:54.147993+01:00",
+                     "summary_relative_path":  "FULL\\N=1\\100Hz\\M0\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_184609",
+                     "started_at":  "2026-09-01T18:46:09.614987+01:00",
+                     "summary_relative_path":  "FULL\\N=1\\100Hz\\M1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_184723",
+                     "started_at":  "2026-09-01T18:47:23.195616+01:00",
+                     "summary_relative_path":  "FULL\\N=1\\100Hz\\M2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_184822",
+                     "started_at":  "2026-09-01T18:48:22.308274+01:00",
+                     "summary_relative_path":  "FULL\\N=1\\100Hz\\M3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_182704",
+                     "started_at":  "2026-09-01T18:27:04.023139+01:00",
+                     "summary_relative_path":  "FULL\\N=1\\200Hz\\M0\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_183546",
+                     "started_at":  "2026-09-01T18:35:46.344823+01:00",
+                     "summary_relative_path":  "FULL\\N=1\\200Hz\\M1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_183900",
+                     "started_at":  "2026-09-01T18:39:00.890407+01:00",
+                     "summary_relative_path":  "FULL\\N=1\\200Hz\\M2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_184014",
+                     "started_at":  "2026-09-01T18:40:14.293229+01:00",
+                     "summary_relative_path":  "FULL\\N=1\\200Hz\\M3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_185551",
+                     "started_at":  "2026-09-01T18:55:51.134426+01:00",
+                     "summary_relative_path":  "FULL\\N=1\\50Hz\\M0\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_185503",
+                     "started_at":  "2026-09-01T18:55:03.866391+01:00",
+                     "summary_relative_path":  "FULL\\N=1\\50Hz\\M1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_185357",
+                     "started_at":  "2026-09-01T18:53:57.333716+01:00",
+                     "summary_relative_path":  "FULL\\N=1\\50Hz\\M2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_185305",
+                     "started_at":  "2026-09-01T18:53:05.410698+01:00",
+                     "summary_relative_path":  "FULL\\N=1\\50Hz\\M3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_185923",
+                     "started_at":  "2026-09-01T18:59:23.866985+01:00",
+                     "summary_relative_path":  "FULL\\N=2\\200Hz\\M0_M1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_190012",
+                     "started_at":  "2026-09-01T19:00:12.341681+01:00",
+                     "summary_relative_path":  "FULL\\N=2\\200Hz\\M0_M2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_190056",
+                     "started_at":  "2026-09-01T19:00:56.210531+01:00",
+                     "summary_relative_path":  "FULL\\N=2\\200Hz\\M0_M3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_190300",
+                     "started_at":  "2026-09-01T19:03:00.100559+01:00",
+                     "summary_relative_path":  "FULL\\N=2\\200Hz\\M1_M2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_190151",
+                     "started_at":  "2026-09-01T19:01:51.084220+01:00",
+                     "summary_relative_path":  "FULL\\N=2\\200Hz\\M1_M3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_190356",
+                     "started_at":  "2026-09-01T19:03:56.734577+01:00",
+                     "summary_relative_path":  "FULL\\N=2\\200Hz\\M2_M3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_190923",
+                     "started_at":  "2026-09-01T19:09:23.609191+01:00",
+                     "summary_relative_path":  "FULL\\N=3\\200Hz\\M0_M1_M2\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_191010",
+                     "started_at":  "2026-09-01T19:10:10.687604+01:00",
+                     "summary_relative_path":  "FULL\\N=3\\200Hz\\M0_M1_M3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_191135",
+                     "started_at":  "2026-09-01T19:11:35.958652+01:00",
+                     "summary_relative_path":  "FULL\\N=3\\200Hz\\M0_M2_M3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_191230",
+                     "started_at":  "2026-09-01T19:12:30.296722+01:00",
+                     "summary_relative_path":  "FULL\\N=3\\200Hz\\M1_M2_M3\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_191328",
+                     "started_at":  "2026-09-01T19:13:28.858662+01:00",
+                     "summary_relative_path":  "FULL\\N=4\\200Hz\\Repeat_1\\summary.json"
+                 },
+                 {
+                     "run_id":  "20260901_191436",
+                     "started_at":  "2026-09-01T19:14:36.675775+01:00",
+                     "summary_relative_path":  "FULL\\N=4\\200Hz\\Repeat_2\\summary.json"
+                 }
+             ],
+    "files":  [
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\High_frequency_rolling\\README.md",
+                      "size_bytes":  1449,
+                      "last_write_utc":  "2026-09-01T20:32:22.1138681Z",
+                      "sha256":  "45fea126f8c1d3c9d3fd77a5e45a6d27caf12c8968b1128301d009216d0d5ed4"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\High_frequency_rolling\\Repeat_1\\experiment_log.md",
+                      "size_bytes":  1865,
+                      "last_write_utc":  "2026-09-01T20:32:19.3725173Z",
+                      "sha256":  "1a8743d9f9aed5c6004754d883b39d02f99694f5bfcd589ccbb6c272305abeff"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\High_frequency_rolling\\Repeat_1\\mul1_length_over_time.png",
+                      "size_bytes":  447537,
+                      "last_write_utc":  "2026-09-03T00:23:32.4875911Z",
+                      "sha256":  "7a9e9a8a9e5156894880fdecd3fc524dee6dc3f8943035e630ff3c5b0387c312"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\High_frequency_rolling\\Repeat_1\\mul1_raw.bin",
+                      "size_bytes":  3328996,
+                      "last_write_utc":  "2026-09-01T20:27:11.3912062Z",
+                      "sha256":  "94964501e7181396e8c2bb6a49d34e15a3896f27e5a4383962311514107c66a3"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\High_frequency_rolling\\Repeat_1\\packet_log.csv",
+                      "size_bytes":  903419,
+                      "last_write_utc":  "2026-09-01T20:27:11.3912062Z",
+                      "sha256":  "35dfae214e89cd7dbc9c5e9b46d27141aad632f9f38d773664a3e3708c87e73b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\High_frequency_rolling\\Repeat_1\\plot_generation.log",
+                      "size_bytes":  181,
+                      "last_write_utc":  "2026-09-01T20:32:20.7693174Z",
+                      "sha256":  "da8efe5873693c511031bd86b8d9abf6b30dcf8aa0b2ca230f29939f089184fa"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\High_frequency_rolling\\Repeat_1\\summary.json",
+                      "size_bytes":  2291,
+                      "last_write_utc":  "2026-09-01T20:32:17.9932894Z",
+                      "sha256":  "cef4076467bf633e80b8a663e60f167e17f519c07737158a64bc6e5f194ac6d0"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\README.md",
+                      "size_bytes":  2235,
+                      "last_write_utc":  "2026-09-05T18:37:38.5561798Z",
+                      "sha256":  "926332fc5febfadbbb40378ddad291528043780b651c4857d906deef2e2a639b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_1\\experiment_log.md",
+                      "size_bytes":  1795,
+                      "last_write_utc":  "2026-09-01T20:08:57.9365850Z",
+                      "sha256":  "28498d115c5da0b53c10c7a70cdb39768cc7effe9ae79e7a841c37606d9c5409"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_1\\mul1_length_over_time.png",
+                      "size_bytes":  461189,
+                      "last_write_utc":  "2026-09-03T00:23:33.0439449Z",
+                      "sha256":  "76f6927a2fc432c7dec93d349bc9d3ca7a13ed660770c9e810afda6d59545d79"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_1\\mul1_raw.bin",
+                      "size_bytes":  2093470,
+                      "last_write_utc":  "2026-09-01T20:04:25.8011506Z",
+                      "sha256":  "d3b7c7cc282c1d6bc3ed0daddf76d2e2eaec620592e7ab3da2a066b57d9090a3"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_1\\packet_log.csv",
+                      "size_bytes":  773617,
+                      "last_write_utc":  "2026-09-01T20:04:25.8011506Z",
+                      "sha256":  "618699de898e86c10d74a4ea382791499290a6fb3b9971e4446fdc3affa84fbe"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_1\\plot_generation.log",
+                      "size_bytes":  170,
+                      "last_write_utc":  "2026-09-01T20:10:51.1272035Z",
+                      "sha256":  "916ca83dbcee60daa9b0ba28e128d9dc2a5c9e6ad811454f9bf18ff083f7fd96"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_1\\summary.json",
+                      "size_bytes":  2284,
+                      "last_write_utc":  "2026-09-01T20:08:53.9361345Z",
+                      "sha256":  "25ee4e4e71c6ae752f16b8154c41a62593b1d91515b4ab807a42f8872868467c"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_2\\experiment_log.md",
+                      "size_bytes":  1795,
+                      "last_write_utc":  "2026-09-01T20:08:59.2913284Z",
+                      "sha256":  "9609564f59794c2fbfc5e37c789e01359c28ccf165ce5862e725198edce8b1d3"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_2\\mul1_length_over_time.png",
+                      "size_bytes":  473550,
+                      "last_write_utc":  "2026-09-03T00:23:33.5993447Z",
+                      "sha256":  "1f826d5509ac9e4b4e7dfe936e68e262a4d8d7f1be8f73f26983e4405b3d86dd"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_2\\mul1_raw.bin",
+                      "size_bytes":  2039350,
+                      "last_write_utc":  "2026-09-01T20:05:26.9864069Z",
+                      "sha256":  "328f654f513071b14c7a1e47ad6953a2050fe19fe3752dd6f38ad0ccee1706e5"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_2\\packet_log.csv",
+                      "size_bytes":  773526,
+                      "last_write_utc":  "2026-09-01T20:05:26.9864069Z",
+                      "sha256":  "9cad40018e6fadcfefda100861195997d24ffeb1956cde015f3c5684fbcd1c30"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_2\\plot_generation.log",
+                      "size_bytes":  170,
+                      "last_write_utc":  "2026-09-01T20:10:52.5423372Z",
+                      "sha256":  "20aec7e4d75988b78f793f280a5fd15d9588fd29e234df456413bd6330db9cd8"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_2\\summary.json",
+                      "size_bytes":  2284,
+                      "last_write_utc":  "2026-09-01T20:08:55.2784724Z",
+                      "sha256":  "125fca03e45e8fae896eedff0aa89c69231ec222bbc6072b2a66952fce28ea35"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_3\\experiment_log.md",
+                      "size_bytes":  1795,
+                      "last_write_utc":  "2026-09-01T20:09:00.6213140Z",
+                      "sha256":  "d2768f5b24ca650f66b2daf948ca75dc14f1ad884b0ef9cfb63004c1464b9d9e"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_3\\mul1_length_over_time.png",
+                      "size_bytes":  480998,
+                      "last_write_utc":  "2026-09-03T00:23:34.1362873Z",
+                      "sha256":  "2f2555a51ac4cd8a9e7e5a0b7da79700d9b9af8f47b2b2a279b9877e0ad1bef8"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_3\\mul1_raw.bin",
+                      "size_bytes":  2078098,
+                      "last_write_utc":  "2026-09-01T20:06:01.1524563Z",
+                      "sha256":  "fd73837900359fb22c051368b9c5c86b07fd569c369d1ffa49adf5f105c67621"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_3\\packet_log.csv",
+                      "size_bytes":  773618,
+                      "last_write_utc":  "2026-09-01T20:06:01.1509601Z",
+                      "sha256":  "47b15e0fe60d0ad96b41a3cad1da0ee534302215a3a091bd496e63b5bf18e134"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_3\\plot_generation.log",
+                      "size_bytes":  170,
+                      "last_write_utc":  "2026-09-01T20:10:53.9310401Z",
+                      "sha256":  "afd2c7867e9fd80f99a11657fa51b53b917af4ac421a688d38cdb6552e91205a"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_3\\summary.json",
+                      "size_bytes":  2284,
+                      "last_write_utc":  "2026-09-01T20:08:56.6066104Z",
+                      "sha256":  "1ef03045e44b3de6ab1761ab13f7d6b3164cbd5e489413ce5aec5349bb9d2301"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_4\\experiment_log.md",
+                      "size_bytes":  1638,
+                      "last_write_utc":  "2026-09-05T18:34:42.1258647Z",
+                      "sha256":  "1562b65a90aa4144c5f2c6967a331d30a4fbbb5ecf68f9a09e3fcc761aca6e3e"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_4\\mul1_length_over_time.png",
+                      "size_bytes":  448624,
+                      "last_write_utc":  "2026-09-05T18:25:00.0384119Z",
+                      "sha256":  "a4e832be70df698ca6fcf89878493b41b6487d0f25d19de0fd0a03faf809254e"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_4\\mul1_raw.bin",
+                      "size_bytes":  1914914,
+                      "last_write_utc":  "2026-09-05T18:24:59.0278645Z",
+                      "sha256":  "168e6912d3d7adb2e4854abfcf35e8e44e4ab9a587261323240f012b3a0ebaef"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_4\\packet_log.csv",
+                      "size_bytes":  773515,
+                      "last_write_utc":  "2026-09-05T18:24:59.0278645Z",
+                      "sha256":  "6563060fab83ba2d180cff62bb0c0f05a89f8aeba8051de93f428180d2dfaa96"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_4\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:25:00.0394860Z",
+                      "sha256":  "a60d2f5f5fd7fb0e214f0d5fd276ef568396b28b8103b69dfc676a0887ad9337"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_4\\summary.json",
+                      "size_bytes":  2163,
+                      "last_write_utc":  "2026-09-05T18:34:40.9019122Z",
+                      "sha256":  "673d40a308506f39e1e610a8e18f19353cb69500540bd8165abebec05238cf13"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_5\\experiment_log.md",
+                      "size_bytes":  1638,
+                      "last_write_utc":  "2026-09-05T18:34:44.5602646Z",
+                      "sha256":  "7d2cb3d607ea56537a96901d6f6dbf23ffa0a18cca4b8957d47584b94dfbdca5"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_5\\mul1_length_over_time.png",
+                      "size_bytes":  457570,
+                      "last_write_utc":  "2026-09-05T18:26:29.1272173Z",
+                      "sha256":  "56c3aafdd1c7f3e3c1de86db841379d67958b2b58cbf65059519751330a78863"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_5\\mul1_raw.bin",
+                      "size_bytes":  1797072,
+                      "last_write_utc":  "2026-09-05T18:26:28.1615635Z",
+                      "sha256":  "40044f9017af19b7681b9b072e9e5a23f3a5fbb0c6d92efeffd2cbf9f541bb87"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_5\\packet_log.csv",
+                      "size_bytes":  773645,
+                      "last_write_utc":  "2026-09-05T18:26:28.1615635Z",
+                      "sha256":  "b911024979ccb65239ecee6a568225e99b079bd8db1d591b0a33bbfe858270ba"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_5\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:26:29.1282140Z",
+                      "sha256":  "e2799a8ff34ae355fdca0d86caea8b4aed84f8b2a433554fec1b0da128f33289"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_5\\summary.json",
+                      "size_bytes":  2164,
+                      "last_write_utc":  "2026-09-05T18:34:43.3328087Z",
+                      "sha256":  "9539102ba705d4f0e83438572b38defc1fca33aef9d3b5d02d01f79fefd1d575"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_6\\experiment_log.md",
+                      "size_bytes":  1638,
+                      "last_write_utc":  "2026-09-05T18:35:38.3036003Z",
+                      "sha256":  "da37fd80e0d4174382ac7dcf5ca83bfd35bd3954dcfefbd5cb7a6963bd0dbb1e"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_6\\mul1_length_over_time.png",
+                      "size_bytes":  457405,
+                      "last_write_utc":  "2026-09-05T18:27:35.3608124Z",
+                      "sha256":  "20c848a37e0b759015ade474536ec20efddc9aaeee0ad53ac36ac573ea5180e6"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_6\\mul1_raw.bin",
+                      "size_bytes":  1962140,
+                      "last_write_utc":  "2026-09-05T18:27:34.3855256Z",
+                      "sha256":  "0dbf4c8bb3e37462840fc44403f25cc59ceae8a85ec586ece38004edf9828ce4"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_6\\packet_log.csv",
+                      "size_bytes":  773612,
+                      "last_write_utc":  "2026-09-05T18:27:34.3855256Z",
+                      "sha256":  "20c88be804acf4aaf53f1c8ce904e6f3a1108209aeb5845931e7f6e4c3577cab"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_6\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:27:35.3618172Z",
+                      "sha256":  "41b8bdf0778a87986aeb03827a7cc2ee139203008b1122bee56082665688b7eb"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_6\\summary.json",
+                      "size_bytes":  2162,
+                      "last_write_utc":  "2026-09-05T18:34:45.7782017Z",
+                      "sha256":  "3e340f00cb5347fe5989b7952f4d6d4bc4f4e08d5dc2ef7b52e83fbc4f2674c8"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\README.md",
+                      "size_bytes":  2391,
+                      "last_write_utc":  "2026-09-05T18:37:52.2670920Z",
+                      "sha256":  "f7ab1db0fe39c1dc4f255fe4b79e67d49cb6b36fd110441e31b9f3a4f8a27ced"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_1\\experiment_log.md",
+                      "size_bytes":  1871,
+                      "last_write_utc":  "2026-09-01T20:17:09.0471827Z",
+                      "sha256":  "bfe39f9dc3de926e44d4ee22463bb982014b2954f46f52aab45fa92ec94b86ae"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_1\\mul1_length_over_time.png",
+                      "size_bytes":  429202,
+                      "last_write_utc":  "2026-09-03T00:23:34.6507670Z",
+                      "sha256":  "7ad092bdc1872bf4ae71c5dbd6677453b7dc93f4b4082e776b5c4f069a854a82"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_1\\mul1_raw.bin",
+                      "size_bytes":  1719004,
+                      "last_write_utc":  "2026-09-01T20:13:27.2010704Z",
+                      "sha256":  "e4e08e6d3ee88621ecf8229d984cb67d302d1e493c6990041c59b8feeb1804c0"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_1\\packet_log.csv",
+                      "size_bytes":  774949,
+                      "last_write_utc":  "2026-09-01T20:13:27.2010704Z",
+                      "sha256":  "18459b2d9cd48cee9bb5da2b02a1384a98f809e80f1fd5e87c97e73582bff1a8"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_1\\plot_generation.log",
+                      "size_bytes":  178,
+                      "last_write_utc":  "2026-09-01T20:17:13.4162844Z",
+                      "sha256":  "535876fc861579dbefdaa7c79d985db4a2668e15eb5a363cb2f4aef4586b1ade"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_1\\summary.json",
+                      "size_bytes":  2368,
+                      "last_write_utc":  "2026-09-01T20:17:04.6976042Z",
+                      "sha256":  "45a3b1bf73dec3247cdd9c75f1e56b6783cb3b2787fd52b6c916cfe684437396"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_2\\experiment_log.md",
+                      "size_bytes":  1871,
+                      "last_write_utc":  "2026-09-01T20:17:10.5075118Z",
+                      "sha256":  "cb250b174baf54986405b72cccdf4cbd54280814591ef844c64699c279c47781"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_2\\mul1_length_over_time.png",
+                      "size_bytes":  438934,
+                      "last_write_utc":  "2026-09-03T00:23:35.2029113Z",
+                      "sha256":  "ef36b5d064ac1110c7bf59b24f8591e0e617cc1940b5e21998303d77ffbe7566"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_2\\mul1_raw.bin",
+                      "size_bytes":  1694966,
+                      "last_write_utc":  "2026-09-01T20:14:41.9567760Z",
+                      "sha256":  "62578ea0890ef4179ab69d2cb7fb8dcfe3f95aa33ad3598c627f12587f02ea8d"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_2\\packet_log.csv",
+                      "size_bytes":  775359,
+                      "last_write_utc":  "2026-09-01T20:14:41.9567760Z",
+                      "sha256":  "bfd2deddf32780968efb6d394642f5051afa45b7f409e3a3084becdb0b76bdcb"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_2\\plot_generation.log",
+                      "size_bytes":  178,
+                      "last_write_utc":  "2026-09-01T20:17:14.8148120Z",
+                      "sha256":  "611890be52cdc41758e3cc4e0bb60973b86f40fcff19bc0ee36f45edfff86cc6"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_2\\summary.json",
+                      "size_bytes":  2369,
+                      "last_write_utc":  "2026-09-01T20:17:06.1448203Z",
+                      "sha256":  "3c774cb76fae8fe18a8aebe39f8d2084afc73e542b2bf9779637394acc74be0e"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_3\\experiment_log.md",
+                      "size_bytes":  1871,
+                      "last_write_utc":  "2026-09-01T20:17:11.9573202Z",
+                      "sha256":  "44e7574c1ee20fc59e6e81d1492d99873bee800a0a3718c9c90db429d2fda1bf"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_3\\mul1_length_over_time.png",
+                      "size_bytes":  429414,
+                      "last_write_utc":  "2026-09-03T00:23:35.6982186Z",
+                      "sha256":  "732ee262029351d4f5f8fc2cff11afcdb4def98e93c4f1b0684b83671f58b263"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_3\\mul1_raw.bin",
+                      "size_bytes":  1668618,
+                      "last_write_utc":  "2026-09-01T20:15:15.3302723Z",
+                      "sha256":  "2b5c49a20e207b4ed25b84c7da7643219e4bf8c65a8744469a8c54caa18f1f2b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_3\\packet_log.csv",
+                      "size_bytes":  775015,
+                      "last_write_utc":  "2026-09-01T20:15:15.3302723Z",
+                      "sha256":  "3acf51b64c12e69cb690287db7350e45d750ed88e71485cf91c96c02bd625a2d"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_3\\plot_generation.log",
+                      "size_bytes":  178,
+                      "last_write_utc":  "2026-09-01T20:17:16.3078078Z",
+                      "sha256":  "0dee0f862b06c7ccb7152af66951d0b56601397853579de5e60a132cb2e88282"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_3\\summary.json",
+                      "size_bytes":  2370,
+                      "last_write_utc":  "2026-09-01T20:17:07.5871303Z",
+                      "sha256":  "e0246af500325dd9efdbe1bbc208300dacc5a691e9b195f46a08c330debe157f"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_4\\experiment_log.md",
+                      "size_bytes":  1675,
+                      "last_write_utc":  "2026-09-05T18:35:41.1574610Z",
+                      "sha256":  "d749a660841679238e8c8f3d661fd507fd18ffe09d0189eb746fd87584917206"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_4\\mul1_length_over_time.png",
+                      "size_bytes":  392105,
+                      "last_write_utc":  "2026-09-05T18:30:34.0422102Z",
+                      "sha256":  "fd4d8cc0bd16317233bac18d38ba4d50c611e6c80f819e11ca7237d668aecae4"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_4\\mul1_raw.bin",
+                      "size_bytes":  1576574,
+                      "last_write_utc":  "2026-09-05T18:30:33.0375536Z",
+                      "sha256":  "9eb2c180c74c905c310024bf1cf06a7079ce16ba7fd0ad779f46c148f9ab92aa"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_4\\packet_log.csv",
+                      "size_bytes":  775012,
+                      "last_write_utc":  "2026-09-05T18:30:33.0365409Z",
+                      "sha256":  "8d56d59716b9e0cb17e3a262c450fc3172d3e839cf378dedcbde675334384a38"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_4\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:30:34.0432171Z",
+                      "sha256":  "eecc62ee036cefec41e2c523152ddc0287ba766c7f4708214160be711844305c"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_4\\summary.json",
+                      "size_bytes":  2206,
+                      "last_write_utc":  "2026-09-05T18:35:39.7920800Z",
+                      "sha256":  "799edb93a15ce9a7181f2b87db722cac7fc1266c1ddc2bb3b9351aa3c5c2f300"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_5\\experiment_log.md",
+                      "size_bytes":  1675,
+                      "last_write_utc":  "2026-09-05T18:35:44.0964384Z",
+                      "sha256":  "60b6bf40ae8cc82f7ca86fc952d3cdb9d5e1537a3233a42574066474e5a5651a"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_5\\mul1_length_over_time.png",
+                      "size_bytes":  383255,
+                      "last_write_utc":  "2026-09-05T18:31:41.5072688Z",
+                      "sha256":  "b11f070c0d4ec990efcc523ac0db2c58ca611821e481e69c3a332b7303b4aff3"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_5\\mul1_raw.bin",
+                      "size_bytes":  1495878,
+                      "last_write_utc":  "2026-09-05T18:31:40.5619495Z",
+                      "sha256":  "cc3aaa05dbf24fae103ca7ef97d27f89806aa9778f452e165cd1b6a1614d4c65"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_5\\packet_log.csv",
+                      "size_bytes":  774938,
+                      "last_write_utc":  "2026-09-05T18:31:40.5619495Z",
+                      "sha256":  "4e601793a6f183197facdcb81b849c5dceffa1f1e274fe3a9fa03aff6e02ee79"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_5\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:31:41.5083085Z",
+                      "sha256":  "a88117191189272e7d4ad14cc48d969d418cf8e45fe3167293fab5f0da2752d5"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_5\\summary.json",
+                      "size_bytes":  2207,
+                      "last_write_utc":  "2026-09-05T18:35:42.5040763Z",
+                      "sha256":  "73b9c1fb9768c9aa32d5f517717e75c2fba18a3612e1c2a349c7c132e4e3a652"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_6\\experiment_log.md",
+                      "size_bytes":  1675,
+                      "last_write_utc":  "2026-09-05T18:36:14.1938881Z",
+                      "sha256":  "6b6403e9f2987a1de76cce62091995266ea886ce1080ca0e58eadfa20fcf0c7d"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_6\\mul1_length_over_time.png",
+                      "size_bytes":  385717,
+                      "last_write_utc":  "2026-09-05T18:32:35.3376667Z",
+                      "sha256":  "56873935c75afe67e7bebf290aaa53684679cc6296db71ba272a679dab4296b7"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_6\\mul1_raw.bin",
+                      "size_bytes":  1559726,
+                      "last_write_utc":  "2026-09-05T18:32:34.3813732Z",
+                      "sha256":  "8e4db76b06f4cd42b54ea0b0b272ea16ebe42873822ff39d6dde65ba543ace0b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_6\\packet_log.csv",
+                      "size_bytes":  775305,
+                      "last_write_utc":  "2026-09-05T18:32:34.3813732Z",
+                      "sha256":  "f27a47b5c7f5bca8090b7a30d1ec4b21830625b6e0830fcfc25f2f136a002773"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_6\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:32:35.3386632Z",
+                      "sha256":  "97cf12a6891f5e43b49ecc07684839c2c583cfea56de804fef5574180ad6a6a8"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_6\\summary.json",
+                      "size_bytes":  2207,
+                      "last_write_utc":  "2026-09-05T18:35:45.6090778Z",
+                      "sha256":  "73c55d8d332618021796023c3f0e1baa7b0e7120aed824b8edece8bf68ab6920"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\N=2\\M1_M3\\Full_coverage_all_FSR\\README.md",
+                      "size_bytes":  1446,
+                      "last_write_utc":  "2026-09-01T21:09:48.6975627Z",
+                      "sha256":  "b72344fb562201cb243e3b17703a10625543fb76b31ff6d12f9f6ef99f1c5905"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\N=2\\M1_M3\\Full_coverage_all_FSR\\Repeat_1\\experiment_log.md",
+                      "size_bytes":  1868,
+                      "last_write_utc":  "2026-09-01T21:09:46.0158099Z",
+                      "sha256":  "6ecd6b2eff506a834aed9efe595252c64ef7b06828213b6d7495abbc41d46c53"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\N=2\\M1_M3\\Full_coverage_all_FSR\\Repeat_1\\mul1_length_over_time.png",
+                      "size_bytes":  522885,
+                      "last_write_utc":  "2026-09-03T00:23:36.2616680Z",
+                      "sha256":  "3d3784ba0db89ecdd1a7c9f14a0604092150075ba84a2f38745bf1b9743582ce"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\N=2\\M1_M3\\Full_coverage_all_FSR\\Repeat_1\\mul1_raw.bin",
+                      "size_bytes":  5170844,
+                      "last_write_utc":  "2026-09-01T21:05:45.7949417Z",
+                      "sha256":  "fb344955c7cbade8eac119cfa81ec97200155b2c3bd6b9c6068bc7aff46be6a3"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\N=2\\M1_M3\\Full_coverage_all_FSR\\Repeat_1\\packet_log.csv",
+                      "size_bytes":  751683,
+                      "last_write_utc":  "2026-09-01T21:05:45.7949417Z",
+                      "sha256":  "79db7ae9e1db47fecafec1ff04d74f6c493d673705ed81ca90dc5b33373d92c5"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\N=2\\M1_M3\\Full_coverage_all_FSR\\Repeat_1\\plot_generation.log",
+                      "size_bytes":  187,
+                      "last_write_utc":  "2026-09-01T21:09:47.3595347Z",
+                      "sha256":  "182a1a6ac3daa4ea9db2317a584500149f7cb0a875a82754afba130876d9c2b9"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\N=2\\M1_M3\\Full_coverage_all_FSR\\Repeat_1\\summary.json",
+                      "size_bytes":  2360,
+                      "last_write_utc":  "2026-09-01T21:09:44.7048906Z",
+                      "sha256":  "9631eecdef79467c2168d9be0f79d52bda1bb1bea82233f3d6b1d67ee704aa57"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\N=4\\M0_M1_M2_M3\\Full_coverage_all_FSR\\README.md",
+                      "size_bytes":  1499,
+                      "last_write_utc":  "2026-09-01T21:09:54.1138770Z",
+                      "sha256":  "41e909d2dd8a60e0c52dda53b6ea2f8e2f038470ddb974d7ef795d184e06e9a0"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\N=4\\M0_M1_M2_M3\\Full_coverage_all_FSR\\Repeat_1\\experiment_log.md",
+                      "size_bytes":  1907,
+                      "last_write_utc":  "2026-09-01T21:09:51.4268590Z",
+                      "sha256":  "8204217b2b23d4db93146be46a28bc4e400a9a3ab2a5227e4da1f7c61d42bb53"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\N=4\\M0_M1_M2_M3\\Full_coverage_all_FSR\\Repeat_1\\mul1_length_over_time.png",
+                      "size_bytes":  459373,
+                      "last_write_utc":  "2026-09-03T00:23:36.8494115Z",
+                      "sha256":  "9b5b0ab8dc9a785b3da5ee8a60d7f3dc1b15996b57f102930fe177dffd3ad1f2"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\N=4\\M0_M1_M2_M3\\Full_coverage_all_FSR\\Repeat_1\\mul1_raw.bin",
+                      "size_bytes":  12556792,
+                      "last_write_utc":  "2026-09-01T20:58:22.0052321Z",
+                      "sha256":  "7d9ce36c80e8736361e02bc2b594272da904eba7d015effa62d20498c79ef1db"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\N=4\\M0_M1_M2_M3\\Full_coverage_all_FSR\\Repeat_1\\packet_log.csv",
+                      "size_bytes":  717844,
+                      "last_write_utc":  "2026-09-01T20:58:22.0042292Z",
+                      "sha256":  "2b2c5326bcccae42a63129b82f92a7bb79ded01a8a837fd41eae86cc2c1173c8"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\N=4\\M0_M1_M2_M3\\Full_coverage_all_FSR\\Repeat_1\\plot_generation.log",
+                      "size_bytes":  193,
+                      "last_write_utc":  "2026-09-01T21:09:52.7626882Z",
+                      "sha256":  "229921c65ac7c3431c4e4a22daf65554afc259ebfca8d1298eaccf84d0e455c4"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Dynamic_load\\N=4\\M0_M1_M2_M3\\Full_coverage_all_FSR\\Repeat_1\\summary.json",
+                      "size_bytes":  2426,
+                      "last_write_utc":  "2026-09-01T21:09:50.0597724Z",
+                      "sha256":  "430794d09f3ad6c0747861e7d9068ac76bbb48cd6a0fd2f28008e8122b7c9b60"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_1\\experiment_log.md",
+                      "size_bytes":  1574,
+                      "last_write_utc":  "2026-09-01T19:53:39.7297900Z",
+                      "sha256":  "d649b120f195512a558b4b3fd5c9540e728dd69aa2cad4f150cd95b1a482b024"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_1\\mul1_length_over_time.png",
+                      "size_bytes":  278809,
+                      "last_write_utc":  "2026-09-03T00:23:37.2665620Z",
+                      "sha256":  "8ee93c10e4ae2845700949f768677b353b5866957016270b5b94dd9ee8c9f09c"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_1\\mul1_raw.bin",
+                      "size_bytes":  1076736,
+                      "last_write_utc":  "2026-09-01T18:24:37.9671682Z",
+                      "sha256":  "dcfbb788325e50024bd14bd7b6ec8323e98d89bd649372595c2b7cc3f9de63c9"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_1\\packet_log.csv",
+                      "size_bytes":  929068,
+                      "last_write_utc":  "2026-09-01T18:24:37.9671682Z",
+                      "sha256":  "edeb086c93b83e3c9b55eef67225df7832ca7b59c4d46c9a8b9a4d6d112283df"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_1\\summary.json",
+                      "size_bytes":  2091,
+                      "last_write_utc":  "2026-09-01T19:53:39.7276655Z",
+                      "sha256":  "2af1b99abe060d36bdf4e5a8990644698ac62f9e320084203d59280e0846de00"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_2\\experiment_log.md",
+                      "size_bytes":  1574,
+                      "last_write_utc":  "2026-09-01T19:53:39.7555546Z",
+                      "sha256":  "d3670b928256e22de4f5b79b54418ee1602761585b72c4501e8d84b64a5fefd3"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_2\\mul1_length_over_time.png",
+                      "size_bytes":  276599,
+                      "last_write_utc":  "2026-09-03T00:23:37.7067580Z",
+                      "sha256":  "107f780349f84e0d0f6eab3be26d6ea75719304b749be87a69eaaa5667c4493f"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_2\\mul1_raw.bin",
+                      "size_bytes":  1093190,
+                      "last_write_utc":  "2026-09-01T18:25:20.2596550Z",
+                      "sha256":  "8a559e9a0e7f558dbb58a751973bd7b86ba63a51cebc03f657749393e6f710e6"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_2\\packet_log.csv",
+                      "size_bytes":  929205,
+                      "last_write_utc":  "2026-09-01T18:25:20.2596550Z",
+                      "sha256":  "2507cab30f5dc4e1c2b4480a40118d57c141b68545cbb6d84debc7c9ac35edf9"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_2\\summary.json",
+                      "size_bytes":  2090,
+                      "last_write_utc":  "2026-09-01T19:53:39.7535040Z",
+                      "sha256":  "32ff7908ade504a9c697530baa79bf874d406f3b5898fc9d5f5c42b6becb9c23"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_3\\experiment_log.md",
+                      "size_bytes":  1574,
+                      "last_write_utc":  "2026-09-01T19:53:39.7817811Z",
+                      "sha256":  "67e8699a809e6015d77d6667d316e2ef72bc07ed92208222b75a6198690a411b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_3\\mul1_length_over_time.png",
+                      "size_bytes":  274892,
+                      "last_write_utc":  "2026-09-03T00:23:38.1635704Z",
+                      "sha256":  "698612c800e41358d1c67fd79368f22d93bce291e0737521e9d58df78462cb65"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_3\\mul1_raw.bin",
+                      "size_bytes":  1074658,
+                      "last_write_utc":  "2026-09-01T18:25:55.9133077Z",
+                      "sha256":  "99e8a9836bf91b463d796e719f3ea454733c9f2e404fa0858894bfa2102e4a04"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_3\\packet_log.csv",
+                      "size_bytes":  928954,
+                      "last_write_utc":  "2026-09-01T18:25:55.9133077Z",
+                      "sha256":  "4505613d7f458e1172aede10c4d83fae3247f802abe4ebf45facaa488fc4eaf6"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_3\\summary.json",
+                      "size_bytes":  2089,
+                      "last_write_utc":  "2026-09-01T19:53:39.7807770Z",
+                      "sha256":  "8d623e648e98fcc13fe9ad385bf6944836aaa858a204d88b0a67ff1c6de5e5fd"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_4\\experiment_log.md",
+                      "size_bytes":  1593,
+                      "last_write_utc":  "2026-09-05T18:18:34.0242323Z",
+                      "sha256":  "db9f48f78320134fbd4092fe15da9e8506869aa28642b2cddf2bd2ab2dc2bf8b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_4\\mul1_length_over_time.png",
+                      "size_bytes":  282531,
+                      "last_write_utc":  "2026-09-05T18:00:06.6148110Z",
+                      "sha256":  "8419a814aff0c670ab3f542db4142bc5d42762406784a815a446953fc2931c81"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_4\\mul1_raw.bin",
+                      "size_bytes":  1239060,
+                      "last_write_utc":  "2026-09-05T18:00:05.6804203Z",
+                      "sha256":  "526cc6e60b39c086aabfcf835efd2af8e887ece6e91e4ca7564347f391b9fb83"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_4\\packet_log.csv",
+                      "size_bytes":  773513,
+                      "last_write_utc":  "2026-09-05T18:00:05.6804203Z",
+                      "sha256":  "192283630a21fd572d63d0424ea153824ed14cbecc9bd927da2b5efe9e5dd693"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_4\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:00:06.6164289Z",
+                      "sha256":  "35e908e7f31a8c9dce9fa8e046f758f01ca277c634a16e8609230ab475196e1f"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_4\\summary.json",
+                      "size_bytes":  2090,
+                      "last_write_utc":  "2026-09-05T18:18:32.8026818Z",
+                      "sha256":  "5bfbf0a67f916891fde0179b97fb53d363d856cd0837b4d692905975bc5bad60"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_5\\experiment_log.md",
+                      "size_bytes":  1593,
+                      "last_write_utc":  "2026-09-05T18:18:36.4551509Z",
+                      "sha256":  "3a85d89ed303f11f5736357a31e286c1815bd8f324e6dca52aae2006cd59ab06"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_5\\mul1_length_over_time.png",
+                      "size_bytes":  282466,
+                      "last_write_utc":  "2026-09-05T18:00:48.3302926Z",
+                      "sha256":  "09590c2b19671803d4108d4ef349f86a6e1313989a577e9a9054fe115b1b4eee"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_5\\mul1_raw.bin",
+                      "size_bytes":  1308424,
+                      "last_write_utc":  "2026-09-05T18:00:47.3945897Z",
+                      "sha256":  "0a8bd1fe64d8f23c61331d3ba4c3683a702a3d484f543201dc2790ee0f1d4b49"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_5\\packet_log.csv",
+                      "size_bytes":  773900,
+                      "last_write_utc":  "2026-09-05T18:00:47.3945897Z",
+                      "sha256":  "6c9c6bc4c23ee138a10ea84e93d74573aa9dcd975e75046439e04e97b80908d9"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_5\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:00:48.3312893Z",
+                      "sha256":  "b74bcc27c22ca19ec595af6805b2141c88f86bffc1bf0b525390f709910b5d1c"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_5\\summary.json",
+                      "size_bytes":  2093,
+                      "last_write_utc":  "2026-09-05T18:18:35.2334288Z",
+                      "sha256":  "beadae9aa377eff3538acef6b2ed3c764ad7c50895f2a17745b00bb9306f750a"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_6\\experiment_log.md",
+                      "size_bytes":  1593,
+                      "last_write_utc":  "2026-09-05T18:18:38.8865043Z",
+                      "sha256":  "411c30d8ecf53fb887add7c049e6d02850c0c464ff0945c65735ca336cc7162d"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_6\\mul1_length_over_time.png",
+                      "size_bytes":  281508,
+                      "last_write_utc":  "2026-09-05T18:01:20.2888596Z",
+                      "sha256":  "ebaa14a63e6cfc2f05ed9d9d241b79f83d0861085bef95a8c17705bf4136b862"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_6\\mul1_raw.bin",
+                      "size_bytes":  1316844,
+                      "last_write_utc":  "2026-09-05T18:01:19.3489858Z",
+                      "sha256":  "b13217e57af69c6d7537861a23a0635572939251620771cabd0d9e3fd9319e04"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_6\\packet_log.csv",
+                      "size_bytes":  773932,
+                      "last_write_utc":  "2026-09-05T18:01:19.3489858Z",
+                      "sha256":  "b940076f8cadf385d7703a570501a3f86272a39e318fc8eb5e6cb5cb9c3ed1e3"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_6\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:01:20.2898568Z",
+                      "sha256":  "eac1f18cf819093c0aefd60cf28511908b94d46ee1be52448526be68683de2bc"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M0\\Repeat_6\\summary.json",
+                      "size_bytes":  2096,
+                      "last_write_utc":  "2026-09-05T18:18:37.6619334Z",
+                      "sha256":  "60910cac0f4ca0422742dd24e86170987f3a0ea61dd7f351cfe198eb0fa4d35e"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_1\\experiment_log.md",
+                      "size_bytes":  1574,
+                      "last_write_utc":  "2026-09-01T19:53:39.8075841Z",
+                      "sha256":  "e39528cc8cc9264dded12d2d5dd225ad7eceab031e56e68a33a9b005444777c1"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_1\\mul1_length_over_time.png",
+                      "size_bytes":  284997,
+                      "last_write_utc":  "2026-09-03T00:23:38.6808938Z",
+                      "sha256":  "36930d7e2500d7325377f0248c27993b09a3879d3124bf5b598bc5925ae1385b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_1\\mul1_raw.bin",
+                      "size_bytes":  1087750,
+                      "last_write_utc":  "2026-09-01T18:26:43.8652972Z",
+                      "sha256":  "b1578a3c58b38230a5b4c148a394e0a3feced04aa5b0298e3e64189955fef007"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_1\\packet_log.csv",
+                      "size_bytes":  876411,
+                      "last_write_utc":  "2026-09-01T18:26:43.8652972Z",
+                      "sha256":  "87cc66cf2901fbaee42f752ee6b5ed916d4a1cb262fa7a65cb2dd282ed686a28"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_1\\summary.json",
+                      "size_bytes":  2087,
+                      "last_write_utc":  "2026-09-01T19:53:39.8065533Z",
+                      "sha256":  "9287ba3ef76621183f2d36d65bf1a31f7f7d1195b052864143cca1dd345dd10b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_2\\experiment_log.md",
+                      "size_bytes":  1574,
+                      "last_write_utc":  "2026-09-01T19:53:39.8334971Z",
+                      "sha256":  "df4b4ae3ae815a8893bf8ac984415a76f5e72303b083b24b6b4cf0e7e595a8e1"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_2\\mul1_length_over_time.png",
+                      "size_bytes":  284535,
+                      "last_write_utc":  "2026-09-03T00:23:39.0805089Z",
+                      "sha256":  "b963338dabb1e020d1a4f10f46de250ccc36fd9791d4e8b344651ade307d20c8"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_2\\mul1_raw.bin",
+                      "size_bytes":  1081902,
+                      "last_write_utc":  "2026-09-01T18:27:16.7983500Z",
+                      "sha256":  "0411e70e74520a1a99994cf9b578b9473f0ff92bbb6b57983627737a0afa305a"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_2\\packet_log.csv",
+                      "size_bytes":  876091,
+                      "last_write_utc":  "2026-09-01T18:27:16.7983500Z",
+                      "sha256":  "3e21052eb682f0e30876e25202c327b521a922e68caa2874ce3891d1a61aace5"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_2\\summary.json",
+                      "size_bytes":  2088,
+                      "last_write_utc":  "2026-09-01T19:53:39.8314904Z",
+                      "sha256":  "0b02cfbcbb103ef2180fcce4bdb3c2e1dfcfcfbd20740c046f5cd4cf610005e5"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_3\\experiment_log.md",
+                      "size_bytes":  1574,
+                      "last_write_utc":  "2026-09-01T19:53:39.8581044Z",
+                      "sha256":  "43bdb73459288abc6cde2d66acd40a8b0aee6496af7b23224420254b6dea6b0b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_3\\mul1_length_over_time.png",
+                      "size_bytes":  279992,
+                      "last_write_utc":  "2026-09-03T00:23:39.4885015Z",
+                      "sha256":  "1e92b9d19b9bd2d773361b938e64958107966d5745643c5ef2f62c361d86d8ab"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_3\\mul1_raw.bin",
+                      "size_bytes":  1071776,
+                      "last_write_utc":  "2026-09-01T18:27:51.7450389Z",
+                      "sha256":  "dd6c87b15ee5e2b428a05864935e64491bc1be2d21fc53554b2da3394f152f25"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_3\\packet_log.csv",
+                      "size_bytes":  876185,
+                      "last_write_utc":  "2026-09-01T18:27:51.7450389Z",
+                      "sha256":  "c31767844a23fd8fcdff1bdf91e5c6181c936e915d053a10ebeac73abb577479"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_3\\summary.json",
+                      "size_bytes":  2087,
+                      "last_write_utc":  "2026-09-01T19:53:39.8570940Z",
+                      "sha256":  "1283317e45dd52143c025aa6771f7d574046034ef2b35b380f433d45fb025a62"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_4\\experiment_log.md",
+                      "size_bytes":  1593,
+                      "last_write_utc":  "2026-09-05T18:18:41.4456454Z",
+                      "sha256":  "696bb4fba2ef703c658f3659691528a52dca8f63fb73e0ba1ee69e5b972bb0cd"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_4\\mul1_length_over_time.png",
+                      "size_bytes":  262298,
+                      "last_write_utc":  "2026-09-05T18:02:29.9031032Z",
+                      "sha256":  "86ef517a980095e2b2396c279e3b63a57e8de48faaa56b7d15b632b25802081a"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_4\\mul1_raw.bin",
+                      "size_bytes":  1013256,
+                      "last_write_utc":  "2026-09-05T18:02:28.9864668Z",
+                      "sha256":  "0a714f96447d8a21c56a41e09d9f5b2c8b3eee0a6f04cfb6f5025249ad0dd7c3"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_4\\packet_log.csv",
+                      "size_bytes":  815675,
+                      "last_write_utc":  "2026-09-05T18:02:28.9864668Z",
+                      "sha256":  "5715dfce7ff9ac6880f3c9b32c3967009f0f876e832f354cbe006ce214a5e74e"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_4\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:02:29.9041018Z",
+                      "sha256":  "1aa7a51e8f00107f14723ea55562f508bd237f09bc5a90baef01dafe5f339d4f"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_4\\summary.json",
+                      "size_bytes":  2093,
+                      "last_write_utc":  "2026-09-05T18:18:40.1338471Z",
+                      "sha256":  "7ef59dacf12073d76ae6f965ed586b8d106f1bd7ed30355e6437ba3fe1cb4707"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_5\\experiment_log.md",
+                      "size_bytes":  1593,
+                      "last_write_utc":  "2026-09-05T18:18:44.1017914Z",
+                      "sha256":  "f4448ec495fdca5bf170f2dc503a999c7d1212fe54eb70219560e0d5f7d46ecd"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_5\\mul1_length_over_time.png",
+                      "size_bytes":  262077,
+                      "last_write_utc":  "2026-09-05T18:03:03.6203126Z",
+                      "sha256":  "2ba61ee3c0f5f045037227e815c7da2b9c6d3173dd69821780e390c5d430c2ec"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_5\\mul1_raw.bin",
+                      "size_bytes":  1021658,
+                      "last_write_utc":  "2026-09-05T18:03:02.7125370Z",
+                      "sha256":  "450509e371ba22324d4a8eb4d85c54ffdf78235aa2a4fcb6f7521ac471169dee"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_5\\packet_log.csv",
+                      "size_bytes":  815457,
+                      "last_write_utc":  "2026-09-05T18:03:02.7125370Z",
+                      "sha256":  "e7f17f52d15dc47a0d4a6ccfdd55237639ef1dbc410be028bfebf019b0e047a0"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_5\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:03:03.6213153Z",
+                      "sha256":  "0c9c18dd43c5485460f77b2d07146229107a4d0b80ec01f89012cc60c589298b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M1\\Repeat_5\\summary.json",
+                      "size_bytes":  2094,
+                      "last_write_utc":  "2026-09-05T18:18:42.7753749Z",
+                      "sha256":  "bd64c010159d15b24bf385d60450967d5cdafe9a0b68c7b5333f43af046802db"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_1\\experiment_log.md",
+                      "size_bytes":  1574,
+                      "last_write_utc":  "2026-09-01T19:53:39.8851873Z",
+                      "sha256":  "40e01ed32f280124187285f1cbbd1d17ea3328b5fd5a721186ccbefa0c004fb3"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_1\\mul1_length_over_time.png",
+                      "size_bytes":  262280,
+                      "last_write_utc":  "2026-09-03T00:23:39.9001828Z",
+                      "sha256":  "03d32f1e6b0a5ed809ce753f67ada653ae0b3a430fc8b0094fe7e0f5eb054fcb"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_1\\mul1_raw.bin",
+                      "size_bytes":  1027082,
+                      "last_write_utc":  "2026-09-01T18:28:42.5253776Z",
+                      "sha256":  "7e38a07e50d2227b9c328cd54433a99949e5440b4a4aeb803b9c123a243c0406"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_1\\packet_log.csv",
+                      "size_bytes":  820677,
+                      "last_write_utc":  "2026-09-01T18:28:42.5253776Z",
+                      "sha256":  "8ff0bd51994b62b7a8339ff7119f937f5c60e0f57765b44404794a74dbc4859a"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_1\\summary.json",
+                      "size_bytes":  2088,
+                      "last_write_utc":  "2026-09-01T19:53:39.8841872Z",
+                      "sha256":  "f2af4407c8b7ad77dfd3460ea3532bad186fed1befa804ca2307d4c6ffb4cd49"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_2\\experiment_log.md",
+                      "size_bytes":  1574,
+                      "last_write_utc":  "2026-09-01T19:53:39.9112219Z",
+                      "sha256":  "595ad7cc99bc4cd4930e467564e220b2cea49439fbb17c18f0785475cfdb7026"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_2\\mul1_length_over_time.png",
+                      "size_bytes":  262154,
+                      "last_write_utc":  "2026-09-03T00:23:40.3146668Z",
+                      "sha256":  "ee3abc469b079595dbf741562dbe8b95a30e66afe171009304a9b297872449c8"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_2\\mul1_raw.bin",
+                      "size_bytes":  1022728,
+                      "last_write_utc":  "2026-09-01T18:29:14.6905662Z",
+                      "sha256":  "d7a70cd3bbde7be036e427c3057278baa4ee01dcabed34e2405a28cbd694a5f0"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_2\\packet_log.csv",
+                      "size_bytes":  820788,
+                      "last_write_utc":  "2026-09-01T18:29:14.6905662Z",
+                      "sha256":  "481d6eb106d9d0f3ee9f918ff3de052005ed258641f96129d9673d2b448c5ebf"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_2\\summary.json",
+                      "size_bytes":  2088,
+                      "last_write_utc":  "2026-09-01T19:53:39.9100308Z",
+                      "sha256":  "b1342e6cbf6af256617eb147e6aa4608396032feb35cb16320b833396e8062f5"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_3\\experiment_log.md",
+                      "size_bytes":  1574,
+                      "last_write_utc":  "2026-09-01T19:53:39.9501895Z",
+                      "sha256":  "3e5739b69e97b09160cc7e1e7035429f5878813a0f355da1eec3d5ddf61a9604"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_3\\mul1_length_over_time.png",
+                      "size_bytes":  266998,
+                      "last_write_utc":  "2026-09-03T00:23:40.7143373Z",
+                      "sha256":  "7bb502e3b3320317f624718f67f6859dedaacb68cedb314ff1cf527a6d2e1003"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_3\\mul1_raw.bin",
+                      "size_bytes":  1020922,
+                      "last_write_utc":  "2026-09-01T18:30:03.3028277Z",
+                      "sha256":  "c3f4c7f354bb7018b07716918d2e9cbcdc91a63eb157d6cba7b417e4db87c468"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_3\\packet_log.csv",
+                      "size_bytes":  820646,
+                      "last_write_utc":  "2026-09-01T18:30:03.3028277Z",
+                      "sha256":  "fbfa71474650a0669295027ade4b5ad19730b575ff8889ff438ef1e3b374dff1"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_3\\summary.json",
+                      "size_bytes":  2087,
+                      "last_write_utc":  "2026-09-01T19:53:39.9383235Z",
+                      "sha256":  "31be547513a6e22a1eae8794d58084af2975f227efc9d32d787e6ca712d7ffbb"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_4\\experiment_log.md",
+                      "size_bytes":  1593,
+                      "last_write_utc":  "2026-09-05T18:18:46.6353163Z",
+                      "sha256":  "d0213e3ed4af95057a821d63d0f455608446761e92395d6f2e85669771fc9806"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_4\\mul1_length_over_time.png",
+                      "size_bytes":  242209,
+                      "last_write_utc":  "2026-09-05T18:03:58.1457969Z",
+                      "sha256":  "781c784682ff016a66cb264bf62471b522812235e9b178f63181ea02906ea384"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_4\\mul1_raw.bin",
+                      "size_bytes":  1297316,
+                      "last_write_utc":  "2026-09-05T18:03:57.2076504Z",
+                      "sha256":  "cfbf31709c600053874f213b440a1071705dfb06d3f66611d69c4e08708a5f5c"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_4\\packet_log.csv",
+                      "size_bytes":  816326,
+                      "last_write_utc":  "2026-09-05T18:03:57.2063455Z",
+                      "sha256":  "aa6633c90cdd3786bf84c1412b10f21921465da51385a3ccc2fc671e17b42109"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_4\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:03:58.1471551Z",
+                      "sha256":  "95f0dfbe8f10befbfefbef00d83048bcc213dbff06bb7dfab9e20a66f9ef428c"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_4\\summary.json",
+                      "size_bytes":  2095,
+                      "last_write_utc":  "2026-09-05T18:18:45.3723796Z",
+                      "sha256":  "d62d973f3ea8f98cce1a39d03f5624616df364eb0c19432587637b9bd7d14728"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_5\\experiment_log.md",
+                      "size_bytes":  1593,
+                      "last_write_utc":  "2026-09-05T18:18:49.1677109Z",
+                      "sha256":  "31796a1a5564cba63e76869372d4fb4d6f34aa4e1878269cf11d5bf0497e7c5d"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_5\\mul1_length_over_time.png",
+                      "size_bytes":  245433,
+                      "last_write_utc":  "2026-09-05T18:04:29.7924780Z",
+                      "sha256":  "77376053aa698d6d6ca945e985f25d93e5a8b89bc1e704d3793b36f577e09ece"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_5\\mul1_raw.bin",
+                      "size_bytes":  1269596,
+                      "last_write_utc":  "2026-09-05T18:04:28.7924856Z",
+                      "sha256":  "6f7f7c79b4b9c13ef289d45afce714484962f8a54abd330e9f9bbf9cfa66b5f7"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_5\\packet_log.csv",
+                      "size_bytes":  816079,
+                      "last_write_utc":  "2026-09-05T18:04:28.7924856Z",
+                      "sha256":  "63b44d967a8c0cee085425c640bc925256c93cb4fac27fce3520809f11e78db5"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_5\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:04:29.7924780Z",
+                      "sha256":  "1f346cdd2527ddcb155e11dacd8d3bb4336f19d9439c1a288581893617910142"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_5\\summary.json",
+                      "size_bytes":  2093,
+                      "last_write_utc":  "2026-09-05T18:18:47.9126704Z",
+                      "sha256":  "ca7f00a6520af62ec4a6bdccc1aeeee361e97969d879e0e00e6c911b439fbb38"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_6\\experiment_log.md",
+                      "size_bytes":  1593,
+                      "last_write_utc":  "2026-09-05T18:18:51.7184264Z",
+                      "sha256":  "a98943b161423e3d8ca020ad58b0b86215f5a65773a240ea10305aadfd0fd1d8"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_6\\mul1_length_over_time.png",
+                      "size_bytes":  242806,
+                      "last_write_utc":  "2026-09-05T18:05:01.5777910Z",
+                      "sha256":  "2c41deb111ed57a743a049960ca96d0dfdff4b819efab3070f716f3782d9b176"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_6\\mul1_raw.bin",
+                      "size_bytes":  1292790,
+                      "last_write_utc":  "2026-09-05T18:05:00.6338038Z",
+                      "sha256":  "4368e433982e7d6b11147b31c02543686510b47fc3930132b16bd12cbcd72add"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_6\\packet_log.csv",
+                      "size_bytes":  816275,
+                      "last_write_utc":  "2026-09-05T18:05:00.6325363Z",
+                      "sha256":  "3da6974a6d9f07399873ea759e6abcdf74e1ef4a25d234f797131324a8dc3f33"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_6\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:05:01.5777910Z",
+                      "sha256":  "e257b924c028997cbc7eb24df816d0b21c0787f75deaf43d363333c81570193e"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_6\\summary.json",
+                      "size_bytes":  2094,
+                      "last_write_utc":  "2026-09-05T18:18:50.4441713Z",
+                      "sha256":  "15a8345c98997a9431cf7a59ff6d7f6cedd19e7978f8cfafc8c1464a40566c3d"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_7\\experiment_log.md",
+                      "size_bytes":  1593,
+                      "last_write_utc":  "2026-09-05T18:18:54.2550839Z",
+                      "sha256":  "d41d6c9d758b0cf142a7bf44ff834d5602655977b961482637a37a9d0c3608b4"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_7\\mul1_length_over_time.png",
+                      "size_bytes":  241456,
+                      "last_write_utc":  "2026-09-05T18:05:34.0379710Z",
+                      "sha256":  "2b02c975ac090bb58fda9b1a3751fa9c44ff3f7a6ec4e16fa3e42830e914465e"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_7\\mul1_raw.bin",
+                      "size_bytes":  1302576,
+                      "last_write_utc":  "2026-09-05T18:05:33.1094580Z",
+                      "sha256":  "95834b403296498b147c14b701aba9cd1002ed6c00d895db5eeaf350035ad8fb"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_7\\packet_log.csv",
+                      "size_bytes":  816330,
+                      "last_write_utc":  "2026-09-05T18:05:33.1094580Z",
+                      "sha256":  "308dab0293b8e754a013b3b44eac35ff98420b88cd0cdf943af682f17b0bd0e8"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_7\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:05:34.0389677Z",
+                      "sha256":  "01752a946b2446ccfc166725567254837bbd1508c62fb6cadcdf3f191c806f56"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M2\\Repeat_7\\summary.json",
+                      "size_bytes":  2094,
+                      "last_write_utc":  "2026-09-05T18:18:52.9833230Z",
+                      "sha256":  "c1966ea13e0c3d7b4615288e85a17289ce1a5c77762c63bf92a138362cd6f52c"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_1\\experiment_log.md",
+                      "size_bytes":  1573,
+                      "last_write_utc":  "2026-09-01T19:53:39.9762012Z",
+                      "sha256":  "6d78c1a3cfff8e70a4b17f8f4b9634fb7b249363a2a0c85c6006d57cd3ccc6c9"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_1\\mul1_length_over_time.png",
+                      "size_bytes":  236294,
+                      "last_write_utc":  "2026-09-03T00:23:41.1141569Z",
+                      "sha256":  "5d620fefaf78d848482ccc5634e8e79f6eaca2cbbdbbc2f925f7c7a19ce94ccf"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_1\\mul1_raw.bin",
+                      "size_bytes":  880004,
+                      "last_write_utc":  "2026-09-01T18:31:06.4443989Z",
+                      "sha256":  "1abd3877f9a390b680c5c1804f01260f931f0e698d146b25467be011339ff63c"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_1\\packet_log.csv",
+                      "size_bytes":  764182,
+                      "last_write_utc":  "2026-09-01T18:31:06.4443989Z",
+                      "sha256":  "27e3296778a96c69324815719d1aff32decff0e798dc3bbde5a3ad4d3be0dd9e"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_1\\summary.json",
+                      "size_bytes":  2088,
+                      "last_write_utc":  "2026-09-01T19:53:39.9741995Z",
+                      "sha256":  "cfbb3f21ba91c95813608bbd03be8ebd4071645d84c15b487f9ae037063d9c08"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_2\\experiment_log.md",
+                      "size_bytes":  1573,
+                      "last_write_utc":  "2026-09-01T19:53:40.0051531Z",
+                      "sha256":  "965fe7fc37052863b7fa6d2173d15a96b0acc662c9e6de1d8dc3cb4c6854a31a"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_2\\mul1_length_over_time.png",
+                      "size_bytes":  246953,
+                      "last_write_utc":  "2026-09-03T00:23:41.5240756Z",
+                      "sha256":  "0841cd7de2e84c13a9846864ac325f8a97811f2200d2e1db4c095b8206e1d1bc"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_2\\mul1_raw.bin",
+                      "size_bytes":  911216,
+                      "last_write_utc":  "2026-09-01T18:31:47.2219086Z",
+                      "sha256":  "1fcf3be218812d2f8a2739c41e05e282359d79331d363a519b02ca3304b27c4b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_2\\packet_log.csv",
+                      "size_bytes":  763995,
+                      "last_write_utc":  "2026-09-01T18:31:47.2219086Z",
+                      "sha256":  "716547446b6652a7845e14e0084b3d7de58447283866dcd36f966323172f1392"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_2\\summary.json",
+                      "size_bytes":  2088,
+                      "last_write_utc":  "2026-09-01T19:53:40.0041489Z",
+                      "sha256":  "6508a6ee7acf7db09f033297833cfff91f1313f24b03cdea79ad4c7d1c90c2d2"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_3\\experiment_log.md",
+                      "size_bytes":  1575,
+                      "last_write_utc":  "2026-09-01T19:53:40.0325587Z",
+                      "sha256":  "64deb5ce0239379ce08715c2ebba90c68558a21aff98869d603850a09144a48c"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_3\\mul1_length_over_time.png",
+                      "size_bytes":  237166,
+                      "last_write_utc":  "2026-09-03T00:23:41.9413823Z",
+                      "sha256":  "9a81a7ab49c3da562ad93323169da1e1fa3af690bffa4ab01ef8cff4955acfdc"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_3\\mul1_raw.bin",
+                      "size_bytes":  890464,
+                      "last_write_utc":  "2026-09-01T18:32:19.4987110Z",
+                      "sha256":  "45323253213aad32c623cbb6ab6caed9c91504eae6fa231b70996c0c58ea78f6"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_3\\packet_log.csv",
+                      "size_bytes":  764212,
+                      "last_write_utc":  "2026-09-01T18:32:19.4987110Z",
+                      "sha256":  "06c6bc167e9f716695e117c991cc5636043a4ff972628c2d9fed105c93814475"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_3\\summary.json",
+                      "size_bytes":  2092,
+                      "last_write_utc":  "2026-09-01T19:53:40.0305457Z",
+                      "sha256":  "9da05f80574b199d5e5e8e27dd55aa56dedc561214252dac7fc7a9018ed37c61"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_4\\experiment_log.md",
+                      "size_bytes":  1593,
+                      "last_write_utc":  "2026-09-05T18:18:56.7539841Z",
+                      "sha256":  "1ce54e94bf902c5e3f95c02b1f55ad53c88dd4e54ee5fa6f0f9ede53c7690b86"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_4\\mul1_length_over_time.png",
+                      "size_bytes":  280571,
+                      "last_write_utc":  "2026-09-05T18:07:53.4454262Z",
+                      "sha256":  "eddf57343dc9fa601f53dd4648b0ee77f9194382402826c1018709d31a4665b0"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_4\\mul1_raw.bin",
+                      "size_bytes":  1305232,
+                      "last_write_utc":  "2026-09-05T18:07:52.4765701Z",
+                      "sha256":  "21e768c0f0c25bda92d1820ce984687df2588c0498f0160957f8b52624a76e55"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_4\\packet_log.csv",
+                      "size_bytes":  775069,
+                      "last_write_utc":  "2026-09-05T18:07:52.4751106Z",
+                      "sha256":  "1733eebdc811b7d402ec12b29ecaffa34c99ca0b1a15ffc09b9fb71a0d5a9221"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_4\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:07:53.4464223Z",
+                      "sha256":  "44594b5b9e6f7a8588fd729d5abafe03bea53fd2d0104f0dd632a915bad47b67"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_4\\summary.json",
+                      "size_bytes":  2095,
+                      "last_write_utc":  "2026-09-05T18:18:55.4952863Z",
+                      "sha256":  "2ef38150edde54c32344f24954e0a37a6803dbbae43bb1ce7df3768e12f4708b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_5\\experiment_log.md",
+                      "size_bytes":  1593,
+                      "last_write_utc":  "2026-09-05T18:18:59.3404878Z",
+                      "sha256":  "4baaec5946c0a51f05c6c32fe0a544cd96452c124477905df9f7f5a2511056ca"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_5\\mul1_length_over_time.png",
+                      "size_bytes":  278820,
+                      "last_write_utc":  "2026-09-05T18:09:09.5139801Z",
+                      "sha256":  "5f27df9d6bf916060efae3c01033117f42c393642b1e979c250ee025d5b32881"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_5\\mul1_raw.bin",
+                      "size_bytes":  1293696,
+                      "last_write_utc":  "2026-09-05T18:09:08.5352929Z",
+                      "sha256":  "17602b93678e1bf488ff4f2159bdf360e9ffcca516d98e61021b2be2ece2e34a"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_5\\packet_log.csv",
+                      "size_bytes":  774885,
+                      "last_write_utc":  "2026-09-05T18:09:08.5352929Z",
+                      "sha256":  "57940c5b7f47341682382cfa6d5f5871b1466d131acff1f23a6588b672cf647c"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_5\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:09:09.5153631Z",
+                      "sha256":  "183213ae14a9dc691dd5f289db2a66694789c0a0a7c26ecc9f33947c77ffb37b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_5\\summary.json",
+                      "size_bytes":  2095,
+                      "last_write_utc":  "2026-09-05T18:18:58.0234550Z",
+                      "sha256":  "c0ae7d90923060d3e3d9e447e012b07a44eb93aeeb6af88e8e15b21698c27848"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_6\\experiment_log.md",
+                      "size_bytes":  1593,
+                      "last_write_utc":  "2026-09-05T18:19:01.7974770Z",
+                      "sha256":  "615143e4885a8b045697f15192b45ed4036cb8dc15eea0023ec8f636e4c8a090"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_6\\mul1_length_over_time.png",
+                      "size_bytes":  278126,
+                      "last_write_utc":  "2026-09-05T18:09:41.2510538Z",
+                      "sha256":  "19b9a36faeed57d62948d8011cbe9ba2a660dfac347dd8602c95065f264c0ac6"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_6\\mul1_raw.bin",
+                      "size_bytes":  1295144,
+                      "last_write_utc":  "2026-09-05T18:09:40.2657019Z",
+                      "sha256":  "f6e5c5963549f76dbd0c1c73509f91d49867dbf5433b64cddd5818bb1df6ba4e"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_6\\packet_log.csv",
+                      "size_bytes":  775007,
+                      "last_write_utc":  "2026-09-05T18:09:40.2657019Z",
+                      "sha256":  "da763e58f079bd5f7c1d89ca6c64693e81cbbafcd24945fc70e8a8fada92c4ea"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_6\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:09:41.2521829Z",
+                      "sha256":  "7cf8b75c50b13ae3c006c74af85bb4734a4e41c3d01e450c827446556f954d08"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=1\\M3\\Repeat_6\\summary.json",
+                      "size_bytes":  2095,
+                      "last_write_utc":  "2026-09-05T18:19:00.5778839Z",
+                      "sha256":  "f258e9892121f272aa69fdc3f25ff830d471a390f8c10be8945efa916c986699"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M0_M1\\experiment_log.md",
+                      "size_bytes":  1562,
+                      "last_write_utc":  "2026-09-01T19:53:40.0591647Z",
+                      "sha256":  "f0ea4cf566ab3c04871981ac88eb0478b37693db6aec4264ade14f33f59ac875"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M0_M1\\mul1_length_over_time.png",
+                      "size_bytes":  310344,
+                      "last_write_utc":  "2026-09-03T00:23:42.3934828Z",
+                      "sha256":  "485d6939b672609d324101e4dd659ac9466ab89ea4cde53660d7aa92577277fe"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M0_M1\\mul1_raw.bin",
+                      "size_bytes":  2495472,
+                      "last_write_utc":  "2026-09-01T19:04:26.3208353Z",
+                      "sha256":  "567054465b03a4962cc200e621942e29d48bb54abe83db9d4b31bfef38819870"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M0_M1\\packet_log.csv",
+                      "size_bytes":  829843,
+                      "last_write_utc":  "2026-09-01T19:04:26.3208353Z",
+                      "sha256":  "260cc813f7a46b86c52be1d4a1e967db171b745c1f01af965d3fb41433a4b8c6"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M0_M1\\summary.json",
+                      "size_bytes":  2102,
+                      "last_write_utc":  "2026-09-01T19:53:40.0581584Z",
+                      "sha256":  "193f2b9942bf6c47c0b0e4118fc97d978dc098fa4535e08a75bfb2f10c8a2138"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M0_M2\\experiment_log.md",
+                      "size_bytes":  1562,
+                      "last_write_utc":  "2026-09-01T19:53:40.0876705Z",
+                      "sha256":  "2119ce88665ef9c334ef8d0988e299bac4e63bcf4b441ba4d2337ebd13fd8fc2"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M0_M2\\mul1_length_over_time.png",
+                      "size_bytes":  316607,
+                      "last_write_utc":  "2026-09-03T00:23:42.9181039Z",
+                      "sha256":  "b79ffd9230fb189678e5acf3f30d121866e9422390005bb3a9f3ed6ad3f39e1c"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M0_M2\\mul1_raw.bin",
+                      "size_bytes":  2699584,
+                      "last_write_utc":  "2026-09-01T19:10:36.9239572Z",
+                      "sha256":  "2f18f4eff508406fe9949fabeaa4d5c465627d22c30b80a69008e22ac7091f52"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M0_M2\\packet_log.csv",
+                      "size_bytes":  794799,
+                      "last_write_utc":  "2026-09-01T19:10:36.9239572Z",
+                      "sha256":  "6198376faf2f2fb087506d02b295b3ce8cc7c7f37582d3101dbbfaa6b8757ec8"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M0_M2\\summary.json",
+                      "size_bytes":  2100,
+                      "last_write_utc":  "2026-09-01T19:53:40.0866640Z",
+                      "sha256":  "2bb51013e01eab6e3e078f152495c46717b979d7073f0930ea85a8a32c38caf5"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M0_M3\\experiment_log.md",
+                      "size_bytes":  1562,
+                      "last_write_utc":  "2026-09-01T19:53:40.1217570Z",
+                      "sha256":  "5b7c19ead2b9f18308def5bfce2f3f42c1519a4b024cb720b6c47604f6859bd6"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M0_M3\\mul1_length_over_time.png",
+                      "size_bytes":  285565,
+                      "last_write_utc":  "2026-09-03T00:23:43.3992984Z",
+                      "sha256":  "efa58e5b87d808210e3052c6839f2e90eceace51891a449d3baf3ee5343bef90"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M0_M3\\mul1_raw.bin",
+                      "size_bytes":  1865320,
+                      "last_write_utc":  "2026-09-01T19:11:36.8803665Z",
+                      "sha256":  "bc43c8e220813d0e361e0ad235dd12afb1b14c6ac6d8b263647fef3ecad59e6c"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M0_M3\\packet_log.csv",
+                      "size_bytes":  749466,
+                      "last_write_utc":  "2026-09-01T19:11:36.8803665Z",
+                      "sha256":  "7d7c93af9b40605c129643fbf3a0659ba85186e0344d6330c9d60b6f38f78213"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M0_M3\\summary.json",
+                      "size_bytes":  2103,
+                      "last_write_utc":  "2026-09-01T19:53:40.1141235Z",
+                      "sha256":  "aa22ba0a5190225a424e7070e3ae86433b1c744ef29994d3236fc6bb9186ac46"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M1_M2\\experiment_log.md",
+                      "size_bytes":  1562,
+                      "last_write_utc":  "2026-09-01T19:53:40.1516893Z",
+                      "sha256":  "39294f117874f1992e50494bc6c532fb82fd8cb61d9399205278c2ebb8509da8"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M1_M2\\mul1_length_over_time.png",
+                      "size_bytes":  305811,
+                      "last_write_utc":  "2026-09-03T00:23:43.8768407Z",
+                      "sha256":  "80a58f2a45aaf58584db4c56eb9fbe0f638f43ea377856d1db2a2281cd7bbc2b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M1_M2\\mul1_raw.bin",
+                      "size_bytes":  2429032,
+                      "last_write_utc":  "2026-09-01T19:28:57.9621480Z",
+                      "sha256":  "8e6f347a83abc6868717b1d10fecd261c3eb5335696648b2e4a990e80b3b7246"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M1_M2\\packet_log.csv",
+                      "size_bytes":  758775,
+                      "last_write_utc":  "2026-09-01T19:28:57.9621480Z",
+                      "sha256":  "a415d64c7e32c6e0c75cbb2cca00e95fc622f0c78dce1338d0fce644245b41ec"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M1_M2\\summary.json",
+                      "size_bytes":  2101,
+                      "last_write_utc":  "2026-09-01T19:53:40.1502086Z",
+                      "sha256":  "3b29327e6d846ae05cadc34679f6a09a3757be520c870aca35c8dd9d53958034"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M1_M3\\experiment_log.md",
+                      "size_bytes":  1562,
+                      "last_write_utc":  "2026-09-01T19:53:40.1803091Z",
+                      "sha256":  "0a57d8941adb3bf6b469d42c6cf4c0bcc0b0905455fa1a552ae85ae6789cdbee"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M1_M3\\mul1_length_over_time.png",
+                      "size_bytes":  293167,
+                      "last_write_utc":  "2026-09-03T00:23:44.3687718Z",
+                      "sha256":  "1076483a372858848ade6fc2c18b9338fa6dd8b5d993728ae5243f848c4f048c"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M1_M3\\mul1_raw.bin",
+                      "size_bytes":  2051792,
+                      "last_write_utc":  "2026-09-01T19:30:00.5651940Z",
+                      "sha256":  "a9aeb3d087b64fd1abc84f6210a6e5cf4b3cb718297131fe3c940ecbede61af2"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M1_M3\\packet_log.csv",
+                      "size_bytes":  755903,
+                      "last_write_utc":  "2026-09-01T19:30:00.5651940Z",
+                      "sha256":  "5663c3effe45156e02adfe5c7617b5ae7beadf2dd53ab5cdea3013603af75c26"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M1_M3\\summary.json",
+                      "size_bytes":  2102,
+                      "last_write_utc":  "2026-09-01T19:53:40.1782856Z",
+                      "sha256":  "4f6bea449ceb0ad3b28b7d07e8d36fa96d65d87343af56d4276603e6b29e00e0"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M2_M3\\experiment_log.md",
+                      "size_bytes":  1562,
+                      "last_write_utc":  "2026-09-01T19:53:40.2073480Z",
+                      "sha256":  "9c0a860b7a8a0aa58bf6136c07975a7731af417125bb31a5bb88f5a3340fc203"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M2_M3\\mul1_length_over_time.png",
+                      "size_bytes":  283212,
+                      "last_write_utc":  "2026-09-03T00:23:44.8079066Z",
+                      "sha256":  "ec4f840de391d79354a83d529370937e7fdc5df6465bc09817196abf3c627d50"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M2_M3\\mul1_raw.bin",
+                      "size_bytes":  2141366,
+                      "last_write_utc":  "2026-09-01T19:31:15.5306108Z",
+                      "sha256":  "3db85a27eeca1aa9b757b151b6a03020c5e19fefaa437b8630140288a8ea3c70"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M2_M3\\packet_log.csv",
+                      "size_bytes":  756184,
+                      "last_write_utc":  "2026-09-01T19:31:15.5306108Z",
+                      "sha256":  "50ca3c3ce080cdbcbc9b1b8f8699b7dcee8458ee0ffa8c3057212f962e1a72a6"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=2\\M2_M3\\summary.json",
+                      "size_bytes":  2103,
+                      "last_write_utc":  "2026-09-01T19:53:40.2061596Z",
+                      "sha256":  "e554fe44f7ea9b156dd5f475f7860a303fe5543427f8ce43a14f7d8cd73f378f"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M2\\experiment_log.md",
+                      "size_bytes":  1576,
+                      "last_write_utc":  "2026-09-01T19:53:40.2367747Z",
+                      "sha256":  "77373b964e740c45a42f7112cea942b9ce249506279586745e9e4eb4fa584af2"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M2\\mul1_length_over_time.png",
+                      "size_bytes":  322035,
+                      "last_write_utc":  "2026-09-03T00:23:45.2615346Z",
+                      "sha256":  "acd5316b3c8759e30a277ed5ffe66acdbd22a47d20c465386c0ac009c4fdef10"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M2\\mul1_raw.bin",
+                      "size_bytes":  4075416,
+                      "last_write_utc":  "2026-09-01T19:34:29.1036204Z",
+                      "sha256":  "6a9e6eb91d239ea50ba7aee27cae7e6edf8a04edcb864877c51af901aa7cdf73"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M2\\packet_log.csv",
+                      "size_bytes":  783747,
+                      "last_write_utc":  "2026-09-01T19:34:29.1036204Z",
+                      "sha256":  "5472b93bc3a7a185c1f916c37c3719c2c2764929d9a56257584dc0115b5fe902"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M2\\summary.json",
+                      "size_bytes":  2142,
+                      "last_write_utc":  "2026-09-01T19:53:40.2347633Z",
+                      "sha256":  "255a6aab9f1fae3ecf5aea5f34a26da5ef681ecec2da91b0cda693b168b6b991"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_1\\experiment_log.md",
+                      "size_bytes":  1698,
+                      "last_write_utc":  "2026-09-05T18:20:23.6177318Z",
+                      "sha256":  "84cd767d31635f5f33a2f13d354e23f0b4c64cf67318277461ca52526b6aa60d"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_1\\mul1_length_over_time.png",
+                      "size_bytes":  312677,
+                      "last_write_utc":  "2026-09-03T00:23:45.7105310Z",
+                      "sha256":  "2a6191d6a680ac2c2cdb058e30262673c3f0b45632e58c6bbda361e65f65aa35"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_1\\mul1_raw.bin",
+                      "size_bytes":  3682416,
+                      "last_write_utc":  "2026-09-01T19:43:38.1891237Z",
+                      "sha256":  "4cc7f86fb5f6b23e32e9586876b1182eaa7b834b43b0db933ef4c1209ccc4584"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_1\\packet_log.csv",
+                      "size_bytes":  781597,
+                      "last_write_utc":  "2026-09-01T19:43:38.1891237Z",
+                      "sha256":  "df2717b40b9f5db9a537ccebfa5d4ff8612ccda7b36b7ee106c1c07e26d33e49"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_1\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-01T19:43:38.9828442Z",
+                      "sha256":  "30900253619f687f65211b7c48b9e1fda0876d0c4424d18e4c0b92d6e64ee870"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_1\\summary.json",
+                      "size_bytes":  2236,
+                      "last_write_utc":  "2026-09-05T18:20:22.3738944Z",
+                      "sha256":  "1245662fcaeb561dd30dd02c55760fd4f238a3b6ffdd0bcd091fe96cdbc86302"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_2\\experiment_log.md",
+                      "size_bytes":  1620,
+                      "last_write_utc":  "2026-09-05T18:19:04.3110875Z",
+                      "sha256":  "f6aa6d571636057bffdaf83d3c8bb433048094afc2a74c00accc0bee7751853b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_2\\mul1_length_over_time.png",
+                      "size_bytes":  294051,
+                      "last_write_utc":  "2026-09-05T18:12:41.3526224Z",
+                      "sha256":  "ee1883be830ea00cb56b42dc7ef489cfbcb56e1df17a825e7d77e3ee449b03ee"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_2\\mul1_raw.bin",
+                      "size_bytes":  3714776,
+                      "last_write_utc":  "2026-09-05T18:12:40.3155651Z",
+                      "sha256":  "1bce6cfe95c52ea65edc6ff7d6005d57233b8c7190ec15dc17c4df25012a792e"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_2\\packet_log.csv",
+                      "size_bytes":  783501,
+                      "last_write_utc":  "2026-09-05T18:12:40.3155651Z",
+                      "sha256":  "34dc14a8715411cb9a5e966637862a0391b20e93346bd8520ebdbf37405e1bc6"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_2\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:12:41.3536751Z",
+                      "sha256":  "aae76ade1bca2e4e9192da2c85dc33e762028f15ab16ce4bd8f3b26bb1d41085"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_2\\summary.json",
+                      "size_bytes":  2145,
+                      "last_write_utc":  "2026-09-05T18:19:03.0561011Z",
+                      "sha256":  "f23eaccaad65fe7f79a6cad3e27694a5f92fb9eff0ec3665c7ec64a3c5584b77"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_3\\experiment_log.md",
+                      "size_bytes":  1620,
+                      "last_write_utc":  "2026-09-05T18:19:06.8832358Z",
+                      "sha256":  "b4f08b5e714e34d52a59a7d90922e73a009054db3f430d8beb5398390da5ce5d"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_3\\mul1_length_over_time.png",
+                      "size_bytes":  293971,
+                      "last_write_utc":  "2026-09-05T18:13:15.9808119Z",
+                      "sha256":  "c670ef7748be6b43c735b58e8870288940e6eb07f9bcf4b4121ec39ffb778696"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_3\\mul1_raw.bin",
+                      "size_bytes":  3674522,
+                      "last_write_utc":  "2026-09-05T18:13:14.9635426Z",
+                      "sha256":  "f2df05493851cb1954c116ee791ccca8e95e3ba0adc284f30769cf6faeed2ff9"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_3\\packet_log.csv",
+                      "size_bytes":  783495,
+                      "last_write_utc":  "2026-09-05T18:13:14.9635426Z",
+                      "sha256":  "09a73faf9f434a2da0b3b9ba9b4b7acb34b6548fb799f943f51d5c718ad9e402"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_3\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:13:15.9832349Z",
+                      "sha256":  "837fdf65243b98e686eaa6e75b131bee45b7c6dc2daba1f2f5ffff8a7a2d2311"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_3\\summary.json",
+                      "size_bytes":  2143,
+                      "last_write_utc":  "2026-09-05T18:19:05.5767815Z",
+                      "sha256":  "b7945e205cbd12a272021ebc3854a119b786b58c9664480fd12cc38c4ec73cb0"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_4\\experiment_log.md",
+                      "size_bytes":  1620,
+                      "last_write_utc":  "2026-09-05T18:19:09.4232595Z",
+                      "sha256":  "7540f258b85685f7026c3fbaf8be0b65852f194661b3cd4151a5efe61fa150f9"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_4\\mul1_length_over_time.png",
+                      "size_bytes":  295901,
+                      "last_write_utc":  "2026-09-05T18:13:48.4216217Z",
+                      "sha256":  "be1475bb69a4bc6666583607f362ffc639aae0085a8d16f27247da0b1fd3d719"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_4\\mul1_raw.bin",
+                      "size_bytes":  3681154,
+                      "last_write_utc":  "2026-09-05T18:13:47.4117451Z",
+                      "sha256":  "e56306576d7598ec904383ce4f9bb6a8de642c39492fcd4559a24296847694e0"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_4\\packet_log.csv",
+                      "size_bytes":  783329,
+                      "last_write_utc":  "2026-09-05T18:13:47.4117451Z",
+                      "sha256":  "0f913f330a58fe4f9a7c653c1557c3f81f70935b54bbe40971f83190d4d7f5a7"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_4\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:13:48.4226194Z",
+                      "sha256":  "a611d32f294fcefd486fa9b06ab7997a7b532ac1defba1b0db9e3d62470efa72"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_4\\summary.json",
+                      "size_bytes":  2145,
+                      "last_write_utc":  "2026-09-05T18:19:08.1292283Z",
+                      "sha256":  "5f6d63503928e59cd99984c6372c25ec9744f14a2c56ebcff6efee8431fa7a70"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_1\\experiment_log.md",
+                      "size_bytes":  1700,
+                      "last_write_utc":  "2026-09-05T18:20:26.1887802Z",
+                      "sha256":  "44084a43cc53698b7c63d10e5ad3785cb1c633f7f2f6b07a56f0eb2cf34f3cb5"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_1\\mul1_length_over_time.png",
+                      "size_bytes":  318101,
+                      "last_write_utc":  "2026-09-03T00:23:46.1533468Z",
+                      "sha256":  "88ed0898f13a384de3374ecc4fd1311c3ac7e66bd5631be4714b477f4650ae45"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_1\\mul1_raw.bin",
+                      "size_bytes":  3685076,
+                      "last_write_utc":  "2026-09-01T19:50:44.3868616Z",
+                      "sha256":  "7670634e7d5faafb7c086578184eb52fea41999ef67284ced13b24f8d35b2acb"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_1\\packet_log.csv",
+                      "size_bytes":  739371,
+                      "last_write_utc":  "2026-09-01T19:50:44.3868616Z",
+                      "sha256":  "6b1e4e07191b89d63a5730122af426b53bf544ad6c6e98e8598d2645ab72b70b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_1\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-01T19:50:45.2349484Z",
+                      "sha256":  "ebab0ef2fa390616e54012206315b2343c10536392957d60e480bc0a5fa3c6eb"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_1\\summary.json",
+                      "size_bytes":  2237,
+                      "last_write_utc":  "2026-09-05T18:20:24.9045113Z",
+                      "sha256":  "5f7e0a9a945f44c9c8d3fd05c684d7ea0b9a8cd90e943305c9ddb8390910b7ba"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_2\\experiment_log.md",
+                      "size_bytes":  1620,
+                      "last_write_utc":  "2026-09-05T18:19:12.0447533Z",
+                      "sha256":  "8a71de86494456461fd55395dbf0d7c919a0be4d0a40dd57c6db6652bd9332b4"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_2\\mul1_length_over_time.png",
+                      "size_bytes":  300993,
+                      "last_write_utc":  "2026-09-05T18:15:04.1553480Z",
+                      "sha256":  "499fcc52f260dbd38465e8ed94d8d56d69b4ba473afb3876a64fe8062d2b1fd0"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_2\\mul1_raw.bin",
+                      "size_bytes":  3947754,
+                      "last_write_utc":  "2026-09-05T18:15:03.1915340Z",
+                      "sha256":  "647a1096e0ee062ab72142beeb851f03c25d7b67eeb5fff9cbd4161f1388299b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_2\\packet_log.csv",
+                      "size_bytes":  741576,
+                      "last_write_utc":  "2026-09-05T18:15:03.1915340Z",
+                      "sha256":  "215011ea2efe4898aeef8672aa750861eb4c926981abd0bfae711f14c2717948"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_2\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:15:04.1585242Z",
+                      "sha256":  "deec9a80d11d6ec950386ebf6f3ac6bdf04f89c0fa5cf912e36b59a32ed58178"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_2\\summary.json",
+                      "size_bytes":  2144,
+                      "last_write_utc":  "2026-09-05T18:19:10.7022758Z",
+                      "sha256":  "f50438f94d52ea722de47f11cdb0bda5acf892efa9c3678c04fa6997c38fad63"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_3\\experiment_log.md",
+                      "size_bytes":  1620,
+                      "last_write_utc":  "2026-09-05T18:19:14.6438418Z",
+                      "sha256":  "73a2be15b4862b3d4fc8e62b74207302128a8343856055e72a882d5ecaeba36f"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_3\\mul1_length_over_time.png",
+                      "size_bytes":  302836,
+                      "last_write_utc":  "2026-09-05T18:15:35.6472102Z",
+                      "sha256":  "3ffa9b9867b13ff8ec63c425fcd7c542f76987deeb31f55f848cfc32440db927"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_3\\mul1_raw.bin",
+                      "size_bytes":  4086846,
+                      "last_write_utc":  "2026-09-05T18:15:34.6706623Z",
+                      "sha256":  "4a3209ae0fb1150d3f8ca31a0ce677705858404094a451fc166d00077fcc9fa1"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_3\\packet_log.csv",
+                      "size_bytes":  741498,
+                      "last_write_utc":  "2026-09-05T18:15:34.6706623Z",
+                      "sha256":  "55d1dffcbc58f59a048e5f9c04dd512421397a9a99ac4a47a558ac4190a63853"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_3\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:15:35.6487713Z",
+                      "sha256":  "b363787b70f3175f6926960b7d5efa7ab5c12b4336c9c7a832288ed20feef15c"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_3\\summary.json",
+                      "size_bytes":  2144,
+                      "last_write_utc":  "2026-09-05T18:19:13.3548421Z",
+                      "sha256":  "8f88edc8e7e22c63d9679354c69f87c2212eb23bbb104d289ee251779503888a"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_4\\experiment_log.md",
+                      "size_bytes":  1620,
+                      "last_write_utc":  "2026-09-05T18:19:17.2228164Z",
+                      "sha256":  "5f92509c0435a31dfb44f638b1b7cf77482c814129e9027d614a4fe7f3205b3b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_4\\mul1_length_over_time.png",
+                      "size_bytes":  301122,
+                      "last_write_utc":  "2026-09-05T18:16:08.6694180Z",
+                      "sha256":  "6c1c43990cdc6460f098217ad64a17807424d1821a3f083b9b6979d7f9fa9b91"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_4\\mul1_raw.bin",
+                      "size_bytes":  4031434,
+                      "last_write_utc":  "2026-09-05T18:16:07.6621237Z",
+                      "sha256":  "125608090a164f312b0c181e59064486388aa92d49690420cd50cb63010766cf"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_4\\packet_log.csv",
+                      "size_bytes":  741751,
+                      "last_write_utc":  "2026-09-05T18:16:07.6621237Z",
+                      "sha256":  "6e5635c8623204dfea73cb9998a3a2365d872bb7d37294980afc5b6aba10a65c"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_4\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:16:08.6704491Z",
+                      "sha256":  "59c882ac84068b283362916b3f5d2e10c92afd34db868f5b7dfc0ffb011833c1"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_4\\summary.json",
+                      "size_bytes":  2144,
+                      "last_write_utc":  "2026-09-05T18:19:15.9258767Z",
+                      "sha256":  "3ef9c3cca6c337106d18ca3a1af8ede44480a15693ba548e48b91373afcb8749"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_1\\experiment_log.md",
+                      "size_bytes":  1700,
+                      "last_write_utc":  "2026-09-05T18:24:36.4099322Z",
+                      "sha256":  "b6406423d65fb95f2122df18bd46a5c2790b68f4b29d02f7193476ce378386af"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_1\\mul1_length_over_time.png",
+                      "size_bytes":  309662,
+                      "last_write_utc":  "2026-09-03T00:23:46.6022210Z",
+                      "sha256":  "d9ad8e17696a98eed0365b04b9481fafdc71e95585292acec69acee7b6f35cd1"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_1\\mul1_raw.bin",
+                      "size_bytes":  3562136,
+                      "last_write_utc":  "2026-09-01T19:47:03.7066176Z",
+                      "sha256":  "41844620bc845991c149abca7f3681fe8994c0ff4809ca24edbf57716fdc6695"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_1\\packet_log.csv",
+                      "size_bytes":  781418,
+                      "last_write_utc":  "2026-09-01T19:47:03.7066176Z",
+                      "sha256":  "6d2eeb3613971dc9a25b2812b3a7214c0ca54c0cfa63424fafcd5083327cdcc5"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_1\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-01T19:47:04.5167612Z",
+                      "sha256":  "55cdd683553d62c62ee8c9edceaa292c7d66564b1cd4df5b11ecf098ed6b8479"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_1\\summary.json",
+                      "size_bytes":  2237,
+                      "last_write_utc":  "2026-09-05T18:24:35.1467408Z",
+                      "sha256":  "d4a299a0e68296aeb130fee1f04fdcb50cabef1987a04b625f668684bf6c72fc"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_2\\experiment_log.md",
+                      "size_bytes":  1620,
+                      "last_write_utc":  "2026-09-05T18:21:26.7634180Z",
+                      "sha256":  "cfc51ef4d336dd9527f9b11ff83afcd61ba951b2c72c999df5d2ae4c022cf343"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_2\\mul1_length_over_time.png",
+                      "size_bytes":  285422,
+                      "last_write_utc":  "2026-09-05T18:19:42.7061740Z",
+                      "sha256":  "1d51e0ceea44a1fdf8c67e40be24cdfe61e7d4b5667091a21b185e71aa28150b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_2\\mul1_raw.bin",
+                      "size_bytes":  3441428,
+                      "last_write_utc":  "2026-09-05T18:19:41.6770755Z",
+                      "sha256":  "08e6ad6be4a83eeb92aad01a15199bae7a23a4817019f76659b1174f6e1308d1"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_2\\packet_log.csv",
+                      "size_bytes":  741649,
+                      "last_write_utc":  "2026-09-05T18:19:41.6770755Z",
+                      "sha256":  "02d5f689ca676161ef5b7c96b799668793c8d3cf1957b66a9ef1d5ca68e17404"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_2\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:19:42.7071702Z",
+                      "sha256":  "b315eafeb455d75e3f59458ae3ed4d3af76314461c365398076e217f50ae485a"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_2\\summary.json",
+                      "size_bytes":  2144,
+                      "last_write_utc":  "2026-09-05T18:21:25.5425093Z",
+                      "sha256":  "52e86fe4254d3e2baa88eb69d8a0eb2a668087d3107484267eee4794ea1c3772"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_3\\experiment_log.md",
+                      "size_bytes":  1620,
+                      "last_write_utc":  "2026-09-05T18:21:29.2063625Z",
+                      "sha256":  "da1d8907c03beedc84053a8e6da424e165fa5c2155ab8f1b3fb63ddefe0a7f85"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_3\\mul1_length_over_time.png",
+                      "size_bytes":  286369,
+                      "last_write_utc":  "2026-09-05T18:20:17.7221862Z",
+                      "sha256":  "ff4ff5d4cfb47031fda2ee012b4c8c6245b0de374dfdd3c275f15dad1f403de6"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_3\\mul1_raw.bin",
+                      "size_bytes":  3440312,
+                      "last_write_utc":  "2026-09-05T18:20:16.6377988Z",
+                      "sha256":  "07dd5b18fc6f2901b7d1f790afce81ad8559c9168d08eaabbd16e763636f5e88"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_3\\packet_log.csv",
+                      "size_bytes":  741647,
+                      "last_write_utc":  "2026-09-05T18:20:16.6377988Z",
+                      "sha256":  "59197d48641d7ef7a9687d47b443bb79321a70b24830a6d8e4af598c4f7770bf"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_3\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:20:17.7232430Z",
+                      "sha256":  "38be80d5188aab0bbe5135672d197f06ec505d2d7059476722ed74d616200965"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_3\\summary.json",
+                      "size_bytes":  2144,
+                      "last_write_utc":  "2026-09-05T18:21:27.9758824Z",
+                      "sha256":  "f379ebccbee54eb907b6e7d9b99f9238e8c0d8a3d71e2772f8b65c8ec0a156c5"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_4\\experiment_log.md",
+                      "size_bytes":  1620,
+                      "last_write_utc":  "2026-09-05T18:21:31.6445880Z",
+                      "sha256":  "1df31aaeedf9f25b41a325b0d275a6f0e312e82399742ca9717cda6032998449"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_4\\mul1_length_over_time.png",
+                      "size_bytes":  282135,
+                      "last_write_utc":  "2026-09-05T18:20:49.9398256Z",
+                      "sha256":  "94546247d6fb8939bfbbec2e6eac90fbd5a8e3a4fe651b747aa5208faf4bef9d"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_4\\mul1_raw.bin",
+                      "size_bytes":  3446886,
+                      "last_write_utc":  "2026-09-05T18:20:48.9150446Z",
+                      "sha256":  "dc8ce35a1656203e3b0175ca128fe290d62b4cfe7effb0b14681be2217aa35a0"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_4\\packet_log.csv",
+                      "size_bytes":  741277,
+                      "last_write_utc":  "2026-09-05T18:20:48.9150446Z",
+                      "sha256":  "a7a6261c565be5ce1750ac76296e9df17adbbceeaf72fd8e3875379d675007a4"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_4\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T18:20:49.9408691Z",
+                      "sha256":  "68d0ff1fa7377678d18d88597349361d8a0b288af9d9735c95c1fa6d129b6ec1"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_4\\summary.json",
+                      "size_bytes":  2144,
+                      "last_write_utc":  "2026-09-05T18:21:30.4334827Z",
+                      "sha256":  "a9ad5b5f88f3d0f2f94bf071ff06394b65adc192e13c1572b0183257ef070755"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R1\\experiment_log.md",
+                      "size_bytes":  1697,
+                      "last_write_utc":  "2026-09-05T18:20:28.7573855Z",
+                      "sha256":  "2d0e2d33de57b3adedf69b0a0c3e8609f322ee766ca6af4cdbac4d6707e4ca41"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R1\\mul1_length_over_time.png",
+                      "size_bytes":  344878,
+                      "last_write_utc":  "2026-09-03T00:23:47.1496606Z",
+                      "sha256":  "24aac65fead0bcc7bdf933ee048c26a184400a1513b4b993f6289c4f88070787"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R1\\mul1_raw.bin",
+                      "size_bytes":  5906366,
+                      "last_write_utc":  "2026-09-01T19:52:11.2043426Z",
+                      "sha256":  "410d63d67576cbd38d0b2dad7a6b08be19da0f7234cbc8bfc2f918ae4276656b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R1\\packet_log.csv",
+                      "size_bytes":  726626,
+                      "last_write_utc":  "2026-09-01T19:52:11.2043426Z",
+                      "sha256":  "0dd624e5d788190e5e3103bfe2684cca033e4e876155cc0a9142981ac9dfec65"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R1\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-01T19:52:12.0177148Z",
+                      "sha256":  "b89a73a6f27389d3c0dc8c726b16746644adb137a8a1423010a088598ee097e8"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R1\\summary.json",
+                      "size_bytes":  2251,
+                      "last_write_utc":  "2026-09-05T18:20:27.4695383Z",
+                      "sha256":  "10170617ac72a33cc413899cacc697f922738b7413fbcdbab34bc16778a4d66b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R2\\experiment_log.md",
+                      "size_bytes":  1613,
+                      "last_write_utc":  "2026-09-05T18:20:31.2961216Z",
+                      "sha256":  "b6f85cac3f42cf7815027e863bfc9e8bb302ab87e85fbc32c550da14049c69ba"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R2\\mul1_length_over_time.png",
+                      "size_bytes":  328380,
+                      "last_write_utc":  "2026-09-05T17:45:51.4402907Z",
+                      "sha256":  "728225f0e3df5f2ae527a60389b2ad317968dfc54e8bf8dd06266ab7c4470641"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R2\\mul1_raw.bin",
+                      "size_bytes":  6304768,
+                      "last_write_utc":  "2026-09-05T17:45:50.4393230Z",
+                      "sha256":  "4537143f153760bfc57b16e7f164ab3ad62f67ed5276c97c6f1dc80b70b0a6af"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R2\\packet_log.csv",
+                      "size_bytes":  720334,
+                      "last_write_utc":  "2026-09-05T17:45:50.4393230Z",
+                      "sha256":  "eaf80b4e3f0837f575b434132c774865cf868729d78d6c3d5a0944484622208e"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R2\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T17:45:51.4412880Z",
+                      "sha256":  "06b4afb1034d47884b625cffb118d82c79f9df0b17fe478190982ae17a376f79"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R2\\summary.json",
+                      "size_bytes":  2138,
+                      "last_write_utc":  "2026-09-05T18:20:30.0235149Z",
+                      "sha256":  "a218a06a81852263915699ca17f05646b620a83f5e4e72725a85b09452aca6c8"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R3\\experiment_log.md",
+                      "size_bytes":  1613,
+                      "last_write_utc":  "2026-09-05T18:20:33.8674913Z",
+                      "sha256":  "dbbcef55060522cc30da145ae250af1e22025724bdc233187e9d79300fc42deb"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R3\\mul1_length_over_time.png",
+                      "size_bytes":  311968,
+                      "last_write_utc":  "2026-09-05T17:46:35.4553551Z",
+                      "sha256":  "d753f54278881d9b92dee067e5aa2c543b8579c2b8dd099fb422981a21eccaa0"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R3\\mul1_raw.bin",
+                      "size_bytes":  6070272,
+                      "last_write_utc":  "2026-09-05T17:46:34.4524889Z",
+                      "sha256":  "fdb6ac63bca09042c557f7cc9b3c5e3b8e49a3301d74acbb78a9d6df903c856a"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R3\\packet_log.csv",
+                      "size_bytes":  730098,
+                      "last_write_utc":  "2026-09-05T17:46:34.4524889Z",
+                      "sha256":  "18c7d2a66fa63e3c288f89bfc9892f7dca92010d5a1dd4f6e150d13233dfddde"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R3\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T17:46:35.4565589Z",
+                      "sha256":  "1489ed2c633f4ec3530e53ad71122729b7f9dc04d28d51b6e671ffe5dae7204b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R3\\summary.json",
+                      "size_bytes":  2144,
+                      "last_write_utc":  "2026-09-05T18:20:32.5828589Z",
+                      "sha256":  "2e620ebe8a97497b7333cd508e729a0c14cdd4bb25788a710946a17ef85d7d27"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R4\\experiment_log.md",
+                      "size_bytes":  1613,
+                      "last_write_utc":  "2026-09-05T18:12:34.2156726Z",
+                      "sha256":  "95d067a7bdb47d375b729231a4cc6985c867e0b909271402d8b14e5c49c2678f"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R4\\mul1_length_over_time.png",
+                      "size_bytes":  311011,
+                      "last_write_utc":  "2026-09-05T17:56:33.7978145Z",
+                      "sha256":  "a5dc26a507c21c57e41ac0a7970c242e93a70ecdfd72993ef6989c3b82a7da4c"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R4\\mul1_raw.bin",
+                      "size_bytes":  5976740,
+                      "last_write_utc":  "2026-09-05T17:56:32.7847539Z",
+                      "sha256":  "1c36639af965ad0d97e3f9955bae63852f13a7cc1cdd52191aa63cbd096d5917"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R4\\packet_log.csv",
+                      "size_bytes":  729371,
+                      "last_write_utc":  "2026-09-05T17:56:32.7847539Z",
+                      "sha256":  "d75e19d5f087f12335b2b29fcf85ba13e05b0218573d07e1b104767bde466e8e"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R4\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T17:56:33.7988169Z",
+                      "sha256":  "63eefab48b332f46af320b4ed61c38a1d6484959c5c2b5442370f21a79caa7d7"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R4\\summary.json",
+                      "size_bytes":  2137,
+                      "last_write_utc":  "2026-09-05T18:12:30.3962146Z",
+                      "sha256":  "fe6c1d50df888301b9f1687e303aa8e2f2a131b16d929826cf46131cbba0a4df"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R5\\experiment_log.md",
+                      "size_bytes":  1613,
+                      "last_write_utc":  "2026-09-05T18:12:35.4839704Z",
+                      "sha256":  "dde06c992e5e18ed5757457fd09757d904a037002af123a7938af7af5d920395"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R5\\mul1_length_over_time.png",
+                      "size_bytes":  312055,
+                      "last_write_utc":  "2026-09-05T17:57:18.9383368Z",
+                      "sha256":  "cf79cad0e1a5a57275aa499d9a07f6c84535202057425d67feb326ee3ef1deaa"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R5\\mul1_raw.bin",
+                      "size_bytes":  6056304,
+                      "last_write_utc":  "2026-09-05T17:57:17.9245051Z",
+                      "sha256":  "d6ef0a4657468a60eb44dc235d1a35d5f6a786526b0a874a472fb19a4c97fd5e"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R5\\packet_log.csv",
+                      "size_bytes":  730034,
+                      "last_write_utc":  "2026-09-05T17:57:17.9245051Z",
+                      "sha256":  "68ff6cec6aa85ff5fed9841eca6983cc6356b5dfdf4fb9abbff9960f8ddb8601"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R5\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T17:57:18.9393899Z",
+                      "sha256":  "800d0c81905ce2feee7039b8675297a2d97f41582f5bfa983fa80f0eb20c1a61"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R5\\summary.json",
+                      "size_bytes":  2139,
+                      "last_write_utc":  "2026-09-05T18:12:31.6807816Z",
+                      "sha256":  "e4d6a41c3aa6796300a8ec212babfa4ffd698bafbf6ee7ad72e99d1cbc51d2af"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R6\\experiment_log.md",
+                      "size_bytes":  1613,
+                      "last_write_utc":  "2026-09-05T18:12:36.7898710Z",
+                      "sha256":  "76b2fc1390ecca422e0e77782d0381e1e79f1bb6df4d759876ab5c16e9ff79c1"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R6\\mul1_length_over_time.png",
+                      "size_bytes":  319933,
+                      "last_write_utc":  "2026-09-05T17:57:51.0226609Z",
+                      "sha256":  "4efe18371db51178cd22232550825cb8cd771c0b51fb7d3eb04e78e089490fa9"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R6\\mul1_raw.bin",
+                      "size_bytes":  6341732,
+                      "last_write_utc":  "2026-09-05T17:57:50.0315306Z",
+                      "sha256":  "8496b83ef12c9dbec4673595fe810968d9f75190ebf81e401a5035657cc6c11b"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R6\\packet_log.csv",
+                      "size_bytes":  731928,
+                      "last_write_utc":  "2026-09-05T17:57:50.0315306Z",
+                      "sha256":  "a9ef25ff493d7fefb2858b5a7e51db4ce9919c4429a2f829cbe722e9e38729d2"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R6\\plot_generation.log",
+                      "size_bytes":  145,
+                      "last_write_utc":  "2026-09-05T17:57:51.0240090Z",
+                      "sha256":  "0d65a082842f452db83b8a12a7ec7453a54588da74c834429dfda056b2e3d2b9"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R6\\summary.json",
+                      "size_bytes":  2138,
+                      "last_write_utc":  "2026-09-05T18:12:32.9394804Z",
+                      "sha256":  "3c0a06c83a22adf565f41fd6d473bded4fda53113bb42596f924c45379076b41"
+                  },
+                  {
+                      "relative_path":  "DELTA\\Zero_load\\README.md",
+                      "size_bytes":  8509,
+                      "last_write_utc":  "2026-09-05T18:25:37.4324998Z",
+                      "sha256":  "e00abfa963fa0892ef17a01548f3389893cb4a5b0a967758640bae5fe99d2002"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\100Hz\\M0\\experiment_log.md",
+                      "size_bytes":  1439,
+                      "last_write_utc":  "2026-09-01T19:53:40.3963692Z",
+                      "sha256":  "2c7f36b7eb910d5e1089e2b28ef40b7c6192659d23f1b1068562cbf93d480bce"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\100Hz\\M0\\mul1_raw.bin",
+                      "size_bytes":  3254168,
+                      "last_write_utc":  "2026-09-01T17:45:24.1512731Z",
+                      "sha256":  "be731c2d104b8e1c6cbeedd619cc9771e3a669483195f67302fecf5e4114a7f2"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\100Hz\\M0\\packet_log.csv",
+                      "size_bytes":  382379,
+                      "last_write_utc":  "2026-09-01T17:45:24.1512731Z",
+                      "sha256":  "e3642b7a1e9f93e78af4b32dd8b3772ee6807a001b87b8199e9aff3c26987d18"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\100Hz\\M0\\summary.json",
+                      "size_bytes":  1928,
+                      "last_write_utc":  "2026-09-01T19:53:40.3952472Z",
+                      "sha256":  "198635e990fdc4ab885d0cb3beae1b798ebecdafec9f5cdfdd0c203c2a2d6958"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\100Hz\\M1\\experiment_log.md",
+                      "size_bytes":  1441,
+                      "last_write_utc":  "2026-09-01T19:53:40.4105182Z",
+                      "sha256":  "b8755b19568862220ed2905514517c35de027fd50bc09b4d9f89c9ac1b3c93ff"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\100Hz\\M1\\mul1_raw.bin",
+                      "size_bytes":  3259588,
+                      "last_write_utc":  "2026-09-01T17:46:39.6245628Z",
+                      "sha256":  "76d6e430892c1bddd2c98ab383a3401b571850a2990a661eb28a8bbe87a55232"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\100Hz\\M1\\packet_log.csv",
+                      "size_bytes":  386024,
+                      "last_write_utc":  "2026-09-01T17:46:39.6245628Z",
+                      "sha256":  "b1f1696f1622b99a156ab4f3d502b6067fc305e867c8a77ee1243e9a12e1fdd7"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\100Hz\\M1\\summary.json",
+                      "size_bytes":  1931,
+                      "last_write_utc":  "2026-09-01T19:53:40.4095152Z",
+                      "sha256":  "bbce5ece1b2cafd8e0ce8a5c15fdc4e5266cfa4ae38a340cc2053d8dc837ae59"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\100Hz\\M2\\experiment_log.md",
+                      "size_bytes":  1441,
+                      "last_write_utc":  "2026-09-01T19:53:40.4251508Z",
+                      "sha256":  "cad5addb12267d9852ae8758a74052d72b03a40a0dbbfa6293deec01de09906c"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\100Hz\\M2\\mul1_raw.bin",
+                      "size_bytes":  3255252,
+                      "last_write_utc":  "2026-09-01T17:47:53.2049653Z",
+                      "sha256":  "d81dc927ecfaf37b665fce55fc30702eaf5d47e4407119de76e7792e9ce77827"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\100Hz\\M2\\packet_log.csv",
+                      "size_bytes":  385510,
+                      "last_write_utc":  "2026-09-01T17:47:53.2049653Z",
+                      "sha256":  "6af656d6b57af2d975e18c01d276c272481ab777d9120a5b3f578e26486b73c5"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\100Hz\\M2\\summary.json",
+                      "size_bytes":  1932,
+                      "last_write_utc":  "2026-09-01T19:53:40.4241474Z",
+                      "sha256":  "0a79f90c165dc5d4fe2d2e1030690b3b5f8bb4fca53cfb13446a89e6e0bfad73"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\100Hz\\M3\\experiment_log.md",
+                      "size_bytes":  1440,
+                      "last_write_utc":  "2026-09-01T19:53:40.4400963Z",
+                      "sha256":  "d13bcdcede7e8e12185259fb7872c9a67f8d408d810e8a695ff3c1e753d8a281"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\100Hz\\M3\\mul1_raw.bin",
+                      "size_bytes":  3245496,
+                      "last_write_utc":  "2026-09-01T17:48:52.3075615Z",
+                      "sha256":  "8337370ec67cb59b2a54468a894835cf69d27ddfb98a452af225196468489941"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\100Hz\\M3\\packet_log.csv",
+                      "size_bytes":  384351,
+                      "last_write_utc":  "2026-09-01T17:48:52.3075615Z",
+                      "sha256":  "2e5a2350068e5806f29b9ebd9b041d1bafcef2de4d79633c1e50239ca54f1bbd"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\100Hz\\M3\\summary.json",
+                      "size_bytes":  1931,
+                      "last_write_utc":  "2026-09-01T19:53:40.4390497Z",
+                      "sha256":  "93f01e266ac43f8b412e620b73c2e139f93689bc886a637636a7631f8b974236"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\200Hz\\M0\\experiment_log.md",
+                      "size_bytes":  1425,
+                      "last_write_utc":  "2026-09-01T19:53:40.4667224Z",
+                      "sha256":  "6907e6454948e7e86003e4eadcb04103bcd7d18c444f6c30f916b6b501fbc5be"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\200Hz\\M0\\mul1_raw.bin",
+                      "size_bytes":  6508336,
+                      "last_write_utc":  "2026-09-01T17:27:34.0295715Z",
+                      "sha256":  "bb7ef9cae2da69be1b09be975bdea73d977afe8f22432c3c7542331fbee9f991"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\200Hz\\M0\\packet_log.csv",
+                      "size_bytes":  939749,
+                      "last_write_utc":  "2026-09-01T17:27:34.0295715Z",
+                      "sha256":  "4ddcf9e8e46b27e77a7d2096823f243d1c394c80efad1be2b7317e0aa0c5d5de"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\200Hz\\M0\\summary.json",
+                      "size_bytes":  1931,
+                      "last_write_utc":  "2026-09-01T19:53:40.4646894Z",
+                      "sha256":  "b141682ef99317882b06bc1cc461cc461d0689669980ec0420787190f937e979"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\200Hz\\M1\\experiment_log.md",
+                      "size_bytes":  1425,
+                      "last_write_utc":  "2026-09-01T19:53:40.4917168Z",
+                      "sha256":  "c9f150f6aee6c0e4a31195b427c041e5582dbab098ebe38821c4a9c2e83018ca"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\200Hz\\M1\\mul1_raw.bin",
+                      "size_bytes":  6518092,
+                      "last_write_utc":  "2026-09-01T17:36:16.3443203Z",
+                      "sha256":  "1fad097e7ae545a95070f8d239c41e83cc09f386c18b1fe640afaadf06f0aec4"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\200Hz\\M1\\packet_log.csv",
+                      "size_bytes":  887042,
+                      "last_write_utc":  "2026-09-01T17:36:16.3443203Z",
+                      "sha256":  "1ccdf65777c3a14e9c87ba7c7959f57b4bcc8ea2720b66915c236e2e80a37888"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\200Hz\\M1\\summary.json",
+                      "size_bytes":  1931,
+                      "last_write_utc":  "2026-09-01T19:53:40.4907054Z",
+                      "sha256":  "82a1dc84ea76e0a0acb51dc8e1d15a1d1cbb25d8d83ac508593e149cf8ead27a"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\200Hz\\M2\\experiment_log.md",
+                      "size_bytes":  1427,
+                      "last_write_utc":  "2026-09-01T19:53:40.5239005Z",
+                      "sha256":  "ebb31e630d4b9ea5b7b6e6e769976955d8e3d390a3c632af2fa19b92a0f15530"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\200Hz\\M2\\mul1_raw.bin",
+                      "size_bytes":  6509420,
+                      "last_write_utc":  "2026-09-01T17:39:30.8933336Z",
+                      "sha256":  "97f58c6e4fe402561687b48f0c3189ef52eda4c39c72683ac85eb30bc61d149e"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\200Hz\\M2\\packet_log.csv",
+                      "size_bytes":  831815,
+                      "last_write_utc":  "2026-09-01T17:39:30.8933336Z",
+                      "sha256":  "363a0bd65a998ccc88d0ca5c681a9d90c4f962a44ab4c23c68a58b8ddc43818e"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\200Hz\\M2\\summary.json",
+                      "size_bytes":  1933,
+                      "last_write_utc":  "2026-09-01T19:53:40.5227996Z",
+                      "sha256":  "a8254e60777ab20cb29aa6d715f4acdafcb879e4bd95f01ef906ddc7e148662d"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\200Hz\\M3\\experiment_log.md",
+                      "size_bytes":  1427,
+                      "last_write_utc":  "2026-09-01T19:53:40.5496098Z",
+                      "sha256":  "ce2680b0d4a79d48ec8142e454fc9753a8a48b9572112199636ef6830c647a8d"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\200Hz\\M3\\mul1_raw.bin",
+                      "size_bytes":  6494244,
+                      "last_write_utc":  "2026-09-01T17:40:44.2960738Z",
+                      "sha256":  "ddd8b3b47f84c25cf90e728656dcfd356b86179714f10055d7ce9b99ce150fc2"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\200Hz\\M3\\packet_log.csv",
+                      "size_bytes":  775957,
+                      "last_write_utc":  "2026-09-01T17:40:44.2960738Z",
+                      "sha256":  "3d3665b3e9495f024027c92457ae0330db4a9e3b63619867cb409f8d8c27c421"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\200Hz\\M3\\summary.json",
+                      "size_bytes":  1932,
+                      "last_write_utc":  "2026-09-01T19:53:40.5486011Z",
+                      "sha256":  "81cce8b90675f449e7c280682eee24583036a2b8a00bbcd7728ce90ba00d644e"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\50Hz\\M0\\experiment_log.md",
+                      "size_bytes":  1432,
+                      "last_write_utc":  "2026-09-01T19:53:40.5577155Z",
+                      "sha256":  "f615745f909f39d69ca809f7c6677bda4ae12dec97b4a0da5075ed614b8d1e57"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\50Hz\\M0\\mul1_raw.bin",
+                      "size_bytes":  1628168,
+                      "last_write_utc":  "2026-09-01T17:56:21.1546775Z",
+                      "sha256":  "6e6028f014d2d93668611dbe83024187b8bd5e04bf78fd2f70e396705d79f455"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\50Hz\\M0\\packet_log.csv",
+                      "size_bytes":  190879,
+                      "last_write_utc":  "2026-09-01T17:56:21.1546775Z",
+                      "sha256":  "0124bdcd3cc318c8bc710124d5394f22185e4256113f4502adf1c1ffa33a8901"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\50Hz\\M0\\summary.json",
+                      "size_bytes":  1921,
+                      "last_write_utc":  "2026-09-01T19:53:40.5567067Z",
+                      "sha256":  "8bed775cd575505ca4f69d9c695fb6a5ed166ddf1dd09319def5a3cea16265d0"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\50Hz\\M1\\experiment_log.md",
+                      "size_bytes":  1432,
+                      "last_write_utc":  "2026-09-01T19:53:40.5755195Z",
+                      "sha256":  "4b58e437bce6d54425633fe7e4dd5420710868ec6d7dfce58a8035eba4ed512d"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\50Hz\\M1\\mul1_raw.bin",
+                      "size_bytes":  1629252,
+                      "last_write_utc":  "2026-09-01T17:55:33.8696333Z",
+                      "sha256":  "0270b5a08c9cb5e33b973cf346d8772aa7c3a0746ae90d287d396f4321a31851"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\50Hz\\M1\\packet_log.csv",
+                      "size_bytes":  191007,
+                      "last_write_utc":  "2026-09-01T17:55:33.8696333Z",
+                      "sha256":  "ed6b9a36b4dceec5a41f682dc6a445dd92c8abf319b183468f820c61f4a07843"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\50Hz\\M1\\summary.json",
+                      "size_bytes":  1922,
+                      "last_write_utc":  "2026-09-01T19:53:40.5649122Z",
+                      "sha256":  "6d38af79d68a4b693967509fd73feef2ee9b0da8d3facd36226a1ef8ccbeb5cd"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\50Hz\\M2\\experiment_log.md",
+                      "size_bytes":  1432,
+                      "last_write_utc":  "2026-09-01T19:53:40.5850545Z",
+                      "sha256":  "94fde820fcfc42b5ef087546d8eff9db4366b05297222c20570456f591a0de4d"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\50Hz\\M2\\mul1_raw.bin",
+                      "size_bytes":  1628168,
+                      "last_write_utc":  "2026-09-01T17:54:27.3437168Z",
+                      "sha256":  "74f85c9cbace9eea6080c53ecaa8086fd93c9cd9061ac9dbb7552ae05faf63d4"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\50Hz\\M2\\packet_log.csv",
+                      "size_bytes":  190879,
+                      "last_write_utc":  "2026-09-01T17:54:27.3437168Z",
+                      "sha256":  "a990255f1f386d81c2cd57caf7739a72f0ac714e54efec179b753371abf87e11"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\50Hz\\M2\\summary.json",
+                      "size_bytes":  1922,
+                      "last_write_utc":  "2026-09-01T19:53:40.5829373Z",
+                      "sha256":  "c6732fee363bd9bb6c3dc5942c3563c0838d1460c1666abcc0fe73025d86806e"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\50Hz\\M3\\experiment_log.md",
+                      "size_bytes":  1432,
+                      "last_write_utc":  "2026-09-01T19:53:40.5931622Z",
+                      "sha256":  "645c13bb178eb1e35a2145af757fba711cdd4da03a33bbdac8f0c594fe829640"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\50Hz\\M3\\mul1_raw.bin",
+                      "size_bytes":  1623832,
+                      "last_write_utc":  "2026-09-01T17:53:35.4268501Z",
+                      "sha256":  "c82c6a021bf3bf806d050b548d586aa225a69d7de638061f36b620edc7a0ef71"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\50Hz\\M3\\packet_log.csv",
+                      "size_bytes":  189831,
+                      "last_write_utc":  "2026-09-01T17:53:35.4268501Z",
+                      "sha256":  "36355c4d3949a3fc76b2b0ad8c24ff96b16a2c4508a19ffd1c8ca7292cdeed7a"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=1\\50Hz\\M3\\summary.json",
+                      "size_bytes":  1923,
+                      "last_write_utc":  "2026-09-01T19:53:40.5917845Z",
+                      "sha256":  "b5dcad81b4758f7284778080d3a56e2d6276e787a5a4bf4f1c6891ae8c3849a1"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M0_M1\\experiment_log.md",
+                      "size_bytes":  1458,
+                      "last_write_utc":  "2026-09-01T19:53:40.6190332Z",
+                      "sha256":  "0dd6a6b5708c18ccbf163ca1f3dc72fdf8d715ae3c41063000cd52717d119726"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M0_M1\\mul1_raw.bin",
+                      "size_bytes":  12778640,
+                      "last_write_utc":  "2026-09-01T17:59:53.8672744Z",
+                      "sha256":  "88b608d20f6a78ba016b4e6edf6733b011eef1577e16dd70190f6c1ab28cccaa"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M0_M1\\packet_log.csv",
+                      "size_bytes":  748447,
+                      "last_write_utc":  "2026-09-01T17:59:53.8672744Z",
+                      "sha256":  "2b13310da604fbc5db5a24bc21cb9de6f3c174f9f639ea135d3778732e4f7428"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M0_M1\\summary.json",
+                      "size_bytes":  1983,
+                      "last_write_utc":  "2026-09-01T19:53:40.6170233Z",
+                      "sha256":  "302aad1e26af1af6d6010b2c6e7d13c7050479c6b95e1c9ee8a153852e4bbc17"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M0_M2\\experiment_log.md",
+                      "size_bytes":  1458,
+                      "last_write_utc":  "2026-09-01T19:53:40.6536439Z",
+                      "sha256":  "aa014cc42cf769d3f03d995b8ea7c7bfa8e8da6489a6a2fe4ef10c5ccc6127db"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M0_M2\\mul1_raw.bin",
+                      "size_bytes":  12780768,
+                      "last_write_utc":  "2026-09-01T18:00:42.3434732Z",
+                      "sha256":  "f7bda62cd49f64ba11299e2f905b1f50f6ff249bb266ea624ac737533413f958"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M0_M2\\packet_log.csv",
+                      "size_bytes":  749681,
+                      "last_write_utc":  "2026-09-01T18:00:42.3434732Z",
+                      "sha256":  "6559de00a267f47a3c9b645247614a3d6d925ff121d598093ba0b997dead8a8d"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M0_M2\\summary.json",
+                      "size_bytes":  1982,
+                      "last_write_utc":  "2026-09-01T19:53:40.6431688Z",
+                      "sha256":  "c63fef08e27211e5987e398ab74a8471e607cf0e7c35d09ce0bf32ea8117a88a"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M0_M3\\experiment_log.md",
+                      "size_bytes":  1458,
+                      "last_write_utc":  "2026-09-01T19:53:40.6806806Z",
+                      "sha256":  "1b978f0b21f04fe7c63c2cb16c8dc23e03812eb4d7b25e41be6d91dc753682c1"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M0_M3\\mul1_raw.bin",
+                      "size_bytes":  12750976,
+                      "last_write_utc":  "2026-09-01T18:01:26.2148564Z",
+                      "sha256":  "320fe10863936ab0f750057a14a5b01d88994d0b3e13871fc84362b75a82cedd"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M0_M3\\packet_log.csv",
+                      "size_bytes":  747922,
+                      "last_write_utc":  "2026-09-01T18:01:26.2148564Z",
+                      "sha256":  "f861529f0d600ed17f64255cc24c7117d1defe7b9bd9476a0de2360c765961d3"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M0_M3\\summary.json",
+                      "size_bytes":  1984,
+                      "last_write_utc":  "2026-09-01T19:53:40.6786264Z",
+                      "sha256":  "ab6d5f9bd0bfac594540594ff283d8f6a33c636e8420f7567bc826bcad16abaf"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M1_M2\\experiment_log.md",
+                      "size_bytes":  1458,
+                      "last_write_utc":  "2026-09-01T19:53:40.7066345Z",
+                      "sha256":  "ec38ada461bbf9b6c43cd9ee9df887b8bdbe375b2c9510e4d20cd81b5fc6f793"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M1_M2\\mul1_raw.bin",
+                      "size_bytes":  12774384,
+                      "last_write_utc":  "2026-09-01T18:03:30.0997295Z",
+                      "sha256":  "5fd4abdf93ed55503f345e1bc5ac84d958939d6eee987a176f4b545f2396025a"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M1_M2\\packet_log.csv",
+                      "size_bytes":  749305,
+                      "last_write_utc":  "2026-09-01T18:03:30.0997295Z",
+                      "sha256":  "d55c065a1435952da880487847e8c7f160c9b769084f3d6952a79e639a8abf25"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M1_M2\\summary.json",
+                      "size_bytes":  1983,
+                      "last_write_utc":  "2026-09-01T19:53:40.7056343Z",
+                      "sha256":  "7e02c9bd62cc4fbd294b1527f9d5ab9ea13fee12784b63ddb1f79d78dd09a988"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M1_M3\\experiment_log.md",
+                      "size_bytes":  1458,
+                      "last_write_utc":  "2026-09-01T19:53:40.7329850Z",
+                      "sha256":  "d9ec8de8b4e46f7e9b60186a767e6d31a693948de3a67a9a811616011c439de6"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M1_M3\\mul1_raw.bin",
+                      "size_bytes":  12746720,
+                      "last_write_utc":  "2026-09-01T18:02:21.0859345Z",
+                      "sha256":  "051f2f6fb1095a8e75d708bc6ea40b07e689358a44d24eb15e73832af024a277"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M1_M3\\packet_log.csv",
+                      "size_bytes":  747672,
+                      "last_write_utc":  "2026-09-01T18:02:21.0859345Z",
+                      "sha256":  "d5396a4a85f77a3806bf7cbbcce84a550a0b3423c07efee8530ffca8227a0571"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M1_M3\\summary.json",
+                      "size_bytes":  1982,
+                      "last_write_utc":  "2026-09-01T19:53:40.7319848Z",
+                      "sha256":  "9a56e5607ed34479051602c1f79a6efa1f1c7e66c345172910f9e9b8bd758785"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M2_M3\\experiment_log.md",
+                      "size_bytes":  1458,
+                      "last_write_utc":  "2026-09-01T19:53:40.7596055Z",
+                      "sha256":  "19c14e8e2f99d66115ac28cfe9cf447fb5c642da1af88d58da4a9192df9842c5"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M2_M3\\mul1_raw.bin",
+                      "size_bytes":  12708416,
+                      "last_write_utc":  "2026-09-01T18:04:26.7390128Z",
+                      "sha256":  "a18944f85dc031eaa5c6f44417926dc060a75f0197fd59f9826993943596d58f"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M2_M3\\packet_log.csv",
+                      "size_bytes":  745401,
+                      "last_write_utc":  "2026-09-01T18:04:26.7371300Z",
+                      "sha256":  "2f628e9ae367352d2896f40aa0c5db4ab47590374187afc85f80825a418dfc0b"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\M2_M3\\summary.json",
+                      "size_bytes":  1981,
+                      "last_write_utc":  "2026-09-01T19:53:40.7575931Z",
+                      "sha256":  "f5f9a046867a449872ab84e7028463c2ae441adf9f2934df1bd508f9b21c807a"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=2\\200Hz\\README.md",
+                      "size_bytes":  1187,
+                      "last_write_utc":  "2026-09-01T18:15:03.0741724Z",
+                      "sha256":  "f893b49fac303e21b55e0ad906be016e54df6aaba93058b349fc46d3aacbec28"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\M0_M1_M2\\experiment_log.md",
+                      "size_bytes":  1476,
+                      "last_write_utc":  "2026-09-01T19:53:40.7884758Z",
+                      "sha256":  "40d21b2319913a0d5d4cf3e3880b1dfb6d5a15389d918c3414302e2a1b19467f"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\M0_M1_M2\\mul1_raw.bin",
+                      "size_bytes":  19047860,
+                      "last_write_utc":  "2026-09-01T18:09:53.6124354Z",
+                      "sha256":  "1c3d5c80cb4fd803704252307bf65698ce67879a0afa933e28f501f97d7497f4"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\M0_M1_M2\\packet_log.csv",
+                      "size_bytes":  733258,
+                      "last_write_utc":  "2026-09-01T18:09:53.6124354Z",
+                      "sha256":  "9bb8b2b3d4ca1419e62a819bb5a70a381998960c456f8c2f802566bd02f56339"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\M0_M1_M2\\summary.json",
+                      "size_bytes":  2022,
+                      "last_write_utc":  "2026-09-01T19:53:40.7861971Z",
+                      "sha256":  "ff835dd7f87deb3567bbf63cf0787daa2cf4b80193f20d11cbe8bcfc5c54694d"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\M0_M1_M3\\experiment_log.md",
+                      "size_bytes":  1476,
+                      "last_write_utc":  "2026-09-01T19:53:40.8152402Z",
+                      "sha256":  "3ca3fc7e630af06ff2ed86d959a2fa30bb575abdf840f0c1748bfcfc4c1b5ad0"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\M0_M1_M3\\mul1_raw.bin",
+                      "size_bytes":  18993936,
+                      "last_write_utc":  "2026-09-01T18:10:40.6894038Z",
+                      "sha256":  "33663872a528858e0516bdf99fc13533a34c3f79992c081979f99ab511b8a0b3"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\M0_M1_M3\\packet_log.csv",
+                      "size_bytes":  731171,
+                      "last_write_utc":  "2026-09-01T18:10:40.6883880Z",
+                      "sha256":  "41eaccd0ba2fd39522092dd288fa79d06a4f9f75767ec1c1ad9ade6cafdd2c5a"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\M0_M1_M3\\summary.json",
+                      "size_bytes":  2023,
+                      "last_write_utc":  "2026-09-01T19:53:40.8127741Z",
+                      "sha256":  "2fdd43e97e482cd2ebd9c61721cbafc8f3e17be7140ac657d9991b0aca4a0028"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\M0_M2_M3\\experiment_log.md",
+                      "size_bytes":  1476,
+                      "last_write_utc":  "2026-09-01T19:53:40.8431682Z",
+                      "sha256":  "63472122e5169020b5a5949908626bbd3dfe03fb7792c077e0b59b3881fb2efd"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\M0_M2_M3\\mul1_raw.bin",
+                      "size_bytes":  19000280,
+                      "last_write_utc":  "2026-09-01T18:12:05.9585924Z",
+                      "sha256":  "00d0ea8719d57940247187ee7091ad832d8079c7e2526bf89423d20368cb359b"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\M0_M2_M3\\packet_log.csv",
+                      "size_bytes":  731416,
+                      "last_write_utc":  "2026-09-01T18:12:05.9585924Z",
+                      "sha256":  "56712aa92e6cbbcee552f716b87a4b694923a7c2b5f8234ce7530ca9becf4638"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\M0_M2_M3\\summary.json",
+                      "size_bytes":  2023,
+                      "last_write_utc":  "2026-09-01T19:53:40.8419217Z",
+                      "sha256":  "f0ac676ecf5911168dcdb135f3147c30269e462b6226610152da4d2dc57427ee"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\M1_M2_M3\\experiment_log.md",
+                      "size_bytes":  1476,
+                      "last_write_utc":  "2026-09-01T19:53:40.8696474Z",
+                      "sha256":  "4f1b6d98e9863c1cbdc3c1c70cefcf38065019c71587d3fd03c720a84934ab30"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\M1_M2_M3\\mul1_raw.bin",
+                      "size_bytes":  18987592,
+                      "last_write_utc":  "2026-09-01T18:13:00.2996785Z",
+                      "sha256":  "80fafb49a279cd4276d39b1c238768a5b4ffa709c40b24340160852b991a68eb"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\M1_M2_M3\\packet_log.csv",
+                      "size_bytes":  730927,
+                      "last_write_utc":  "2026-09-01T18:13:00.2986734Z",
+                      "sha256":  "70fd87e3ff86b23aab82fdd717a72d0274713bbc0d20e4a9117e8d1a285c3197"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\M1_M2_M3\\summary.json",
+                      "size_bytes":  2022,
+                      "last_write_utc":  "2026-09-01T19:53:40.8686408Z",
+                      "sha256":  "291ff09753b3b4bb1e9b036f2d165be7ad371802fe55c68d71ed78609ba32a01"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=3\\200Hz\\README.md",
+                      "size_bytes":  715,
+                      "last_write_utc":  "2026-09-01T18:19:02.3920349Z",
+                      "sha256":  "810de015fa8f9703a8aaf3368958c0fbb022c6790b34f2be28b10edf3458e9ff"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=4\\200Hz\\README.md",
+                      "size_bytes":  609,
+                      "last_write_utc":  "2026-09-01T18:19:06.8554315Z",
+                      "sha256":  "b0fd4e827aa89c36c0d68463cb736d61694b2cbc202f3179db03fef5a8813ae2"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=4\\200Hz\\Repeat_1\\experiment_log.md",
+                      "size_bytes":  1480,
+                      "last_write_utc":  "2026-09-01T19:53:40.8988361Z",
+                      "sha256":  "1fcfab01ecef4e556cd977ec4d82b34ad22a41a0e2b7e3a187a441c12b7e09bc"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=4\\200Hz\\Repeat_1\\mul1_raw.bin",
+                      "size_bytes":  25245408,
+                      "last_write_utc":  "2026-09-01T18:13:58.8621300Z",
+                      "sha256":  "ca37fc6504a8ea031a728372c1b640197b7e5d8090dd64a0d6071b27b0b3fb45"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=4\\200Hz\\Repeat_1\\packet_log.csv",
+                      "size_bytes":  708088,
+                      "last_write_utc":  "2026-09-01T18:13:58.8621300Z",
+                      "sha256":  "6a20b65874678697ead7f47b70ece8c861fd2b15b52db142256c13ee6d2d2d92"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=4\\200Hz\\Repeat_1\\summary.json",
+                      "size_bytes":  2073,
+                      "last_write_utc":  "2026-09-01T19:53:40.8978247Z",
+                      "sha256":  "65040ab3775a557c2023c1627382b023429330b8a1dfa149add57e1d6d693eb7"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=4\\200Hz\\Repeat_2\\experiment_log.md",
+                      "size_bytes":  1480,
+                      "last_write_utc":  "2026-09-01T19:53:40.9250168Z",
+                      "sha256":  "f72d13b26dc87a5f9b79ea9490ad40650612debf7b0dbfd520df89f0cf342a2b"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=4\\200Hz\\Repeat_2\\mul1_raw.bin",
+                      "size_bytes":  25148440,
+                      "last_write_utc":  "2026-09-01T18:15:06.6778033Z",
+                      "sha256":  "91d31b3976d994bb88022dced7e3d5848445c05c465b0c5f1c789cdc590751db"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=4\\200Hz\\Repeat_2\\packet_log.csv",
+                      "size_bytes":  705351,
+                      "last_write_utc":  "2026-09-01T18:15:06.6778033Z",
+                      "sha256":  "e8e1769cce9800dc0868fb65cfe377fd9f4507b21748b628b18bc6700e04d39d"
+                  },
+                  {
+                      "relative_path":  "FULL\\N=4\\200Hz\\Repeat_2\\summary.json",
+                      "size_bytes":  2070,
+                      "last_write_utc":  "2026-09-01T19:53:40.9239815Z",
+                      "sha256":  "c887884fb478054ccd85877a81fa757cbf6cb974b883aae6aa27ef1501760c54"
+                  }
+              ],
+    "verified_at_utc":  "2026-09-06T20:12:41.8308107Z",
+    "original_file_contents_modified":  false,
+    "active_data_directory":  "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data"
+}

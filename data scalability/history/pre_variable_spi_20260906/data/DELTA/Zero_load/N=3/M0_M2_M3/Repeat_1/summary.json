@@ -1,0 +1,64 @@
+{
+  "run_id": "20260901_205014",
+  "started_at": "2026-09-01T20:50:14.379672+01:00",
+  "duration_seconds": 30.00730970001314,
+  "requested_duration_seconds": 30.0,
+  "reason": "30-second capture complete",
+  "port": "COM9",
+  "baud": 2000000,
+  "test_condition": {
+    "algorithm": "DELTA",
+    "requested_algorithm": "FULL",
+    "target_scan_rate_hz": 200,
+    "scan_rate_hz": 200,
+    "active_module_ids": [
+      "M0",
+      "M2",
+      "M3"
+    ],
+    "module_count": 3,
+    "module_scope": "3 modules",
+    "module_ids": [
+      "M0",
+      "M2",
+      "M3"
+    ],
+    "load_condition": "Zero load",
+    "load_condition_source": "manual"
+  },
+  "commands": [
+    "START_RECORDING (GUI button)"
+  ],
+  "observed_algorithms": [
+    "DELTA",
+    "DELTA_SYNC"
+  ],
+  "recorded_candidate_rows": 5987,
+  "complete_mul_count": 5987,
+  "recorded_bytes": 3685076,
+  "first_mul_start_time": "2026-09-01T20:50:14.379+01:00",
+  "last_mul_start_time": "2026-09-01T20:50:44.372+01:00",
+  "average_usb_rate_Bps": 122805.94417960724,
+  "average_usb_rate_Mbitps": 0.9824475534368579,
+  "average_packet_rate_Hz": 199.51805276290327,
+  "result": "CHECK REQUIRED: one or more transport/parser/cache counters are non-zero",
+  "counters": {
+    "candidate_packets": 94793,
+    "valid_packets": 94792,
+    "outer_crc_errors": 0,
+    "sequence_gap_events": 0,
+    "lost_frames": 0,
+    "duplicate_frames": 0,
+    "out_of_order_frames": 0,
+    "format_errors": 0,
+    "inner_crc_errors": 0,
+    "delta_base_mismatches": 1,
+    "last_mul1_sequence": 1298256
+  },
+  "files": {
+    "raw_usb": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_1\\mul1_raw.bin",
+    "packet_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_1\\packet_log.csv",
+    "summary": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_1\\summary.json",
+    "experiment_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_1\\experiment_log.md"
+  }
+}

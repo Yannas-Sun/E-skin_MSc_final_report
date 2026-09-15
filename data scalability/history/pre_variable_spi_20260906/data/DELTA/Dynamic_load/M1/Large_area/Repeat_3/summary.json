@@ -1,0 +1,57 @@
+{
+  "run_id": "20260901_210531",
+  "started_at": "2026-09-01T21:05:31.148679+01:00",
+  "duration_seconds": 30.004023699992104,
+  "requested_duration_seconds": 30.0,
+  "reason": "30-second capture complete",
+  "port": "COM9",
+  "baud": 2000000,
+  "test_condition": {
+    "algorithm": "DELTA",
+    "requested_algorithm": "FULL",
+    "target_scan_rate_hz": 200,
+    "scan_rate_hz": 200,
+    "active_module_ids": [
+      "M1"
+    ],
+    "module_count": 1,
+    "module_scope": "1 module(s)",
+    "load_condition": "Large-area dynamic load",
+    "load_protocol": "0-5 s static; 5-20 s full-area FSR1 and FSR2 presses, 5 times each; 20-30 s simultaneous full-area FSR1+FSR2 presses, 5 times"
+  },
+  "commands": [
+    "START_RECORDING (GUI button)"
+  ],
+  "observed_algorithms": [
+    "DELTA",
+    "DELTA_SYNC"
+  ],
+  "recorded_candidate_rows": 5995,
+  "complete_mul_count": 5995,
+  "recorded_bytes": 2078098,
+  "first_mul_start_time": "2026-09-01T21:05:31.148+01:00",
+  "last_mul_start_time": "2026-09-01T21:06:01.147+01:00",
+  "average_usb_rate_Bps": 69260.64386492758,
+  "average_usb_rate_Mbitps": 0.5540851509194207,
+  "average_packet_rate_Hz": 199.8065346149416,
+  "result": "CHECK REQUIRED: one or more transport/parser/cache counters are non-zero",
+  "counters": {
+    "candidate_packets": 276248,
+    "valid_packets": 276247,
+    "outer_crc_errors": 0,
+    "sequence_gap_events": 0,
+    "lost_frames": 0,
+    "duplicate_frames": 0,
+    "out_of_order_frames": 0,
+    "format_errors": 0,
+    "inner_crc_errors": 0,
+    "delta_base_mismatches": 1,
+    "last_mul1_sequence": 1479711
+  },
+  "files": {
+    "raw_usb": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_3\\mul1_raw.bin",
+    "packet_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_3\\packet_log.csv",
+    "summary": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_3\\summary.json",
+    "experiment_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_3\\experiment_log.md"
+  }
+}

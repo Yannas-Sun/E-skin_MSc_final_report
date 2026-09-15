@@ -1,0 +1,61 @@
+{
+  "run_id": "20260901_200355",
+  "started_at": "2026-09-01T20:03:55.766443+01:00",
+  "duration_seconds": 30.555231100006495,
+  "requested_duration_seconds": 30.0,
+  "reason": "30-second capture complete",
+  "port": "COM9",
+  "baud": 2000000,
+  "commands": [
+    "START_RECORDING (GUI button)"
+  ],
+  "observed_algorithms": [
+    "DELTA",
+    "DELTA_SYNC"
+  ],
+  "recorded_candidate_rows": 5957,
+  "complete_mul_count": 5957,
+  "recorded_bytes": 2495472,
+  "first_mul_start_time": "2026-09-01T20:03:55.766+01:00",
+  "last_mul_start_time": "2026-09-01T20:04:25.642+01:00",
+  "average_usb_rate_Bps": 81670.85995299408,
+  "average_usb_rate_Mbitps": 0.6533668796239527,
+  "average_packet_rate_Hz": 194.95843381131337,
+  "result": "PASS: no recorded transport/parser/cache error",
+  "counters": {
+    "candidate_packets": 487612,
+    "valid_packets": 487612,
+    "outer_crc_errors": 0,
+    "sequence_gap_events": 0,
+    "lost_frames": 0,
+    "duplicate_frames": 0,
+    "out_of_order_frames": 0,
+    "format_errors": 0,
+    "inner_crc_errors": 0,
+    "delta_base_mismatches": 0,
+    "last_mul1_sequence": 745625
+  },
+  "files": {
+    "raw_usb": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=2\\M0_M1\\mul1_raw.bin",
+    "packet_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=2\\M0_M1\\packet_log.csv",
+    "summary": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=2\\M0_M1\\summary.json",
+    "experiment_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=2\\M0_M1\\experiment_log.md"
+  },
+  "test_condition": {
+    "algorithm": "DELTA",
+    "target_scan_rate_hz": 200,
+    "scan_rate_hz": 200,
+    "active_module_ids": [
+      "M0",
+      "M1"
+    ],
+    "module_count": 2,
+    "module_scope": "2 modules",
+    "module_ids": [
+      "M0",
+      "M1"
+    ],
+    "load_condition": "Zero load",
+    "load_condition_source": "manual"
+  }
+}

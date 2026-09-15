@@ -1,0 +1,57 @@
+{
+  "run_id": "20260905_190838",
+  "started_at": "2026-09-05T19:08:38.535617+01:00",
+  "duration_seconds": 30.000386699990486,
+  "requested_duration_seconds": 30.0,
+  "reason": "30-second capture complete",
+  "port": "COM9",
+  "baud": 2000000,
+  "test_condition": {
+    "algorithm": "DELTA",
+    "requested_algorithm": "FULL",
+    "target_scan_rate_hz": 200,
+    "scan_rate_hz": 200,
+    "active_module_ids": [
+      "M3"
+    ],
+    "module_count": 1,
+    "module_scope": "1 module(s)",
+    "load_condition": "Zero load",
+    "load_condition_source": "manual"
+  },
+  "commands": [
+    "START_RECORDING (GUI button)"
+  ],
+  "observed_algorithms": [
+    "DELTA",
+    "DELTA_SYNC"
+  ],
+  "recorded_candidate_rows": 6013,
+  "complete_mul_count": 6013,
+  "recorded_bytes": 1293696,
+  "first_mul_start_time": "2026-09-05T19:08:38.535+01:00",
+  "last_mul_start_time": "2026-09-05T19:09:08.524+01:00",
+  "average_usb_rate_Bps": 43122.644149130596,
+  "average_usb_rate_Mbitps": 0.3449811531930448,
+  "average_packet_rate_Hz": 200.43074978103223,
+  "result": "PASS: no recorded transport/parser/cache error",
+  "counters": {
+    "candidate_packets": 296467,
+    "valid_packets": 296467,
+    "outer_crc_errors": 0,
+    "sequence_gap_events": 0,
+    "lost_frames": 0,
+    "duplicate_frames": 0,
+    "out_of_order_frames": 0,
+    "format_errors": 0,
+    "inner_crc_errors": 0,
+    "delta_base_mismatches": 0,
+    "last_mul1_sequence": 1425977
+  },
+  "files": {
+    "raw_usb": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=1\\M3\\Repeat_5\\mul1_raw.bin",
+    "packet_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=1\\M3\\Repeat_5\\packet_log.csv",
+    "summary": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=1\\M3\\Repeat_5\\summary.json",
+    "experiment_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=1\\M3\\Repeat_5\\experiment_log.md"
+  }
+}

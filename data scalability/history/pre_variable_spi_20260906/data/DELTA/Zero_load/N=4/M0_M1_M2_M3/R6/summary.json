@@ -1,0 +1,60 @@
+{
+  "run_id": "20260905_185720",
+  "started_at": "2026-09-05T18:57:20.028774+01:00",
+  "duration_seconds": 30.00345419999212,
+  "requested_duration_seconds": 30.0,
+  "reason": "30-second capture complete",
+  "port": "COM9",
+  "baud": 2000000,
+  "test_condition": {
+    "algorithm": "DELTA",
+    "requested_algorithm": "FULL",
+    "target_scan_rate_hz": 200,
+    "scan_rate_hz": 200,
+    "active_module_ids": [
+      "M0",
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "module_count": 4,
+    "module_scope": "4 module(s)",
+    "load_condition": "Zero load",
+    "load_condition_source": "manual"
+  },
+  "commands": [
+    "START_RECORDING (GUI button)"
+  ],
+  "observed_algorithms": [
+    "DELTA",
+    "DELTA_SYNC"
+  ],
+  "recorded_candidate_rows": 6005,
+  "complete_mul_count": 6005,
+  "recorded_bytes": 6341732,
+  "first_mul_start_time": "2026-09-05T18:57:20.028+01:00",
+  "last_mul_start_time": "2026-09-05T18:57:50.026+01:00",
+  "average_usb_rate_Bps": 211366.72990144134,
+  "average_usb_rate_Mbitps": 1.6909338392115307,
+  "average_packet_rate_Hz": 200.14362213006717,
+  "result": "PASS: no recorded transport/parser/cache error",
+  "counters": {
+    "candidate_packets": 164480,
+    "valid_packets": 164480,
+    "outer_crc_errors": 0,
+    "sequence_gap_events": 0,
+    "lost_frames": 0,
+    "duplicate_frames": 0,
+    "out_of_order_frames": 0,
+    "format_errors": 0,
+    "inner_crc_errors": 0,
+    "delta_base_mismatches": 0,
+    "last_mul1_sequence": 1293990
+  },
+  "files": {
+    "raw_usb": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R6\\mul1_raw.bin",
+    "packet_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R6\\packet_log.csv",
+    "summary": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R6\\summary.json",
+    "experiment_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R6\\experiment_log.md"
+  }
+}

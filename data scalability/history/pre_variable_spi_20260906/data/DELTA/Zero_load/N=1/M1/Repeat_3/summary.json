@@ -1,0 +1,57 @@
+{
+  "run_id": "20260901_192721",
+  "started_at": "2026-09-01T19:27:21.745247+01:00",
+  "duration_seconds": 30.00044540001545,
+  "requested_duration_seconds": 30.0,
+  "reason": "30-second capture complete",
+  "port": "COM9",
+  "baud": 2000000,
+  "commands": [
+    "START_RECORDING (GUI button)"
+  ],
+  "observed_algorithms": [
+    "DELTA",
+    "DELTA_SYNC"
+  ],
+  "recorded_candidate_rows": 6014,
+  "complete_mul_count": 6014,
+  "recorded_bytes": 1071776,
+  "first_mul_start_time": "2026-09-01T19:27:21.745+01:00",
+  "last_mul_start_time": "2026-09-01T19:27:51.743+01:00",
+  "average_usb_rate_Bps": 35725.3362644892,
+  "average_usb_rate_Mbitps": 0.2858026901159136,
+  "average_packet_rate_Hz": 200.46369044897256,
+  "result": "PASS: no recorded transport/parser/cache error",
+  "counters": {
+    "candidate_packets": 53161,
+    "valid_packets": 53161,
+    "outer_crc_errors": 0,
+    "sequence_gap_events": 0,
+    "lost_frames": 0,
+    "duplicate_frames": 0,
+    "out_of_order_frames": 0,
+    "format_errors": 0,
+    "inner_crc_errors": 0,
+    "delta_base_mismatches": 0,
+    "last_mul1_sequence": 311174
+  },
+  "files": {
+    "raw_usb": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=1\\M1\\Repeat_3\\mul1_raw.bin",
+    "packet_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=1\\M1\\Repeat_3\\packet_log.csv",
+    "summary": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=1\\M1\\Repeat_3\\summary.json",
+    "experiment_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Zero_load\\N=1\\M1\\Repeat_3\\experiment_log.md"
+  },
+  "test_condition": {
+    "algorithm": "DELTA",
+    "target_scan_rate_hz": 200,
+    "scan_rate_hz": 200,
+    "active_module_ids": [
+      "M1"
+    ],
+    "module_count": 1,
+    "module_scope": "single module",
+    "module_id": "M1",
+    "load_condition": "Zero load",
+    "load_condition_source": "manual"
+  }
+}

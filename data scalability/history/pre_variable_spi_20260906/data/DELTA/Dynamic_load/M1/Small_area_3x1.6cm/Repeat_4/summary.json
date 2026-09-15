@@ -1,0 +1,57 @@
+{
+  "run_id": "20260905_193003",
+  "started_at": "2026-09-05T19:30:03.035054+01:00",
+  "duration_seconds": 30.002698500000406,
+  "requested_duration_seconds": 30.0,
+  "reason": "30-second capture complete",
+  "port": "COM9",
+  "baud": 2000000,
+  "test_condition": {
+    "algorithm": "DELTA",
+    "requested_algorithm": "FULL",
+    "target_scan_rate_hz": 200,
+    "scan_rate_hz": 200,
+    "active_module_ids": [
+      "M1"
+    ],
+    "module_count": 1,
+    "module_scope": "1 module(s)",
+    "load_condition": "Small-area dynamic load (3 x 1.6 cm)",
+    "load_condition_source": "manual classification"
+  },
+  "commands": [
+    "START_RECORDING (GUI button)"
+  ],
+  "observed_algorithms": [
+    "DELTA",
+    "DELTA_SYNC"
+  ],
+  "recorded_candidate_rows": 6010,
+  "complete_mul_count": 6010,
+  "recorded_bytes": 1576574,
+  "first_mul_start_time": "2026-09-05T19:30:03.035+01:00",
+  "last_mul_start_time": "2026-09-05T19:30:33.032+01:00",
+  "average_usb_rate_Bps": 52547.73999745319,
+  "average_usb_rate_Mbitps": 0.4203819199796255,
+  "average_packet_rate_Hz": 200.315314970749,
+  "result": "PASS: no recorded transport/parser/cache error",
+  "counters": {
+    "candidate_packets": 549983,
+    "valid_packets": 549983,
+    "outer_crc_errors": 0,
+    "sequence_gap_events": 0,
+    "lost_frames": 0,
+    "duplicate_frames": 0,
+    "out_of_order_frames": 0,
+    "format_errors": 0,
+    "inner_crc_errors": 0,
+    "delta_base_mismatches": 0,
+    "last_mul1_sequence": 1679493
+  },
+  "files": {
+    "raw_usb": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_4\\mul1_raw.bin",
+    "packet_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_4\\packet_log.csv",
+    "summary": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_4\\summary.json",
+    "experiment_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_4\\experiment_log.md"
+  }
+}

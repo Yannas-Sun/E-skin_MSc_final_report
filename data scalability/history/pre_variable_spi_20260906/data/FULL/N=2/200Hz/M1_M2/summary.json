@@ -1,0 +1,58 @@
+{
+  "run_id": "20260901_190300",
+  "started_at": "2026-09-01T19:03:00.100559+01:00",
+  "duration_seconds": 30.000147299986565,
+  "requested_duration_seconds": 30.0,
+  "reason": "30-second capture complete",
+  "port": "COM9",
+  "baud": 2000000,
+  "test_condition": {
+    "scan_rate_hz": 200,
+    "module_scope": "2 modules",
+    "module_ids": [
+      "M1",
+      "M2"
+    ],
+    "algorithm": "FULL",
+    "target_scan_rate_hz": 200,
+    "active_module_ids": [
+      "M1",
+      "M2"
+    ],
+    "module_count": 2
+  },
+  "commands": [
+    "START_RECORDING (GUI button)"
+  ],
+  "observed_algorithms": [
+    "FULL"
+  ],
+  "recorded_candidate_rows": 6003,
+  "complete_mul_count": 6003,
+  "recorded_bytes": 12774384,
+  "first_mul_start_time": "2026-09-01T19:03:00.100+01:00",
+  "last_mul_start_time": "2026-09-01T19:03:30.096+01:00",
+  "average_usb_rate_Bps": 425810.7092696082,
+  "average_usb_rate_Mbitps": 3.4064856741568654,
+  "average_packet_rate_Hz": 200.09901751391362,
+  "result": "PASS: no recorded transport/parser/cache error",
+  "counters": {
+    "candidate_packets": 57989,
+    "valid_packets": 57989,
+    "outer_crc_errors": 0,
+    "sequence_gap_events": 0,
+    "lost_frames": 0,
+    "duplicate_frames": 0,
+    "out_of_order_frames": 0,
+    "format_errors": 0,
+    "inner_crc_errors": 0,
+    "delta_base_mismatches": 0,
+    "last_mul1_sequence": 57996
+  },
+  "files": {
+    "raw_usb": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=2\\200Hz\\M1_M2\\mul1_raw.bin",
+    "packet_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=2\\200Hz\\M1_M2\\packet_log.csv",
+    "summary": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=2\\200Hz\\M1_M2\\summary.json",
+    "experiment_log": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=2\\200Hz\\M1_M2\\experiment_log.md"
+  }
+}
