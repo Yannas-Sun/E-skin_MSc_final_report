@@ -6,23 +6,40 @@ This repository is the evidence package for a modular electronic-skin prototype 
 
 - [Project background](#project-background)
 - [System and data path](#system-and-data-path)
-- [Core reported results](#core-reported-results)
 - [Hardware overview](#hardware-overview)
+- [Core reported results](#core-reported-results)
 - [Repository structure](#repository-structure)
+- [Software simulation](#software-simulation)
 - [Evidence and reproduction](#evidence-and-reproduction)
 - [Scope limits](#scope-limits)
 
 ## Project background
 
-The system is a four-module force-sensing prototype. Each module uses two replaceable flexible FSR electrode layers and a local STM32G474CETx controller. A rigid four-layer mainboard provides the FSR connections, readout electronics, power distribution, programming access and host connector. A Teensy 4.1 host bridge selects modules, receives variable-length frames over a 10 MHz HOST SPI link, assembles MUL1 v2 packets and forwards them to the PC over USB.
+The final report treats the E-SKIN prototype as a system-level scalability problem. It starts from an existing modular FSR platform and evaluates whether adding sensing modules remains practical across the complete chain: local acquisition, shared communication, host transport, power delivery and calibration.
 
-The report evaluates three linked questions:
+### Research gap
 
-1. How communication traffic scales with module count under complete ESKF FULL frames and change-driven ESKD DELTA frames.
-2. How static branch current, voltage and temperature readings change across the 15 non-empty module combinations.
-3. How separately trained FSR1 and FSR2 layers perform under the reported loading and validation procedures.
+Existing e-skin work often foregrounds sensing materials, array geometry or local sensor performance. The report identifies a system-level gap: the available modular prototype had not been evaluated as one connected scaling problem across data traffic, regulated power and calibration repeatability. In particular, the report needed evidence for:
 
-The measured communication and power records cover one to four modules. Values beyond four modules are model-based planning projections and are labelled as such below.
+- whether complete FSR data can be transported as modules are added, and whether cached change-driven DELTA frames reduce the same-rate traffic;
+- whether the parallel 3.3 V supply maintains the specified voltage range as module count increases, without confusing static readings with a verified transient capacity; and
+- whether a layer-wide calibration workflow reduces cell-to-cell variation and reconstructs applied whole-layer mass for separately calibrated FSR layers.
+
+The report separates measured behaviour for N = 1–4 modules from conditional model projections beyond the measured range. The repository follows the same boundary.
+
+### Hypotheses to be tested
+
+The report defines the following hypotheses in its Background chapter. They are listed here as the claims the evidence package is intended to test or bound.
+
+- **D-H1 — protocol-model agreement:** within N = 1–4, observed mean FULL packet lengths and DELTA packet lengths follow the byte budgets using the recorded mask activity, complete-frame incidence and module-update coverage. Values beyond four modules remain conditional extrapolations.
+- **D-H2 — DELTA traffic reduction:** change-driven DELTA reduces same-rate packet bytes under the tested activity conditions in windows without detected sequence, cache-chain or target-update anomalies.
+- **P-H1 — current prediction:** separately measured single-module currents provide a useful descriptive prediction of the tested multi-module combinations under comparable operating conditions; this is not treated as proof of a universal current-versus-count law.
+- **P-H2 — voltage range:** recorded module voltages remain within the project-defined 3.3 V ± 5% band for the tested configurations. Transient delivery and fault-free operation require additional monitoring.
+- **C-H1 — spatial dispersion:** with matched RAW inputs and common valid cells, per-cell multi-load fitting reduces spatial dispersion relative to two-point LINEAR or GAMMA calibration, assessed separately using CV, variance, IQR and MAD.
+- **C-H2 — mass reconstruction:** per-cell calibration estimates known applied whole-layer mass, quantified with signed bias, absolute error, per-cell MAE/RMSE and non-zero-load percentage error. The report specifies no pass/fail accuracy threshold, so this remains a descriptive error assessment.
+- **C-H3 — second-layer repeatability:** applying the same workflow independently to a second nominally identical FSR layer retains the FIT PRESS benefit relative to LINEAR and GAMMA under the same validation procedure. This tests independent retraining across layers, not direct transfer of one fitted model.
+
+The reported results below show which parts are supported by the measured records and which remain model-based or unmeasured.
 
 ## System and data path
 
@@ -31,6 +48,28 @@ The report's layered acquisition and communication path is reproduced here for o
 <img src="hardware/firmware/renderings/report-data-path-flow.png" alt="Layered acquisition and communication path from the report" width="900">
 
 [Open the original report flow figure](<Imperial College Individual Project Template_LaTeX/figures/data/data_path_flow.pdf>).
+
+## Hardware overview
+
+The sensing layer places pressure-sensitive resistive foam between opposing copper electrode layers. Orthogonal row and column electrodes form a 16 × 16 matrix; pressure changes the local resistance at each row-column intersection. The STM32 scans the matrix, buffers a complete ESKF or change-driven ESKD frame, and sends it to the Teensy bridge. The mainboard uses an external regulated 3.3 V branch for the module electronics.
+
+The ACC board shown below is an existing prototype interface. It is retained as hardware evidence but is outside the reported FSR performance evaluation.
+
+<table width="100%">
+<tr>
+<td width="50%" align="center"><img src="hardware/libraries/Figures/Module%202.0.png" alt="Module rendering" width="100%"><br>Module stack</td>
+<td width="50%" align="center"><img src="hardware/libraries/Figures/Mainboard.png" alt="Mainboard rendering" width="100%"><br>Rigid mainboard</td>
+</tr>
+<tr>
+<td width="50%" align="center"><img src="hardware/libraries/Figures/FSR.png" alt="FSR layer rendering" width="100%"><br>Flexible FSR layer</td>
+<td width="50%" align="center"><img src="hardware/libraries/Figures/ACC.png" alt="ACC prototype rendering" width="100%"><br>ACC prototype</td>
+</tr>
+</table>
+
+- [Hardware overview](hardware/README.md)
+- [Prototype design records](hardware/prototype/README.md)
+- [Shared KiCad libraries and renderings](hardware/libraries/README.md)
+- [Active and archived firmware](hardware/firmware/README.md)
 
 ## Core reported results
 
@@ -43,11 +82,28 @@ The report's layered acquisition and communication path is reproduced here for o
 - The fitted zero-load ordinary-mask trend is K0(N) = 7.554189 + 0.582684N. The rolling stress projection uses K = 254.
 - At 200 Hz, the modelled crossing counts are conditional planning values:
 
-| Traffic model | USB 480 Mbit/s | HOST SPI 10 Mbit/s |
-|---|---:|---:|
-| FULL | 286 modules | 5 modules |
-| DELTA, zero-load K0(N) | 464 modules | 41 modules |
-| DELTA, rolling K = 254 | 501 modules | 10 modules |
+<table width="100%">
+<tr>
+<th align="left">Traffic model</th>
+<th align="right">USB 480 Mbit/s</th>
+<th align="right">HOST SPI 10 Mbit/s</th>
+</tr>
+<tr>
+<td>FULL</td>
+<td align="right">286 modules</td>
+<td align="right">5 modules</td>
+</tr>
+<tr>
+<td>DELTA, zero-load K0(N)</td>
+<td align="right">464 modules</td>
+<td align="right">41 modules</td>
+</tr>
+<tr>
+<td>DELTA, rolling K = 254</td>
+<td align="right">501 modules</td>
+<td align="right">10 modules</td>
+</tr>
+</table>
 
 Only N = 1–4 is experimentally measured. The crossing counts are extrapolations from the reported packet models and interface rates.
 
@@ -71,27 +127,6 @@ FSR1 and FSR2 were calibrated in separate 22-point sweeps from 0 to 5000 g. In t
 
 [Report source: FSR2 load reconstruction error](<Imperial College Individual Project Template_LaTeX/figures/calibration/v2_7/fsr2_load_error_vs_load.pdf>) · [Calibration data and analyses](<Calibration scalability/README.md>)
 
-## Hardware overview
-
-The sensing layer places pressure-sensitive resistive foam between opposing copper electrode layers. Orthogonal row and column electrodes form a 16 × 16 matrix; pressure changes the local resistance at each row-column intersection. The STM32 scans the matrix, buffers a complete ESKF or change-driven ESKD frame, and sends it to the Teensy bridge. The mainboard uses an external regulated 3.3 V branch for the module electronics.
-
-The ACC board shown below is an existing prototype interface. It is retained as hardware evidence but is outside the reported FSR performance evaluation.
-
-<table>
-<tr>
-<td><img src="hardware/libraries/Figures/Module%202.0.png" alt="Module rendering" width="220"><br>Module stack</td>
-<td><img src="hardware/libraries/Figures/Mainboard.png" alt="Mainboard rendering" width="220"><br>Rigid mainboard</td>
-</tr>
-<tr>
-<td><img src="hardware/libraries/Figures/FSR.png" alt="FSR layer rendering" width="220"><br>Flexible FSR layer</td>
-<td><img src="hardware/libraries/Figures/ACC.png" alt="ACC prototype rendering" width="220"><br>ACC prototype</td>
-</tr>
-</table>
-
-- [Hardware overview](hardware/README.md)
-- [Prototype design records](hardware/prototype/README.md)
-- [Shared KiCad libraries and renderings](hardware/libraries/README.md)
-- [Active and archived firmware](hardware/firmware/README.md)
 
 ## Repository structure
 
@@ -119,3 +154,9 @@ The audit material records provenance and validation checks for report-linked da
 - Power results are static readings and do not establish transient supply capacity.
 - Cross-module calibration, calibration transfer between layers and repeatability after reassembly were not measured.
 - The ACC prototype is documented as hardware evidence but is outside the reported FSR evaluation.
+
+## Software simulation
+
+The early software simulator is maintained in the separate [e-skin-simulator repository](https://github.com/Yannas-Sun/e-skin-simulator). It explores module geometry, FSR and accelerometer readout, protocol traffic and visualisation before all hardware paths are complete.
+
+The simulator is an initial design and communication tool. It is not evidence for the measured report results and is not a high-fidelity electrical, mechanical or finite-element model. Scan strategies, MCU-in-the-loop behaviour, event-driven sensing, multi-patch communication and physical validation still require further development.
