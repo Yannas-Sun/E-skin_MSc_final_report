@@ -1,0 +1,10 @@
+{
+  "figure": "current_power_scaling",
+  "source": "power scalability/DATA/report_v2_8_analysis/configuration_summary.csv",
+  "source_sha256": "e44bb8e375cb2517a4683aeb81a17ec72709c527090eabf4d61a4a0ee25fd526",
+  "configuration_entries": 30,
+  "classification": "recorded load type only: ZERO or MAX",
+  "acquisition_history_encoded": false,
+  "points": "one final compiled entry per exact combination and load",
+  "uncertainty": "sample SD across combinations at each N; unavailable for N=4"
+}

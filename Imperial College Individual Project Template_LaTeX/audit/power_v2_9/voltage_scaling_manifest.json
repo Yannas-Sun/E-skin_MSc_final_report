@@ -1,0 +1,25 @@
+{
+  "figure": "voltage_scaling",
+  "sources": {
+    "configurations": "power scalability/DATA/report_v2_8_analysis/configuration_summary.csv",
+    "configurations_sha256": "e44bb8e375cb2517a4683aeb81a17ec72709c527090eabf4d61a4a0ee25fd526",
+    "branches": "power scalability/DATA/report_v2_8_analysis/branch_readings.csv",
+    "branches_sha256": "7f933815d084c1f525314f7aa484b1063d16ac3d4646e302fc4b129765c9b1b0"
+  },
+  "configuration_entries": 30,
+  "module_entries": 64,
+  "classification": "source main, module main, module DMM MIN-MAX, and contact-fault context",
+  "contact_fault_points": [
+    {
+      "module": "M0",
+      "load": "ZERO",
+      "voltage_V": 3.224
+    },
+    {
+      "module": "M3",
+      "load": "MAX",
+      "voltage_V": 3.232
+    }
+  ],
+  "retest_category_encoded": false
+}

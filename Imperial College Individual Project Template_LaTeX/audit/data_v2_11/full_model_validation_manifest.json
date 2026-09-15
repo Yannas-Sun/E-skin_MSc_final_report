@@ -1,0 +1,140 @@
+{
+  "figure": "full_model_validation",
+  "version": "v2_11",
+  "source": {
+    "primary_matrix": {
+      "path": "data scalability/data/primary_matrix.csv",
+      "sha256": "f9343bab4aa66fb8574e964465522cde60030678b06b23cd688ae5c306ab6f1e",
+      "selected_FULL_windows": 45,
+      "selected_DELTA_windows": 45
+    },
+    "dynamic_analysis_selected": {
+      "path": "data scalability/data/dynamic_analysis_selected.csv",
+      "sha256": "7d269d56003ef3cb4dee409475b11f79e15868fa5a5d4a2907103c5897890b7a"
+    }
+  },
+  "measured_domain": {
+    "N_min": 1,
+    "N_max": 4
+  },
+  "projection_domain": {
+    "top_panels_N_min": 1,
+    "top_panels_N_max": 100,
+    "transport_panel_N_min": 1,
+    "transport_panel_N_max": 520
+  },
+  "frequency_Hz": 200.0,
+  "periodic_ESKF_reference_fraction": 0.005,
+  "models": {
+    "FULL_USB_bytes": "24 + 4*max(4,N) + 1044*N",
+    "FULL_HOST_SPI_bytes": "1044*N",
+    "DELTA_module_mean_bytes": "(1-q)*(84+2*K)+q*1044",
+    "DELTA_USB_bytes": "24 + 4*max(4,N) + N*DELTA_module_mean_bytes",
+    "DELTA_HOST_SPI_bytes": "N*DELTA_module_mean_bytes",
+    "zero_load_K_trend": {
+      "intercept": 7.55418923937045,
+      "slope_per_module": 0.5826844522849683,
+      "R2": 0.9518860395712467,
+      "fit_points": [
+        8.255807964060256,
+        8.641245186686737,
+        9.102065693518151,
+        10.044482636066347
+      ]
+    },
+    "rolling_K": {
+      "maximum_observed_ordinary_K": 254,
+      "source_windows": [
+        {
+          "run_id": "20260907_053858_001637",
+          "path": "DELTA/Dynamic_load/N=1/200Hz/M1/Rolling/Repeat_1/summary.json",
+          "K_mean": 108.56605351170569,
+          "K_max": 245,
+          "K_p95": 190.0,
+          "n_ESKD": 5980
+        },
+        {
+          "run_id": "20260907_053938_027960",
+          "path": "DELTA/Dynamic_load/N=1/200Hz/M1/Rolling/Repeat_2/summary.json",
+          "K_mean": 118.64002675137937,
+          "K_max": 250,
+          "K_p95": 203.0,
+          "n_ESKD": 5981
+        },
+        {
+          "run_id": "20260907_054018_056649",
+          "path": "DELTA/Dynamic_load/N=1/200Hz/M1/Rolling/Repeat_3/summary.json",
+          "K_mean": 117.9070544968238,
+          "K_max": 254,
+          "K_p95": 199.0,
+          "n_ESKD": 5982
+        }
+      ]
+    }
+  },
+  "capacity_references": {
+    "USB_theoretical_Mbit_s": 480.0,
+    "HOST_SPI_10MHz_raw_Mbit_s": 10.0,
+    "note": "Reference ceilings; they are not measured achieved application throughput."
+  },
+  "crossings": [
+    {
+      "scenario": "FULL",
+      "link": "USB",
+      "limit_Mbit_s": 480.0,
+      "continuous_crossing_N": 286.23664122137404,
+      "maximum_integer_N": 286,
+      "rate_at_integer_limit_Mbit_s": 479.6032,
+      "K_model": "complete 1044 B ESK frames"
+    },
+    {
+      "scenario": "FULL",
+      "link": "HOST SPI",
+      "limit_Mbit_s": 10.0,
+      "continuous_crossing_N": 5.986590038314176,
+      "maximum_integer_N": 5,
+      "rate_at_integer_limit_Mbit_s": 8.352,
+      "K_model": "complete 1044 B ESK frames"
+    },
+    {
+      "scenario": "DELTA zero-load K trend",
+      "link": "USB",
+      "limit_Mbit_s": 480.0,
+      "continuous_crossing_N": 464.2506349055801,
+      "maximum_integer_N": 464,
+      "rate_at_integer_limit_Mbit_s": 479.52512565754046,
+      "K_model": "K=7.554189+0.582684N; q=0.005"
+    },
+    {
+      "scenario": "DELTA zero-load K trend",
+      "link": "HOST SPI",
+      "limit_Mbit_s": 10.0,
+      "continuous_crossing_N": 41.21922784031612,
+      "maximum_integer_N": 41,
+      "rate_at_integer_limit_Mbit_s": 9.93013840476702,
+      "K_model": "K=7.554189+0.582684N; q=0.005"
+    },
+    {
+      "scenario": "DELTA rolling K maximum",
+      "link": "USB",
+      "limit_Mbit_s": 480.0,
+      "continuous_crossing_N": 501.4141008925885,
+      "maximum_integer_N": 501,
+      "rate_at_integer_limit_Mbit_s": 479.603616,
+      "K_model": "K=254; q=0.005"
+    },
+    {
+      "scenario": "DELTA rolling K maximum",
+      "link": "HOST SPI",
+      "limit_Mbit_s": 10.0,
+      "continuous_crossing_N": 10.517281997778753,
+      "maximum_integer_N": 10,
+      "rate_at_integer_limit_Mbit_s": 9.50816,
+      "K_model": "K=254; q=0.005"
+    }
+  ],
+  "outputs": {
+    "point_csv": "full_model_validation_points.csv",
+    "crossing_csv": "capacity_crossings.csv"
+  }
+}

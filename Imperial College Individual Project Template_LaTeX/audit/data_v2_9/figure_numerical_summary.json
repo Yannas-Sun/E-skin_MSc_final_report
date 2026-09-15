@@ -1,0 +1,382 @@
+{
+  "version": "2.9",
+  "run_n": 114,
+  "dynamic_selected_n": 15,
+  "trace_examples": [
+    {
+      "run_id": "20260907_013403_341631",
+      "label": "N=1 M1, zero load, R1"
+    },
+    {
+      "run_id": "20260907_050453_154588",
+      "label": "N=1 M1, large-area dynamic, R1"
+    },
+    {
+      "run_id": "20260907_020810_266713",
+      "label": "N=4, zero load, R1"
+    },
+    {
+      "run_id": "20260907_115145_448767",
+      "label": "N=4, full coverage after connector reinstallation, R1"
+    }
+  ],
+  "dynamic_batches": [
+    {
+      "label": "M1 large area",
+      "run_ids": [
+        "20260907_050453_154588",
+        "20260907_050533_183636",
+        "20260907_050613_222506"
+      ],
+      "diagnostic": false,
+      "n": 3,
+      "PASS": 3,
+      "CHECK": 0,
+      "main_packet_Mbit_s": {
+        "mean": 0.45205203580376624,
+        "sample_sd": 0.0075818792577517875,
+        "n": 3
+      },
+      "main_Lmean_B": {
+        "mean": 282.41904828755514,
+        "sample_sd": 4.736770922033473,
+        "n": 3
+      },
+      "main_rate_Hz": {
+        "mean": 200.08036369977285,
+        "sample_sd": 0.03607996275397415,
+        "n": 3
+      },
+      "main_K_ESKD_mean": {
+        "mean": 76.83502162708093,
+        "sample_sd": 2.719229386041626,
+        "n": 3
+      },
+      "main_q_ESKF": {
+        "mean": 0.005885909033010342,
+        "sample_sd": 0.0008380034872755354,
+        "n": 3
+      }
+    },
+    {
+      "label": "M1 press / release",
+      "run_ids": [
+        "20260907_051941_159689",
+        "20260907_052021_196300",
+        "20260907_052101_230925"
+      ],
+      "diagnostic": false,
+      "n": 3,
+      "PASS": 3,
+      "CHECK": 0,
+      "main_packet_Mbit_s": {
+        "mean": 0.33772859868291444,
+        "sample_sd": 0.016879463989746015,
+        "n": 3
+      },
+      "main_Lmean_B": {
+        "mean": 210.63739113203283,
+        "sample_sd": 10.566960440802188,
+        "n": 3
+      },
+      "main_rate_Hz": {
+        "mean": 200.42182902967136,
+        "sample_sd": 0.04526208519753794,
+        "n": 3
+      },
+      "main_K_ESKD_mean": {
+        "mean": 41.10495118994404,
+        "sample_sd": 5.270197070617004,
+        "n": 3
+      },
+      "main_q_ESKF": {
+        "mean": 0.0050446348463588095,
+        "sample_sd": 9.675247858494575e-05,
+        "n": 3
+      }
+    },
+    {
+      "label": "M1 rolling",
+      "run_ids": [
+        "20260907_053858_001637",
+        "20260907_053938_027960",
+        "20260907_054018_056649"
+      ],
+      "diagnostic": false,
+      "n": 3,
+      "PASS": 3,
+      "CHECK": 0,
+      "main_packet_Mbit_s": {
+        "mean": 0.5733688170062571,
+        "sample_sd": 0.01797719980789837,
+        "n": 3
+      },
+      "main_Lmean_B": {
+        "mean": 357.71837256447503,
+        "sample_sd": 11.176607481893276,
+        "n": 3
+      },
+      "main_rate_Hz": {
+        "mean": 200.35575709005147,
+        "sample_sd": 0.035694311579928605,
+        "n": 3
+      },
+      "main_K_ESKD_mean": {
+        "mean": 115.03771158663629,
+        "sample_sd": 5.616589780338054,
+        "n": 3
+      },
+      "main_q_ESKF": {
+        "mean": 0.004990850200220283,
+        "sample_sd": 8.302861868713773e-07,
+        "n": 3
+      }
+    },
+    {
+      "label": "M1+M3 simultaneous",
+      "run_ids": [
+        "20260907_054752_155421",
+        "20260907_054832_183609",
+        "20260907_054912_204552"
+      ],
+      "diagnostic": false,
+      "n": 3,
+      "PASS": 3,
+      "CHECK": 0,
+      "main_packet_Mbit_s": {
+        "mean": 0.8158799625637574,
+        "sample_sd": 0.0177862491770217,
+        "n": 3
+      },
+      "main_Lmean_B": {
+        "mean": 510.9031999585959,
+        "sample_sd": 11.144827940512767,
+        "n": 3
+      },
+      "main_rate_Hz": {
+        "mean": 199.61710025219432,
+        "sample_sd": 0.014905785966838815,
+        "n": 3
+      },
+      "main_K_ESKD_mean": {
+        "mean": 73.05365676969417,
+        "sample_sd": 2.7206065624744946,
+        "n": 3
+      },
+      "main_q_ESKF": {
+        "mean": 0.0065672198325384705,
+        "sample_sd": 0.00033708080858029925,
+        "n": 3
+      }
+    },
+    {
+      "label": "N=4 simultaneous, post-reinstallation",
+      "run_ids": [
+        "20260907_115145_448767",
+        "20260907_115225_490019",
+        "20260907_115305_535263"
+      ],
+      "diagnostic": false,
+      "n": 3,
+      "PASS": 3,
+      "CHECK": 0,
+      "main_packet_Mbit_s": {
+        "mean": 2.3475827348805662,
+        "sample_sd": 0.0481426275702422,
+        "n": 3
+      },
+      "main_Lmean_B": {
+        "mean": 1471.5498476968748,
+        "sample_sd": 29.888286602115265,
+        "n": 3
+      },
+      "main_rate_Hz": {
+        "mean": 199.4136124156514,
+        "sample_sd": 0.06819058047224419,
+        "n": 3
+      },
+      "main_K_ESKD_mean": {
+        "mean": 135.1519428313187,
+        "sample_sd": 3.770944441318759,
+        "n": 3
+      },
+      "main_q_ESKF": {
+        "mean": 0.0051955552948451484,
+        "sample_sd": 8.611433118892917e-05,
+        "n": 3
+      }
+    }
+  ],
+  "new_N4_byte_models": [
+    {
+      "run_id": "20260907_115145_448767",
+      "mode": "DELTA",
+      "N": 4,
+      "condition": "large_area",
+      "batch_id": "BATCH_044efb5e7ab5440fa025a8237d0fe1f9",
+      "repeat": 1,
+      "independent_status": "PASS",
+      "P": 5982,
+      "observed_bytes": 8602930,
+      "model_bytes": 8602930,
+      "byte_residual": 0,
+      "L_mean_B": 1438.1360748913407,
+      "expanded_model_L_mean_B": 1438.1360748913407,
+      "rate_Hz": 199.38658792885713,
+      "USB_Mbit_s": 2.29396035959987,
+      "ESKD": 23802,
+      "ESKF": 126,
+      "Ksum": 3116369,
+      "other_payload_bytes": 0,
+      "slot_statistics": [
+        {
+          "slot": "M0",
+          "coverage": 1.0,
+          "q": 0.0050150451354062184,
+          "K_D": 126.93548387096774,
+          "ESKD": 5952,
+          "ESKF": 30
+        },
+        {
+          "slot": "M1",
+          "coverage": 1.0,
+          "q": 0.006018054162487462,
+          "K_D": 125.05701311806256,
+          "ESKD": 5946,
+          "ESKF": 36
+        },
+        {
+          "slot": "M2",
+          "coverage": 1.0,
+          "q": 0.0050150451354062184,
+          "K_D": 147.46102150537635,
+          "ESKD": 5952,
+          "ESKF": 30
+        },
+        {
+          "slot": "M3",
+          "coverage": 1.0,
+          "q": 0.0050150451354062184,
+          "K_D": 124.25604838709677,
+          "ESKD": 5952,
+          "ESKF": 30
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_115225_490019",
+      "mode": "DELTA",
+      "N": 4,
+      "condition": "large_area",
+      "batch_id": "BATCH_044efb5e7ab5440fa025a8237d0fe1f9",
+      "repeat": 2,
+      "independent_status": "PASS",
+      "P": 5981,
+      "observed_bytes": 8856526,
+      "model_bytes": 8856526,
+      "byte_residual": 0,
+      "L_mean_B": 1480.7767931783983,
+      "expanded_model_L_mean_B": 1480.7767931783983,
+      "rate_Hz": 199.36307613759584,
+      "USB_Mbit_s": 2.3616977324896804,
+      "ESKD": 23802,
+      "ESKF": 122,
+      "Ksum": 3245275,
+      "other_payload_bytes": 0,
+      "slot_statistics": [
+        {
+          "slot": "M0",
+          "coverage": 1.0,
+          "q": 0.005015883631499749,
+          "K_D": 132.17123172576038,
+          "ESKD": 5951,
+          "ESKF": 30
+        },
+        {
+          "slot": "M1",
+          "coverage": 1.0,
+          "q": 0.005350275873599732,
+          "K_D": 134.19868885526978,
+          "ESKD": 5949,
+          "ESKF": 32
+        },
+        {
+          "slot": "M2",
+          "coverage": 1.0,
+          "q": 0.005015883631499749,
+          "K_D": 156.06234246345153,
+          "ESKD": 5951,
+          "ESKF": 30
+        },
+        {
+          "slot": "M3",
+          "coverage": 1.0,
+          "q": 0.005015883631499749,
+          "K_D": 122.94555536884558,
+          "ESKD": 5951,
+          "ESKF": 30
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_115305_535263",
+      "mode": "DELTA",
+      "N": 4,
+      "condition": "large_area",
+      "batch_id": "BATCH_044efb5e7ab5440fa025a8237d0fe1f9",
+      "repeat": 3,
+      "independent_status": "PASS",
+      "P": 5985,
+      "observed_bytes": 8951984,
+      "model_bytes": 8951984,
+      "byte_residual": 0,
+      "L_mean_B": 1495.7366750208855,
+      "expanded_model_L_mean_B": 1495.7366750208857,
+      "rate_Hz": 199.49117318050116,
+      "USB_Mbit_s": 2.3870901125521478,
+      "ESKD": 23815,
+      "ESKF": 125,
+      "Ksum": 3290812,
+      "other_payload_bytes": 0,
+      "slot_statistics": [
+        {
+          "slot": "M0",
+          "coverage": 1.0,
+          "q": 0.005012531328320802,
+          "K_D": 138.99076406381192,
+          "ESKD": 5955,
+          "ESKF": 30
+        },
+        {
+          "slot": "M1",
+          "coverage": 1.0,
+          "q": 0.005847953216374269,
+          "K_D": 146.3621848739496,
+          "ESKD": 5950,
+          "ESKF": 35
+        },
+        {
+          "slot": "M2",
+          "coverage": 1.0,
+          "q": 0.005012531328320802,
+          "K_D": 158.8829554995802,
+          "ESKD": 5955,
+          "ESKF": 30
+        },
+        {
+          "slot": "M3",
+          "coverage": 1.0,
+          "q": 0.005012531328320802,
+          "K_D": 108.50025188916877,
+          "ESKD": 5955,
+          "ESKF": 30
+        }
+      ]
+    }
+  ],
+  "plot_exclusions": [
+    "early M1 diagnostic batch",
+    "pre-reinstallation N=4 diagnostic batch"
+  ],
+  "interpretation": "The earlier N=4 batch remains diagnostic; the 3/3 PASS post-reinstallation batch supplies the N=4 performance result."
+}

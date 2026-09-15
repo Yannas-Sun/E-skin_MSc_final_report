@@ -1,0 +1,106 @@
+# This directory is used as a supplementary-material export.
+# The full LaTeX report source is intentionally excluded.
+
+# LaTeX report source
+/main.tex
+/title/
+/introduction/
+/background/
+/method/
+/result/
+/discussion/
+/conclusion/
+/appendix/
+/bibs/
+/tools/
+
+# Generated output and temporary work
+/build/
+/tmp/
+**/__pycache__/
+*.pyc
+/*.aux
+/*.bbl
+/*.blg
+/*.log
+/*.lof
+/*.lot
+/*.out
+/*.toc
+/*.synctex.gz
+
+# Project administration and template files
+/CHANGELOG.md
+/REPORT_UPDATE_CHECKLIST_CN.md
+/MSc_Project_booklet_2025-26.pdf
+
+# Keep only the hardware figures cited by the report
+/figures/hardware/*
+!/figures/hardware/*.png
+
+# Keep only the current calibration figures cited by the report
+/figures/calibration/*
+!/figures/calibration/v2_7/
+/figures/calibration/v2_7/*
+!/figures/calibration/v2_7/fsr1_calibration_comparison.pdf
+!/figures/calibration/v2_7/fsr1_load_error_vs_load.pdf
+!/figures/calibration/v2_7/fsr1_dispersion_overview.pdf
+!/figures/calibration/v2_7/fsr2_calibration_comparison.pdf
+!/figures/calibration/v2_7/fsr2_load_error_vs_load.pdf
+!/figures/calibration/v2_7/fsr2_dispersion_overview.pdf
+
+# Keep only the current data figures cited by the report
+/figures/data/*
+!/figures/data/data_path_flow.pdf
+!/figures/data/v2_9/
+/figures/data/v2_9/*
+!/figures/data/v2_9/data_length_traces.pdf
+!/figures/data/v2_11/
+/figures/data/v2_11/*
+!/figures/data/v2_11/full_model_validation.pdf
+
+# Keep only the current power figures cited by the report
+/figures/power/*
+!/figures/power/v2_8/
+/figures/power/v2_8/*
+!/figures/power/v2_8/branch_current_balance.pdf
+!/figures/power/v2_8/independent_current_prediction.pdf
+!/figures/power/v2_8/module_drop_N1_N4.pdf
+!/figures/power/v2_8/single_module_screening.pdf
+!/figures/power/v2_8/temperature_scaling.pdf
+!/figures/power/v2_9/
+/figures/power/v2_9/*
+!/figures/power/v2_9/current_power_scaling.pdf
+!/figures/power/v2_9/voltage_scaling.pdf
+
+# The title logo and all other figure exports are outside the supplement
+/title/logo.png
+
+# Keep current audit evidence only
+/audit/*
+!/audit/calibration_v2_7/
+/audit/calibration_v2_7/*
+!/audit/calibration_v2_7/evidence.json
+!/audit/calibration_v2_7/*.csv
+!/audit/calibration_v2_7/tables/
+/audit/calibration_v2_7/tables/*
+!/audit/calibration_v2_7/tables/*.tex
+!/audit/data_v2_9/
+/audit/data_v2_9/*
+!/audit/data_v2_9/*.json
+!/audit/data_v2_11/
+/audit/data_v2_11/*
+!/audit/data_v2_11/*.csv
+!/audit/data_v2_11/*.json
+!/audit/power_v2_9/
+/audit/power_v2_9/*
+!/audit/power_v2_9/*.csv
+!/audit/power_v2_9/*.json
+
+# Non-supplementary document formats
+**/*.docx
+**/*.html
+**/*.lnk
+
+# Archived report versions
+/report_versions/
