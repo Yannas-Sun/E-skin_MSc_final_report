@@ -1,30 +1,30 @@
 # Hardware package
 
-This directory contains the hardware sources, manufacturing outputs, shared KiCad libraries, and firmware retained for the final project.
+This directory contains the hardware evidence for the final project: prototype design records, manufacturing exports, shared KiCad libraries, renderings and firmware.
 
-## Structure
+## System principle
 
-- prototype/mainboard/
-  - design/: KiCad schematic, PCB, project file, and library tables.
-  - manufacturing/: Gerber, drill, BOM, and board renders.
-- prototype/fsr_array/
-  - design/: flexible FSR-array KiCad project.
-  - manufacturing/: Gerber, drill, manufacturing archive, and board figure.
-- prototype/acc_prototype/
-  - design/: ACC prototype KiCad project and sensor schematics.
-  - manufacturing/: Gerber, drill, manufacturing archive, and board renders.
-- libraries/bom/: component BOM spreadsheets.
-- libraries/datasheet/: component datasheets used by the hardware records.
-- libraries/3dmodels/: local STEP models used by the PCB layouts.
-- libraries/e_skin.pretty/: custom KiCad footprints.
-- libraries/e_skin_custom_symbols.kicad_sym: custom KiCad symbols.
-- libraries/Figures/: source hardware renders and exported schematics/layouts.
-- firmware/: final firmware source and retained historical firmware packages.
+Each replaceable module contains two flexible FSR electrode layers and a local STM32G474CETx. Orthogonal copper rows and columns surround a pressure-sensitive resistive foam layer, producing a 16 x 16 sensing matrix. The rigid mainboard provides the FSR interfaces, ADC and multiplexing paths, branch power, connectors and programming access.
 
-## Report figures
+The Teensy 4.1 acts as the host bridge. It selects modules over the shared 10 MHz HOST SPI link, aggregates ESKF FULL or ESKD DELTA frames into MUL1 v2 packets and forwards them to the PC over USB. The ACC interface is retained as an existing prototype record and is outside the reported FSR evaluation.
 
-The LaTeX project uses the report copies in ../Imperial College Individual Project Template_LaTeX/figures/hardware/. The source exports remain in libraries/Figures/.
+## Renderings
 
-## Portability
+<table>
+<tr>
+<td><img src="libraries/Figures/Module%202.0.png" alt="Module stack" width="220"><br>Module stack</td>
+<td><img src="libraries/Figures/Mainboard.png" alt="Rigid mainboard" width="220"><br>Rigid mainboard</td>
+</tr>
+<tr>
+<td><img src="libraries/Figures/FSR.png" alt="Flexible FSR layer" width="220"><br>Flexible FSR layer</td>
+<td><img src="libraries/Figures/ACC.png" alt="ACC prototype" width="220"><br>ACC prototype</td>
+</tr>
+</table>
 
-The retained KiCad project files use paths relative to this hardware package. Open each project from its design/ directory with the shared libraries available under libraries/.
+## Navigation
+
+- [Prototype design records](prototype/README.md): mainboard, flexible FSR array and ACC prototype design/manufacturing files.
+- [Shared libraries](libraries/README.md): KiCad symbols and footprints, models, datasheets, BOMs and exported figures.
+- [Firmware](firmware/README.md): active four-module firmware, protocol notes and archived firmware records.
+
+Each prototype directory separates design files from manufacturing outputs. KiCad projects use paths relative to this hardware package.
