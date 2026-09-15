@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "record": "DATA/raw/canonical/power_experiment_records/targeted_retests/20260907_M1-M2-M3_MAX_M3/record.json",
+  "record_sha256": "d3ca361255557aaf66305683d95b74a550a1cb8279a04dfe0227b4bf9bb8c8b1",
+  "photos": [
+    {
+      "quantity": "voltage",
+      "original_attachment": "C:\\Users\\yannas\\AppData\\Local\\Temp\\codex-clipboard-65c9be22-b4a7-40ce-8240-7e4a4bbaa994.jpg",
+      "saved_path": "DATA/raw/canonical/power_experiment_records/targeted_retests/20260907_M1-M2-M3_MAX_M3/M3_voltage_retest.jpg",
+      "sha256": "9e3123742588828da8cb6df3dc53f3e75ce177dba96ce2bb51a873265ab3b14f",
+      "pixel_dimensions": [
+        4160,
+        3120
+      ],
+      "exif_date_tags_unverified": {
+        "306": "2026:09:07 05:26:13"
+      },
+      "source": "user attachment; direct visual transcription confirmed by two agents"
+    },
+    {
+      "quantity": "current",
+      "original_attachment": "C:\\Users\\yannas\\AppData\\Local\\Temp\\codex-clipboard-ad316b83-af4f-472b-a90f-4c504ffbdd7f.jpg",
+      "saved_path": "DATA/raw/canonical/power_experiment_records/targeted_retests/20260907_M1-M2-M3_MAX_M3/M3_current_retest.jpg",
+      "sha256": "a96022ceeef27bdfd202cf10fe2907f08f93a37b8472b8e694ae97538db718ed",
+      "pixel_dimensions": [
+        4160,
+        3120
+      ],
+      "exif_date_tags_unverified": {
+        "306": "2026:09:07 05:28:39"
+      },
+      "source": "user attachment; direct visual transcription confirmed by two agents"
+    }
+  ],
+  "original_record_unchanged": true,
+  "existing_summary_figures_report_unchanged": true,
+  "protected_files": {
+    "power scalability/DATA/raw/canonical/power_experiment_records/transmission/n=3/M1-M2-M3/full_load/PS01_N3_F200_MAX_M1-M2-M3_USB_RX_R1.yaml": "4892e0d86e57c09da28d32627cf7ae4928f16b7b79963522a83846c2477c0423",
+    "main 2.3.pdf": "1316e94ea76de1f2748c6ec856c41870658d8c8737f8243ff3093260bc3891d3",
+    "report_versions\\v2.3\\manifest.json": "69ba231e80b840f2387dd12fd0e42674fa9acf855495e5b37af2a03c74c49027",
+    "power scalability/DATA/analysis/current/all_power_review_20260907/additivity_checks.csv": "2e2e3c3730306ade535a0272467d8b591dc4a45b6ce49fcb8e0166f5c0d7ce98",
+    "power scalability/DATA/analysis/current/all_power_review_20260907/branch_readings.csv": "3013ef97a1f84cf43fa46a089ecec081d44d7f9854452a2d29bd5d68160fa57d",
+    "power scalability/DATA/analysis/current/all_power_review_20260907/configuration_summary.csv": "18bb6c48005a6adab3f3613314fd8e40ad370a48fb98a5b3cffff397ae6c41d6",
+    "power scalability/DATA/analysis/current/all_power_review_20260907/coverage.csv": "6931aa7463291668d010137ae547de1daba826c79eab7d7c6faccbb5ba05f3a0",
+    "power scalability/DATA/analysis/current/all_power_review_20260907/group_summary.csv": "65a5bc9eb6b9924319ab31d83d0a6bc9d03e3d499a3860a9df11029f9847d3fd",
+    "power scalability/DATA/analysis/current/all_power_review_20260907/load_pairs.csv": "8b21a90293e3fa2ef070cc03fa3f1625866e1ae57a0b0f74bd0bd0426e2f4d56",
+    "power scalability/DATA/analysis/current/all_power_review_20260907/quality_issues.csv": "bc8540694aaf8a861c62ea56a30de4a649ae04bece755c74710549cd3c8aaf5d",
+    "power scalability/DATA/analysis/current/all_power_review_20260907/README_CN.md": "980a0ff34a4bdc4e8da21503adcd99bd2829dc279e84a5051b027d8ac48500fc",
+    "power scalability/DATA/analysis/current/all_power_review_20260907/source_manifest.json": "19a13018dc2c4fd41dffb255b01820a38c1e0ed2383b46a8dd79dd1a92f2d05c",
+    "power scalability/DATA/analysis/current/all_power_review_20260907/source_voltage_readings.csv": "02a6627776949b279360a88a6fd34e864495468eb432c644bebc1e458dc17bab",
+    "power scalability/DATA/analysis/current/all_power_review_20260907/summary.json": "756757de72f3cb9357c573a537799bda9e4920ba14ef79c2040fadd3d14353a0",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/contributing_branch_readings.csv": "3013ef97a1f84cf43fa46a089ecec081d44d7f9854452a2d29bd5d68160fa57d",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/figure_manifest.json": "67d45e7d914f878a34c0fe7c9a869acef64c4cea67d9ad04dfc166809ff770f0",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/figure_qa.json": "f7e264fc0da0a1499f9390deeb7be504729fcdce8d75fe835dd55af082265bd5",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_by_N_summary.csv": "4dff5a04eb6e3740454c350b22a2317f808f11ccf0964eeb3d0a4738bbf8ca13",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_mean_by_N.pdf": "815f412d43d214b1b30ee1f7e2b14a62d6602fe5d877e7aedf4941e4818cd7fc",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_mean_by_N.png": "8e14ae6842df89f3f066602bf2208650e5ef88e3b3b0220fa8f8028c2345c23c",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_mean_by_N.svg": "99dc77c264c4d8148ac44dbe3e3d6e3a858178d5ade95cebb1a23031b14f1b8c",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N1.pdf": "c96884e629affa4b3d18e33c6354a81d039e7f15f1a4296457414aadcc27c81d",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N1.png": "083d0d73552214e3e97dbfa3ab6475c5475e258175f2954b6685dc7839a9a66a",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N1.svg": "e61ee2bda0a07a18fa9723948a2cf789884f8a43c772a3066fb6378c9e52b213",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N1_N4.pdf": "b2543600221714e24d098b898e92a2f28b4601975fe17a422727e49e8ac353db",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N1_N4.png": "298bce9eef220743ce6ba28ef697634299c9ecc8e279e31a760758f147042355",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N1_N4.svg": "e9b68c96cbda3579fb593af3476e8349010ad2b1dc1a59f4b43cc7e7040c66bf",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N2.pdf": "130bc28c98375b972de3f3779374e6ea23d19c6e679cdd9c96f191a6ba902d14",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N2.png": "eaa1e5ecffab1e6e50f50833fec2d64147cfdd0b56720116d4319fb72eb628bc",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N2.svg": "e95ab31182f0dd16301f5eec26c9e5fca8af1c8c667c2423d438af8264142d63",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N3.pdf": "de943d59c3111a33b78de111ac0a7309b44a2bb686d34c0a5d99c2ab725f1ca4",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N3.png": "13faec277c82eb2f8ce5948e8d991c01a105cddd6a60545694ae7c0f4720ca2f",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N3.svg": "09a26c9f8270cdb24958aab711eee89a3cf155512fa8e168738fef0e9d707f49",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N4.pdf": "a979e97354516d38f59601d240a5768419830bab4dd23e0610c0b684ede2abe1",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N4.png": "032e64c383f26884761a8467840bb93820d997f7ca9c3736657fe0135d3cd8f7",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N4.svg": "bfd81473becf84667a29fdbdc91ce0838c0dc8a59216c715b38d2946062b2354",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/README_CN.md": "c72e2c6171ecf21a78e57a92002ec66fe6e5d6f2acfb66072f36aba6cff2ae49"
+  },
+  "numeric_bounds_checks": "2/2 PASS",
+  "photos_verified": "2/2 SHA256 identical",
+  "source_voltage_pending": true,
+  "new_drop_computed": false,
+  "comparison_sha256": "d2ac5eb3ca52e2aed1f17ca50e904bcb9e1d9270c2355a828c8b539e51104768",
+  "record_revision": 3,
+  "connector_reinsertion_confirmed": true,
+  "source_measurement_point_pending": false,
+  "source_not_remeasured_user_confirmed": true
+}

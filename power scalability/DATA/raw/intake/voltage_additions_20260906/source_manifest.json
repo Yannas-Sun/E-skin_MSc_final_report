@@ -1,0 +1,81 @@
+{
+  "capture_filename_date": "2026-09-06",
+  "measurement_scope": "VOLTAGE_ONLY",
+  "records": [
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/zero_load/PS01_N2_F200_ZERO_M0-M2_USB_RX_VOLTAGE_R1.yaml",
+      "sha256": "61fb4eab2ee15e218706767d0d6c694b12c3d8018d2da9773245157496811fef"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/zero_load/PS01_N2_F200_ZERO_M0-M3_USB_RX_VOLTAGE_R1.yaml",
+      "sha256": "ea37816dd44a084a23490a531bc5eaa8634403acc6a4bbe63375234b9ae4de80"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/zero_load/PS01_N2_F200_ZERO_M1-M2_USB_RX_VOLTAGE_R1.yaml",
+      "sha256": "6de2a9ff6fe5d6035346802c2411c29a8ed87e0ef5c54d376eb7b73e1ba08979"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/zero_load/PS01_N2_F200_ZERO_M1-M3_USB_RX_VOLTAGE_R1.yaml",
+      "sha256": "d3aac60eb88bfcb9208d4acf2ceb07be8d751e33e28b3316085f5470a26458cc"
+    }
+  ],
+  "photographs": [
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/IMG_20260906_231927.jpg",
+      "sha256": "95052ff8b47b164ee3c99cd997c9b1d6c1e52909537ae98ae4fac7fd53418349"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/IMG_20260906_232003.jpg",
+      "sha256": "4cbe98a041c2005c1492d1bbaf146c4c26f95b88933fd023684fa926ddb4607a"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/IMG_20260906_232035.jpg",
+      "sha256": "48b6e05b0d699b921fbfb507bd2daf4299c4efd6f355344ebd46f1ac05fb552b"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/IMG_20260906_232855.jpg",
+      "sha256": "be9a773ea9595f2acd6642ce04ead2900e21c318f4cc77e3edc3e41f874057a2"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/IMG_20260906_232921.jpg",
+      "sha256": "e8b6bc22ac43d51c9c68db25871068f32bc17f79992c092c1fe54a584b021603"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/IMG_20260906_232941.jpg",
+      "sha256": "3ba97cde9eaa19aeafd5a7da28470f9949eee36ad8b9a963e3db8a3d891ef514"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/IMG_20260906_233306.jpg",
+      "sha256": "3d753b4168d64ef862ffc0149338427602720f81ba18b6652615c736abdb9049"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/IMG_20260906_233326.jpg",
+      "sha256": "44b939a5dcf69e1330781f1ba3c331398ff277ca898524fe60017518605bd4b4"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/IMG_20260906_233351.jpg",
+      "sha256": "69018df11cf23a6346df70483a1e110bed7a5ef78b012c84dad3437f155703bb"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/IMG_20260906_233839.jpg",
+      "sha256": "1b42628f0bea0e4e6da5ce7de53f527868380894046d0fbff298de29b436170b"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/IMG_20260906_233906.jpg",
+      "sha256": "925d80f090d6c45226d70306301cf5cff07a28e8ae6015b399666e7789c3b0d7"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/IMG_20260906_233928.jpg",
+      "sha256": "d160d125392ca110f3db9c098ba1980081f6690e90949e0b77ad8c2e362aafa4"
+    }
+  ],
+  "record_count": 4,
+  "module_voltage_points": 8,
+  "source_voltage_points": 4,
+  "preexisting_raw_files_unchanged": true,
+  "photos_unchanged": true,
+  "source_first_mapping": "inferred and explicitly documented",
+  "module_order": "ascending, confirmed by user",
+  "published_report_updated": false,
+  "report_2_1_analysis_outputs_overwritten": false
+}

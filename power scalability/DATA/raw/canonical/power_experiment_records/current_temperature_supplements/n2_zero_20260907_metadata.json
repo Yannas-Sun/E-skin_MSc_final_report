@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "scope": "N=2 ZERO; continuous USB read; FULL; configured 200 Hz",
+  "condition_basis": "User identifies the new photos as N=2 ZERO; protocol/rate/host context inherited from the corresponding existing voltage records, not independently verified by the DMM photos.",
+  "current_source": "Eight photographs: visually transcribed DC mA displays, supplemented by the user's confirmation of M0-M3 M3 MIN as 17.89 mA where glare obscures the photograph.",
+  "user_confirmed_current_values": [
+    {
+      "date_received": "2026-09-07",
+      "combo": "M0-M3",
+      "module_id": "M3",
+      "field": "I_min_mA",
+      "value": 17.89,
+      "previous_value": null,
+      "source": "User response annotation: 17.89mA, in context of the previously unreadable MIN",
+      "independently_readable_from_photo": false,
+      "main_mA_unchanged": 17.922,
+      "max_mA_unchanged": 18.05
+    }
+  ],
+  "module_mapping_basis": "Ascending module-ID measurement order established by user; ascending current-photo filenames within each combination.",
+  "temperature_source": "Latest user message in this conversation, received 2026-09-07; supersedes the immediately preceding incomplete temperature message.",
+  "temperature_order": "Lower-number module STM32, higher-number module STM32, Teensy, regulator",
+  "temperature_unit": "degC",
+  "temperature_message_values": {
+    "M0-M2": [27.3, 26.8, 42.5, 29.3],
+    "M0-M3": [27.3, 26.4, 42.6, 29.2],
+    "M1-M2": [26.5, 26.3, 42.8, 29.1],
+    "M1-M3": [26.7, 26.5, 42.5, 28.8]
+  },
+  "current_photo_filename_date": "2026-09-07",
+  "voltage_photo_filename_date": "2026-09-06",
+  "actual_measurement_start_time": null,
+  "measurement_duration_s": null,
+  "warmup_duration_s": null,
+  "ambient_temperature_C": null,
+  "fault_counts": null,
+  "simultaneous_voltage_current_measurement_verified": false,
+  "thermal_steady_state_verified": false,
+  "measurement_meaning": "Main DMM reading is representative, not a verified time average; MIN/MAX are display extrema, not standard deviations or verified instantaneous peaks.",
+  "counting": "Four newly completed current/temperature configuration records; each is linked to its existing voltage-only configuration. Each pair has one current observation per module and no measured within-condition repeat SD. Voltage and current sessions are not counted as repeated complete power experiments.",
+  "linking": "Join by combo to transmission/n=2/<combo>/zero_load/PS01_N2_F200_ZERO_<combo>_USB_RX_VOLTAGE_R1.yaml. Original voltage-only YAMLs remain unchanged as records of the earlier intake; this supplement supplies the later current/temperature evidence.",
+  "power_estimate": "For the four supplemented pairs, use the earlier configuration's source voltage times the sum of the two new branch main currents. This is a cross-record output-side estimate, with contemporaneous source voltage unverified; excludes USB-powered Teensy consumption and regulator losses.",
+  "known_limitations": [
+    "M0-M3 M3 current MIN is 17.89 mA by user confirmation; the photograph remains obscured by glare and does not independently verify this field.",
+    "Temperatures are point readings; no ambient reference or verified settling duration.",
+    "New combinations and older combinations were acquired in different filename-date batches; batch and combination effects are confounded.",
+    "This is a data supplement; published main 2.1 and frozen analysis_v2_1 remain unchanged."
+  ]
+}

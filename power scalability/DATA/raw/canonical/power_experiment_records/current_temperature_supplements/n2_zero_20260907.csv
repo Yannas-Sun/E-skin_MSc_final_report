@@ -1,0 +1,9 @@
+combo,module_id,I_main_mA,I_min_mA,I_max_mA,T_stm32_C,T_teensy_C,T_regulator_C,current_photo,current_min_note
+M0-M2,M0,17.985,17.96,18.01,27.3,42.5,29.3,DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/IMG_20260907_010853.jpg,
+M0-M2,M2,18.316,18.28,18.36,26.8,42.5,29.3,DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/IMG_20260907_011244.jpg,
+M0-M3,M0,17.985,17.96,18.02,27.3,42.6,29.2,DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/IMG_20260907_011436.jpg,
+M0-M3,M3,17.922,17.89,18.05,26.4,42.6,29.2,DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/IMG_20260907_011700.jpg,MIN confirmed by user as 17.89 mA on 2026-09-07; photo obscured by glare
+M1-M2,M1,18.151,18.12,18.16,26.5,42.8,29.1,DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/IMG_20260907_012031.jpg,
+M1-M2,M2,18.110,18.07,18.12,26.3,42.8,29.1,DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/IMG_20260907_012237.jpg,
+M1-M3,M1,18.464,18.43,18.49,26.7,42.5,28.8,DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/IMG_20260907_012628.jpg,
+M1-M3,M3,18.097,18.07,18.11,26.5,42.5,28.8,DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/IMG_20260907_012749.jpg,

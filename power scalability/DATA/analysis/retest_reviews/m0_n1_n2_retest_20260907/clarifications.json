@@ -1,0 +1,8 @@
+{
+  "N1_M0_ZERO_voltage_assignment_confirmed": true,
+  "confirmed_voltage_main_min_max_V": ["3.252", "3.252", "3.252"],
+  "confirmation_basis": "User confirmed N1 ZERO value and requested removal of its uncertainty marker.",
+  "user_message": "N1 zero不需要标记，能确认就是这个数值。同时热力图的轴不要固定0到50，而是根据目前数值范围自适应最合适的",
+  "reported_date": "2026-09-07",
+  "adds_new_measurement": false
+}

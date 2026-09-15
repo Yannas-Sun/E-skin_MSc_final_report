@@ -1,0 +1,69 @@
+# Transcribed from twelve reviewed photos; source-first assignment is documented below.
+run_id: PS01_N2_F200_ZERO_M1-M3_USB_RX_VOLTAGE_R1
+measurement_scope: VOLTAGE_ONLY
+record_status: MEASURED
+data_quality: INCOMPLETE
+date: null
+measurement_start_time: null
+operator: null
+photo_filename_date: '2026-09-06'
+module_count: 2
+module_ids: Module1,Module3
+frequency_hz: 200
+protocol_mode: FULL
+load: ZERO
+load_mass_g: 0
+load_application: NONE
+host_usb_polling_state: CONTINUOUS_USB_READ
+operating_condition_basis: Existing FULL/200 Hz continuous-read test series and transmission
+  folder; not independently visible in meter photos.
+measurement_order:
+- SOURCE
+- M1
+- M3
+module_order_basis: User confirmed measurements followed ascending module number.
+source_order_basis: First photograph assigned to source following established capture
+  sequence; probe endpoint is not identifiable in these photos.
+source_order_independently_verified: false
+instrument_model: FNIRSI 2C53P
+DMM_voltage_mode: DC
+measurement_duration_s: null
+warmup_duration_s: null
+reading_semantics: avg fields preserve main display readings for schema compatibility;
+  not verified time averages
+reset_count: null
+current_limit_count: null
+brownout_count: null
+data_stop_count: null
+data_gap_count: null
+T_regulator_C: null
+T_teensy_C: null
+V_source_avg_V: 3.278
+V_source_min_V: 3.278
+V_source_max_V: 3.279
+V_module1_avg_V: 3.248
+V_module1_min_V: 3.247
+V_module1_max_V: 3.248
+I_module1_avg_mA: null
+I_module1_min_mA: null
+I_module1_max_mA: null
+T_module1_stm32_C: null
+V_module3_avg_V: 3.245
+V_module3_min_V: 3.245
+V_module3_max_V: 3.245
+I_module3_avg_mA: null
+I_module3_min_mA: null
+I_module3_max_mA: null
+T_module3_stm32_C: null
+voltage_photo_evidence:
+- role: SOURCE
+  file: ../IMG_20260906_233839.jpg
+  sha256: 1b42628f0bea0e4e6da5ce7de53f527868380894046d0fbff298de29b436170b
+- role: M1
+  file: ../IMG_20260906_233906.jpg
+  sha256: 925d80f090d6c45226d70306301cf5cff07a28e8ae6015b399666e7789c3b0d7
+- role: M3
+  file: ../IMG_20260906_233928.jpg
+  sha256: d160d125392ca110f3db9c098ba1980081f6690e90949e0b77ad8c2e362aafa4
+observation: Voltage-only ZERO supplement. Currents, temperatures, timing and fault
+  observations are unavailable. Photos retained unchanged.

@@ -1,0 +1,300 @@
+{
+  "scope": "N=2 MAX; continuous USB read; FULL; configured 200 Hz",
+  "n_combinations": 6,
+  "n_records_per_configuration_condition": 1,
+  "SD_meaning": "Sample SD across different configurations; not within-condition repeatability. Combinations share modules and are confounded with acquisition batch.",
+  "aggregate_MAX": {
+    "I_sum_mA": {
+      "n_combinations": 6,
+      "mean": "39.629",
+      "sample_SD_between_combinations": "0.3148682264059046018750101736",
+      "minimum": "39.335",
+      "maximum": "40.016",
+      "CV_percent": "0.7945399238080814602311695314"
+    },
+    "P_source_output_estimate_mW": {
+      "n_combinations": 6,
+      "mean": "129.8905728333333333333333333",
+      "sample_SD_between_combinations": "1.020166724181967555841173700",
+      "minimum": "128.940130",
+      "maximum": "131.132432",
+      "CV_percent": "0.7854047464175675524482593675"
+    },
+    "V_source_main_V": {
+      "n_combinations": 6,
+      "mean": "3.277666666666666666666666667",
+      "sample_SD_between_combinations": "0.0005163977794943222513572353866",
+      "minimum": "3.277",
+      "maximum": "3.278"
+    },
+    "T_teensy_C": {
+      "n_combinations": 6,
+      "mean": "42.8",
+      "sample_SD_between_combinations": "0.1788854381999831757127338935",
+      "minimum": "42.6",
+      "maximum": "43.1"
+    },
+    "T_regulator_C": {
+      "n_combinations": 6,
+      "mean": "29.25",
+      "sample_SD_between_combinations": "0.2345207879911714777282815057",
+      "minimum": "28.9",
+      "maximum": "29.6"
+    }
+  },
+  "aggregate_ZERO": {
+    "I_sum_mA": {
+      "n_combinations": 6,
+      "mean": "36.26333333333333333333333333",
+      "sample_SD_between_combinations": "0.2651178354367481378156202331",
+      "minimum": "35.907",
+      "maximum": "36.561",
+      "CV_percent": "0.7310906391306594479702736459"
+    },
+    "P_source_output_estimate_mW": {
+      "n_combinations": 6,
+      "mean": "118.9073383333333333333333333",
+      "sample_SD_between_combinations": "0.8483850356734651096321562372",
+      "minimum": "117.739053",
+      "maximum": "119.846958",
+      "CV_percent": "0.7134841697450030744237830997"
+    },
+    "V_source_main_V": {
+      "n_combinations": 6,
+      "mean": "3.279",
+      "sample_SD_between_combinations": "0.001095445115010332226913939566",
+      "minimum": "3.278",
+      "maximum": "3.281"
+    },
+    "T_teensy_C": {
+      "n_combinations": 6,
+      "mean": "42.68333333333333333333333333",
+      "sample_SD_between_combinations": "0.2316606713852540544489875457",
+      "minimum": "42.5",
+      "maximum": "43.1"
+    },
+    "T_regulator_C": {
+      "n_combinations": 6,
+      "mean": "29.1",
+      "sample_SD_between_combinations": "0.1788854381999831757127338935",
+      "minimum": "28.8",
+      "maximum": "29.3"
+    }
+  },
+  "by_MAX_photo_filename_date_batch": {
+    "2026-09-05": {
+      "I_sum_mA": {
+        "n_combinations": 2,
+        "mean": "39.6735",
+        "sample_SD_between_combinations": "0.4164858941188764918720973293",
+        "minimum": "39.379",
+        "maximum": "39.968",
+        "CV_percent": "1.049783593882255137237948074"
+      },
+      "P_source_output_estimate_mW": {
+        "n_combinations": 2,
+        "mean": "130.049733",
+        "sample_SD_between_combinations": "1.365240760921677140356735045",
+        "minimum": "129.084362",
+        "maximum": "131.015104",
+        "CV_percent": "1.049783593882255137237948074"
+      },
+      "V_source_main_V": {
+        "n_combinations": 2,
+        "mean": "3.278",
+        "sample_SD_between_combinations": "0.0",
+        "minimum": "3.278",
+        "maximum": "3.278"
+      },
+      "T_teensy_C": {
+        "n_combinations": 2,
+        "mean": "42.85",
+        "sample_SD_between_combinations": "0.07071067811865475244008443621",
+        "minimum": "42.8",
+        "maximum": "42.9"
+      },
+      "T_regulator_C": {
+        "n_combinations": 2,
+        "mean": "29.5",
+        "sample_SD_between_combinations": "0.1414213562373095048801688724",
+        "minimum": "29.4",
+        "maximum": "29.6"
+      }
+    },
+    "2026-09-07": {
+      "I_sum_mA": {
+        "n_combinations": 4,
+        "mean": "39.60675",
+        "sample_SD_between_combinations": "0.3247094855405366811317816853",
+        "minimum": "39.335",
+        "maximum": "40.016",
+        "CV_percent": "0.8198337039533329069711139775"
+      },
+      "P_source_output_estimate_mW": {
+        "n_combinations": 4,
+        "mean": "129.81099275",
+        "sample_SD_between_combinations": "1.043044025021435356799156772",
+        "minimum": "128.940130",
+        "maximum": "131.132432",
+        "CV_percent": "0.8035097821262408894096966006"
+      },
+      "V_source_main_V": {
+        "n_combinations": 4,
+        "mean": "3.2775",
+        "sample_SD_between_combinations": "0.0005773502691896257645091487805",
+        "minimum": "3.277",
+        "maximum": "3.278"
+      },
+      "T_teensy_C": {
+        "n_combinations": 4,
+        "mean": "42.775",
+        "sample_SD_between_combinations": "0.2217355782608345120841005136",
+        "minimum": "42.6",
+        "maximum": "43.1"
+      },
+      "T_regulator_C": {
+        "n_combinations": 4,
+        "mean": "29.125",
+        "sample_SD_between_combinations": "0.15",
+        "minimum": "28.9",
+        "maximum": "29.2"
+      }
+    }
+  },
+  "by_ZERO_current_filename_date_batch": {
+    "2026-09-05": {
+      "I_sum_mA": {
+        "n_combinations": 2,
+        "mean": "36.275",
+        "sample_SD_between_combinations": "0.3662813126546316176396373796",
+        "minimum": "36.016",
+        "maximum": "36.534",
+        "CV_percent": "1.009734838469005148558614417"
+      },
+      "P_source_output_estimate_mW": {
+        "n_combinations": 2,
+        "mean": "118.981741",
+        "sample_SD_between_combinations": "1.150102108532107682962729347",
+        "minimum": "118.168496",
+        "maximum": "119.794986",
+        "CV_percent": "0.9666206754632273223861544831"
+      },
+      "V_source_main_V": {
+        "n_combinations": 2,
+        "mean": "3.28",
+        "sample_SD_between_combinations": "0.001414213562373095048801688724",
+        "minimum": "3.279",
+        "maximum": "3.281"
+      },
+      "T_teensy_C": {
+        "n_combinations": 2,
+        "mean": "42.85",
+        "sample_SD_between_combinations": "0.3535533905932737622004221811",
+        "minimum": "42.6",
+        "maximum": "43.1"
+      },
+      "T_regulator_C": {
+        "n_combinations": 2,
+        "mean": "29.1",
+        "sample_SD_between_combinations": "0.1414213562373095048801688724",
+        "minimum": "29.0",
+        "maximum": "29.2"
+      }
+    },
+    "2026-09-07": {
+      "I_sum_mA": {
+        "n_combinations": 4,
+        "mean": "36.2575",
+        "sample_SD_between_combinations": "0.2688661376968100086818590543",
+        "minimum": "35.907",
+        "maximum": "36.561",
+        "CV_percent": "0.7415462668325450146365829257"
+      },
+      "P_source_output_estimate_mW": {
+        "n_combinations": 4,
+        "mean": "118.870137",
+        "sample_SD_between_combinations": "0.8678409442023348093836078705",
+        "minimum": "117.739053",
+        "maximum": "119.846958",
+        "CV_percent": "0.7300748245981535374049479479"
+      },
+      "V_source_main_V": {
+        "n_combinations": 4,
+        "mean": "3.2785",
+        "sample_SD_between_combinations": "0.0005773502691896257645091487805",
+        "minimum": "3.278",
+        "maximum": "3.279"
+      },
+      "T_teensy_C": {
+        "n_combinations": 4,
+        "mean": "42.6",
+        "sample_SD_between_combinations": "0.1414213562373095048801688724",
+        "minimum": "42.5",
+        "maximum": "42.8"
+      },
+      "T_regulator_C": {
+        "n_combinations": 4,
+        "mean": "29.1",
+        "sample_SD_between_combinations": "0.2160246899469286743655322479",
+        "minimum": "28.8",
+        "maximum": "29.3"
+      }
+    }
+  },
+  "descriptive_MAX_minus_ZERO": {
+    "MAX_minus_ZERO_mA": {
+      "n_combinations": 6,
+      "mean": "3.365666666666666666666666667",
+      "sample_SD_between_combinations": "0.3824043235459906076539842399",
+      "minimum": "2.845",
+      "maximum": "3.952"
+    },
+    "MAX_minus_ZERO_percent_of_ZERO": {
+      "n_combinations": 6,
+      "mean": "9.285321723466788207276333061",
+      "sample_SD_between_combinations": "1.095631397964214939434478567",
+      "minimum": "7.787266655717961351070235945",
+      "maximum": "10.97290093291870279875610840"
+    },
+    "MAX_minus_ZERO_power_estimate_mW": {
+      "n_combinations": 6,
+      "mean": "10.9832345",
+      "sample_SD_between_combinations": "1.231392357375787841136804903",
+      "minimum": "9.289376",
+      "maximum": "12.846608"
+    }
+  },
+  "module_voltage_main_range_V": [
+    "3.240",
+    "3.251"
+  ],
+  "module_temperature_range_C": [
+    "26.6",
+    "27.3"
+  ],
+  "source_minus_module_main_range_mV": [
+    "26.000",
+    "38.000"
+  ],
+  "new_photos": 20,
+  "new_current_photos": 8,
+  "new_voltage_photos": 12,
+  "N2_MAX_branch_main_MIN_MAX_coverage": "12/12 current and module voltage; 6/6 source voltage",
+  "overall_coverage": {
+    "ZERO": "15/15",
+    "MAX": "13/15",
+    "MAX_missing": [
+      "M0-M1-M3",
+      "M0-M2-M3"
+    ]
+  },
+  "QC_reading_consistency_issues": [],
+  "QC_scope": "Checks numeric MIN <= main <= MAX only; no hardware fault absence or session integrity inferred.",
+  "limitations": [
+    "The four new configurations are user-confirmed MAX; exact applied mass, distribution and area remain unspecified, limiting quantitative comparisons with older MAX observations.",
+    "Original two N=2 MAX configurations are from the 2026-09-05 filename-date batch; the new four are from 2026-09-07. Batch and combination effects cannot be separated from single records.",
+    "ZERO/MAX differences are descriptive comparisons of matching physical combinations, not repeated paired trials; old/new dates and load definitions limit causal attribution.",
+    "Temperatures are point readings without verified ambient temperature or settling time. Startup peaks, ripple, load-switching waveforms and continuous thermal curves remain future work as requested.",
+    "No fault-count or session-integrity evidence is inferred from these photographs. Published main 2.1, frozen analysis_v2_1 and prior ZERO data remain unchanged."
+  ]
+}

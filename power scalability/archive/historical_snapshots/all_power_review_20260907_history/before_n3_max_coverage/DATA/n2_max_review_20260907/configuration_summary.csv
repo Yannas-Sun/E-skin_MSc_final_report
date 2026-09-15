@@ -1,0 +1,7 @@
+﻿combo,module_count,load,protocol_mode,configured_frequency_Hz,host_state,module_lower,module_upper,I_lower_main_mA,I_upper_main_mA,I_sum_mA,V_source_main_V,V_source_min_V,V_source_max_V,V_lower_main_V,V_upper_main_V,P_source_output_estimate_mW,T_lower_stm32_C,T_upper_stm32_C,T_teensy_C,T_regulator_C,load_mass_g,load_area_mm2,load_application,voltage_current_simultaneity_verified,simultaneous_branch_sum_measured,photo_filename_date_batch,n_records_per_configuration,within_condition_repeat_SD_mA
+M0-M1,2,MAX,FULL,200,CONTINUOUS_USB_READ,M0,M1,19.708,20.26,39.968,3.278,3.278,3.279,3.241,3.248,131.015104,27.3,26.8,42.9,29.6,2000,,,False,False,2026-09-05,1,
+M0-M2,2,MAX,FULL,200,CONTINUOUS_USB_READ,M0,M2,19.588,19.769,39.357,3.278,3.278,3.278,3.240,3.241,129.012246,27.2,27.1,42.7,29.2,,,,False,False,2026-09-07,1,
+M0-M3,2,MAX,FULL,200,CONTINUOUS_USB_READ,M0,M3,19.664,19.671,39.335,3.278,3.278,3.278,3.241,3.244,128.940130,27.3,26.9,42.6,28.9,,,,False,False,2026-09-07,1,
+M1-M2,2,MAX,FULL,200,CONTINUOUS_USB_READ,M1,M2,19.99,19.729,39.719,3.277,3.277,3.277,3.251,3.244,130.159163,26.9,26.7,43.1,29.2,,,,False,False,2026-09-07,1,
+M1-M3,2,MAX,FULL,200,CONTINUOUS_USB_READ,M1,M3,20.32,19.696,40.016,3.277,3.277,3.278,3.250,3.246,131.132432,27.2,26.6,42.7,29.2,,,,False,False,2026-09-07,1,
+M2-M3,2,MAX,FULL,200,CONTINUOUS_USB_READ,M2,M3,19.705,19.674,39.379,3.278,3.278,3.279,3.245,3.246,129.084362,26.8,26.9,42.8,29.4,2000,,,False,False,2026-09-05,1,

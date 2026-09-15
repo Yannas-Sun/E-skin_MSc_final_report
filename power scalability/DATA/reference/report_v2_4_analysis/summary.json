@@ -1,0 +1,896 @@
+{
+  "scope": "Existing four modules, every nonempty physical combination, ZERO and user-labelled MAX; FULL configured 200 Hz; continuous USB read",
+  "legacy_blocked_scope": "13 blocked-standby rows in power_raw.csv are a separate historical comparison; 11 no_transmission YAMLs duplicate legacy records and are not additional samples. No new matched blocked-state measurements are included.",
+  "configurations_by_load": {
+    "ZERO": 15,
+    "MAX": 15
+  },
+  "configuration_conditions": 30,
+  "branches": 64,
+  "n_configurations_per_load_by_N": {
+    "1": 4,
+    "2": 6,
+    "3": 4,
+    "4": 1
+  },
+  "same_condition_records_per_configuration": 1,
+  "within_condition_repeat_SD_available": false,
+  "range_values": {
+    "ZERO": {
+      "V_module_main_V": [
+        3.234,
+        3.255
+      ],
+      "V_module_min_V": [
+        3.234,
+        3.255
+      ],
+      "V_module_max_V": [
+        3.234,
+        3.255
+      ],
+      "T_stm32_C": [
+        26.3,
+        28.0
+      ],
+      "source_minus_module_main_mV": [
+        26.0,
+        47.0
+      ],
+      "V_source_main_V": [
+        3.274,
+        3.281
+      ],
+      "T_teensy_C": [
+        41.7,
+        43.6
+      ],
+      "T_regulator_C": [
+        28.7,
+        31.0
+      ]
+    },
+    "MAX": {
+      "V_module_main_V": [
+        3.231,
+        3.251
+      ],
+      "V_module_min_V": [
+        3.231,
+        3.251
+      ],
+      "V_module_max_V": [
+        3.232,
+        3.251
+      ],
+      "T_stm32_C": [
+        26.3,
+        28.0
+      ],
+      "source_minus_module_main_mV": [
+        26.0,
+        50.0
+      ],
+      "V_source_main_V": [
+        3.273,
+        3.281
+      ],
+      "T_teensy_C": [
+        41.6,
+        43.5
+      ],
+      "T_regulator_C": [
+        28.9,
+        31.2
+      ]
+    }
+  },
+  "groups_ALL": [
+    {
+      "load": "ZERO",
+      "module_count": 1,
+      "photo_filename_date_batch": "ALL",
+      "metric": "I_sum_mA",
+      "n_configurations": 4,
+      "mean": 18.325,
+      "sample_SD_across_configurations": 0.11120551545074851,
+      "minimum": 18.16,
+      "maximum": 18.4,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 1,
+      "photo_filename_date_batch": "ALL",
+      "metric": "P_source_output_estimate_mW",
+      "n_configurations": 4,
+      "mean": 60.115185,
+      "sample_SD_across_configurations": 0.36982926560779367,
+      "minimum": 59.5648,
+      "maximum": 60.352,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 1,
+      "photo_filename_date_batch": "ALL",
+      "metric": "V_source_main_V",
+      "n_configurations": 4,
+      "mean": 3.2805,
+      "sample_SD_across_configurations": 0.0005773502691896258,
+      "minimum": 3.28,
+      "maximum": 3.281,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 1,
+      "photo_filename_date_batch": "ALL",
+      "metric": "T_teensy_C",
+      "n_configurations": 4,
+      "mean": 42.225,
+      "sample_SD_across_configurations": 0.917877987534291,
+      "minimum": 41.7,
+      "maximum": 43.6,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 1,
+      "photo_filename_date_batch": "ALL",
+      "metric": "T_regulator_C",
+      "n_configurations": 4,
+      "mean": 28.925,
+      "sample_SD_across_configurations": 0.15,
+      "minimum": 28.7,
+      "maximum": 29.0,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 2,
+      "photo_filename_date_batch": "ALL",
+      "metric": "I_sum_mA",
+      "n_configurations": 6,
+      "mean": 36.263333333333335,
+      "sample_SD_across_configurations": 0.26511783543674816,
+      "minimum": 35.907,
+      "maximum": 36.561,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 2,
+      "photo_filename_date_batch": "ALL",
+      "metric": "P_source_output_estimate_mW",
+      "n_configurations": 6,
+      "mean": 118.90733833333333,
+      "sample_SD_across_configurations": 0.8483850356734651,
+      "minimum": 117.739053,
+      "maximum": 119.846958,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 2,
+      "photo_filename_date_batch": "ALL",
+      "metric": "V_source_main_V",
+      "n_configurations": 6,
+      "mean": 3.279,
+      "sample_SD_across_configurations": 0.0010954451150103322,
+      "minimum": 3.278,
+      "maximum": 3.281,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 2,
+      "photo_filename_date_batch": "ALL",
+      "metric": "T_teensy_C",
+      "n_configurations": 6,
+      "mean": 42.68333333333333,
+      "sample_SD_across_configurations": 0.23166067138525406,
+      "minimum": 42.5,
+      "maximum": 43.1,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 2,
+      "photo_filename_date_batch": "ALL",
+      "metric": "T_regulator_C",
+      "n_configurations": 6,
+      "mean": 29.1,
+      "sample_SD_across_configurations": 0.17888543819998318,
+      "minimum": 28.8,
+      "maximum": 29.3,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 3,
+      "photo_filename_date_batch": "ALL",
+      "metric": "I_sum_mA",
+      "n_configurations": 4,
+      "mean": 54.426,
+      "sample_SD_across_configurations": 0.34572339618062686,
+      "minimum": 54.13,
+      "maximum": 54.851,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 3,
+      "photo_filename_date_batch": "ALL",
+      "metric": "P_source_output_estimate_mW",
+      "n_configurations": 4,
+      "mean": 178.31311575,
+      "sample_SD_across_configurations": 1.1188884792401117,
+      "minimum": 177.32988,
+      "maximum": 179.691876,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 3,
+      "photo_filename_date_batch": "ALL",
+      "metric": "V_source_main_V",
+      "n_configurations": 4,
+      "mean": 3.27625,
+      "sample_SD_across_configurations": 0.0005,
+      "minimum": 3.276,
+      "maximum": 3.277,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 3,
+      "photo_filename_date_batch": "ALL",
+      "metric": "T_teensy_C",
+      "n_configurations": 4,
+      "mean": 42.775,
+      "sample_SD_across_configurations": 0.1707825127659933,
+      "minimum": 42.6,
+      "maximum": 43.0,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 3,
+      "photo_filename_date_batch": "ALL",
+      "metric": "T_regulator_C",
+      "n_configurations": 4,
+      "mean": 29.975,
+      "sample_SD_across_configurations": 0.6849574196011505,
+      "minimum": 29.2,
+      "maximum": 30.6,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 4,
+      "photo_filename_date_batch": "ALL",
+      "metric": "I_sum_mA",
+      "n_configurations": 1,
+      "mean": 72.513,
+      "sample_SD_across_configurations": null,
+      "minimum": 72.513,
+      "maximum": 72.513,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 4,
+      "photo_filename_date_batch": "ALL",
+      "metric": "P_source_output_estimate_mW",
+      "n_configurations": 1,
+      "mean": 237.407562,
+      "sample_SD_across_configurations": null,
+      "minimum": 237.407562,
+      "maximum": 237.407562,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 4,
+      "photo_filename_date_batch": "ALL",
+      "metric": "V_source_main_V",
+      "n_configurations": 1,
+      "mean": 3.274,
+      "sample_SD_across_configurations": null,
+      "minimum": 3.274,
+      "maximum": 3.274,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 4,
+      "photo_filename_date_batch": "ALL",
+      "metric": "T_teensy_C",
+      "n_configurations": 1,
+      "mean": 42.0,
+      "sample_SD_across_configurations": null,
+      "minimum": 42.0,
+      "maximum": 42.0,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "ZERO",
+      "module_count": 4,
+      "photo_filename_date_batch": "ALL",
+      "metric": "T_regulator_C",
+      "n_configurations": 1,
+      "mean": 31.0,
+      "sample_SD_across_configurations": null,
+      "minimum": 31.0,
+      "maximum": 31.0,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 1,
+      "photo_filename_date_batch": "ALL",
+      "metric": "I_sum_mA",
+      "n_configurations": 4,
+      "mean": 20.009,
+      "sample_SD_across_configurations": 0.2797057978185889,
+      "minimum": 19.689,
+      "maximum": 20.34,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 1,
+      "photo_filename_date_batch": "ALL",
+      "metric": "P_source_output_estimate_mW",
+      "n_configurations": 4,
+      "mean": 65.644444,
+      "sample_SD_across_configurations": 0.9097128293562389,
+      "minimum": 64.599609,
+      "maximum": 66.7152,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 1,
+      "photo_filename_date_batch": "ALL",
+      "metric": "V_source_main_V",
+      "n_configurations": 4,
+      "mean": 3.28075,
+      "sample_SD_across_configurations": 0.0005,
+      "minimum": 3.28,
+      "maximum": 3.281,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 1,
+      "photo_filename_date_batch": "ALL",
+      "metric": "T_teensy_C",
+      "n_configurations": 4,
+      "mean": 42.225,
+      "sample_SD_across_configurations": 0.8616843969807043,
+      "minimum": 41.6,
+      "maximum": 43.5,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 1,
+      "photo_filename_date_batch": "ALL",
+      "metric": "T_regulator_C",
+      "n_configurations": 4,
+      "mean": 29.0,
+      "sample_SD_across_configurations": 0.0,
+      "minimum": 29.0,
+      "maximum": 29.0,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 2,
+      "photo_filename_date_batch": "ALL",
+      "metric": "I_sum_mA",
+      "n_configurations": 6,
+      "mean": 39.629,
+      "sample_SD_across_configurations": 0.3148682264059046,
+      "minimum": 39.335,
+      "maximum": 40.016,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 2,
+      "photo_filename_date_batch": "ALL",
+      "metric": "P_source_output_estimate_mW",
+      "n_configurations": 6,
+      "mean": 129.89057283333332,
+      "sample_SD_across_configurations": 1.0201667241819676,
+      "minimum": 128.94013,
+      "maximum": 131.132432,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 2,
+      "photo_filename_date_batch": "ALL",
+      "metric": "V_source_main_V",
+      "n_configurations": 6,
+      "mean": 3.2776666666666667,
+      "sample_SD_across_configurations": 0.0005163977794943222,
+      "minimum": 3.277,
+      "maximum": 3.278,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 2,
+      "photo_filename_date_batch": "ALL",
+      "metric": "T_teensy_C",
+      "n_configurations": 6,
+      "mean": 42.8,
+      "sample_SD_across_configurations": 0.17888543819998318,
+      "minimum": 42.6,
+      "maximum": 43.1,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 2,
+      "photo_filename_date_batch": "ALL",
+      "metric": "T_regulator_C",
+      "n_configurations": 6,
+      "mean": 29.25,
+      "sample_SD_across_configurations": 0.2345207879911715,
+      "minimum": 28.9,
+      "maximum": 29.6,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 3,
+      "photo_filename_date_batch": "ALL",
+      "metric": "I_sum_mA",
+      "n_configurations": 4,
+      "mean": 58.84925,
+      "sample_SD_across_configurations": 0.4823431523994786,
+      "minimum": 58.279,
+      "maximum": 59.328,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 3,
+      "photo_filename_date_batch": "ALL",
+      "metric": "P_source_output_estimate_mW",
+      "n_configurations": 4,
+      "mean": 192.7609155,
+      "sample_SD_across_configurations": 1.6120054734118203,
+      "minimum": 190.863725,
+      "maximum": 194.358528,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 3,
+      "photo_filename_date_batch": "ALL",
+      "metric": "V_source_main_V",
+      "n_configurations": 4,
+      "mean": 3.2755,
+      "sample_SD_across_configurations": 0.0005773502691896258,
+      "minimum": 3.275,
+      "maximum": 3.276,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 3,
+      "photo_filename_date_batch": "ALL",
+      "metric": "T_teensy_C",
+      "n_configurations": 4,
+      "mean": 42.65,
+      "sample_SD_across_configurations": 0.1,
+      "minimum": 42.6,
+      "maximum": 42.8,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 3,
+      "photo_filename_date_batch": "ALL",
+      "metric": "T_regulator_C",
+      "n_configurations": 4,
+      "mean": 30.125,
+      "sample_SD_across_configurations": 0.4112987559751022,
+      "minimum": 29.6,
+      "maximum": 30.5,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 4,
+      "photo_filename_date_batch": "ALL",
+      "metric": "I_sum_mA",
+      "n_configurations": 1,
+      "mean": 78.72,
+      "sample_SD_across_configurations": null,
+      "minimum": 78.72,
+      "maximum": 78.72,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 4,
+      "photo_filename_date_batch": "ALL",
+      "metric": "P_source_output_estimate_mW",
+      "n_configurations": 1,
+      "mean": 257.65056,
+      "sample_SD_across_configurations": null,
+      "minimum": 257.65056,
+      "maximum": 257.65056,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 4,
+      "photo_filename_date_batch": "ALL",
+      "metric": "V_source_main_V",
+      "n_configurations": 1,
+      "mean": 3.273,
+      "sample_SD_across_configurations": null,
+      "minimum": 3.273,
+      "maximum": 3.273,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 4,
+      "photo_filename_date_batch": "ALL",
+      "metric": "T_teensy_C",
+      "n_configurations": 1,
+      "mean": 42.3,
+      "sample_SD_across_configurations": null,
+      "minimum": 42.3,
+      "maximum": 42.3,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    },
+    {
+      "load": "MAX",
+      "module_count": 4,
+      "photo_filename_date_batch": "ALL",
+      "metric": "T_regulator_C",
+      "n_configurations": 1,
+      "mean": 31.2,
+      "sample_SD_across_configurations": null,
+      "minimum": 31.2,
+      "maximum": 31.2,
+      "SD_meaning": "Across combinations, not independent repeatability; two entries compile partial retests",
+      "batch_meaning": "baseline photo filename batch only; targeted retest reported 2026-09-07 separately"
+    }
+  ],
+  "descriptive_additivity_residual_percent": {
+    "ZERO": {
+      "n_configurations": 11,
+      "mean": -1.0366933903418707,
+      "sample_SD_across_configurations": 0.4591836003724713,
+      "minimum": -1.786105032822757,
+      "maximum": -0.524120420747189
+    },
+    "MAX": {
+      "n_configurations": 11,
+      "mean": -1.3907283136838824,
+      "sample_SD_across_configurations": 0.9624035988579507,
+      "minimum": -2.748389680606081,
+      "maximum": 0.42463378476846153
+    }
+  },
+  "descriptive_MAX_minus_ZERO_percent": {
+    "n_configurations": 15,
+    "mean": 8.901720435596262,
+    "sample_SD_across_configurations": 0.983567220153825,
+    "minimum": 7.664880842416405,
+    "maximum": 10.972900932918703
+  },
+  "N4_ZERO_MAX": {
+    "ZERO": {
+      "combo": "M0-M1-M2-M3",
+      "module_count": 4,
+      "load": "ZERO",
+      "protocol_mode": "FULL",
+      "configured_frequency_Hz": "200",
+      "host_state": "CONTINUOUS_USB_READ",
+      "photo_filename_date_batch": "2026-09-05",
+      "I_sum_mA": 72.513,
+      "V_source_main_V": 3.274,
+      "V_source_min_V": 3.273,
+      "V_source_max_V": 3.274,
+      "P_source_output_estimate_mW": 237.407562,
+      "T_teensy_C": 42.0,
+      "T_regulator_C": 31.0,
+      "load_mass_g_recorded": "0",
+      "load_area_mm2": "",
+      "load_application": "",
+      "n_records_per_configuration_condition": "1",
+      "within_condition_repeat_SD_mA": "",
+      "simultaneous_branch_sum_measured": "False",
+      "simultaneous_voltage_current_measurement_verified": "False",
+      "provenance_json": "{\"combo\": \"M0-M1-M2-M3\", \"module_count\": \"4\", \"load\": \"ZERO\", \"protocol_mode\": \"FULL\", \"configured_frequency_Hz\": \"200\", \"current_filename_date_batch\": \"2026-09-05\", \"I_M0_main_mA\": \"18.024\", \"I_M1_main_mA\": \"18.302\", \"I_M2_main_mA\": \"18.095\", \"I_M3_main_mA\": \"18.092\", \"I_sum_mA\": \"72.513\", \"V_source_main_V\": \"3.274\", \"V_source_min_V\": \"3.273\", \"V_source_max_V\": \"3.274\", \"P_source_output_estimate_mW\": \"237.407562\", \"power_uses_cross_record_voltage\": \"False\", \"power_is_simultaneous_measurement\": \"False\", \"branch_sum_is_simultaneous_measurement\": \"False\", \"source_voltage_path\": \"DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/zero_load/PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1.yaml\", \"source_voltage_sha256\": \"d4aac0c47b7db4f3eb9060d65d999e826499d6b3cdda5174650d9a2c04294c01\", \"source_voltage_run_id\": \"PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1\", \"source_voltage_photo_paths\": \"\", \"source_voltage_photo_original_references\": \"\", \"source_voltage_photo_sha256\": \"\", \"voltage_configuration_kind\": \"SAME_RECORD_VOLTAGE_CONFIGURATION\", \"current_temperature_remeasured_after_connector_repair\": \"\", \"voltage_quality_event_id\": \"\", \"T_M0_stm32_C\": \"28.0\", \"T_M1_stm32_C\": \"27.8\", \"T_M2_stm32_C\": \"27.6\", \"T_M3_stm32_C\": \"27.5\", \"T_teensy_C\": \"42.0\", \"T_regulator_C\": \"31.0\", \"I_N1_prediction_mA\": \"73.30\", \"prediction_residual_mA\": \"-0.787\", \"prediction_residual_percent\": \"-1.073669849931787175989085948\", \"n_current_records_in_this_condition\": \"1\", \"within_condition_repeat_SD_mA\": \"\", \"current_MIN_MAX_complete_branches\": \"4\", \"source_record_run_id\": \"PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1\", \"current_source\": \"DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/zero_load/PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1.yaml\"}",
+      "I_M0_main_mA": 18.024,
+      "V_M0_main_V": 3.24,
+      "T_M0_stm32_C": 28.0,
+      "I_M1_main_mA": 18.302,
+      "V_M1_main_V": 3.245,
+      "T_M1_stm32_C": 27.8,
+      "I_M2_main_mA": 18.095,
+      "V_M2_main_V": 3.243,
+      "T_M2_stm32_C": 27.6,
+      "I_M3_main_mA": 18.092,
+      "V_M3_main_V": 3.248,
+      "T_M3_stm32_C": 27.5,
+      "assembled_with_targeted_retest": false,
+      "n_selected_entries_per_condition": 1,
+      "additional_independent_complete_repeats": 0,
+      "n_records_field_meaning": "one compiled configuration entry; not the number of per-point acquisitions"
+    },
+    "MAX": {
+      "combo": "M0-M1-M2-M3",
+      "module_count": 4,
+      "load": "MAX",
+      "protocol_mode": "FULL",
+      "configured_frequency_Hz": "200",
+      "host_state": "CONTINUOUS_USB_READ",
+      "photo_filename_date_batch": "2026-09-05",
+      "I_sum_mA": 78.72,
+      "V_source_main_V": 3.273,
+      "V_source_min_V": 3.273,
+      "V_source_max_V": 3.273,
+      "P_source_output_estimate_mW": 257.65056,
+      "T_teensy_C": 42.3,
+      "T_regulator_C": 31.2,
+      "load_mass_g_recorded": "2000",
+      "load_area_mm2": "",
+      "load_application": "",
+      "n_records_per_configuration_condition": "1",
+      "within_condition_repeat_SD_mA": "",
+      "simultaneous_branch_sum_measured": "False",
+      "simultaneous_voltage_current_measurement_verified": "False",
+      "provenance_json": "{\"source_record\": \"DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/full_load/PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1.yaml\", \"source_record_sha256\": \"5d646a643cf07a40cc5e0526dcee4cfde2e0bf50405af0e858298c54ba203102\", \"configuration_photo_paths\": [\"DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/full_load/IMG_20260905_133637.jpg\", \"DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/full_load/IMG_20260905_133920.jpg\", \"DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/full_load/IMG_20260905_134110.jpg\", \"DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/full_load/IMG_20260905_134309.jpg\", \"DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/full_load/IMG_20260905_134442.jpg\", \"DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/full_load/IMG_20260905_134500.jpg\", \"DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/full_load/IMG_20260905_134543.jpg\", \"DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/full_load/IMG_20260905_134702.jpg\", \"DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/full_load/IMG_20260905_140315.jpg\"], \"configuration_photo_sha256\": [\"4241d8eefbe51fee6b2fd8339d811aae3215c55e33553813bb297e75cdaaf409\", \"8148a839a9eb6c7577b3351221a5967ab87c31d607e6ccff4da6c4e595b774c9\", \"fb7c7085e3f2962e28abda0277d0c291102589a4a602827eed3ac28cc6e189da\", \"a7b582f7c67c9ccaa72f3e99d4727a59406d674d7dbf5f950d20a70140931059\", \"d9c82206dc8000202512c0dbdac6c1543f29c1596c6e068fa83d38cfece530ec\", \"33cded8ee27fe12b0c247024fe48c29f4e8f0e74368a29009404b5b9ae3b9e9d\", \"e3194e7605637495411ac1002e06dc7f831c5462653dd84dc9d78c94562357a0\", \"26df3607ead0462a79b282eb01aa8c20e7fd97e81abf5fa908db9e4de71d72cb\", \"074e19253e8a27ec253d4f9b8998355ebd20b3a471fdef9823491315f35b382a\"], \"individual_photo_mapping\": \"not_reassigned_original_YAML_plus_group_photos\", \"firmware_actual_rate_verified_by_photos\": false, \"fault_counts\": \"original YAML zeros are template defaults, not verified fault-monitoring outcomes\"}",
+      "I_M0_main_mA": 19.657,
+      "V_M0_main_V": 3.237,
+      "T_M0_stm32_C": 27.9,
+      "I_M1_main_mA": 19.97,
+      "V_M1_main_V": 3.245,
+      "T_M1_stm32_C": 27.6,
+      "I_M2_main_mA": 19.6,
+      "V_M2_main_V": 3.24,
+      "T_M2_stm32_C": 28.0,
+      "I_M3_main_mA": 19.493,
+      "V_M3_main_V": 3.242,
+      "T_M3_stm32_C": 27.8,
+      "assembled_with_targeted_retest": false,
+      "n_selected_entries_per_condition": 1,
+      "additional_independent_complete_repeats": 0,
+      "n_records_field_meaning": "one compiled configuration entry; not the number of per-point acquisitions"
+    }
+  },
+  "current_extrema_complete_branches": 64,
+  "module_voltage_extrema_complete_branches": 64,
+  "source_voltage_extrema_complete_configurations": 30,
+  "numeric_display_consistency_issues": [
+    {
+      "load": "ZERO",
+      "combo": "M0-M1",
+      "module_id": "M1",
+      "issue": "I_MAIN_OUTSIDE_DISPLAY_MIN_MAX",
+      "action": "retain selected original reading; no hardware-fault conclusion"
+    },
+    {
+      "load": "ZERO",
+      "combo": "M0-M1-M2",
+      "module_id": "M2",
+      "issue": "I_MAIN_OUTSIDE_DISPLAY_MIN_MAX",
+      "action": "retain selected original reading; no hardware-fault conclusion"
+    },
+    {
+      "load": "ZERO",
+      "combo": "M1-M2-M3",
+      "module_id": "M3",
+      "issue": "I_MAIN_OUTSIDE_DISPLAY_MIN_MAX",
+      "action": "retain selected original reading; no hardware-fault conclusion"
+    },
+    {
+      "load": "ZERO",
+      "combo": "M0-M1-M2-M3",
+      "module_id": "M1",
+      "issue": "I_MAIN_OUTSIDE_DISPLAY_MIN_MAX",
+      "action": "retain selected original reading; no hardware-fault conclusion"
+    }
+  ],
+  "accepted_voltage_correction": {
+    "event_id": "SUPPLY_CONTACT_M0_N3_ZERO_20260907",
+    "reported_date": "2026-09-07",
+    "event_type": "USER_CONFIRMED_SUPPLY_WIRE_OR_CONNECTOR_CONTACT_FAULT",
+    "evidence_basis": "User clarification: 供电线或供电接头接触不良",
+    "affected_run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+    "affected_record_path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M2/zero_load/PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1.yaml",
+    "affected_record_sha256": "3bfdf897927c11c1207228c0ebd3f8545bcd97a5252597358858b494b307db85",
+    "affected_module": "M0",
+    "event_revision": 2,
+    "clarification_date": "2026-09-07",
+    "clarification_basis": "User: 其他测点并未接触不良，还是原来的电压。M0是因为connector接触不良",
+    "affected_voltage_points": [
+      "M0"
+    ],
+    "confirmed_unaffected_voltage_points": [
+      "SOURCE",
+      "M1",
+      "M2"
+    ],
+    "retained_voltage_values_user_confirmed_unchanged": true,
+    "accepted_voltage_configuration": {
+      "kind": "USER_CONFIRMED_POINTWISE_CORRECTION",
+      "combo": "M0+M1+M2",
+      "load": "ZERO",
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+        "M0": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_VOLTAGE_RETEST_R1",
+        "M1": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+        "M2": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1"
+      },
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false
+    },
+    "original_M0_voltage_V": {
+      "main": 3.224,
+      "min": 3.224,
+      "max": 3.225
+    },
+    "interpretation": "Retain as an actual supply-connection fault condition; do not describe it as a voltmeter/probe measurement error.",
+    "normal_connection_analysis_action": "Exclude only the original M0 voltage point. Retain SOURCE/M1/M2 voltages confirmed unchanged by the user; use the separate 3.241 V M0 retest in a pointwise-corrected configuration with per-point provenance.",
+    "other_fields_action": "SOURCE/M1/M2 voltages are explicitly confirmed unaffected and remain valid. Original current and temperature values remain unchanged; the clarification does not supply new current or temperature measurements and does not authorize blanket exclusion of the whole run.",
+    "replacement_run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_VOLTAGE_RETEST_R1",
+    "replacement_scope": "M0 voltage only. Retain the other voltage points under explicit user confirmation; do not claim a new simultaneous acquisition.",
+    "replacement_M0_voltage_V": {
+      "main": 3.241,
+      "min": 3.241,
+      "max": 3.241
+    },
+    "drop_recalculation_allowed_with_old_source": false,
+    "drop_recalculation_allowed_with_user_confirmed_unchanged_source": true,
+    "corrected_drop_basis": "Retained source 3.276 V minus retested M0 3.241 V gives 35 mV; a user-confirmed pointwise estimate, not a same-record or simultaneous new measurement.",
+    "repeatability_pooling_allowed": false,
+    "report_2_1_implications": [
+      "3.224 V and 89 mV describe a contact-fault condition, not the normal-connection minimum.",
+      "Only the original M0 voltage point and its 52 mV difference carry the connector-fault label. SOURCE/M1/M2 voltages remain accepted; do not infer that the entire configuration is invalid.",
+      "ZERO voltage configuration coverage is complete using the user-confirmed pointwise correction, with explicit source provenance and no extra independent repeat.",
+      "Do not claim fault-free operation; default zero counters do not override this known contact fault."
+    ],
+    "published_report_updated": false
+  },
+  "power_estimate_definition": "V_source_main_V times sum of separately measured branch main currents in mA; excludes USB-powered Teensy and regulator losses",
+  "date_definition": "baseline filename date retained as a grouping label, not the date of the whole compiled entry; retests reported 2026-09-07",
+  "fault_monitoring": "No zero hardware-fault rate inferred. Old template-zero counters are not independent monitoring evidence; new supplement counters unspecified.",
+  "published_main_2_1_pdf_modified": false,
+  "published_main_2_1_sha256": "d659fbab34fa82366abba88316f49308e95ce8c1459f0c11941f1d369b627f6f",
+  "version": "2.4",
+  "configuration_entry_basis": "30 compiled condition entries; two partial branch retests selected; no new complete trials",
+  "additional_targeted_branch_retests": 2,
+  "new_complete_configuration_repeats": 0,
+  "retained_historical_numeric_display_consistency_issues": [
+    {
+      "load": "ZERO",
+      "combo": "M0-M1",
+      "module_id": "M1",
+      "issue": "I_MAIN_OUTSIDE_DISPLAY_MIN_MAX",
+      "action": "retain original readings; not a hardware fault conclusion"
+    },
+    {
+      "load": "ZERO",
+      "combo": "M0-M1-M2",
+      "module_id": "M0",
+      "issue": "I_MAIN_OUTSIDE_DISPLAY_MIN_MAX",
+      "action": "retain original readings; not a hardware fault conclusion"
+    },
+    {
+      "load": "ZERO",
+      "combo": "M0-M1-M2",
+      "module_id": "M2",
+      "issue": "I_MAIN_OUTSIDE_DISPLAY_MIN_MAX",
+      "action": "retain original readings; not a hardware fault conclusion"
+    },
+    {
+      "load": "ZERO",
+      "combo": "M1-M2-M3",
+      "module_id": "M3",
+      "issue": "I_MAIN_OUTSIDE_DISPLAY_MIN_MAX",
+      "action": "retain original readings; not a hardware fault conclusion"
+    },
+    {
+      "load": "ZERO",
+      "combo": "M0-M1-M2-M3",
+      "module_id": "M1",
+      "issue": "I_MAIN_OUTSIDE_DISPLAY_MIN_MAX",
+      "action": "retain original readings; not a hardware fault conclusion"
+    }
+  ],
+  "targeted_retest_comparisons": [
+    {
+      "combo": "M0-M1-M2",
+      "load": "ZERO",
+      "module_id": "M0",
+      "original_current_mA": 17.968,
+      "selected_current_mA": 18.051,
+      "current_change_mA": 0.083,
+      "prior_accepted_voltage_V": 3.241,
+      "selected_voltage_V": 3.241,
+      "retained_SOURCE_V": 3.276,
+      "prior_accepted_drop_mV": 35.0,
+      "selected_drop_mV": 35.0,
+      "original_configuration_sum_mA": 54.481,
+      "compiled_configuration_sum_mA": 54.564,
+      "new_full_configuration_repeat": false,
+      "retained_other_module_readings": true,
+      "source_basis": "retained prior source; no newly measured SOURCE extrema",
+      "retest_record": "DATA/raw/canonical/power_experiment_records/targeted_retests/20260907_M0-M1-M2_ZERO_M0/record.json"
+    },
+    {
+      "combo": "M1-M2-M3",
+      "load": "MAX",
+      "module_id": "M3",
+      "original_current_mA": 19.721,
+      "selected_current_mA": 19.263,
+      "current_change_mA": -0.458,
+      "prior_accepted_voltage_V": 3.232,
+      "selected_voltage_V": 3.243,
+      "retained_SOURCE_V": 3.276,
+      "prior_accepted_drop_mV": 44.0,
+      "selected_drop_mV": 33.0,
+      "original_configuration_sum_mA": 59.617,
+      "compiled_configuration_sum_mA": 59.159,
+      "new_full_configuration_repeat": false,
+      "retained_other_module_readings": true,
+      "source_basis": "retained prior source; no newly measured SOURCE extrema",
+      "retest_record": "DATA/raw/canonical/power_experiment_records/targeted_retests/20260907_M1-M2-M3_MAX_M3/record.json"
+    }
+  ],
+  "extrema_provenance": "Complete selected fields span prior and retest records: M0 voltage and all SOURCE extrema are retained prior observations; no new extrema inferred."
+}

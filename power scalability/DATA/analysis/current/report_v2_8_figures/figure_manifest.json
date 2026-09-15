@@ -1,0 +1,339 @@
+{
+  "version": "2.8",
+  "figures": [
+    {
+      "stem": "current_power_scaling",
+      "description": "Latest compiled current and estimated source-output power for all combinations.",
+      "semantics": {
+        "means": "Counts 4,6,4,1 by N in each load; sample SD across combinations for N1-N3 only. N4 SD absent.",
+        "power": "Retained source main voltage multiplied by the compiled sequential branch-current sum; excludes Teensy USB and regulator loss.",
+        "lines": "Descriptive mean connectors, not fitted or extrapolated models."
+      },
+      "files": [
+        {
+          "name": "current_power_scaling.pdf",
+          "sha256": "962cf55501dc3685d7a13b1cca376f6cb73936eb5b11badc84bbf732a16e37ce",
+          "bytes": 29257
+        },
+        {
+          "name": "current_power_scaling.png",
+          "sha256": "7d71a16d44b39af6c8ee5b9f57123b95db67751ee94f33ae399252aa4b170b87",
+          "bytes": 169958
+        },
+        {
+          "name": "current_power_scaling.svg",
+          "sha256": "f8308ef713ab0857a0d8aca85fd6063722a893a4bb3c896ca81dad052ce17be7",
+          "bytes": 43938
+        }
+      ],
+      "dimensions_mm": [
+        180.0,
+        115.0
+      ]
+    },
+    {
+      "stem": "voltage_scaling",
+      "description": "Retained source voltages and selected module voltages with latest M0 retests.",
+      "semantics": {
+        "points": "30 source readings and 64 selected module readings; N1 ZERO M0 voltage confirmed as 3.252 V. Two earlier N3 readings shown separately.",
+        "intervals": "DMM MIN-MAX, not repeat SD or transient bounds.",
+        "guidelines": "Existing project references retained, no new electrical certification."
+      },
+      "files": [
+        {
+          "name": "voltage_scaling.pdf",
+          "sha256": "3133075ea8d66627d0ccbada8f12a0a41bbec22de85e40f1a1914a53408a78d1",
+          "bytes": 32415
+        },
+        {
+          "name": "voltage_scaling.png",
+          "sha256": "bd216988488699ee563e8af2f8b8f4ee449a4710dd2293cc81cfc5c0cad8c444",
+          "bytes": 149286
+        },
+        {
+          "name": "voltage_scaling.svg",
+          "sha256": "29c0308b3bdd1f2b3e0b4f6fccb9d54afd46583137768b2fe64d49a71bd8aa55",
+          "bytes": 76143
+        }
+      ],
+      "dimensions_mm": [
+        180.0,
+        122.0
+      ]
+    },
+    {
+      "stem": "module_voltage_drop",
+      "description": "Zero-load and recorded loaded voltage drops for all combinations, with 32 signed loaded-minus-zero module comparisons.",
+      "semantics": {
+        "cells": "1000 × (retained source main V − selected module main V). Cross-record differences, not synchronous drops.",
+        "panels": "(a) ZERO, (b) loaded/MAX, (c) loaded/MAX minus ZERO for the same physical combination and module.",
+        "change_formula": "delta_drop_mV = drop_MAX_mV − drop_ZERO_mV = 1000 × [(V_source_MAX − V_module_MAX) − (V_source_ZERO − V_module_ZERO)].",
+        "change_comparisons": 32,
+        "change_labels": "Positive increases use +; negative decreases use −; unchanged is 0. Values are differences of selected point readings, not averages.",
+        "change_inference": "Descriptive difference between separate recorded conditions; loading equivalence, timing and causal isolation are not established.",
+        "missing": "Em dash denotes a physically absent module.",
+        "range": "One shared linear data-adaptive colour scale for ZERO and MAX, using nice enclosing bounds from all 64 current branch differences.",
+        "color_scale": {
+          "data_min": 26.0,
+          "data_max": 39.0,
+          "vmin": 25.0,
+          "vmax": 40.0,
+          "ticks": [
+            25.0,
+            27.5,
+            30.0,
+            32.5,
+            35.0,
+            37.5,
+            40.0
+          ],
+          "policy": "Linear scale enclosing all plotted values with readable ticks; shared by ZERO and MAX panels in each figure"
+        },
+        "change_color_scale": {
+          "data_min": -4.0,
+          "data_max": 10.0,
+          "vmin": -10.0,
+          "vmax": 10.0,
+          "ticks": [
+            -10.0,
+            -5.0,
+            0.0,
+            5.0,
+            10.0
+          ],
+          "center": 0.0,
+          "policy": "Independent linear diverging scale, symmetric about zero with enclosing bounds determined by maximum absolute observed change."
+        },
+        "uncertainty": "One selected value per condition/module cell; N1 ZERO M0 voltage and photo assignment are user-confirmed."
+      },
+      "files": [
+        {
+          "name": "module_voltage_drop.pdf",
+          "sha256": "48b9ff21ae2012f0d9fbd40ee868649bf0e77e49e3243947e312e3e45eb6f10c",
+          "bytes": 45025
+        },
+        {
+          "name": "module_voltage_drop.png",
+          "sha256": "66113a3e11ee41fc01d7fb4ffa0dbca98ac0e81a615073f1e134ba278993bf05",
+          "bytes": 241033
+        },
+        {
+          "name": "module_voltage_drop.svg",
+          "sha256": "3c58b2a627f54f623c0542250c24e7af9b6840c138783551c2dfbaf6daf2559c",
+          "bytes": 197264
+        }
+      ],
+      "dimensions_mm": [
+        200.0,
+        150.0
+      ]
+    },
+    {
+      "stem": "single_module_screening",
+      "description": "Separate N=1 records compare blocked zero-load current with continuously read zero-load and loaded current for each recorded module label.",
+      "semantics": {
+        "conditions": "200 Hz FULL, three selected recorded state/load conditions. Each marker is one R1 record.",
+        "module_identity": "Labels follow experiment records; physical identity across runs was not independently verified by a hardware UID.",
+        "comparison": "Historical blocked records and later continuous records are distinct measurements, not a randomized matched state intervention.",
+        "loaded": "Recorded loaded condition; loading equivalence is not established across N.",
+        "exclusions": "100 Hz and blocked loaded screening rows are not used in this state comparison."
+      },
+      "files": [
+        {
+          "name": "single_module_screening.pdf",
+          "sha256": "ab58605218af4463416e7ec5f6d8d6c26ec72ee1af8fb336be6029c1e0be0c85",
+          "bytes": 12756
+        },
+        {
+          "name": "single_module_screening.png",
+          "sha256": "9ae817d156e5a5b1fbc1d37e4fb5c9d33bafb0b4f38e80b09ac80f421d909edc",
+          "bytes": 71440
+        },
+        {
+          "name": "single_module_screening.svg",
+          "sha256": "752c02b45b0354f21af335445c937147b5b5998a6327bb6b64f305fcc344b3e7",
+          "bytes": 14707
+        }
+      ],
+      "dimensions_mm": [
+        180.0,
+        100.0
+      ]
+    },
+    {
+      "stem": "branch_current_balance",
+      "description": "Recorded branch main currents by physical module, module count and load, retaining every measured module combination.",
+      "semantics": {
+        "points": "One branch main reading per active physical module, run and load.",
+        "comparison": "Same-module differences across recorded configurations are descriptive; no independent same-configuration repeats.",
+        "jitter": "Offsets distinguish load and, where relevant, two different N=3 combinations.",
+        "lines": "No connectors or fitted lines because configurations differ."
+      },
+      "files": [
+        {
+          "name": "branch_current_balance.pdf",
+          "sha256": "b5db931e1939355c3fd541c1219dbd1a815f9cb2c712ff93071439fba2999ba6",
+          "bytes": 23882
+        },
+        {
+          "name": "branch_current_balance.png",
+          "sha256": "781258002780abe596c74f7133807555c29bcfeb5ac9704ed908246fe3d756f7",
+          "bytes": 111279
+        },
+        {
+          "name": "branch_current_balance.svg",
+          "sha256": "ef57e8daa1a196e086191597dc4b65beb4db6c1ab245b748940387ffd7735fb2",
+          "bytes": 38064
+        }
+      ],
+      "dimensions_mm": [
+        180.0,
+        135.0
+      ]
+    },
+    {
+      "stem": "temperature_scaling",
+      "description": "Available absolute temperature observations during continuous USB reads, separated by component and load; no thermal-equilibrium inference.",
+      "semantics": {
+        "STM32": "Highest available identified STM32 reading in each run, not a guarantee that every module was measured.",
+        "regulator_and_host": "One recorded observation per run; identical values repeated in branch rows are deduplicated.",
+        "missing": "Missing temperature values are omitted, never imputed.",
+        "limitations": "Different observation timing and unverified stabilization prevent a claim of thermal equilibrium, ambient-normalized rise, or thermal capacity."
+      },
+      "files": [
+        {
+          "name": "temperature_scaling.pdf",
+          "sha256": "c78c0bf5d242748482bccfb17e4cd5caf1cc6235a3321919997a7b5ef4574f42",
+          "bytes": 26886
+        },
+        {
+          "name": "temperature_scaling.png",
+          "sha256": "807290d3b0bfcd65c3b99f6fbecd080257e846da0bcf9115cde4c6c8b151b470",
+          "bytes": 129235
+        },
+        {
+          "name": "temperature_scaling.svg",
+          "sha256": "931a42aca3a41eb8f0bfc0045ae9484be4692c82e63dbe6ea4819fb27573e9db",
+          "bytes": 41574
+        }
+      ],
+      "dimensions_mm": [
+        180.0,
+        99.0
+      ]
+    },
+    {
+      "stem": "independent_current_prediction",
+      "description": "Separate single-module reference sums and signed residuals for all 11 multi-module combinations under each recorded load label.",
+      "semantics": {
+        "prediction": "Sum of separate N=1 main currents of exactly the physical modules present, using the same ZERO/MAX label.",
+        "points": "11 distinct multi-module combinations per load, 22 comparisons total; one compiled entry per combination/load, including two entries with targeted current retests. No independent full-condition repeats.",
+        "residual": "100 × (multi-module branch-current sum − separate N=1 reference sum) / separate N=1 reference sum.",
+        "limitations": "Descriptive additivity only; shared modules and batches, no repeatability or instrument-uncertainty estimate. MAX labels do not establish matched load mass/area/distribution.",
+        "axes": "Prediction and observation share identical linear limits with equality line. Residual axis includes zero and every observation."
+      },
+      "files": [
+        {
+          "name": "independent_current_prediction.pdf",
+          "sha256": "42a9edc12f33ab2c7d808f0ece55202fd3da29b0d44fdcce305481c51fcc8172",
+          "bytes": 23918
+        },
+        {
+          "name": "independent_current_prediction.png",
+          "sha256": "c60363e6d39694d376f93e4919e9e8965615836c7cea6b8a5a11d2832b45f07c",
+          "bytes": 168150
+        },
+        {
+          "name": "independent_current_prediction.svg",
+          "sha256": "b83828e3fab11b0d632a49e57a860a60ba21aeeecf592fe47db7bec098466186",
+          "bytes": 27812
+        }
+      ],
+      "dimensions_mm": [
+        180.0,
+        145.0
+      ]
+    },
+    {
+      "stem": "module_drop_N1_N4",
+      "description": "Individual combination values, means and combination SD for each module, N=1–4.",
+      "semantics": {
+        "spread": "Combination SD only; no complete repeat added"
+      },
+      "files": [
+        {
+          "name": "module_drop_N1_N4.pdf",
+          "sha256": "f8f0b9ea8651d771252eb97bee83d21846b61db1823338b3b4f13d8500d69ae7",
+          "bytes": 29526
+        },
+        {
+          "name": "module_drop_N1_N4.png",
+          "sha256": "46a50d5ee94828dec6f9f20903bcb513a0b2a21d2063e58899d12dd64f5d7f8a",
+          "bytes": 215426
+        },
+        {
+          "name": "module_drop_N1_N4.svg",
+          "sha256": "68afae3f80a127fd98f80284cd64249b025a82c0c280f30d6ade267d3d47c3c8",
+          "bytes": 67449
+        }
+      ],
+      "dimensions_mm": [
+        180.0,
+        181.0
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "path": "power scalability/DATA/analysis/current/report_v2_8_analysis/configuration_summary.csv",
+      "sha256": "9eaba89deb9bcbe6f77f73bfd92f6623eb8bc5773801581a24cfcedca51b3be8"
+    },
+    {
+      "path": "power scalability/DATA/analysis/current/report_v2_8_analysis/branch_readings.csv",
+      "sha256": "e35a6f78e0ec4d549ef1b4d840924ae13d63cd2757372611fd3a9d7b7f13c970"
+    },
+    {
+      "path": "power scalability/DATA/analysis/current/report_v2_8_analysis/group_summary.csv",
+      "sha256": "b9fac84f087740bd09b5ae9e0e9e42ed9250a234489bfa393edabc9a3d42a21a"
+    },
+    {
+      "path": "power scalability/DATA/analysis/current/report_v2_8_analysis/additivity_checks.csv",
+      "sha256": "d81c2cd3e70f1b53f67a6e60275ae4363726383e18d68224fe52078010008437"
+    },
+    {
+      "path": "power scalability/DATA/analysis/current/report_v2_8_analysis/load_voltage_drop_changes.csv",
+      "sha256": "8ccc7946c22288abe9913148697a0e7914be8695dd9a255d2701465e5a70dc43"
+    }
+  ],
+  "scripts": [
+    {
+      "path": "tmp/power_v28_figures.py",
+      "sha256": "5d768c90031f585e235499b759f7c48deb2c699ec6734af219e691ee98d16aac"
+    },
+    {
+      "path": "power scalability/script/Main/figures/power_m0_preview_figures_20260907.py",
+      "sha256": "6362a4adf8c3bb1d93a20111919c0f76c35ed0e58a6da5e3cb189e49b7141e9b"
+    },
+    {
+      "path": "power scalability/script/Main/figures/power_retest_figures.py",
+      "sha256": "4beaf25f7ede260a067ad2020b4ac4cdaf274820362c4d61a03e7952842647d1"
+    },
+    {
+      "path": "power scalability/script/Main/figures/power_revision_figures.py",
+      "sha256": "cb406d5c116788a7abc6f27e20aa1ef7b01499fce7e852e2c968a0d886c5d128"
+    },
+    {
+      "path": "power scalability/script/Main/figures/power_m0_preview_drop_20260907.py",
+      "sha256": "a64b7d72ac14eaeba29c068f723571610d8104d5731c8c86416738e4a35d41e3"
+    }
+  ],
+  "counts": {
+    "active_report_figures": 8,
+    "conditions": 30,
+    "branches": 64,
+    "load_difference_pairs": 32,
+    "targeted_branch_updates": 7,
+    "new_complete_repeats": 0
+  },
+  "review": "Machine checks only; human scientific verification pending"
+}

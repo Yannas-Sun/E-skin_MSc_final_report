@@ -1,0 +1,124 @@
+{
+  "record_id": "PS01_N3_ZERO_M0-M1-M2_M0_TARGETED_RETEST_20260907_01",
+  "record_revision": 1,
+  "record_kind": "TARGETED_SINGLE_MODULE_CURRENT_RETEST_WITH_USER_CONFIRMED_VOLTAGE",
+  "reported_date": "2026-09-07",
+  "measurement_date": null,
+  "measurement_start_time": null,
+  "intake_utc": "2026-09-07T04:40:48.697566+00:00",
+  "user_identified_condition": {
+    "combo": "M0-M1-M2",
+    "module_count": 3,
+    "load": "ZERO",
+    "module_id": "M0"
+  },
+  "condition_identity_basis": "User: M0＋M1＋M2，ZERO，M0 电流，电压还是一样为3.241 V",
+  "inherited_protocol_context": {
+    "mode": "FULL",
+    "configured_frequency_Hz": 200,
+    "host_state": "CONTINUOUS_USB_READ",
+    "basis": "existing Power campaign context",
+    "retest_settings_independently_verified": false
+  },
+  "instrument": {
+    "visible_model": "FNIRSI 2C53P",
+    "visible_mode": "DC",
+    "main_reading_is_verified_time_average": false,
+    "min_max_window_s": null,
+    "min_max_reset_confirmed": null,
+    "warmup_duration_s": null
+  },
+  "readings": {
+    "current": {
+      "unit": "mA",
+      "main": "18.051",
+      "min": "18.00",
+      "max": "18.08",
+      "photo_path": "DATA/raw/canonical/power_experiment_records/targeted_retests/20260907_M0-M1-M2_ZERO_M0/M0_current_retest.jpg",
+      "source": "attached photo; independently visually checked"
+    },
+    "voltage": {
+      "unit": "V",
+      "main": "3.241",
+      "min": null,
+      "max": null,
+      "photo_path": null,
+      "source": "user text confirms module voltage unchanged at 3.241 V",
+      "same_session_voltage_measurement_explicitly_confirmed": false
+    }
+  },
+  "source_voltage": {
+    "main_V": null,
+    "min_V": null,
+    "max_V": null,
+    "retest_source_measurement_status": "NOT_PROVIDED_FOR_THIS_CURRENT_RETEST",
+    "historical_source_main_V": "3.276",
+    "historical_source_was_previously_confirmed_unaffected": true,
+    "new_same_session_source_reading_available": false
+  },
+  "source_to_module_drop_mV": null,
+  "prior_accepted_voltage_view": {
+    "M0_main_V": "3.241",
+    "source_reference_V": "3.276",
+    "drop_mV": "35",
+    "basis": "previously user-confirmed cross-record voltage correction",
+    "not_a_new_drop_measurement": true
+  },
+  "historical_supply_contact_fault": {
+    "event_id": "SUPPLY_CONTACT_M0_N3_ZERO_20260907",
+    "event_path": "DATA/raw/canonical/power_experiment_records/quality_events/supply_contact_M0_20260907.json",
+    "sha256": "e8a94132456fc4a1e72b2de03326b46338b8b980a285f3c952c2cb2f907dca42",
+    "affected_module": "M0",
+    "operator_confirmed_original_fault": true,
+    "original_voltage_V": "3.224",
+    "earlier_retest_voltage_V": "3.241"
+  },
+  "new_connector_intervention_reported_in_this_message": false,
+  "cause_of_current_change": null,
+  "same_session_other_module_readings_available": false,
+  "temperature_readings_available": false,
+  "fault_monitoring_results": null,
+  "original_record": {
+    "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M2/zero_load/PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1.yaml",
+    "sha256": "3bfdf897927c11c1207228c0ebd3f8545bcd97a5252597358858b494b307db85",
+    "M0_current_mA": {
+      "main": "17.968",
+      "min": "17.97",
+      "max": "17.99"
+    },
+    "original_current_main_outside_recorded_bounds": true
+  },
+  "comparison": {
+    "current_change_mA": "0.083",
+    "current_change_percent_of_original": "0.4619323241317898486197684773",
+    "retest_current_main_within_display_min_max": true,
+    "historical_record_issue_retained": true,
+    "interpretation": "New M0 current observation accompanies the previously corrected voltage, but does not establish same-condition repeatability or a cause for the current change."
+  },
+  "record_handling": {
+    "retain_original": true,
+    "automatically_replace_original": false,
+    "full_configuration_repeat": false,
+    "new_independent_full_configuration_runs": 0,
+    "current_observation_sets_total_including_original": 2,
+    "pooled_repeat_mean_SD_computed": false,
+    "complete_matrix_and_report_updated": false,
+    "other_branch_currents_carried_forward_as_new_measurements": false
+  },
+  "photos": [
+    {
+      "quantity": "current",
+      "original_attachment": "C:\\Users\\yannas\\AppData\\Local\\Temp\\codex-clipboard-36cc3e15-b0a6-41d0-b1d6-06c9ee6b39db.jpg",
+      "saved_path": "DATA/raw/canonical/power_experiment_records/targeted_retests/20260907_M0-M1-M2_ZERO_M0/M0_current_retest.jpg",
+      "sha256": "62c3165cf65cbc9bf5a745e707af4454dc2eb20b0869e98d66fc22984a8dc7e0",
+      "pixel_dimensions": [
+        4160,
+        3120
+      ],
+      "exif_date_tags_unverified": {
+        "306": "2026:09:07 05:32:03"
+      },
+      "transcription": "direct visual reading confirmed independently; preserve displayed precision"
+    }
+  ]
+}

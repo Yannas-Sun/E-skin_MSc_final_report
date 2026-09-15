@@ -1,0 +1,448 @@
+{
+  "schema_version": 1,
+  "scope": "Current ZERO review; published 2.1 historical analysis not rewritten",
+  "script": {
+    "path": "script/Main/pipeline/summarize_zero_power_20260907.py",
+    "sha256": "e41ace64d4d0379960173a9ca2eacd4f8c0831d6a258a25805c9d64a9c4788d6"
+  },
+  "sources": [
+    {
+      "path": "DATA/reference/analysis_v2_1/source_manifest.json",
+      "sha256": "bf84fc2acbe7f8a82b06d7ef236621a02506ed4932eeb796cfdce930f1903ed4"
+    },
+    {
+      "path": "DATA/analysis/provenance/path_relocation_20260907/relocation_manifest.csv",
+      "sha256": "1ef9134d1e11fe947299a536cbcf7b50e85cd1d99d39ff2f3f874e049dabdfc9"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/current_temperature_supplements/n2_max_20260907.csv",
+      "sha256": "31a768dcbe63b5f471d0b810d922795da8285a44ce757b7ad0ffc0240e77219d"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/current_temperature_supplements/n2_max_20260907_metadata.json",
+      "sha256": "e335661ecc64456d4bab510dd44a104fdb3c6989946054dd1783394a7d6660bc"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/current_temperature_supplements/n2_zero_20260907.csv",
+      "sha256": "bab9c68c78a61330eeb69ee79ef8c1bf96b0e45d08fdc2f8595010e105539650"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/current_temperature_supplements/n2_zero_20260907_metadata.json",
+      "sha256": "1d4d1c0a6352084be09cf642c00b9fe98de3b731c334e230c6aff07101ab26d9"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/current_temperature_supplements/n3_max_20260907.csv",
+      "sha256": "c69c6eea6121ec87009e7f10f4668641f273b85f84d8e4462312f517bb5cc4bd"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/current_temperature_supplements/n3_max_20260907_metadata.json",
+      "sha256": "a561e9a8b23d33f260d1837211c57b8ff725c492c6a069f7d23ffbc11988506e"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/current_temperature_supplements/n3_zero_20260907.csv",
+      "sha256": "1dfc5f3336acb9f61a0af4de6c7e763c496d55808cd454e4a4a5629971fb2caa"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/current_temperature_supplements/n3_zero_20260907_metadata.json",
+      "sha256": "93c29b10c0656ac841bd6e8e59051fbadf85da60a059d21da4a5e6bfa043041f"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/quality_events/supply_contact_M0_20260907.json",
+      "sha256": "bb93db4143b289c090f3ddfdf0b29f4044ad66570c3581a38bc7847e49015079"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M0/full_load/PS01_N1_F200_MAX_M0_USB_RX_R1.yaml",
+      "sha256": "1faa6b068ba1e6bea5afbe4fb32bffff334dfe9de9d9743937256b5410e72584"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M0/zero_load/PS01_N1_F200_ZERO_M0_USB_RX_R1.yaml",
+      "sha256": "f452895420bd4a9bdaa1bf2bf39ca41d3da3bbf383eb1a983a2ba58468894ace"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M1/full_load/PS01_N1_F200_MAX_M1_USB_RX_R1.yaml",
+      "sha256": "158d10a7314e366231638b3ab4098c63333c2db55ae189456cb8ff930fd14b54"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M1/zero_load/PS01_N1_F200_ZERO_M1_USB_RX_R1.yaml",
+      "sha256": "ff0fd645259d56a948ea6d2382f6c5b09d0dc4dacc90acec3778432c1cdb6e4b"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M2/full_load/PS01_N1_F200_MAX_M2_USB_RX_R1.yaml",
+      "sha256": "0e5661fb3f44c55ed5acd0b8eaf3f4f2d9262e9ebce7351a87bb39635f4a62a8"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M2/zero_load/PS01_N1_F200_ZERO_M2_USB_RX_R1.yaml",
+      "sha256": "65d749c9c43f6e31ff4737849c8511fa0994a9156b0359efb2a3bf102bae0713"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M3/full_load/PS01_N1_F200_MAX_M3_USB_RX_R1.yaml",
+      "sha256": "3a67413791ed758694a803890a0320e1a2b61ab25f2bf781d762e251fb88ae64"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M3/zero_load/PS01_N1_F200_ZERO_M3_USB_RX_R1.yaml",
+      "sha256": "9707e77d13f820cfdae66fc04d5874a955ea55f0040f9d2f0576762f7ca7b638"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M1/full_load/PS01_N2_F200_MAX_M0-M1_USB_RX_R1.yaml",
+      "sha256": "a51af797896fa4a7d45c85814ab5953409baf4b2282c1c3dbd07619c81170e13"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M1/zero_load/PS01_N2_F200_ZERO_M0-M1_USB_RX_R1.yaml",
+      "sha256": "293bb811d78b71c31571ffa0e5485ba41be5925ce97f475f8ed6699cc8d98dfb"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/IMG_20260907_025357.jpg",
+      "sha256": "9a25df23cee13fc0d95fb4063759646e32f3b51bb03f05e6b3f162fe35d70a89"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/IMG_20260907_025650.jpg",
+      "sha256": "89715493389937ffb8b98b0d11fbb76f123dd4bd73a5182481b5b4526da1881d"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/IMG_20260907_030036.jpg",
+      "sha256": "8c4477947d7b963b331182c4e6db4fb2ffbf292a2b06cc879e22eb050e8a0a64"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/IMG_20260907_030134.jpg",
+      "sha256": "205d2b7c44111ef33540e4db16b003cb5e9c4ae085c4410e900d6328bfc9588a"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/IMG_20260907_030206.jpg",
+      "sha256": "a474b1732bc313ba766fdebf628a2ee286d98b97a9fc976f9ad4fbdcb3d151cc"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/zero_load/IMG_20260906_231927.jpg",
+      "sha256": "95052ff8b47b164ee3c99cd997c9b1d6c1e52909537ae98ae4fac7fd53418349"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/zero_load/IMG_20260906_232003.jpg",
+      "sha256": "4cbe98a041c2005c1492d1bbaf146c4c26f95b88933fd023684fa926ddb4607a"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/zero_load/IMG_20260906_232035.jpg",
+      "sha256": "48b6e05b0d699b921fbfb507bd2daf4299c4efd6f355344ebd46f1ac05fb552b"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/zero_load/IMG_20260907_010853.jpg",
+      "sha256": "c98f4598a83ec93e9f81fb8f85b1c3e174938c7ef0769f5b4e0f984f7bf76d67"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/zero_load/IMG_20260907_011244.jpg",
+      "sha256": "bee17ba712d8cabf798f77378a2f11e5de6df832f264888a8f0753ea0ac4557a"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/zero_load/PS01_N2_F200_ZERO_M0-M2_USB_RX_VOLTAGE_R1.yaml",
+      "sha256": "61fb4eab2ee15e218706767d0d6c694b12c3d8018d2da9773245157496811fef"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/IMG_20260907_030620.jpg",
+      "sha256": "0e6854eebf4595e5c3443f0d46e8a6b183361570a06b7f9aea601b17c2a392c6"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/IMG_20260907_030754.jpg",
+      "sha256": "4fe1d2be5f0d02aaecb4419601972186b4d557920e4bcb1ba773a15f50073858"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/IMG_20260907_030911.jpg",
+      "sha256": "db51320498aa2f62822fbf3331057c831f6def2ec17ef014294695ba4afd4383"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/IMG_20260907_031106.jpg",
+      "sha256": "156b877dbe27a60258ee063bdf43cd80f0782caf8d26edc8e047c877a5b53983"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/IMG_20260907_031302.jpg",
+      "sha256": "812f52a6bfe98e93754525c290186abc513592272c68f42f775631494f39400d"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/zero_load/IMG_20260906_232855.jpg",
+      "sha256": "be9a773ea9595f2acd6642ce04ead2900e21c318f4cc77e3edc3e41f874057a2"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/zero_load/IMG_20260906_232921.jpg",
+      "sha256": "e8b6bc22ac43d51c9c68db25871068f32bc17f79992c092c1fe54a584b021603"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/zero_load/IMG_20260906_232941.jpg",
+      "sha256": "3ba97cde9eaa19aeafd5a7da28470f9949eee36ad8b9a963e3db8a3d891ef514"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/zero_load/IMG_20260907_011436.jpg",
+      "sha256": "8ca7e04a6bf45ff87b89a86743e1f19655796c27292e9d2862d97024a312c2dd"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/zero_load/IMG_20260907_011700.jpg",
+      "sha256": "2ece96481d2739c2199b609f79e55a35fb06ad621ae6fdf2935a1fb127a24279"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/zero_load/PS01_N2_F200_ZERO_M0-M3_USB_RX_VOLTAGE_R1.yaml",
+      "sha256": "ea37816dd44a084a23490a531bc5eaa8634403acc6a4bbe63375234b9ae4de80"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/IMG_20260907_031825.jpg",
+      "sha256": "62a94cbbe5fd2b78f71163a17ae7d2d29121c38e91d689634a13dc2d89a8aeca"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/IMG_20260907_032016.jpg",
+      "sha256": "b7ff30018bf4bcc9cdbf582a7af3160e073559f7af613e3aa563c841b0792076"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/IMG_20260907_032139.jpg",
+      "sha256": "9078837ac6f32fac442cb7caf5190889d8abf879cb8234afb8e621e44f9d9959"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/IMG_20260907_032207.jpg",
+      "sha256": "be8d002483e0a3d69131e0f4a970720bfdd790f71d8db378834a8d6627c03420"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/IMG_20260907_032232.jpg",
+      "sha256": "5bc6d401c8ff8d26d50a3e6a647dde001aefa429d609b0b72583b4b3ca2c0b5c"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/zero_load/IMG_20260906_233306.jpg",
+      "sha256": "3d753b4168d64ef862ffc0149338427602720f81ba18b6652615c736abdb9049"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/zero_load/IMG_20260906_233326.jpg",
+      "sha256": "44b939a5dcf69e1330781f1ba3c331398ff277ca898524fe60017518605bd4b4"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/zero_load/IMG_20260906_233351.jpg",
+      "sha256": "69018df11cf23a6346df70483a1e110bed7a5ef78b012c84dad3437f155703bb"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/zero_load/IMG_20260907_012031.jpg",
+      "sha256": "673c646dba9f4d95049978c1b632f1108edf2a34e90e60297da866412abfd10f"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/zero_load/IMG_20260907_012237.jpg",
+      "sha256": "ef553ac318cb203f4c7cfb97ac4a59cbd08ce8ad83fb806fc40349c2540a8310"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/zero_load/PS01_N2_F200_ZERO_M1-M2_USB_RX_VOLTAGE_R1.yaml",
+      "sha256": "6de2a9ff6fe5d6035346802c2411c29a8ed87e0ef5c54d376eb7b73e1ba08979"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/IMG_20260907_032708.jpg",
+      "sha256": "b9cf989e8867fa8771f9045fcfd474cac9fb860ffb4f7fa420ddecd097e704db"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/IMG_20260907_032730.jpg",
+      "sha256": "bc0e879bf9e8b426673a80abfed7a82b719ad12ac02fba85914c75374e0cdbb1"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/IMG_20260907_032751.jpg",
+      "sha256": "979ac982dea17b33d628c4da9e6247e3595b777e81c12df0445911cc80f990bd"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/IMG_20260907_032928.jpg",
+      "sha256": "a3523e3c06f6eea89debb852a19d2d6e39a7b508752c509bae633f9ee7ba0b90"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/IMG_20260907_033036.jpg",
+      "sha256": "c01b1f9a9cd644b176d68653704cd774be313c49fd458240f56098a6cdfbed13"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/zero_load/IMG_20260906_233839.jpg",
+      "sha256": "1b42628f0bea0e4e6da5ce7de53f527868380894046d0fbff298de29b436170b"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/zero_load/IMG_20260906_233906.jpg",
+      "sha256": "925d80f090d6c45226d70306301cf5cff07a28e8ae6015b399666e7789c3b0d7"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/zero_load/IMG_20260906_233928.jpg",
+      "sha256": "d160d125392ca110f3db9c098ba1980081f6690e90949e0b77ad8c2e362aafa4"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/zero_load/IMG_20260907_012628.jpg",
+      "sha256": "66cda4f9645c78a8509901d51a9fc5f83f7a010e24f6d1bf9afc608427d6001a"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/zero_load/IMG_20260907_012749.jpg",
+      "sha256": "3867fdb1ee89a0467a872fa865c3ac7ee89795de75daf5fdc0e2f8417225f1b0"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/zero_load/PS01_N2_F200_ZERO_M1-M3_USB_RX_VOLTAGE_R1.yaml",
+      "sha256": "d3aac60eb88bfcb9208d4acf2ceb07be8d751e33e28b3316085f5470a26458cc"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M2-M3/full_load/PS01_N2_F200_MAX_M2-M3_USB_RX_R1.yaml",
+      "sha256": "16702fb7acfa55949c2c84878861f02ecf076e32b994f91455267644b310b43a"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M2-M3/zero_load/PS01_N2_F200_ZERO_M2-M3_USB_RX_R1.yaml",
+      "sha256": "b50050a18d67351c74810a9376ad094906abec2e5c6c944e645fddea7bd4dc2d"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M2/full_load/PS01_N3_F200_MAX_M0-M1-M2_USB_RX_R1.yaml",
+      "sha256": "31e4de3dd989405d4b9493b715842080243526e317562b584b09ae90ebcb5f27"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M2/zero_load/M0_new.jpg",
+      "sha256": "5521ec820e006acc6dec84f64434c8bd08c5e1d58a7c2c19e581187f83ec7df4"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M2/zero_load/PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1.yaml",
+      "sha256": "3bfdf897927c11c1207228c0ebd3f8545bcd97a5252597358858b494b307db85"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M2/zero_load/PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_VOLTAGE_RETEST_R1.yaml",
+      "sha256": "9760ab4a02208163c9a1cd28ae637e52bebf29716b5970a76fc96ca114a03dfc"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/IMG_20260907_033428.jpg",
+      "sha256": "2b82753bb6e2118201d9de6827a2508f811151c7c578a38f05908d19596d6e04"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/IMG_20260907_033545.jpg",
+      "sha256": "2ddda425e8993d0974c941b9246c99ce813eaae208afea271fa126df99f413c2"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/IMG_20260907_033654.jpg",
+      "sha256": "94616de005a85d2245bab7803f7757d41b2f27103f2416e4862055a8aa3f3519"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/IMG_20260907_033809.jpg",
+      "sha256": "5c5135627617520bd4c42f806a9730303827eaa8c1fc766f921c11017f4c88ed"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/IMG_20260907_033856.jpg",
+      "sha256": "fefc6ddc74429dd8c5f389d1bfbbc0412195372b8a35c7260d91514bdd4b0eea"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/IMG_20260907_033917.jpg",
+      "sha256": "af34bb207fc2eb2c60c4ae3be8f35674dd82c7917a14a194d9f0a4ffdc938d39"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/IMG_20260907_033942.jpg",
+      "sha256": "06736dc89a9b698a6a0d00bef71753ea7d9965eab42aeff467ab490e5559c5ee"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/zero_load/IMG_20260907_000539.jpg",
+      "sha256": "7f12161f64210c0b3e7712ac409afe21ff73cfe08d1beabb81b8199cc46a9579"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/zero_load/IMG_20260907_001239.jpg",
+      "sha256": "7a2100b6129a22b2738741477d6917b49e57c2f47f9ea7de6ef31c9ea2152051"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/zero_load/IMG_20260907_001305.jpg",
+      "sha256": "daf5d00caf7c9f3fa31d57cd31ea2f09a5a15af8863b501971d9b98291de02fc"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/zero_load/IMG_20260907_001324.jpg",
+      "sha256": "9e1340c15f91ee0aee6fd856a58085f06b0a467077305eb36f4cdcc7b2879247"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/zero_load/IMG_20260907_021524.jpg",
+      "sha256": "0d3d511a944c1551f3d2bd4dadbcc40f1a67d9d5530c024fabc1bdfb1dd07c8f"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/zero_load/IMG_20260907_021951.jpg",
+      "sha256": "c54bcc24dd38ee1ffe31c7f0b77cca8be09dfc18e5068778335e453734c3f582"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/zero_load/IMG_20260907_022112.jpg",
+      "sha256": "e129343b71c00dff90cab9ab490099e5c77d13ef458bf441937a2684a01f3bb9"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/zero_load/PS01_N3_F200_ZERO_M0-M1-M3_USB_RX_VOLTAGE_R1.yaml",
+      "sha256": "5b2c74f7f3098d0dda00b67e6722170919d59941eb3f3bf74e754bd298a4ec09"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/IMG_20260907_034438.jpg",
+      "sha256": "8f747ec954b7f3d8922e97fc84c7113f9a8c03e3e353f054055eb91c991fc545"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/IMG_20260907_034509.jpg",
+      "sha256": "dd4aba296ec96014b35b16c9245c850d568a939e2fdfceefd955b641b1b2018c"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/IMG_20260907_034530.jpg",
+      "sha256": "9a6079b1e4a39fb7057af5da3f62e8789833d09b51bd1264d6e1d0651a4ad4db"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/IMG_20260907_034555.jpg",
+      "sha256": "406b916991929c1a4d81840fee987538fa339c9fe7de8a9bff890906583b2084"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/IMG_20260907_034818.jpg",
+      "sha256": "e52ac36fb23297bad0a38340e3ed1450a3c7ce10a3e47c715ee61a5d47906e1e"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/IMG_20260907_035053.jpg",
+      "sha256": "ae1d1436c85d6e61d0c982f22ecb009dfa467216c0da1e78da671ad907c973a3"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/IMG_20260907_035303.jpg",
+      "sha256": "aab2cdff93720de5f7c1c634a3756bd1cc536a60eeabae20163503ee5afb7676"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/zero_load/IMG_20260907_002056.jpg",
+      "sha256": "e8353872781b06d1c9fbd036bd98f94709493b7b7e2059fcd9d339d7f345865b"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/zero_load/IMG_20260907_002247.jpg",
+      "sha256": "5e115cad159cd3be6cadf6c6128c862e3d68047ad0f7d8603f2e1fe54a696082"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/zero_load/IMG_20260907_002315.jpg",
+      "sha256": "f32c91321ba40922ab8ee92893ab699ea32789f3fa8ac74fcba3602132106690"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/zero_load/IMG_20260907_002343.jpg",
+      "sha256": "b5a11b850f35ea7d8663efac3c99466de3f0ec7f9ec61056aaab6b28a77db43d"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/zero_load/IMG_20260907_022258.jpg",
+      "sha256": "99ea5ac4a743cc72e3eccef63507593cc6dbe07a84d52cd0c015cf29cdc53180"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/zero_load/IMG_20260907_022506.jpg",
+      "sha256": "fe5b4530182b59ffe7fcea1e7979b076ba26426b5277f5183b0f658a9a7041c8"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/zero_load/IMG_20260907_022755.jpg",
+      "sha256": "889e41db532530d696ff2d0ed1a109b64a2bfef7496db57b11b4e43b8245ed3b"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/zero_load/PS01_N3_F200_ZERO_M0-M2-M3_USB_RX_VOLTAGE_R1.yaml",
+      "sha256": "7ac9267e6536148eef3d68ae21bd79fee309cc0779c33dacdeb5087682c4f47d"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M1-M2-M3/full_load/PS01_N3_F200_MAX_M1-M2-M3_USB_RX_R1.yaml",
+      "sha256": "4892e0d86e57c09da28d32627cf7ae4928f16b7b79963522a83846c2477c0423"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M1-M2-M3/zero_load/PS01_N3_F200_ZERO_M1-M2-M3_USB_RX_R1.yaml",
+      "sha256": "c05ab0823c9d26dc0956d827927022f30b82f7edac55885308bafad9ce9cd911"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/full_load/PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1.yaml",
+      "sha256": "5d646a643cf07a40cc5e0526dcee4cfde2e0bf50405af0e858298c54ba203102"
+    },
+    {
+      "path": "DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/zero_load/PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1.yaml",
+      "sha256": "d4aac0c47b7db4f3eb9060d65d999e826499d6b3cdda5174650d9a2c04294c01"
+    },
+    {
+      "path": "DATA/raw/canonical/power_raw.csv",
+      "sha256": "552edb10076000c5e3999ac5f2a185ae9c4e3a590ac4421ca850c8e8016a4752"
+    },
+    {
+      "path": "DATA/analysis/current/voltage_review_20260907/accepted_configuration_voltage.csv",
+      "sha256": "e49db538139397f8c3377ba4b13e16a951a8590ddf2bb16bf2af35777459da33"
+    },
+    {
+      "path": "script/Main/pipeline/photo_source_paths.py",
+      "sha256": "62b5e8a82e887e0f312c27a1456c9dc75f9aadab8e513c53065e047a3ce2cf03"
+    }
+  ],
+  "published_main_2_1_sha256": "d659fbab34fa82366abba88316f49308e95ce8c1459f0c11941f1d369b627f6f",
+  "original_19_inputs_match_frozen_manifest": true,
+  "protected_files_unchanged": 227,
+  "accepted_voltage_sources_and_photo_hashes_verified": true,
+  "configuration_count": 15,
+  "branch_count": 32
+}

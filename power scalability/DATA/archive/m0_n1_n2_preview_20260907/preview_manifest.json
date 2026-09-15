@@ -1,0 +1,209 @@
+{
+  "created_at_utc": "2026-09-07T16:01:28.562382+08:00",
+  "figures": [
+    {
+      "stem": "current_power_scaling",
+      "title": "电流与估计输出功率随 N 变化",
+      "dimensions_px": [
+        2125,
+        1358
+      ],
+      "files": [
+        {
+          "name": "current_power_scaling.png",
+          "sha256": "3de6ef0ea4e48331ebde0d13151a68d1d629b0f2ecdaa2d775324f604c0ebc2f",
+          "bytes": 192975
+        },
+        {
+          "name": "current_power_scaling.svg",
+          "sha256": "c33cef13e82b3544f9370af9ec4cc5a26e4cd9a2c49b3f62c22e4428aebd1120",
+          "bytes": 44514
+        }
+      ]
+    },
+    {
+      "stem": "voltage_scaling",
+      "title": "源端与模块端电压",
+      "dimensions_px": [
+        2125,
+        1440
+      ],
+      "files": [
+        {
+          "name": "voltage_scaling.png",
+          "sha256": "2c85788a239dfe3f1843507816037ad5c21f2fb5da9ad48d0906e1ab37d17f25",
+          "bytes": 171544
+        },
+        {
+          "name": "voltage_scaling.svg",
+          "sha256": "0a5708fc0fbe9407137c13adbc987fbd7a3863c17594f14925ab357e33233dd9",
+          "bytes": 76702
+        }
+      ]
+    },
+    {
+      "stem": "module_voltage_drop",
+      "title": "空载压降、满载压降及对应差值",
+      "dimensions_px": [
+        2952,
+        2149
+      ],
+      "files": [
+        {
+          "name": "module_voltage_drop.png",
+          "sha256": "5d7eba8b77abc3d72f9f1ed683b68dce21a579993bb5849559edd588f839f7c6",
+          "bytes": 284324
+        },
+        {
+          "name": "module_voltage_drop.svg",
+          "sha256": "bf57ef47493c31ae5a3f6a7fba0856b6c984eadc71bbf634e527562a873b90e3",
+          "bytes": 200008
+        }
+      ]
+    },
+    {
+      "stem": "module_drop_N1_N4",
+      "title": "N=1～4 的压降散点与均值",
+      "dimensions_px": [
+        2125,
+        2137
+      ],
+      "files": [
+        {
+          "name": "module_drop_N1_N4.png",
+          "sha256": "c906b90a95be912894336f901f7989e7718a94f9b914d82e80a98b4735227b5c"
+        },
+        {
+          "name": "module_drop_N1_N4.svg",
+          "sha256": "68b087d62e513d83fada088b57cc33146660f606a4a44cf8105e74414413ac9e"
+        }
+      ]
+    },
+    {
+      "stem": "single_module_screening",
+      "title": "单模块不同状态的电流比较",
+      "dimensions_px": [
+        2125,
+        1181
+      ],
+      "files": [
+        {
+          "name": "single_module_screening.png",
+          "sha256": "8717b411b16aa2d68f508e8812a8ea57437116522ced1f1e5fdd37ec51c7de16",
+          "bytes": 98968
+        },
+        {
+          "name": "single_module_screening.svg",
+          "sha256": "a251755e7199ba350ce1f5a21391f7e9caadb91a32956c7ad2b98ed5d6bb8fc1",
+          "bytes": 15354
+        }
+      ]
+    },
+    {
+      "stem": "branch_current_balance",
+      "title": "各模块支路电流随 N 变化",
+      "dimensions_px": [
+        2125,
+        1594
+      ],
+      "files": [
+        {
+          "name": "branch_current_balance.png",
+          "sha256": "23c42765cb5344c9f71649649bddb90713409060da3cfd308d44a7307f567f9c",
+          "bytes": 134280
+        },
+        {
+          "name": "branch_current_balance.svg",
+          "sha256": "67e38578b10d976c6523637f8c11d047eb9d3e9c3722aadb668617837b4c4067",
+          "bytes": 38643
+        }
+      ]
+    },
+    {
+      "stem": "temperature_scaling",
+      "title": "温度随 N 变化",
+      "dimensions_px": [
+        2125,
+        1169
+      ],
+      "files": [
+        {
+          "name": "temperature_scaling.png",
+          "sha256": "376ad092a780a32062cbc637c1f4f025406afd859efeb7863236181d08180cee",
+          "bytes": 150304
+        },
+        {
+          "name": "temperature_scaling.svg",
+          "sha256": "35d34ef88339eceff372192d2aa82d06ced3e432f73398e813fd98107987e508",
+          "bytes": 42212
+        }
+      ]
+    },
+    {
+      "stem": "independent_current_prediction",
+      "title": "由 N=1 参考电流预测多模块电流",
+      "dimensions_px": [
+        2125,
+        1712
+      ],
+      "files": [
+        {
+          "name": "independent_current_prediction.png",
+          "sha256": "150cfd101f08abc2f8ec149a7ab8fa2211757ceb9cc4c68a39e4f0a556516c56",
+          "bytes": 191100
+        },
+        {
+          "name": "independent_current_prediction.svg",
+          "sha256": "ae1aad276bfcf833e717a17b7d64eacaff365b20f42ea5c97361250a5ac711ba",
+          "bytes": 28455
+        }
+      ]
+    }
+  ],
+  "load_difference_summary": {
+    "paired_module_cells": 32,
+    "combination_count": 15,
+    "formula": "(V_source_MAX - V_module_MAX) - (V_source_ZERO - V_module_ZERO), in mV",
+    "minimum_mV": "-4.000",
+    "maximum_mV": "10.000",
+    "positive": 21,
+    "negative": 6,
+    "unchanged": 5,
+    "source_sha256": "7f933815d084c1f525314f7aa484b1063d16ac3d4646e302fc4b129765c9b1b0",
+    "output_sha256": "8ccc7946c22288abe9913148697a0e7914be8695dd9a255d2701465e5a70dc43",
+    "script_sha256": "8a2078d5e8cf952bdb3b62e4bc2ca6d10965bddf67583460df4f5ebdf4189d27"
+  },
+  "protected_power_and_published_pdf_files_unchanged": 123,
+  "other_report_changes_observed_during_parallel_work": [
+    {
+      "path": "Imperial College Individual Project Template_LaTeX\\result\\data_scalability.tex",
+      "before": "190c55b4d116179bb2b4fb8f5bedd9f218a93e4b8b05d5859963bbc49440b020",
+      "after": "7cbd562809a3914a88b2213ea3902588f67ef9cdd3407c9303b36cc04eaa6c07"
+    },
+    {
+      "path": "Imperial College Individual Project Template_LaTeX\\title\\title.tex",
+      "before": "ae8cd7bc45721ed9720b6dc6f625acbf5f9711e63e1e18d61b5d9aa0690bc7e2",
+      "after": "1ac9f0b9e210ebe7089d539859f306a03fa37ed93d7ca3bb50f91b07515ff31e"
+    }
+  ],
+  "change_attribution": "Snapshot differences alone do not identify the writer. Preview scripts only write this preview directory; concurrent main.tex/data_scalability.tex changes were not overwritten.",
+  "interpretation": "Not applied to report by this task; no global assertion about concurrent report edits.",
+  "data_hashes": {
+    "additivity_checks.csv": "d81c2cd3e70f1b53f67a6e60275ae4363726383e18d68224fe52078010008437",
+    "branch_readings.csv": "7f933815d084c1f525314f7aa484b1063d16ac3d4646e302fc4b129765c9b1b0",
+    "configuration_summary.csv": "e44bb8e375cb2517a4683aeb81a17ec72709c527090eabf4d61a4a0ee25fd526",
+    "group_summary.csv": "b9fac84f087740bd09b5ae9e0e9e42ed9250a234489bfa393edabc9a3d42a21a",
+    "load_voltage_drop_changes.csv": "8ccc7946c22288abe9913148697a0e7914be8695dd9a255d2701465e5a70dc43",
+    "module_drop_by_N_summary.csv": "883e57cbc23df43c1dbcd12c55a83790ab17cdb82f4011c121b19801dee99e31"
+  },
+  "script_hashes": {
+    "power_m0_preview_data_20260907.py": "3db5493338a399920d86f18c4f558bc534b0e387b1ca52c18fe3f216790a1222",
+    "power_m0_preview_drop_20260907.py": "52873b01d48299aebe58e2563d22f6d17223458436d1f3414c356d83d5b6e997",
+    "power_m0_preview_figures_20260907.py": "1a93dcfd22544a45a846c5f116f85c5d232131a0b1fb2d83f9f613efec20f530",
+    "power_m0_preview_gallery_20260907.py": "0f11cf5fed4c447a5614ac66d087ec8b502f0317e51cd4827af617a4a5cfee4b",
+    "power_m0_preview_heatmap_scale_20260907.py": "6bf05a847b284f5a73c6b85a7a401b5ff153aa8856c4fb53812f85bdd98bf735",
+    "power_m0_preview_load_difference_20260907.py": "8a2078d5e8cf952bdb3b62e4bc2ca6d10965bddf67583460df4f5ebdf4189d27"
+  },
+  "gallery_sha256": "ef5f25f231cf12289c1e266790f6c535041a169c9ab53810e3ea1825a98287d1",
+  "reorganization_note": "The English gallery is now preview_gallery.md; the earlier Chinese note is preserved in the central archive."
+}

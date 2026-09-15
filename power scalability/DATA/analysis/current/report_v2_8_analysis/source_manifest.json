@@ -1,0 +1,619 @@
+{
+  "created_at_utc": "2026-09-07T06:50:01.539972+00:00",
+  "sources": [
+    {
+      "relative_path": "DATA/analysis/retest_reviews/m0_n1_n2_retest_20260907/clarifications.json",
+      "sha256": "7f961e8e89c7f28e58cc4d6e848f3173eef1e886b119eebcd6b2a9bd052f1ce3"
+    },
+    {
+      "relative_path": "DATA/analysis/retest_reviews/m0_n1_n2_retest_20260907/comparison_with_report_2_4.csv",
+      "sha256": "19046647989208ca9912188924ada630e8af47e7894799eff469bb73a75a731e"
+    },
+    {
+      "relative_path": "DATA/analysis/retest_reviews/m0_n1_n2_retest_20260907/intake_notes.json",
+      "sha256": "90d3d161bebbcdf273269af28e0aa92ef11c7065421a56f11d1bf686d9d11c3e"
+    },
+    {
+      "relative_path": "DATA/analysis/retest_reviews/m0_n1_n2_retest_20260907/readings.csv",
+      "sha256": "d96638289dc5f14ff45154fa7766dad99aa3f951482ff331fd6a7b643e7df1ee"
+    },
+    {
+      "relative_path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M0/full_load/new_I.jpg",
+      "sha256": "2c58fcfd2c9bcd75a8b2a5b0fb569c17cf3f6c984f93fee26a040d33b7c7c1a9"
+    },
+    {
+      "relative_path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M0/full_load/new_V.jpg",
+      "sha256": "4a84fe4299dcd923b4a8e4bb2b76fbe2e0a72f7bd4e050d0965a8b8286f3339e"
+    },
+    {
+      "relative_path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M0/zero_load/IMG_20260907_065244.jpg",
+      "sha256": "2eedbb98e46424ef3c49b802e2d01a1a10b5bb20a9dff689539b9546f1ad2b38"
+    },
+    {
+      "relative_path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M0/zero_load/new_v.jpg",
+      "sha256": "bda73dd25c173fcb4dcf6b32dd20f87150650d829521b2eeb51483efe9b30e61"
+    },
+    {
+      "relative_path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M1/zero_load/new_I.jpg",
+      "sha256": "109c8e04f5886ff0bbc0d529b3a211d0964c9164ee72e10d57c8caf2136ec4d6"
+    },
+    {
+      "relative_path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/zero_load/new_I.jpg",
+      "sha256": "c1e710120dee9ce3dbf9ffcb485a37f15d6f3bf0006d857d2864b13341f48ace"
+    },
+    {
+      "relative_path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/zero_load/new_V.jpg",
+      "sha256": "7b30140373b4693ed6d3c7799048b71ab57a527ce511d13809689dbc010633cb"
+    },
+    {
+      "relative_path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/zero_load/new_I (1).jpg",
+      "sha256": "c31e479feed2c000c5f923f4e65b958982aff0694bf41946e9eb388ba398d942"
+    },
+    {
+      "relative_path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/zero_load/new_V.jpg",
+      "sha256": "8126a4b86977de2dc7aed26991b2bafe759cb36380159aeb267af085fa51b6ff"
+    },
+    {
+      "relative_path": "DATA/reference/report_v2_4_analysis/additivity_checks.csv",
+      "sha256": "5016f2e8220c79b962bab976c832d035ef99c21486dd806d79bdc965eab8ca72"
+    },
+    {
+      "relative_path": "DATA/reference/report_v2_4_analysis/branch_readings.csv",
+      "sha256": "c2ef6a3719176d9d8a23614e303929c240680240dfacd8816fa32cd0ca4f4874"
+    },
+    {
+      "relative_path": "DATA/reference/report_v2_4_analysis/configuration_summary.csv",
+      "sha256": "1fea2c573585c927ad5ccdcec34e1c1a434e1cb2aaa5ad87cfe4a79f8fdaa63d"
+    },
+    {
+      "relative_path": "DATA/reference/report_v2_4_analysis/coverage.csv",
+      "sha256": "6f4fad7854cc3e0e4236a9b3482e14bed58583fab02fe646bde65d17ce1e3f2e"
+    },
+    {
+      "relative_path": "DATA/reference/report_v2_4_analysis/group_summary.csv",
+      "sha256": "bcea41ee86b8767d8e16301ff69677d9e70d6fdaf113f99994f9735268aad6d0"
+    },
+    {
+      "relative_path": "DATA/reference/report_v2_4_analysis/historical_quality_issues.csv",
+      "sha256": "bc8540694aaf8a861c62ea56a30de4a649ae04bece755c74710549cd3c8aaf5d"
+    },
+    {
+      "relative_path": "DATA/reference/report_v2_4_analysis/load_pairs.csv",
+      "sha256": "19380cbb41084efd5b41779ecad9452486921cb3e751c066ebf0e0322938ccd8"
+    },
+    {
+      "relative_path": "DATA/reference/report_v2_4_analysis/quality_issues.csv",
+      "sha256": "9b9eb83fe072bdec5286a1607f89b391d1a798a02b40da4ba57d62d9aa9ec0b5"
+    },
+    {
+      "relative_path": "DATA/reference/report_v2_4_analysis/source_manifest.json",
+      "sha256": "59000481aa196b7ce7be16ce498c14c5ee6441bafd638c87f255be2cdda17e19"
+    },
+    {
+      "relative_path": "DATA/reference/report_v2_4_analysis/source_voltage_readings.csv",
+      "sha256": "816fe48dc58d59fc087ceb4b7546dfe46b05f4ec5219878828e3511f881c2a7f"
+    },
+    {
+      "relative_path": "DATA/reference/report_v2_4_analysis/targeted_retest_comparison.csv",
+      "sha256": "9e2d61a25036363c9e5446be74c12f1729906c2cdcfb8d9a6a922afc9aacdeb1"
+    },
+    {
+      "relative_path": "script/Main/figures/power_m0_preview_data_20260907.py",
+      "sha256": "a5a4d57cc08c4d89a8424195378dc54f4d18170fccf885d4b8c8d1099a16a3ca"
+    }
+  ],
+  "configuration_entries": 30,
+  "branch_entries": 64,
+  "new_M0_targeted_entries": 5,
+  "total_current_targeted_entries": 7,
+  "full_configuration_repeats_added": 0,
+  "pending_voltage_assignment": [],
+  "confirmed_voltage_assignment": {
+    "combo": "M0",
+    "load": "ZERO",
+    "module": "M0",
+    "V": "3.252",
+    "drop_mV": 28,
+    "basis": "User confirmation in clarifications.json; no extra measurement"
+  },
+  "wrong_M0_M1_voltage_photo_excluded": true,
+  "M0_M1_voltage_basis": "User correction: main/MIN/MAX 3.251 V",
+  "sources_and_temperatures": "Retained under user instruction; no new synchronous source measurements",
+  "protection_scope": "Report source, published PDFs, report power figures, frozen inputs and original plotting scripts",
+  "protected_files_before": {
+    "Imperial College Individual Project Template_LaTeX\\appendix\\appendix.tex": "414d0fec9a374a8554de0e333ee64093841e0e9bc3b44d2edee1f5ce64c4265f",
+
+
+    "Imperial College Individual Project Template_LaTeX\\appendix\\calibration.tex": "197b602c05e33937914b63113965a7b0b235cf49d205cd5adf9cbe7d8138dc1d",
+
+
+    "Imperial College Individual Project Template_LaTeX\\appendix\\data_scalability.tex": "8f9157c145996d1ab9f527998e693e0bc49e2fe4e9dc0365806a8b92c0b69462",
+
+
+    "Imperial College Individual Project Template_LaTeX\\appendix\\hardware.tex": "422bd25b32be450a871a65e710ee4dd59507451a4a29075f581136dc02420002",
+
+
+    "Imperial College Individual Project Template_LaTeX\\appendix\\power.tex": "17a1ac33f41a98e8be2a0bda15b01996c4b10422fe22e7ccad661439d7e120df",
+
+
+    "Imperial College Individual Project Template_LaTeX\\appendix\\protocol.tex": "17033870247191f217ce71e30b9dd7b4dda7808ff6cb35ddb6f22115157e6c6d",
+
+
+    "Imperial College Individual Project Template_LaTeX\\audit\\data_v2_5\\dynamic_table_rows.tex": "1f1c956fc5548e425dc87e21830ce3f935fbf94d51d7924b00e9e27c68ce1f90",
+
+
+    "Imperial College Individual Project Template_LaTeX\\audit\\data_v2_5\\zero_table_rows.tex": "10e63380d676031eacd00ce3edf9a2151c0b0d15b2997b11c1a2a4861dd0ccd0",
+
+
+    "Imperial College Individual Project Template_LaTeX\\background\\background.tex": "32f45e96b94b45b308be509dea2faa96498afc8b4fcce14c8c735b9c9ebed229",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\annotation_review_20260904\\appendix\\protocol.tex": "124378ebf71f7aa12ad9e89f71c822c38c74cb76d7d4f2013a5eb4966920d0a2",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\annotation_review_20260904\\discussion\\calibration.tex": "459883350e65fc0bbcf48de30aae4f344e5426352d18d990b95f4b323dbbfe5a",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\annotation_review_20260904\\method\\calibration.tex": "3f14a3ae3d4093369c536ac2247aa2353f7938158a0e99aee8aad249dcd78e1b",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\annotation_review_20260904\\method\\data_scalability.tex": "1c84ee69db99828fa08e931b916aa88736b742c135a4984a0b326c1046776596",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\annotation_review_20260904\\result\\calibration.tex": "934479633ede98e227cc0eaf70b4fae6b4fb9bafc4a6f3c6f78c8856cc99fcbd",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\calibration_mass_wording_20260904_034825\\appendix\\calibration.tex": "af093fd2a7ce845c0bb952ced38b55aaa1f1c8a63451bf2653c1a041aa99001a",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\calibration_mass_wording_20260904_034825\\background\\background.tex": "a662651b13fe4be2679e021899224c464f375ab963820ef17f812f149d34974d",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\calibration_mass_wording_20260904_034825\\discussion\\calibration.tex": "cf67d6e2d7e5751289e3399e87d96b8a3433ae800948215e7e7a8b30d809a59e",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\calibration_mass_wording_20260904_034825\\method\\calibration.tex": "77979c10ba8e5479621615b09f37a43a9a3d67c8de041fa8b0affca67c424f62",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\appendix\\appendix.tex": "bb186ab47fcaab632d3c4378b42bdbc6c7e8a4a3489a988942fe5bb466e288bc",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\appendix\\data_scalability.tex": "235d43d4d2c1504594a0fa1fdc3e0580d321faab8a37eeddc98c827cbce82b77",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\appendix\\power.tex": "4c7816049e7bf2d6bac906041645ca5fa107f0220bdd832e252e16baab6cfddd",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\background\\background.tex": "caff0310bb78c320be6c3e25b5dff8b5db47afbbdb0ea211dd7c2fbc5965a905",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\conclusion\\conclusion.tex": "c5123b24f04059a6537f26f867a73d4d7682cca48206a6b5b31e1a3b2fa60d10",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\discussion\\data_scalability.tex": "402a3d7823ef7f3ea86dc67110e417812709d2523d91e8464d20ebb2a098d1d1",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\discussion\\discussion.tex": "0868a427ba859c1d765749ebf1704eb1afebd0120ce6b7b42b4f9dd0ff215887",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\discussion\\power_outline.tex": "45a8d4b3eb2bafc78e304ad5bc4fe520c4a31278e68c20e74a0a169f2e1fe8af",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\introduction\\introduction.tex": "4606f2f46140b5f8c5389ca411de81c622c11d08e52d339b7d1eacef0d9b34be",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\main.tex": "c8403ee5bec92fc0cf9af365823770254820f925c115c80a730adc9f6e243f72",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\method\\data_scalability.tex": "0b88d0d0ae83020e98a2a7be73ab1f8fc7f09e72425a9aae8b6c54d31b7f53be",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\method\\method.tex": "0206de4ce52e073ffe4c4b73a8c68d02d11e9e4bbde23dcd9f66c31b1b279d97",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\method\\power.tex": "f5b0ca18b26f01549f5f20006e07dd286dbd67c1d852437a67c673a2e0379b5c",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\result\\data_scalability.tex": "8dedcb5624119bf63d0f313bf45395eb3bf45a999544ebcd5e6674570e5f08de",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\result\\power.tex": "f7bc586824dfb06c10f7eaae9aa2ef95e20dc4d2ee87b335f8c8c6d8565fc363",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\result\\result.tex": "0a46ff08e2fd4eb6a5e4f6df1dddd2fbffffbd3f095bff6558fb5e73d14df76f",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\pre_calibration_20260902\\title\\title.tex": "fd988242ce70a20b627ff21ef15dacaa4672b6ae767fdc7d3068c9375f76b013",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\appendix\\appendix.tex": "414d0fec9a374a8554de0e333ee64093841e0e9bc3b44d2edee1f5ce64c4265f",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\appendix\\calibration.tex": "66054f86a994f8202614ebdf10d70b423ccbbcf343dd79b2f62fcd43fc8f8d65",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\appendix\\data_scalability.tex": "eb7045386c59a9e69e5d6b55ac9adeb843d94243823432d712eb9de14465c192",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\appendix\\hardware.tex": "752a45f23b9a29778a47f70a6099c9c237a963c909861c83e4b6ea5c554e43b7",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\appendix\\power.tex": "5f0077ea1cc90bc3acbf87efc3121dd997d6c27e335a652919f2ec175e9f7321",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\appendix\\protocol.tex": "124378ebf71f7aa12ad9e89f71c822c38c74cb76d7d4f2013a5eb4966920d0a2",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\background\\background.tex": "a662651b13fe4be2679e021899224c464f375ab963820ef17f812f149d34974d",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\conclusion\\conclusion.tex": "fb96cb228a723c88b5e4c73b37f1b5d672b1259d71bb15ce2ffd7103e4e742a4",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\discussion\\calibration.tex": "459883350e65fc0bbcf48de30aae4f344e5426352d18d990b95f4b323dbbfe5a",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\discussion\\data_scalability.tex": "5ff435925b1d5d61a8d6be6d069e1c0b7df7ea9b9d988560239b16c5fcbe7277",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\discussion\\discussion.tex": "df66c60762746f914cbc416d95d69e434bd7e0db1d42cb248e61a6049717ac6b",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\discussion\\power_outline.tex": "870032bed7013f516beba37683db0b359fd33c956eeb8b14677e35c193aef795",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\introduction\\introduction.tex": "c93af2c7835861b8bdba97142ef52d4126cfd51ab3c968be751228aa8e1d8734",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\main.tex": "8cbf3fe150ad531b5a8e486080efb91647ab261bd30e2277812e5f8b99ae5700",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\method\\calibration.tex": "3f14a3ae3d4093369c536ac2247aa2353f7938158a0e99aee8aad249dcd78e1b",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\method\\data_scalability.tex": "1c84ee69db99828fa08e931b916aa88736b742c135a4984a0b326c1046776596",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\method\\hardware.tex": "da8ebc9a84be45de78de16dbc057ed319d5b68c2aacd794e82efa511ab8bd8e7",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\method\\method.tex": "d2c75a536ea741f4b1ecb193601c00fbe23d0455ea94b48d744198f57fc1669d",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\method\\power.tex": "20a1f9a12e8a68c71f300f96ba02a7320d2ef6e2af45f73b98d862d4625b89fa",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\result\\calibration.tex": "41d97308bd585b46c38c6fda64d64fbd0fe82b219b3061cec9c24594341b4dc9",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\result\\data_scalability.tex": "49f3710cd0b21be0321da06b9997a8a06512a331f325789f4aac5be9e5c23842",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\result\\power.tex": "bf023ebe7b18e2e105a60501941026b40d340b4392abd18a2e84599885a2ba5d",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\result\\result.tex": "9a7666b20f62985f87a718c09a1fea10c654476513282d7f4b2c2782f0bcb235",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\backups\\report_review_20260904_025340\\title\\title.tex": "fd988242ce70a20b627ff21ef15dacaa4672b6ae767fdc7d3068c9375f76b013",
+
+
+    "Imperial College Individual Project Template_LaTeX\\build\\main_body_wordcount.tex": "4681e2a38c95d1475d87f2b7cf30ff046587abc26370318078eddc0f11063551",
+
+
+    "Imperial College Individual Project Template_LaTeX\\conclusion\\conclusion.tex": "062789cf82b4e26340542b39c75a496d76f09507334f2c332bf1a23b8290bf85",
+
+
+    "Imperial College Individual Project Template_LaTeX\\discussion\\calibration.tex": "ee8cf3c46db0e0e73273359bdfd4139abf05c2dad366113afbf7645301907dec",
+
+
+    "Imperial College Individual Project Template_LaTeX\\discussion\\data_scalability.tex": "5459c177864a87ac0c59d37f77f387185926cbe6baac9d61d93715d6ba09a53b",
+
+
+    "Imperial College Individual Project Template_LaTeX\\discussion\\discussion.tex": "7993f2c665d4690312b2db9901b685bc134c111efaeb967502908a4cc2b921c7",
+
+
+    "Imperial College Individual Project Template_LaTeX\\discussion\\power_outline.tex": "0602a1c01e74af95ba186f51002ad550581e45b5acab93e62896425f365dac06",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\branch_current_balance.pdf": "bdfd79d14315bd6164feccd4fcc88f8b0e965e7386864bcd5e1a514655ce0e31",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\branch_current_balance.png": "17623a53e0ff3e73f91c1a7d95b31514d55c9f29c51ab9fbe0e4f38ba2423a65",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\branch_current_balance.svg": "2e3c621c3eb5fbed7c1c4423a8618b71466e2aa0e2b4dbd296e0d2461003e44f",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\current_power_scaling.pdf": "f2c6b944a25d551dc3883ed961cfd02e9b17771854719a216f700daf0dcbc2d0",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\current_power_scaling.png": "32b9c69f173698c75fc4bc5275103183f1ef22918929bb3eb001bab6fe013aa3",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\current_power_scaling.svg": "4eaa26af4d26ed301c41d3a5bfa5e96b034d99bde96abb53d075daafda671ed9",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\figure_manifest_drop_v2_4.json": "0a2d62c2143ec806abb43fcbb35faeb556d7fa3559dc62ecea092e680006d5b5",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\figure_manifest_v2_1.json": "165cefec2e68855927b31a381b147530d6808674848e8f58447846e71aa857c2",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\figure_manifest_v2_3.json": "9238190e9a52e31c3d9b76246edf44ca2d61a19a3bbe479a49ffa68c9f0cbde9",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\figure_manifest_v2_4.json": "cf3c8e23c5f2ff8ff91fa262c98c6a102c84c2c726caafafc52e9c99dd722a69",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\independent_current_prediction.pdf": "d88de5b2b16d1fee55befa9e573597e91fb186d7807e15b89afd4cf02529f922",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\independent_current_prediction.png": "7391237cc188f3ee79153561e60aa97351e7ff2c616af6cc19d269d71f36417a",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\independent_current_prediction.svg": "f2cced1a9685a6f5cb1e3fd59a3d6f6f1f1e43372726264a22e1a47d257e2bcf",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\module_drop_mean_by_N.pdf": "d9c053bb3942ceb93aa5a984c5a6b1a68e360faa129d8271f9d3579c325ae094",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\module_drop_mean_by_N.png": "90e86f0e0c1780ad8aa3e7e7c5909dab56f9380d1650304e8e90e310e22d4032",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\module_drop_mean_by_N.svg": "a9b273d2de6dcecdc02f10737caa08fd73e7866061284159d0910e9f3daea3fd",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\module_drop_N1_N4.pdf": "71607a3e536793a94821ae6975d577779968d2c5356808b85b8454404352df80",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\module_drop_N1_N4.png": "c62845c468e856416001f20757d7a857ba744181195a781041fd837fe9c93563",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\module_drop_N1_N4.svg": "b9e2a34af9dd932ad36c2670ecd04072e71cbeb90726a38edd42428c2bd62555",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\module_voltage_drop.pdf": "8cd123827bc66ce32b54f2ab41adbce0bea77984ea8fd9e1e33facfe45be07c0",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\module_voltage_drop.png": "bece96fbe6af0aca945d7919a3ba9c311c483ba08a95fecb0a2da02bafe943b1",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\module_voltage_drop.svg": "0d0a4f2526c1b405414b2e3e4f4ec822fa1cff7dbda83791af6445f185c2c894",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\peak_current_upper_estimate.pdf": "76ae927aee95e8a94b237fc87815762ef619c95737cd29104e8574b1bf85f8e5",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\peak_current_upper_estimate.png": "a439787594c053c6bd08d8c9fc26060addc45be2e54e5c6187abb2934003da38",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\peak_current_upper_estimate.svg": "c7011d8142d041a3471d58eb13e698b6a4561956d4fb3a5531b6deb78889e4a2",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\single_module_screening.pdf": "1ab33afda6f42087feb48faf0fd0cdeaf8ed84df09aaaf2652b4fc13871217a5",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\single_module_screening.png": "74d9826dd4550bd473ffb80ea87c6aebc42cfa71a5fb10cc28e853d3147ccd78",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\single_module_screening.svg": "9b17003408c9c21db2aa576e1f6f2eab4b15813cdb538562d05598ab2ae396c5",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\temperature_scaling.pdf": "8ef42b6056eb38e97b24e520eda52445d3726b80206c554414dffa6e61db4c02",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\temperature_scaling.png": "28a5b02e8adf1f3afc7a0f86a4635d03b67d4004475f111fefcbd2434fb94eb0",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\temperature_scaling.svg": "1fe01756366271b391d8c9bac4cfe84b6dc9e97fd2302e9a99d353036a90d749",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\voltage_scaling.pdf": "687d23f43dd3cf7817d63c35505be32f94914c681358e4667ff7ba7d4613600b",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\voltage_scaling.png": "0b30c88e605a7833af93292ced39433f2f180659aaf2893b86f17356fc97b8c6",
+
+
+    "Imperial College Individual Project Template_LaTeX\\figures\\power\\voltage_scaling.svg": "3fd63134b26885f405f449f7f6af743ccaabcb5dc922d21f2c4da4053dfa04ab",
+
+
+    "Imperial College Individual Project Template_LaTeX\\introduction\\introduction.tex": "c93af2c7835861b8bdba97142ef52d4126cfd51ab3c968be751228aa8e1d8734",
+
+
+    "Imperial College Individual Project Template_LaTeX\\main.tex": "8a0cd1baab9e33400dd7e70625a8279ca4e95442e72084cc6974f389b9e07766",
+
+
+    "Imperial College Individual Project Template_LaTeX\\method\\calibration.tex": "d9db2a32639a4b634bb00b69fee2ae5aa78bb7f1244e5aaf875c777464b6a905",
+
+
+    "Imperial College Individual Project Template_LaTeX\\method\\data_scalability.tex": "f9dd9afff835d11404c7bc0b84a1e0a14f30ebd992fb79220a9b86f872f38ed4",
+
+
+    "Imperial College Individual Project Template_LaTeX\\method\\hardware.tex": "ba642a4e26214a44d30be136ec443ae8ff5cb460a09bac05ee522d261775f982",
+
+
+    "Imperial College Individual Project Template_LaTeX\\method\\method.tex": "d2c75a536ea741f4b1ecb193601c00fbe23d0455ea94b48d744198f57fc1669d",
+
+
+    "Imperial College Individual Project Template_LaTeX\\method\\power.tex": "e52d3f33e2834a60e269d9577ac502a74924ec1927b0292832aff7f0cc008be5",
+
+
+    "Imperial College Individual Project Template_LaTeX\\result\\calibration.tex": "93cb2030f97298ae45d5e32a69a6ac7b1ee6a427c5860dbdfec5bd009b9fca8f",
+
+
+    "Imperial College Individual Project Template_LaTeX\\result\\data_scalability.tex": "e6aa59643508f4dac4fa9818ee9341f975372c9ab5707b3b42ba39fcf6ea12f3",
+
+
+    "Imperial College Individual Project Template_LaTeX\\result\\power.tex": "5fa1db4c0d90862fa1855c800e7f6c980beb3a1d1a28ea7835e1e25117b12a2d",
+
+
+    "Imperial College Individual Project Template_LaTeX\\result\\result.tex": "46b4ff4cdce66e42bc27ca10fae2738e2eaf1ba4ac5024bc9091f1032dd3ff8c",
+
+
+    "Imperial College Individual Project Template_LaTeX\\title\\title.tex": "1d5fdac035799e82f2b1a742b2b75a58d3f3b341e128ba26674d36e108d82e41",
+
+
+    "main 2.1.pdf": "d659fbab34fa82366abba88316f49308e95ce8c1459f0c11941f1d369b627f6f",
+    "main 2.2.pdf": "f1df14f6a8b2a05325405469a983aca825de09da5c30f10e88e28f7c4e4454dd",
+    "main 2.3.pdf": "1316e94ea76de1f2748c6ec856c41870658d8c8737f8243ff3093260bc3891d3",
+    "main 2.4.pdf": "048a14c51eb6f926be9d618b46cd59a0603de9e3d6164d598ce004df863e48f5",
+    "main 2.5.pdf": "ccc0fbe5933af699a68b9f2f5d10aa380c86a43724631743a4e6eed4c349d9f3",
+    "power scalability/DATA/analysis/retest_reviews/m0_n1_n2_retest_20260907/clarifications.json": "7f961e8e89c7f28e58cc4d6e848f3173eef1e886b119eebcd6b2a9bd052f1ce3",
+
+    "power scalability/DATA/analysis/retest_reviews/m0_n1_n2_retest_20260907/comparison_with_report_2_4.csv": "19046647989208ca9912188924ada630e8af47e7894799eff469bb73a75a731e",
+
+    "power scalability/DATA/analysis/retest_reviews/m0_n1_n2_retest_20260907/current_group_summary.csv": "1e77a2de12161df0ed611957756967d450745cb56d28f3f1357e9af764c434cd",
+
+    "power scalability/DATA/analysis/retest_reviews/m0_n1_n2_retest_20260907/current_prediction_checks.csv": "0970f12843c4f985dcf71eb9724fb43b805c70b5d579bf5cc3a997ac5c9bf800",
+
+    "power scalability/DATA/analysis/retest_reviews/m0_n1_n2_retest_20260907/intake_manifest.json": "631af52cd480674f2e4b5c84a69ae5c1f28b97104ea5870f553f3c0c1b653c33",
+
+    "power scalability/DATA/analysis/retest_reviews/m0_n1_n2_retest_20260907/intake_notes.json": "90d3d161bebbcdf273269af28e0aa92ef11c7065421a56f11d1bf686d9d11c3e",
+
+    "power scalability/DATA/analysis/retest_reviews/m0_n1_n2_retest_20260907/readings.csv": "d96638289dc5f14ff45154fa7766dad99aa3f951482ff331fd6a7b643e7df1ee",
+
+    "power scalability/DATA/analysis/retest_reviews/m0_n1_n2_retest_20260907/README_CN.md": "36363c3cdd41e09ae8c5707ab96a17867834f606e8a555751e97625aa609a4b2",
+
+    "power scalability/DATA/analysis/retest_reviews/m0_n1_n2_retest_20260907/summary.json": "795e44b7c94ef96518c29b02d2fe04bd568322e19d813892e8d83726becbe2a1",
+
+    "power scalability/DATA/reference/report_v2_4_analysis/additivity_checks.csv": "5016f2e8220c79b962bab976c832d035ef99c21486dd806d79bdc965eab8ca72",
+
+    "power scalability/DATA/reference/report_v2_4_analysis/branch_readings.csv": "c2ef6a3719176d9d8a23614e303929c240680240dfacd8816fa32cd0ca4f4874",
+
+    "power scalability/DATA/reference/report_v2_4_analysis/configuration_summary.csv": "1fea2c573585c927ad5ccdcec34e1c1a434e1cb2aaa5ad87cfe4a79f8fdaa63d",
+
+    "power scalability/DATA/reference/report_v2_4_analysis/coverage.csv": "6f4fad7854cc3e0e4236a9b3482e14bed58583fab02fe646bde65d17ce1e3f2e",
+
+    "power scalability/DATA/reference/report_v2_4_analysis/group_summary.csv": "bcea41ee86b8767d8e16301ff69677d9e70d6fdaf113f99994f9735268aad6d0",
+
+    "power scalability/DATA/reference/report_v2_4_analysis/historical_quality_issues.csv": "bc8540694aaf8a861c62ea56a30de4a649ae04bece755c74710549cd3c8aaf5d",
+
+    "power scalability/DATA/reference/report_v2_4_analysis/load_pairs.csv": "19380cbb41084efd5b41779ecad9452486921cb3e751c066ebf0e0322938ccd8",
+
+    "power scalability/DATA/reference/report_v2_4_analysis/quality_issues.csv": "9b9eb83fe072bdec5286a1607f89b391d1a798a02b40da4ba57d62d9aa9ec0b5",
+
+    "power scalability/DATA/reference/report_v2_4_analysis/README_CN.md": "57286a683b7b6d254632c25b56b2c7a44325eefcad27f1697c262fbfbb519e64",
+
+    "power scalability/DATA/reference/report_v2_4_analysis/source_manifest.json": "59000481aa196b7ce7be16ce498c14c5ee6441bafd638c87f255be2cdda17e19",
+
+    "power scalability/DATA/reference/report_v2_4_analysis/source_voltage_readings.csv": "816fe48dc58d59fc087ceb4b7546dfe46b05f4ec5219878828e3511f881c2a7f",
+
+    "power scalability/DATA/reference/report_v2_4_analysis/summary.json": "23f9f6ead5d350ea4e6835fd83edd78bb2301cf54d39527050d5b0b53679532e",
+
+    "power scalability/DATA/reference/report_v2_4_analysis/targeted_retest_comparison.csv": "9e2d61a25036363c9e5446be74c12f1729906c2cdcfb8d9a6a922afc9aacdeb1",
+
+    "power scalability/DATA/reference/report_v2_4_figures/additivity_checks.csv": "5016f2e8220c79b962bab976c832d035ef99c21486dd806d79bdc965eab8ca72",
+
+    "power scalability/DATA/reference/report_v2_4_figures/branch_current_balance.pdf": "bdfd79d14315bd6164feccd4fcc88f8b0e965e7386864bcd5e1a514655ce0e31",
+
+    "power scalability/DATA/reference/report_v2_4_figures/branch_current_balance.png": "17623a53e0ff3e73f91c1a7d95b31514d55c9f29c51ab9fbe0e4f38ba2423a65",
+
+    "power scalability/DATA/reference/report_v2_4_figures/branch_current_balance.svg": "2e3c621c3eb5fbed7c1c4423a8618b71466e2aa0e2b4dbd296e0d2461003e44f",
+
+    "power scalability/DATA/reference/report_v2_4_figures/branch_readings.csv": "c2ef6a3719176d9d8a23614e303929c240680240dfacd8816fa32cd0ca4f4874",
+
+    "power scalability/DATA/reference/report_v2_4_figures/configuration_summary.csv": "1fea2c573585c927ad5ccdcec34e1c1a434e1cb2aaa5ad87cfe4a79f8fdaa63d",
+
+    "power scalability/DATA/reference/report_v2_4_figures/current_power_scaling.pdf": "f2c6b944a25d551dc3883ed961cfd02e9b17771854719a216f700daf0dcbc2d0",
+
+    "power scalability/DATA/reference/report_v2_4_figures/current_power_scaling.png": "32b9c69f173698c75fc4bc5275103183f1ef22918929bb3eb001bab6fe013aa3",
+
+    "power scalability/DATA/reference/report_v2_4_figures/current_power_scaling.svg": "4eaa26af4d26ed301c41d3a5bfa5e96b034d99bde96abb53d075daafda671ed9",
+
+    "power scalability/DATA/reference/report_v2_4_figures/figure_manifest.json": "91b89ddebef480d9d062b0290947f6fdbf12ef363aae5202a6bb5581d1d883b1",
+
+    "power scalability/DATA/reference/report_v2_4_figures/group_summary.csv": "bcea41ee86b8767d8e16301ff69677d9e70d6fdaf113f99994f9735268aad6d0",
+
+    "power scalability/DATA/reference/report_v2_4_figures/independent_current_prediction.pdf": "d88de5b2b16d1fee55befa9e573597e91fb186d7807e15b89afd4cf02529f922",
+
+    "power scalability/DATA/reference/report_v2_4_figures/independent_current_prediction.png": "7391237cc188f3ee79153561e60aa97351e7ff2c616af6cc19d269d71f36417a",
+
+    "power scalability/DATA/reference/report_v2_4_figures/independent_current_prediction.svg": "f2cced1a9685a6f5cb1e3fd59a3d6f6f1f1e43372726264a22e1a47d257e2bcf",
+
+    "power scalability/DATA/reference/report_v2_4_figures/module_voltage_drop.pdf": "8cd123827bc66ce32b54f2ab41adbce0bea77984ea8fd9e1e33facfe45be07c0",
+
+    "power scalability/DATA/reference/report_v2_4_figures/module_voltage_drop.png": "bece96fbe6af0aca945d7919a3ba9c311c483ba08a95fecb0a2da02bafe943b1",
+
+    "power scalability/DATA/reference/report_v2_4_figures/module_voltage_drop.svg": "0d0a4f2526c1b405414b2e3e4f4ec822fa1cff7dbda83791af6445f185c2c894",
+
+    "power scalability/DATA/reference/report_v2_4_figures/single_module_screening.pdf": "1ab33afda6f42087feb48faf0fd0cdeaf8ed84df09aaaf2652b4fc13871217a5",
+
+    "power scalability/DATA/reference/report_v2_4_figures/single_module_screening.png": "74d9826dd4550bd473ffb80ea87c6aebc42cfa71a5fb10cc28e853d3147ccd78",
+
+    "power scalability/DATA/reference/report_v2_4_figures/single_module_screening.svg": "9b17003408c9c21db2aa576e1f6f2eab4b15813cdb538562d05598ab2ae396c5",
+
+    "power scalability/DATA/reference/report_v2_4_figures/temperature_scaling.pdf": "8ef42b6056eb38e97b24e520eda52445d3726b80206c554414dffa6e61db4c02",
+
+    "power scalability/DATA/reference/report_v2_4_figures/temperature_scaling.png": "28a5b02e8adf1f3afc7a0f86a4635d03b67d4004475f111fefcbd2434fb94eb0",
+
+    "power scalability/DATA/reference/report_v2_4_figures/temperature_scaling.svg": "1fe01756366271b391d8c9bac4cfe84b6dc9e97fd2302e9a99d353036a90d749",
+
+    "power scalability/DATA/reference/report_v2_4_figures/visual_numeric_qa.json": "462cf82595d6ca31a0a4ab32f6c580bb770c1ce30ae5f3de399796b639c47fe5",
+
+    "power scalability/DATA/reference/report_v2_4_figures/voltage_scaling.pdf": "687d23f43dd3cf7817d63c35505be32f94914c681358e4667ff7ba7d4613600b",
+
+    "power scalability/DATA/reference/report_v2_4_figures/voltage_scaling.png": "0b30c88e605a7833af93292ced39433f2f180659aaf2893b86f17356fc97b8c6",
+
+    "power scalability/DATA/reference/report_v2_4_figures/voltage_scaling.svg": "3fd63134b26885f405f449f7f6af743ccaabcb5dc922d21f2c4da4053dfa04ab",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/contributing_branch_readings.csv": "c2ef6a3719176d9d8a23614e303929c240680240dfacd8816fa32cd0ca4f4874",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/figure_manifest.json": "ede8577c7d718bd439a4173eb6c677b2682d2ed664f2e6c83c294b78a49e24cb",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_by_N_summary.csv": "6bf8c45e15d514d7435552e67d94928b83e823020511e8ecb8e23782dd517bc3",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_mean_by_N.pdf": "d9c053bb3942ceb93aa5a984c5a6b1a68e360faa129d8271f9d3579c325ae094",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_mean_by_N.png": "90e86f0e0c1780ad8aa3e7e7c5909dab56f9380d1650304e8e90e310e22d4032",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_mean_by_N.svg": "a9b273d2de6dcecdc02f10737caa08fd73e7866061284159d0910e9f3daea3fd",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_N1.pdf": "117538af3a7310f02863c61601bc86da01de24fc7cbb2beb2fd8b2f526b9fb1d",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_N1.png": "8c0301168c1cac5776419de8f7d3b347a7f0bf5df261873ff02ee7fb5d7dde8e",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_N1.svg": "92bf8c761c7ba4058eb6f91eea62e23bdbfb5b223e72fe8954df3c960556fe02",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_N1_N4.pdf": "71607a3e536793a94821ae6975d577779968d2c5356808b85b8454404352df80",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_N1_N4.png": "c62845c468e856416001f20757d7a857ba744181195a781041fd837fe9c93563",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_N1_N4.svg": "b9e2a34af9dd932ad36c2670ecd04072e71cbeb90726a38edd42428c2bd62555",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_N2.pdf": "b592a837ea0e80a9f4e8c072ee1eada6e9182f2661f6217cf09240adb35c69c2",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_N2.png": "ea01b524ac4d9c21729893350cfe9b6c0be1ed7f28f9014d089b8da2a7039137",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_N2.svg": "56f33bb4b5ed85111bee71ac71475e7dd6ea6e48dfc100be4bbde572cea16154",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_N3.pdf": "76181a2c70e3c67ea1553e5a1c777166e6c3c71be6764d422795ea3271cedeb6",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_N3.png": "372408e6a6ef2d8fc0d38af03e82e94d1d863d0c9e476241f5c72d52ad80f5de",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_N3.svg": "ec1725af0ac417e45f56def5bf8e34d4f89ae3db78e28bf96b0b3cddf87f6494",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_N4.pdf": "3698e823c0a1baa80b0c01b77a3c075aefc5f17c200e9baa01a70494c65aa90b",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_N4.png": "96057e91929c6189d2e1fd0c617de88166574ef26f9156003453424c5c4a6c58",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/module_drop_N4.svg": "e17c5b41a71adc0967aecc54568c9f37a93a87963d5450a109e8747058f35e61",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/README_CN.md": "c57908c880c5406398c91333c08370ed9307c625803230bfde2a530684ae7ed6",
+
+    "power scalability/DATA/reference/voltage_drop_by_N_v2_4/visual_numeric_qa.json": "462cf82595d6ca31a0a4ab32f6c580bb770c1ce30ae5f3de399796b639c47fe5",
+
+    "power scalability/script/Main/figures/power_retest_drop_by_count.py": "2c9fa31cbe9e9e529600678bd9b3cb40883dec1939d4e05de71975bfd5b2ae79",
+
+    "power scalability/script/Main/figures/power_retest_figures.py": "c08b2c95f07751c530c010175774cae59c150c389b50175d9bf31b07694e26e5",
+
+    "power scalability/script/Main/figures/power_revision_figures.py": "cb406d5c116788a7abc6f27e20aa1ef7b01499fce7e852e2c968a0d886c5d128"
+
+  },
+  "generated_csv_sha256": {
+    "branch_readings.csv": "7f933815d084c1f525314f7aa484b1063d16ac3d4646e302fc4b129765c9b1b0",
+    "configuration_summary.csv": "e44bb8e375cb2517a4683aeb81a17ec72709c527090eabf4d61a4a0ee25fd526",
+    "group_summary.csv": "b9fac84f087740bd09b5ae9e0e9e42ed9250a234489bfa393edabc9a3d42a21a",
+    "additivity_checks.csv": "d81c2cd3e70f1b53f67a6e60275ae4363726383e18d68224fe52078010008437"
+  }
+}

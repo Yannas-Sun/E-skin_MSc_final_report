@@ -1,0 +1,34 @@
+[
+  {
+    "path": "DATA/raw/canonical/power_experiment_records/quality_events/supply_contact_M0_20260907.json",
+    "sha256": "bb93db4143b289c090f3ddfdf0b29f4044ad66570c3581a38bc7847e49015079"
+  },
+  {
+    "path": "DATA/raw/intake/voltage_additions_20260907/source_manifest.json",
+    "sha256": "dbbeb0a0b5cc7dca848793cac6affea2036135f3cef7778e72c0cb85e278af5b"
+  },
+  {
+    "path": "DATA/raw/intake/voltage_additions_20260907/README_CN.md",
+    "sha256": "c5c7bfc96035ca0c0d3392b307fa11b439a563d2b730fb7c8fbbcba54f4a8b9a"
+  },
+  {
+    "path": "script/Main/summarize_voltage_review.py",
+    "sha256": "ab7ff61374930ac41fe01e78f19e083fa74a81387cbd5e81c76e1548cc727525"
+  },
+  {
+    "path": "script/Main/test_voltage_review.py",
+    "sha256": "ff92214cbe0ea0f8cad57bf07ca2b35cf546fde27d2baa457a34f9c67352b95d"
+  },
+  {
+    "path": "DATA/analysis/current/voltage_review_20260907/coverage.csv",
+    "sha256": "684c1cf5d4286aea642bd496e24e947261d8baee8d747ff891364215ffbe918b"
+  },
+  {
+    "path": "DATA/analysis/current/voltage_review_20260907/module_voltages.csv",
+    "sha256": "3655e88a282e9ecca84dfed8cac0f8d2543789d2cb843b0e73686e5be4778fec"
+  },
+  {
+    "path": "DATA/analysis/current/voltage_review_20260907/summary.json",
+    "sha256": "bfaa0ba78d4260ffd8d750119808ecc60c84c10cfaf57545e3e89c63bfbe6cc4"
+  }
+]

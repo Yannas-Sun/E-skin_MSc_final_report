@@ -1,0 +1,23 @@
+﻿load,combo,module_count,I_observed_sum_mA,I_prediction_from_same_load_N1_physical_modules_mA,residual_mA,residual_percent_of_prediction,N1_references_mA_json,additional_independent_same_condition_repeats,interpretation
+ZERO,M0-M1,2,36.016,36.54,-0.524,-1.434044882320744389709906951,"{""M0"": 18.16, ""M1"": 18.38, ""M2"": 18.36, ""M3"": 18.4}",0,descriptive additivity; no causal or significance claim
+ZERO,M0-M2,2,36.301,36.52,-0.219,-0.5996714129244249726177437021,"{""M0"": 18.16, ""M1"": 18.38, ""M2"": 18.36, ""M3"": 18.4}",0,descriptive additivity; no causal or significance claim
+ZERO,M0-M3,2,35.907,36.56,-0.653,-1.786105032822757111597374179,"{""M0"": 18.16, ""M1"": 18.38, ""M2"": 18.36, ""M3"": 18.4}",0,descriptive additivity; no causal or significance claim
+ZERO,M1-M2,2,36.261,36.74,-0.479,-1.303756124115405552531301034,"{""M0"": 18.16, ""M1"": 18.38, ""M2"": 18.36, ""M3"": 18.4}",0,descriptive additivity; no causal or significance claim
+ZERO,M1-M3,2,36.561,36.78,-0.219,-0.5954323001631321370309951060,"{""M0"": 18.16, ""M1"": 18.38, ""M2"": 18.36, ""M3"": 18.4}",0,descriptive additivity; no causal or significance claim
+ZERO,M2-M3,2,36.534,36.76,-0.226,-0.6147986942328618063112078346,"{""M0"": 18.16, ""M1"": 18.38, ""M2"": 18.36, ""M3"": 18.4}",0,descriptive additivity; no causal or significance claim
+ZERO,M0-M1-M2,3,54.481,54.90,-0.419,-0.7632058287795992714025500911,"{""M0"": 18.16, ""M1"": 18.38, ""M2"": 18.36, ""M3"": 18.4}",0,descriptive additivity; no causal or significance claim
+ZERO,M0-M1-M3,3,54.159,54.94,-0.781,-1.421550782672005824535857299,"{""M0"": 18.16, ""M1"": 18.38, ""M2"": 18.36, ""M3"": 18.4}",0,descriptive additivity; no causal or significance claim
+ZERO,M0-M2-M3,3,54.130,54.92,-0.790,-1.438455935906773488710852149,"{""M0"": 18.16, ""M1"": 18.38, ""M2"": 18.36, ""M3"": 18.4}",0,descriptive additivity; no causal or significance claim
+ZERO,M1-M2-M3,3,54.851,55.14,-0.289,-0.5241204207471889735219441422,"{""M0"": 18.16, ""M1"": 18.38, ""M2"": 18.36, ""M3"": 18.4}",0,descriptive additivity; no causal or significance claim
+ZERO,M0-M1-M2-M3,4,72.513,73.30,-0.787,-1.073669849931787175989085948,"{""M0"": 18.16, ""M1"": 18.38, ""M2"": 18.36, ""M3"": 18.4}",0,descriptive additivity; no causal or significance claim
+MAX,M0-M1,2,39.968,39.799,0.169,0.4246337847684615191336465740,"{""M0"": 19.689, ""M1"": 20.11, ""M2"": 19.897, ""M3"": 20.34}",0,descriptive additivity; no causal or significance claim
+MAX,M0-M2,2,39.357,39.586,-0.229,-0.5784873440105087657252564038,"{""M0"": 19.689, ""M1"": 20.11, ""M2"": 19.897, ""M3"": 20.34}",0,descriptive additivity; no causal or significance claim
+MAX,M0-M3,2,39.335,40.029,-0.694,-1.733743036298683454495490769,"{""M0"": 19.689, ""M1"": 20.11, ""M2"": 19.897, ""M3"": 20.34}",0,descriptive additivity; no causal or significance claim
+MAX,M1-M2,2,39.719,40.007,-0.288,-0.7198740220461419251630964581,"{""M0"": 19.689, ""M1"": 20.11, ""M2"": 19.897, ""M3"": 20.34}",0,descriptive additivity; no causal or significance claim
+MAX,M1-M3,2,40.016,40.45,-0.434,-1.072929542645241038318912237,"{""M0"": 19.689, ""M1"": 20.11, ""M2"": 19.897, ""M3"": 20.34}",0,descriptive additivity; no causal or significance claim
+MAX,M2-M3,2,39.379,40.237,-0.858,-2.132365733031786664015706936,"{""M0"": 19.689, ""M1"": 20.11, ""M2"": 19.897, ""M3"": 20.34}",0,descriptive additivity; no causal or significance claim
+MAX,M0-M1-M2,3,59.328,59.696,-0.368,-0.6164567140176896274457250067,"{""M0"": 19.689, ""M1"": 20.11, ""M2"": 19.897, ""M3"": 20.34}",0,descriptive additivity; no causal or significance claim
+MAX,M0-M1-M3,3,58.631,60.139,-1.508,-2.507524235521042917241723341,"{""M0"": 19.689, ""M1"": 20.11, ""M2"": 19.897, ""M3"": 20.34}",0,descriptive additivity; no causal or significance claim
+MAX,M0-M2-M3,3,58.279,59.926,-1.647,-2.748389680606080833027400461,"{""M0"": 19.689, ""M1"": 20.11, ""M2"": 19.897, ""M3"": 20.34}",0,descriptive additivity; no causal or significance claim
+MAX,M1-M2-M3,3,59.617,60.347,-0.730,-1.209670737567733275887782326,"{""M0"": 19.689, ""M1"": 20.11, ""M2"": 19.897, ""M3"": 20.34}",0,descriptive additivity; no causal or significance claim
+MAX,M0-M1-M2-M3,4,78.720,80.036,-1.316,-1.644260082962666799940026988,"{""M0"": 19.689, ""M1"": 20.11, ""M2"": 19.897, ""M3"": 20.34}",0,descriptive additivity; no causal or significance claim

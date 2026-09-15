@@ -1,0 +1,66 @@
+﻿run_id: PS01_N1_F200_ZERO_M2_STANDBY_R1
+date:
+measurement_start_time:
+operator:
+
+record_status: MEASURED
+data_quality: INCOMPLETE
+
+module_count: 1
+module_ids: Module2
+frequency_hz: 200
+protocol_mode: FULL
+load: ZERO
+load_mass_g: 0
+load_area_mm2: 0
+load_application: NONE
+acc_used: NO
+
+host_controller: Teensy 4.1
+host_connected_to_modules: YES
+host_software_running: YES
+host_power_source: USB
+host_power_status: STABLE_USB_SUPPLY
+host_gui_state: CLOSED
+host_usb_polling_state: BLOCKED_STANDBY_NO_CONTINUOUS_USB_READ
+module_signal_connection: HOST_SPI
+stm32_swd_connection: DISCONNECTED
+
+power_supply_v: 3.3
+power_supply_model: LM2596
+power_topology: INDEPENDENT_PARALLEL_BRANCHES
+power_return: COMMON_GND
+power_supply_current_limit_setting_mA: NOT_AVAILABLE
+
+DMM_current_range: mA
+current_measurement_method: SEPARATE_BRANCH
+measurement_duration_s: 10
+warmup_duration_s: 30
+V_source_avg_V: 3.281
+V_source_min_V: 3.281
+V_source_max_V: 3.282
+
+# N=1 convention: the selected physical module is recorded in module0 columns.
+V_module0_avg_V: 3.267
+V_module0_min_V: 3.266
+V_module0_max_V: 3.267
+
+I_module0_avg_mA: 8.988
+I_module0_min_mA: 8.866
+I_module0_max_mA: 16.99
+I_module0_peak_instant_mA: 16.99
+
+T_start_C: 24.6
+T_stm32_stable_C: 25.9
+T_regulator_C: 28.4
+T_teensy_C: 45
+
+# Default is 0; replace with the observed count if an event occurs.
+reset_count: 0
+current_limit_count: 0
+brownout_count: 0
+data_stop_count: 0
+data_gap_count: 0
+other_fault: 0
+observation:
+conclusion:

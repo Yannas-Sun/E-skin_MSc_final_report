@@ -1,0 +1,156 @@
+{
+  "record_id": "PS01_N3_MAX_M1-M2-M3_M3_TARGETED_RETEST_20260907_01",
+  "reported_date": "2026-09-07",
+  "measurement_date": null,
+  "measurement_start_time": null,
+  "intake_utc": "2026-09-07T04:35:12.041673+00:00",
+  "record_kind": "TARGETED_SINGLE_MODULE_VOLTAGE_CURRENT_RETEST",
+  "user_identified_condition": {
+    "combo": "M1-M2-M3",
+    "module_count": 3,
+    "load": "MAX",
+    "module_id": "M3"
+  },
+  "condition_identity_basis": "User: 重新测量的M1＋M2＋M3，MAX，M3 的电压和电流",
+  "inherited_protocol_context": {
+    "mode": "FULL",
+    "configured_frequency_Hz": 200,
+    "host_state": "CONTINUOUS_USB_READ",
+    "basis": "existing Power campaign context",
+    "retest_settings_independently_verified": false
+  },
+  "instrument": {
+    "visible_model": "FNIRSI 2C53P",
+    "visible_mode": "DC",
+    "main_reading_is_verified_time_average": false,
+    "min_max_window_s": null,
+    "min_max_reset_confirmed": null,
+    "warmup_duration_s": null
+  },
+  "readings": {
+    "voltage": {
+      "unit": "V",
+      "main": "3.243",
+      "min": "3.243",
+      "max": "3.244",
+      "photo_path": "DATA/raw/canonical/power_experiment_records/targeted_retests/20260907_M1-M2-M3_MAX_M3/M3_voltage_retest.jpg"
+    },
+    "current": {
+      "unit": "mA",
+      "main": "19.263",
+      "min": "19.25",
+      "max": "19.41",
+      "photo_path": "DATA/raw/canonical/power_experiment_records/targeted_retests/20260907_M1-M2-M3_MAX_M3/M3_current_retest.jpg"
+    }
+  },
+  "source_voltage": {
+    "main_V": null,
+    "min_V": null,
+    "max_V": null,
+    "old_source_main_V": "3.276",
+    "old_source_confirmed_unchanged_for_retest": null,
+    "old_source_used_in_retest_calculation": false,
+    "reported_candidate": {
+      "main_V": "3.243",
+      "min_V": "3.243",
+      "max_V": "3.244",
+      "user_reply": "3.243，最小3.243，最大3.244",
+      "measurement_point_identity": "RESOLVED_AS_M3_MODULE_READING",
+      "reason": "Identical to M3 module photo; asked whether independently measured SOURCE or repeated M3 reading.",
+      "resolution_evidence": "User: 是照片中的 M3 模块端读数，SOURCE 尚未重测",
+      "accepted_as_source": false
+    },
+    "retest_source_measurement_status": "NOT_REMEASURED_CONFIRMED_BY_USER"
+  },
+  "source_to_module_drop_mV": null,
+  "load_mass_g": null,
+  "load_area_mm2": null,
+  "load_distribution": null,
+  "load_matches_original": null,
+  "supply_wire_or_connector_changed": "CONNECTOR_REINSERTED",
+  "contact_fault_confirmed": false,
+  "cause_of_change": null,
+  "same_session_other_module_readings_available": false,
+  "temperature_readings_available": false,
+  "fault_monitoring_results": null,
+  "original_record": {
+    "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M1-M2-M3/full_load/PS01_N3_F200_MAX_M1-M2-M3_USB_RX_R1.yaml",
+    "sha256": "4892e0d86e57c09da28d32627cf7ae4928f16b7b79963522a83846c2477c0423",
+    "M3_voltage_V": {
+      "main": "3.232",
+      "min": "3.232",
+      "max": "3.232"
+    },
+    "M3_current_mA": {
+      "main": "19.721",
+      "min": "19.70",
+      "max": "19.76"
+    },
+    "source_main_V": "3.276",
+    "source_to_module_drop_mV": "44"
+  },
+  "record_handling": {
+    "retain_original": true,
+    "automatically_replace_original": false,
+    "full_configuration_repeat": false,
+    "new_independent_full_configuration_runs": 0,
+    "module_observation_sets_total_including_original": 2,
+    "module_observations_verified_equivalent_conditions": false,
+    "pooled_repeat_mean_SD_computed": false,
+    "complete_matrix_and_report_updated": false,
+    "note": "A targeted M3 retest adds one module observation set, not a new complete three-module run."
+  },
+  "pending_clarifications": [
+    "Source voltage during the retest is unmeasured; new drop is unavailable until a suitable source reference is provided.",
+    "Load mass/location/distribution match remains unconfirmed; connector reinsertion is confirmed."
+  ],
+  "photos": [
+    {
+      "quantity": "voltage",
+      "original_attachment": "C:\\Users\\yannas\\AppData\\Local\\Temp\\codex-clipboard-65c9be22-b4a7-40ce-8240-7e4a4bbaa994.jpg",
+      "saved_path": "DATA/raw/canonical/power_experiment_records/targeted_retests/20260907_M1-M2-M3_MAX_M3/M3_voltage_retest.jpg",
+      "sha256": "9e3123742588828da8cb6df3dc53f3e75ce177dba96ce2bb51a873265ab3b14f",
+      "pixel_dimensions": [
+        4160,
+        3120
+      ],
+      "exif_date_tags_unverified": {
+        "306": "2026:09:07 05:26:13"
+      },
+      "source": "user attachment; direct visual transcription confirmed by two agents"
+    },
+    {
+      "quantity": "current",
+      "original_attachment": "C:\\Users\\yannas\\AppData\\Local\\Temp\\codex-clipboard-ad316b83-af4f-472b-a90f-4c504ffbdd7f.jpg",
+      "saved_path": "DATA/raw/canonical/power_experiment_records/targeted_retests/20260907_M1-M2-M3_MAX_M3/M3_current_retest.jpg",
+      "sha256": "a96022ceeef27bdfd202cf10fe2907f08f93a37b8472b8e694ae97538db718ed",
+      "pixel_dimensions": [
+        4160,
+        3120
+      ],
+      "exif_date_tags_unverified": {
+        "306": "2026:09:07 05:28:39"
+      },
+      "source": "user attachment; direct visual transcription confirmed by two agents"
+    }
+  ],
+  "record_revision": 3,
+  "supply_connector_reseated": true,
+  "supply_wire_replaced": null,
+  "connector_intervention_evidence": "User: 重新插入connector",
+  "clarification_history": [
+    {
+      "user_statement": "重新插入connector",
+      "interpretation": "M3 connector reseated before retest; no confirmed wire replacement or established causal diagnosis."
+    },
+    {
+      "user_statement": "3.243，最小3.243，最大3.244",
+      "interpretation": "Source candidate recorded verbatim; measurement-point identity pending, no zero-drop result inferred."
+    },
+    {
+      "user_statement": "是照片中的 M3 模块端读数，SOURCE 尚未重测",
+      "interpretation": "3.243/3.243/3.244 V are M3 values only; SOURCE was not remeasured, and no new drop is calculated."
+    }
+  ],
+  "clarification_recorded_utc": "2026-09-07T04:37:52.726243+00:00"
+}

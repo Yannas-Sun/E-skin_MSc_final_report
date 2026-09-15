@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "scope": "N=2 MAX; continuous USB read; FULL; configured 200 Hz",
+  "condition_basis": "User explicitly clarified these four temperature groups are full load, then requested recording both voltage and current. FULL/rate/host condition follows the ongoing Power series; DMM photos do not independently verify firmware or actual rate.",
+  "load": "MAX",
+  "load_mass_g": null,
+  "load_area_mm2": null,
+  "load_application": null,
+  "load_definition_note": "MAX/full load is user confirmed. No mass, distribution or contact area was supplied for these four new configurations; do not copy the 2000 g value from older MAX YAMLs.",
+  "readings_source": "20 photographs: 8 DC mA and 12 DC V photos, each visually transcribed for main, MIN and MAX.",
+  "module_mapping_basis": "Ascending physical module-ID measurement order established by user; assign module current and module voltage photographs separately in timestamp order.",
+  "source_voltage_mapping_basis": "The first voltage photograph within each combination is assigned SOURCE following the established capture convention. The probe endpoint is not visible in these DMM photographs; this label is inferred rather than independently verified by the image.",
+  "photo_filename_date": "2026-09-07",
+  "photo_measurement_order": {
+    "M0-M2": ["025357 I_M0", "025650 I_M2", "030036 V_SOURCE", "030134 V_M0", "030206 V_M2"],
+    "M0-M3": ["030620 V_SOURCE", "030754 V_M0", "030911 V_M3", "031106 I_M0", "031302 I_M3"],
+    "M1-M2": ["031825 I_M1", "032016 I_M2", "032139 V_SOURCE", "032207 V_M1", "032232 V_M2"],
+    "M1-M3": ["032708 V_SOURCE", "032730 V_M1", "032751 V_M3", "032928 I_M1", "033036 I_M3"]
+  },
+  "temperature_source": "User message in this conversation, explicitly clarified as full load (MAX).",
+  "temperature_order": "Two module STM32 points in ascending module ID, Teensy, regulator",
+  "temperature_unit": "degC",
+  "temperature_message_values": {
+    "M0-M2": [27.2, 27.1, 42.7, 29.2],
+    "M0-M3": [27.3, 26.9, 42.6, 28.9],
+    "M1-M2": [26.9, 26.7, 43.1, 29.2],
+    "M1-M3": [27.2, 26.6, 42.7, 29.2]
+  },
+  "temperature_transcription_note": "The M1-M3 regulator value supplied as 29,2 is recorded as 29.2 degC.",
+  "display_precision_note": "M1-M2 M1 main current is displayed as 19.99 mA; M1-M3 M1 as 20.32 mA. CSV preserves the photographed decimal precision. Formatting or arithmetic must not imply extra measured digits.",
+  "actual_measurement_start_time": null,
+  "measurement_duration_s": null,
+  "warmup_duration_s": null,
+  "ambient_temperature_C": null,
+  "fault_counts": null,
+  "simultaneous_voltage_current_measurement_verified": false,
+  "simultaneous_total_current_measured": false,
+  "thermal_steady_state_verified": false,
+  "measurement_meaning": "Main DMM readings are representative, not verified time averages. MIN/MAX are display extrema, not standard deviations or verified instantaneous peaks. Both types of measurement are recorded, but this does not mean simultaneous voltage/current acquisition.",
+  "counting": "Four additional MAX configurations, each with one observation per branch; no independent same-condition repetitions added.",
+  "power_estimate": "P_source_output_estimate_mW = V_source_main_V times sum of sequential branch main currents in mA. Source and module voltages and currents are acquired sequentially. Estimate excludes USB-powered Teensy and regulator losses.",
+  "known_limitations": [
+    "The four new configurations are user-confirmed MAX; exact applied mass, distribution and area remain unspecified, limiting quantitative comparisons with older MAX observations.",
+    "Original two N=2 MAX configurations are from the 2026-09-05 filename-date batch; the new four are from 2026-09-07. Batch and combination effects cannot be separated from single records.",
+    "ZERO/MAX differences are descriptive comparisons of matching physical combinations, not repeated paired trials; old/new dates and load definitions limit causal attribution.",
+    "Temperatures are point readings without verified ambient temperature or settling time. Startup peaks, ripple, load-switching waveforms and continuous thermal curves remain future work as requested.",
+    "No fault-count or session-integrity evidence is inferred from these photographs. Published main 2.1, frozen analysis_v2_1 and prior ZERO data remain unchanged."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "paired_module_cells": 32,
+  "combination_count": 15,
+  "formula": "(V_source_MAX - V_module_MAX) - (V_source_ZERO - V_module_ZERO), in mV",
+  "minimum_mV": "-4.000",
+  "maximum_mV": "10.000",
+  "positive": 21,
+  "negative": 6,
+  "unchanged": 5,
+  "source_sha256": "7f933815d084c1f525314f7aa484b1063d16ac3d4646e302fc4b129765c9b1b0",
+  "output_sha256": "8ccc7946c22288abe9913148697a0e7914be8695dd9a255d2701465e5a70dc43",
+  "script_sha256": "8a2078d5e8cf952bdb3b62e4bc2ca6d10965bddf67583460df4f5ebdf4189d27"
+}

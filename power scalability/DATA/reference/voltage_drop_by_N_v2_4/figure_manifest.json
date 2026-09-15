@@ -1,0 +1,434 @@
+{
+  "created_at_utc": "2026-09-07T04:56:31.515931+00:00",
+  "figures": [
+    {
+      "stem": "module_drop_mean_by_N",
+      "description": "Mean accepted voltage drop by N and module, separately for zero and recorded load.",
+      "semantics": {
+        "measurement": "1000*(source main V - accepted module main V), sequential DMM readings.",
+        "estimator": "Equal-weight arithmetic mean within each recorded load, N and physical module.",
+        "counts_per_module_by_N": [
+          1,
+          3,
+          3,
+          1
+        ],
+        "spread": "Sample SD (ddof=1) across distinct combinations at N=2,3. No SD at N=1,4.",
+        "independence": "One compiled entry per exact combination/load; targeted module retests do not add full-condition replicates. Modules and sources are shared; not independent repeat trials.",
+        "correction": "ZERO N3 M0 includes 35 mV from separate 3.241 V M0 retest with retained user-confirmed source 3.276 V. Original 52 mV contact-fault difference is preserved in source event and original report, outside accepted means.",
+        "loading": "MAX is the recorded load label; mass/area/distribution are not harmonised.",
+        "jitter": "Deterministic horizontal separation only; all measured y values unchanged.",
+        "M3_retest": "MAX N3 M3 includes 33 mV from 3.243 V targeted retest with retained, user-confirmed 3.276 V source. Original 44 mV remains in the report retest table. Connector was reinserted; cause and load matching are unconfirmed.",
+        "report": "Version 2.4 figures use a separate compiled analysis; original report 2.3 and original supplementary outputs are preserved."
+      },
+      "dimensions_mm": [
+        180.0,
+        112.0
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count": 0,
+      "scatter_points_outside_axes": 0,
+      "files": [
+        {
+          "name": "module_drop_mean_by_N.pdf",
+          "sha256": "d9c053bb3942ceb93aa5a984c5a6b1a68e360faa129d8271f9d3579c325ae094",
+          "bytes": 29434
+        },
+        {
+          "name": "module_drop_mean_by_N.png",
+          "sha256": "90e86f0e0c1780ad8aa3e7e7c5909dab56f9380d1650304e8e90e310e22d4032",
+          "bytes": 160865
+        },
+        {
+          "name": "module_drop_mean_by_N.svg",
+          "sha256": "a9b273d2de6dcecdc02f10737caa08fd73e7866061284159d0910e9f3daea3fd",
+          "bytes": 75923
+        }
+      ]
+    },
+    {
+      "stem": "module_drop_N1_N4",
+      "description": "Four panels compare individual and mean module voltage drops for N=1,2,3,4.",
+      "semantics": {
+        "measurement": "1000*(source main V - accepted module main V), sequential DMM readings.",
+        "estimator": "Equal-weight arithmetic mean within each recorded load, N and physical module.",
+        "counts_per_module_by_N": [
+          1,
+          3,
+          3,
+          1
+        ],
+        "spread": "Sample SD (ddof=1) across distinct combinations at N=2,3. No SD at N=1,4.",
+        "independence": "One compiled entry per exact combination/load; targeted module retests do not add full-condition replicates. Modules and sources are shared; not independent repeat trials.",
+        "correction": "ZERO N3 M0 includes 35 mV from separate 3.241 V M0 retest with retained user-confirmed source 3.276 V. Original 52 mV contact-fault difference is preserved in source event and original report, outside accepted means.",
+        "loading": "MAX is the recorded load label; mass/area/distribution are not harmonised.",
+        "jitter": "Deterministic horizontal separation only; all measured y values unchanged.",
+        "M3_retest": "MAX N3 M3 includes 33 mV from 3.243 V targeted retest with retained, user-confirmed 3.276 V source. Original 44 mV remains in the report retest table. Connector was reinserted; cause and load matching are unconfirmed.",
+        "report": "Version 2.4 figures use a separate compiled analysis; original report 2.3 and original supplementary outputs are preserved."
+      },
+      "dimensions_mm": [
+        180.0,
+        170.0
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count": 64,
+      "scatter_points_outside_axes": 0,
+      "files": [
+        {
+          "name": "module_drop_N1_N4.pdf",
+          "sha256": "71607a3e536793a94821ae6975d577779968d2c5356808b85b8454404352df80",
+          "bytes": 30278
+        },
+        {
+          "name": "module_drop_N1_N4.png",
+          "sha256": "c62845c468e856416001f20757d7a857ba744181195a781041fd837fe9c93563",
+          "bytes": 197442
+        },
+        {
+          "name": "module_drop_N1_N4.svg",
+          "sha256": "b9e2a34af9dd932ad36c2670ecd04072e71cbeb90726a38edd42428c2bd62555",
+          "bytes": 63776
+        }
+      ]
+    },
+    {
+      "stem": "module_drop_N1",
+      "description": "Individual points and per-module means at N=1, both recorded load labels.",
+      "semantics": {
+        "measurement": "1000*(source main V - accepted module main V), sequential DMM readings.",
+        "estimator": "Equal-weight arithmetic mean within each recorded load, N and physical module.",
+        "counts_per_module_by_N": [
+          1,
+          3,
+          3,
+          1
+        ],
+        "spread": "Sample SD (ddof=1) across distinct combinations at N=2,3. No SD at N=1,4.",
+        "independence": "One compiled entry per exact combination/load; targeted module retests do not add full-condition replicates. Modules and sources are shared; not independent repeat trials.",
+        "correction": "ZERO N3 M0 includes 35 mV from separate 3.241 V M0 retest with retained user-confirmed source 3.276 V. Original 52 mV contact-fault difference is preserved in source event and original report, outside accepted means.",
+        "loading": "MAX is the recorded load label; mass/area/distribution are not harmonised.",
+        "jitter": "Deterministic horizontal separation only; all measured y values unchanged.",
+        "M3_retest": "MAX N3 M3 includes 33 mV from 3.243 V targeted retest with retained, user-confirmed 3.276 V source. Original 44 mV remains in the report retest table. Connector was reinserted; cause and load matching are unconfirmed.",
+        "report": "Version 2.4 figures use a separate compiled analysis; original report 2.3 and original supplementary outputs are preserved."
+      },
+      "dimensions_mm": [
+        180.0,
+        98.0
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count": 8,
+      "scatter_points_outside_axes": 0,
+      "files": [
+        {
+          "name": "module_drop_N1.pdf",
+          "sha256": "117538af3a7310f02863c61601bc86da01de24fc7cbb2beb2fd8b2f526b9fb1d",
+          "bytes": 19810
+        },
+        {
+          "name": "module_drop_N1.png",
+          "sha256": "8c0301168c1cac5776419de8f7d3b347a7f0bf5df261873ff02ee7fb5d7dde8e",
+          "bytes": 98105
+        },
+        {
+          "name": "module_drop_N1.svg",
+          "sha256": "92bf8c761c7ba4058eb6f91eea62e23bdbfb5b223e72fe8954df3c960556fe02",
+          "bytes": 15827
+        }
+      ]
+    },
+    {
+      "stem": "module_drop_N2",
+      "description": "Individual points and per-module means at N=2, both recorded load labels.",
+      "semantics": {
+        "measurement": "1000*(source main V - accepted module main V), sequential DMM readings.",
+        "estimator": "Equal-weight arithmetic mean within each recorded load, N and physical module.",
+        "counts_per_module_by_N": [
+          1,
+          3,
+          3,
+          1
+        ],
+        "spread": "Sample SD (ddof=1) across distinct combinations at N=2,3. No SD at N=1,4.",
+        "independence": "One compiled entry per exact combination/load; targeted module retests do not add full-condition replicates. Modules and sources are shared; not independent repeat trials.",
+        "correction": "ZERO N3 M0 includes 35 mV from separate 3.241 V M0 retest with retained user-confirmed source 3.276 V. Original 52 mV contact-fault difference is preserved in source event and original report, outside accepted means.",
+        "loading": "MAX is the recorded load label; mass/area/distribution are not harmonised.",
+        "jitter": "Deterministic horizontal separation only; all measured y values unchanged.",
+        "M3_retest": "MAX N3 M3 includes 33 mV from 3.243 V targeted retest with retained, user-confirmed 3.276 V source. Original 44 mV remains in the report retest table. Connector was reinserted; cause and load matching are unconfirmed.",
+        "report": "Version 2.4 figures use a separate compiled analysis; original report 2.3 and original supplementary outputs are preserved."
+      },
+      "dimensions_mm": [
+        180.0,
+        98.0
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count": 24,
+      "scatter_points_outside_axes": 0,
+      "files": [
+        {
+          "name": "module_drop_N2.pdf",
+          "sha256": "b592a837ea0e80a9f4e8c072ee1eada6e9182f2661f6217cf09240adb35c69c2",
+          "bytes": 22201
+        },
+        {
+          "name": "module_drop_N2.png",
+          "sha256": "ea01b524ac4d9c21729893350cfe9b6c0be1ed7f28f9014d089b8da2a7039137",
+          "bytes": 106488
+        },
+        {
+          "name": "module_drop_N2.svg",
+          "sha256": "56f33bb4b5ed85111bee71ac71475e7dd6ea6e48dfc100be4bbde572cea16154",
+          "bytes": 23328
+        }
+      ]
+    },
+    {
+      "stem": "module_drop_N3",
+      "description": "Individual points and per-module means at N=3, both recorded load labels.",
+      "semantics": {
+        "measurement": "1000*(source main V - accepted module main V), sequential DMM readings.",
+        "estimator": "Equal-weight arithmetic mean within each recorded load, N and physical module.",
+        "counts_per_module_by_N": [
+          1,
+          3,
+          3,
+          1
+        ],
+        "spread": "Sample SD (ddof=1) across distinct combinations at N=2,3. No SD at N=1,4.",
+        "independence": "One compiled entry per exact combination/load; targeted module retests do not add full-condition replicates. Modules and sources are shared; not independent repeat trials.",
+        "correction": "ZERO N3 M0 includes 35 mV from separate 3.241 V M0 retest with retained user-confirmed source 3.276 V. Original 52 mV contact-fault difference is preserved in source event and original report, outside accepted means.",
+        "loading": "MAX is the recorded load label; mass/area/distribution are not harmonised.",
+        "jitter": "Deterministic horizontal separation only; all measured y values unchanged.",
+        "M3_retest": "MAX N3 M3 includes 33 mV from 3.243 V targeted retest with retained, user-confirmed 3.276 V source. Original 44 mV remains in the report retest table. Connector was reinserted; cause and load matching are unconfirmed.",
+        "report": "Version 2.4 figures use a separate compiled analysis; original report 2.3 and original supplementary outputs are preserved."
+      },
+      "dimensions_mm": [
+        180.0,
+        98.0
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count": 24,
+      "scatter_points_outside_axes": 0,
+      "files": [
+        {
+          "name": "module_drop_N3.pdf",
+          "sha256": "76181a2c70e3c67ea1553e5a1c777166e6c3c71be6764d422795ea3271cedeb6",
+          "bytes": 23271
+        },
+        {
+          "name": "module_drop_N3.png",
+          "sha256": "372408e6a6ef2d8fc0d38af03e82e94d1d863d0c9e476241f5c72d52ad80f5de",
+          "bytes": 128306
+        },
+        {
+          "name": "module_drop_N3.svg",
+          "sha256": "ec1725af0ac417e45f56def5bf8e34d4f89ae3db78e28bf96b0b3cddf87f6494",
+          "bytes": 24073
+        }
+      ]
+    },
+    {
+      "stem": "module_drop_N4",
+      "description": "Individual points and per-module means at N=4, both recorded load labels.",
+      "semantics": {
+        "measurement": "1000*(source main V - accepted module main V), sequential DMM readings.",
+        "estimator": "Equal-weight arithmetic mean within each recorded load, N and physical module.",
+        "counts_per_module_by_N": [
+          1,
+          3,
+          3,
+          1
+        ],
+        "spread": "Sample SD (ddof=1) across distinct combinations at N=2,3. No SD at N=1,4.",
+        "independence": "One compiled entry per exact combination/load; targeted module retests do not add full-condition replicates. Modules and sources are shared; not independent repeat trials.",
+        "correction": "ZERO N3 M0 includes 35 mV from separate 3.241 V M0 retest with retained user-confirmed source 3.276 V. Original 52 mV contact-fault difference is preserved in source event and original report, outside accepted means.",
+        "loading": "MAX is the recorded load label; mass/area/distribution are not harmonised.",
+        "jitter": "Deterministic horizontal separation only; all measured y values unchanged.",
+        "M3_retest": "MAX N3 M3 includes 33 mV from 3.243 V targeted retest with retained, user-confirmed 3.276 V source. Original 44 mV remains in the report retest table. Connector was reinserted; cause and load matching are unconfirmed.",
+        "report": "Version 2.4 figures use a separate compiled analysis; original report 2.3 and original supplementary outputs are preserved."
+      },
+      "dimensions_mm": [
+        180.0,
+        98.0
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count": 8,
+      "scatter_points_outside_axes": 0,
+      "files": [
+        {
+          "name": "module_drop_N4.pdf",
+          "sha256": "3698e823c0a1baa80b0c01b77a3c075aefc5f17c200e9baa01a70494c65aa90b",
+          "bytes": 19947
+        },
+        {
+          "name": "module_drop_N4.png",
+          "sha256": "96057e91929c6189d2e1fd0c617de88166574ef26f9156003453424c5c4a6c58",
+          "bytes": 97893
+        },
+        {
+          "name": "module_drop_N4.svg",
+          "sha256": "e17c5b41a71adc0967aecc54568c9f37a93a87963d5450a109e8747058f35e61",
+          "bytes": 15829
+        }
+      ]
+    }
+  ],
+  "source_hashes_checked": 179,
+  "input_files": {
+    "DATA/reference/report_v2_4_analysis/additivity_checks.csv": "5016f2e8220c79b962bab976c832d035ef99c21486dd806d79bdc965eab8ca72",
+
+    "DATA/reference/report_v2_4_analysis/branch_readings.csv": "c2ef6a3719176d9d8a23614e303929c240680240dfacd8816fa32cd0ca4f4874",
+
+    "DATA/reference/report_v2_4_analysis/configuration_summary.csv": "1fea2c573585c927ad5ccdcec34e1c1a434e1cb2aaa5ad87cfe4a79f8fdaa63d",
+
+    "DATA/reference/report_v2_4_analysis/coverage.csv": "6f4fad7854cc3e0e4236a9b3482e14bed58583fab02fe646bde65d17ce1e3f2e",
+
+    "DATA/reference/report_v2_4_analysis/group_summary.csv": "bcea41ee86b8767d8e16301ff69677d9e70d6fdaf113f99994f9735268aad6d0",
+
+    "DATA/reference/report_v2_4_analysis/historical_quality_issues.csv": "bc8540694aaf8a861c62ea56a30de4a649ae04bece755c74710549cd3c8aaf5d",
+
+    "DATA/reference/report_v2_4_analysis/load_pairs.csv": "19380cbb41084efd5b41779ecad9452486921cb3e751c066ebf0e0322938ccd8",
+
+    "DATA/reference/report_v2_4_analysis/quality_issues.csv": "9b9eb83fe072bdec5286a1607f89b391d1a798a02b40da4ba57d62d9aa9ec0b5",
+
+    "DATA/reference/report_v2_4_analysis/README_CN.md": "57286a683b7b6d254632c25b56b2c7a44325eefcad27f1697c262fbfbb519e64",
+
+    "DATA/reference/report_v2_4_analysis/source_manifest.json": "59000481aa196b7ce7be16ce498c14c5ee6441bafd638c87f255be2cdda17e19",
+
+    "DATA/reference/report_v2_4_analysis/source_voltage_readings.csv": "816fe48dc58d59fc087ceb4b7546dfe46b05f4ec5219878828e3511f881c2a7f",
+
+    "DATA/reference/report_v2_4_analysis/summary.json": "23f9f6ead5d350ea4e6835fd83edd78bb2301cf54d39527050d5b0b53679532e",
+
+    "DATA/reference/report_v2_4_analysis/targeted_retest_comparison.csv": "9e2d61a25036363c9e5446be74c12f1729906c2cdcfb8d9a6a922afc9aacdeb1"
+
+  },
+  "script_sha256": "8ba210d1027cd698ed9919d44e8c8e45f7da70428a84444aec0cc5dcf568ac2b",
+  "helper_sha256": "fa8969c0196aa11808d34f7828090e0021e9e2625a4348fb3ac89833e7e52e0a",
+  "style_sha256": "e37abe59ce920caf183797d60bccb770fe42a924ff3ed25263bd7fd51834c822",
+  "shared_style_sha256": "ee1838ffd228258d62f551faa3080c6562fea2b1ec285c627a2c3779a8246377",
+  "matplotlib": "3.10.6",
+  "semantics": {
+    "measurement": "1000*(source main V - accepted module main V), sequential DMM readings.",
+    "estimator": "Equal-weight arithmetic mean within each recorded load, N and physical module.",
+    "counts_per_module_by_N": [
+      1,
+      3,
+      3,
+      1
+    ],
+    "spread": "Sample SD (ddof=1) across distinct combinations at N=2,3. No SD at N=1,4.",
+    "independence": "One compiled entry per exact combination/load; targeted module retests do not add full-condition replicates. Modules and sources are shared; not independent repeat trials.",
+    "correction": "ZERO N3 M0 includes 35 mV from separate 3.241 V M0 retest with retained user-confirmed source 3.276 V. Original 52 mV contact-fault difference is preserved in source event and original report, outside accepted means.",
+    "loading": "MAX is the recorded load label; mass/area/distribution are not harmonised.",
+    "jitter": "Deterministic horizontal separation only; all measured y values unchanged.",
+    "M3_retest": "MAX N3 M3 includes 33 mV from 3.243 V targeted retest with retained, user-confirmed 3.276 V source. Original 44 mV remains in the report retest table. Connector was reinserted; cause and load matching are unconfirmed.",
+    "report": "Version 2.4 figures use a separate compiled analysis; original report 2.3 and original supplementary outputs are preserved."
+  },
+  "summary_rows": 32,
+  "contributing_rows": 64,
+  "protected_report_hashes": {
+    "main 2.3.pdf": "1316e94ea76de1f2748c6ec856c41870658d8c8737f8243ff3093260bc3891d3",
+    "report_versions/v2.3/manifest.json": "69ba231e80b840f2387dd12fd0e42674fa9acf855495e5b37af2a03c74c49027",
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/contributing_branch_readings.csv": "e8089a61187486293b10d7caa0dced42974f53931c69489f558ffc22df624594",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/figure_manifest.json": "566fe08cc15b91cdaa489d3e5af8d37a8c3c624a44338a654ad6c9074bed1b9a",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/figure_qa.json": "f7e264fc0da0a1499f9390deeb7be504729fcdce8d75fe835dd55af082265bd5",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_by_N_summary.csv": "4dff5a04eb6e3740454c350b22a2317f808f11ccf0964eeb3d0a4738bbf8ca13",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_mean_by_N.pdf": "815f412d43d214b1b30ee1f7e2b14a62d6602fe5d877e7aedf4941e4818cd7fc",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_mean_by_N.png": "8e14ae6842df89f3f066602bf2208650e5ef88e3b3b0220fa8f8028c2345c23c",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_mean_by_N.svg": "99dc77c264c4d8148ac44dbe3e3d6e3a858178d5ade95cebb1a23031b14f1b8c",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N1.pdf": "c96884e629affa4b3d18e33c6354a81d039e7f15f1a4296457414aadcc27c81d",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N1.png": "083d0d73552214e3e97dbfa3ab6475c5475e258175f2954b6685dc7839a9a66a",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N1.svg": "e61ee2bda0a07a18fa9723948a2cf789884f8a43c772a3066fb6378c9e52b213",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N1_N4.pdf": "b2543600221714e24d098b898e92a2f28b4601975fe17a422727e49e8ac353db",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N1_N4.png": "298bce9eef220743ce6ba28ef697634299c9ecc8e279e31a760758f147042355",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N1_N4.svg": "e9b68c96cbda3579fb593af3476e8349010ad2b1dc1a59f4b43cc7e7040c66bf",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N2.pdf": "130bc28c98375b972de3f3779374e6ea23d19c6e679cdd9c96f191a6ba902d14",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N2.png": "eaa1e5ecffab1e6e50f50833fec2d64147cfdd0b56720116d4319fb72eb628bc",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N2.svg": "e95ab31182f0dd16301f5eec26c9e5fca8af1c8c667c2423d438af8264142d63",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N3.pdf": "de943d59c3111a33b78de111ac0a7309b44a2bb686d34c0a5d99c2ab725f1ca4",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N3.png": "13faec277c82eb2f8ce5948e8d991c01a105cddd6a60545694ae7c0f4720ca2f",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N3.svg": "09a26c9f8270cdb24958aab711eee89a3cf155512fa8e168738fef0e9d707f49",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N4.pdf": "a979e97354516d38f59601d240a5768419830bab4dd23e0610c0b684ede2abe1",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N4.png": "032e64c383f26884761a8467840bb93820d997f7ca9c3736657fe0135d3cd8f7",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/module_drop_N4.svg": "bfd81473becf84667a29fdbdc91ce0838c0dc8a59216c715b38d2946062b2354",
+
+    "power scalability/DATA/analysis/current/voltage_drop_by_N_20260907/README_CN.md": "6fccab5fc8cab7966d9c61a429d91315a7b7babd7c4026851cafd0cafe4f7d22",
+
+    "power scalability/DATA/reference/report_v2_3_figures/additivity_checks.csv": "2e2e3c3730306ade535a0272467d8b591dc4a45b6ce49fcb8e0166f5c0d7ce98",
+
+    "power scalability/DATA/reference/report_v2_3_figures/branch_current_balance.pdf": "0edccf388788f3c41abf85aefbd8e75d7143b8538c273ee14f39dd5f3966a28f",
+
+    "power scalability/DATA/reference/report_v2_3_figures/branch_current_balance.png": "1efb8850fcc929728228785458eb0c6c5295f9404f328504a3c1c9753b540cc6",
+
+    "power scalability/DATA/reference/report_v2_3_figures/branch_current_balance.svg": "1746537f5c2b03d8a4e042c3d316148af4513f854ac0aa2fb27a90541f7d77a0",
+
+    "power scalability/DATA/reference/report_v2_3_figures/branch_readings.csv": "e8089a61187486293b10d7caa0dced42974f53931c69489f558ffc22df624594",
+
+    "power scalability/DATA/reference/report_v2_3_figures/configuration_summary.csv": "3e62ec568c01fb6461dcd7d9bf7e3e45086318036e976f0a6c823617ed4836f4",
+
+    "power scalability/DATA/reference/report_v2_3_figures/current_power_scaling.pdf": "131da01678ab628dbd140487c5eb0cfd10534d49b2316e0394ae1a6a23c8dc76",
+
+    "power scalability/DATA/reference/report_v2_3_figures/current_power_scaling.png": "619f65b9a466e5062b36bd1ad64e202c85c346037eb1375c8c4326188b07a5e3",
+
+    "power scalability/DATA/reference/report_v2_3_figures/current_power_scaling.svg": "2e0dc091f0f4cd66061906437245289eb2c4c409fcbb6939f17a1bfb65ae8796",
+
+    "power scalability/DATA/reference/report_v2_3_figures/figure_manifest.json": "cff3bcd1ab3ebfe3e275a4288da9ff2b817b11c66ac4e38db5c9c5dcbb7fd4b4",
+
+    "power scalability/DATA/reference/report_v2_3_figures/figure_qa.json": "4b9738cb8bf5d7cccf117b7d51f208060cf9203a5737054fe52996f0cb0b3829",
+
+    "power scalability/DATA/reference/report_v2_3_figures/group_summary.csv": "65a5bc9eb6b9924319ab31d83d0a6bc9d03e3d499a3860a9df11029f9847d3fd",
+
+    "power scalability/DATA/reference/report_v2_3_figures/independent_current_prediction.pdf": "a258ff7b6087a22e32cc49ac88ebb681dd7bce58c67d4ea76435a1089661ad71",
+
+    "power scalability/DATA/reference/report_v2_3_figures/independent_current_prediction.png": "2f652b3cfb826e8ed7ab7c06b889f1c4c764259f05deafe3479a8c21f008bdfb",
+
+    "power scalability/DATA/reference/report_v2_3_figures/independent_current_prediction.svg": "7aa9bd981ce9b66fe1a6f067e7876e074e812c70f409385bf2ee79bf50e43712",
+
+    "power scalability/DATA/reference/report_v2_3_figures/module_voltage_drop.pdf": "108dfed3b68b8bbe0a06fcd05ceefb90206f4ddefbdb2bd11dda09f49ef96631",
+
+    "power scalability/DATA/reference/report_v2_3_figures/module_voltage_drop.png": "4012e31ef59357792bdc37a5f219ebdeb1c17785b5f68c03d751dc27276a459b",
+
+    "power scalability/DATA/reference/report_v2_3_figures/module_voltage_drop.svg": "59de8d16029678141f08d85c39d57624bbb591ee2e13bde6c2b388eae39243fd",
+
+    "power scalability/DATA/reference/report_v2_3_figures/qa_contact_sheet.png": "531991a644d4225bba5417b8d240ed1ff062c716fc6b9ce18f42e0fa2139e11a",
+
+    "power scalability/DATA/reference/report_v2_3_figures/single_module_screening.pdf": "1ab33afda6f42087feb48faf0fd0cdeaf8ed84df09aaaf2652b4fc13871217a5",
+
+    "power scalability/DATA/reference/report_v2_3_figures/single_module_screening.png": "74d9826dd4550bd473ffb80ea87c6aebc42cfa71a5fb10cc28e853d3147ccd78",
+
+    "power scalability/DATA/reference/report_v2_3_figures/single_module_screening.svg": "72cba67c9b4e92c514ad496698a5f295fd118b25babe9d7feab6d5e789354b9a",
+
+    "power scalability/DATA/reference/report_v2_3_figures/temperature_scaling.pdf": "8ef42b6056eb38e97b24e520eda52445d3726b80206c554414dffa6e61db4c02",
+
+    "power scalability/DATA/reference/report_v2_3_figures/temperature_scaling.png": "28a5b02e8adf1f3afc7a0f86a4635d03b67d4004475f111fefcbd2434fb94eb0",
+
+    "power scalability/DATA/reference/report_v2_3_figures/temperature_scaling.svg": "9a510e8fc5b5e0b9c4103b9a5ec369f0897b0a45afb0b35fff0eca600bf4ea25",
+
+    "power scalability/DATA/reference/report_v2_3_figures/voltage_scaling.pdf": "f68f6d69e69dbda233c855e45a8f318ecf7411486e02f6805d1598dac169791f",
+
+    "power scalability/DATA/reference/report_v2_3_figures/voltage_scaling.png": "a2296eea06953299f86a69d6894a5ac33c40df6e0a64aea51e2d181420287082",
+
+    "power scalability/DATA/reference/report_v2_3_figures/voltage_scaling.svg": "6074a365dcb97e663b85f7a8059171716b4b3af6a2233d7f77d8f6d3c8e734c1"
+
+  }
+}

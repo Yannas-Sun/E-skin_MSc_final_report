@@ -1,0 +1,16 @@
+﻿module_count,combo,ZERO_voltage_current_temperature_recorded,MAX_voltage_current_temperature_recorded,MAX_source,MAX_load_mass_status,n_records_per_available_configuration_condition,within_condition_repeat_SD_available
+1,M0,True,True,DATA/raw/canonical/power_experiment_records/transmission/n=1/M0/full_load/PS01_N1_F200_MAX_M0_USB_RX_R1.yaml,2000_g_recorded_area_distribution_unspecified,1,False
+1,M1,True,True,DATA/raw/canonical/power_experiment_records/transmission/n=1/M1/full_load/PS01_N1_F200_MAX_M1_USB_RX_R1.yaml,2000_g_recorded_area_distribution_unspecified,1,False
+1,M2,True,True,DATA/raw/canonical/power_experiment_records/transmission/n=1/M2/full_load/PS01_N1_F200_MAX_M2_USB_RX_R1.yaml,2000_g_recorded_area_distribution_unspecified,1,False
+1,M3,True,True,DATA/raw/canonical/power_experiment_records/transmission/n=1/M3/full_load/PS01_N1_F200_MAX_M3_USB_RX_R1.yaml,2000_g_recorded_area_distribution_unspecified,1,False
+2,M0-M1,True,True,DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M1/full_load/PS01_N2_F200_MAX_M0-M1_USB_RX_R1.yaml,2000_g_recorded_area_distribution_unspecified,1,False
+2,M0-M2,True,True,DATA/raw/canonical/power_experiment_records/current_temperature_supplements/n2_max_20260907.csv,unspecified_new_supplement,1,False
+2,M0-M3,True,True,DATA/raw/canonical/power_experiment_records/current_temperature_supplements/n2_max_20260907.csv,unspecified_new_supplement,1,False
+2,M1-M2,True,True,DATA/raw/canonical/power_experiment_records/current_temperature_supplements/n2_max_20260907.csv,unspecified_new_supplement,1,False
+2,M1-M3,True,True,DATA/raw/canonical/power_experiment_records/current_temperature_supplements/n2_max_20260907.csv,unspecified_new_supplement,1,False
+2,M2-M3,True,True,DATA/raw/canonical/power_experiment_records/transmission/n=2/M2-M3/full_load/PS01_N2_F200_MAX_M2-M3_USB_RX_R1.yaml,2000_g_recorded_area_distribution_unspecified,1,False
+3,M0-M1-M2,True,True,DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M2/full_load/PS01_N3_F200_MAX_M0-M1-M2_USB_RX_R1.yaml,2000_g_recorded_area_distribution_unspecified,1,False
+3,M0-M1-M3,True,False,,missing,1,False
+3,M0-M2-M3,True,False,,missing,1,False
+3,M1-M2-M3,True,True,DATA/raw/canonical/power_experiment_records/transmission/n=3/M1-M2-M3/full_load/PS01_N3_F200_MAX_M1-M2-M3_USB_RX_R1.yaml,2000_g_recorded_area_distribution_unspecified,1,False
+4,M0-M1-M2-M3,True,True,DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/full_load/PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1.yaml,2000_g_recorded_area_distribution_unspecified,1,False

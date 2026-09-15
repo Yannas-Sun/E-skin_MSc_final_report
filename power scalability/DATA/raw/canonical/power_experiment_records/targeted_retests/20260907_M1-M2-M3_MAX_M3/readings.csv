@@ -1,0 +1,4 @@
+﻿combo,load,module_id,quantity,unit,main,min,max,photo_path,value_basis
+M1-M2-M3,MAX,M3,voltage,V,3.243,3.243,3.244,DATA/raw/canonical/power_experiment_records/targeted_retests/20260907_M1-M2-M3_MAX_M3/M3_voltage_retest.jpg,direct retest photo
+M1-M2-M3,MAX,M3,current,mA,19.263,19.25,19.41,DATA/raw/canonical/power_experiment_records/targeted_retests/20260907_M1-M2-M3_MAX_M3/M3_current_retest.jpg,direct retest photo
+M1-M2-M3,MAX,SOURCE,source_voltage_reference,V,3.276,,,,user confirms original source unchanged

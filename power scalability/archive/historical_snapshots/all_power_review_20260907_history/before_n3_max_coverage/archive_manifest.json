@@ -1,0 +1,95 @@
+{
+  "purpose": "Preserve ZERO and N2 MAX current reviews before N3 MAX coverage moves from 13/15 to 15/15. Measurement statistics are unchanged.",
+  "files": [
+    {
+      "path": "script/Main/summarize_zero_power_20260907.py",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/script/Main/summarize_zero_power_20260907.py",
+      "sha256": "c1f34f779b9bdc0bf864bd5dd4639e6e7c3ae265d875ddb834da060d33e909e4"
+    },
+    {
+      "path": "script/Main/summarize_n2_max_20260907.py",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/script/Main/summarize_n2_max_20260907.py",
+      "sha256": "54425d96f5d237eaf978798a19ee82c3e906ae378633076a1d3a45c11d37ca68"
+    },
+    {
+      "path": "DATA/analysis/current/zero_power_review_20260907/branch_readings.csv",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/DATA/analysis/current/zero_power_review_20260907/branch_readings.csv",
+      "sha256": "3de799efb7fce99b005327047ecf298e48170aadaf1ca5f3278fada2f3489bba"
+    },
+    {
+      "path": "DATA/analysis/current/zero_power_review_20260907/configuration_summary.csv",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/DATA/analysis/current/zero_power_review_20260907/configuration_summary.csv",
+      "sha256": "41c8985490251c7767305d98633bd6da5e175f89c63b5764faade4ec6d1303bf"
+    },
+    {
+      "path": "DATA/analysis/current/zero_power_review_20260907/coverage.csv",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/DATA/analysis/current/zero_power_review_20260907/coverage.csv",
+      "sha256": "887d835873a0368015e86df7ada21e6870c32d9f93a537d2e24e53424edeeed2"
+    },
+    {
+      "path": "DATA/analysis/current/zero_power_review_20260907/group_summary.csv",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/DATA/analysis/current/zero_power_review_20260907/group_summary.csv",
+      "sha256": "2953d871a6ea5c48c7ccf0737ad2a39fdc4ffa3933b320887ad4763159da1814"
+    },
+    {
+      "path": "DATA/analysis/current/zero_power_review_20260907/n3_configuration_summary.csv",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/DATA/analysis/current/zero_power_review_20260907/n3_configuration_summary.csv",
+      "sha256": "66110d22cad1b366f31ccea836d800bd65ead19ee3f3b47178980334ef373846"
+    },
+    {
+      "path": "DATA/analysis/current/zero_power_review_20260907/README_CN.md",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/DATA/analysis/current/zero_power_review_20260907/README_CN.md",
+      "sha256": "b4df72b7c5486bf785c534b62bbd5fc638ff05e5c3acd34b931cc201a5905618"
+    },
+    {
+      "path": "DATA/analysis/current/zero_power_review_20260907/source_manifest.json",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/DATA/analysis/current/zero_power_review_20260907/source_manifest.json",
+      "sha256": "928d9473cd700447aa60bfdb706dd21437fec1ff3937d13f7ad821f9a1018552"
+    },
+    {
+      "path": "DATA/analysis/current/zero_power_review_20260907/summary.json",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/DATA/analysis/current/zero_power_review_20260907/summary.json",
+      "sha256": "66e1a092cd30c0a8065e86af4a626b32d19660970c37c4221601eb10b912d5c8"
+    },
+    {
+      "path": "DATA/analysis/current/n2_max_review_20260907/branch_readings.csv",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/DATA/analysis/current/n2_max_review_20260907/branch_readings.csv",
+      "sha256": "9825ecba8c64ccb6020f6d9b84da3d45c5ccf708461bfda41abb82ea75b0b141"
+    },
+    {
+      "path": "DATA/analysis/current/n2_max_review_20260907/configuration_summary.csv",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/DATA/analysis/current/n2_max_review_20260907/configuration_summary.csv",
+      "sha256": "c780728cd9b79b3282f60c62af204fa27995920b959ed494e7464906e21aae06"
+    },
+    {
+      "path": "DATA/analysis/current/n2_max_review_20260907/coverage.csv",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/DATA/analysis/current/n2_max_review_20260907/coverage.csv",
+      "sha256": "c82b5da02635fad847f6895ed9453c2b3b4e2fb035b251635c79516381024011"
+    },
+    {
+      "path": "DATA/analysis/current/n2_max_review_20260907/load_pairs.csv",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/DATA/analysis/current/n2_max_review_20260907/load_pairs.csv",
+      "sha256": "0902283c74e2baec4f12daebc8658a81668d51fbaec3d437796dd3bbcde8408e"
+    },
+    {
+      "path": "DATA/analysis/current/n2_max_review_20260907/README_CN.md",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/DATA/analysis/current/n2_max_review_20260907/README_CN.md",
+      "sha256": "0f4f0fd3d637645debc39e92b615fe0923daed40635d76a25dfc445c277f8114"
+    },
+    {
+      "path": "DATA/analysis/current/n2_max_review_20260907/source_manifest.json",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/DATA/analysis/current/n2_max_review_20260907/source_manifest.json",
+      "sha256": "7a9ce3557efb1f5204fb8c5c1c953710f3ee3222d0b192811cbc669941e4ed8a"
+    },
+    {
+      "path": "DATA/analysis/current/n2_max_review_20260907/source_voltage_readings.csv",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/DATA/analysis/current/n2_max_review_20260907/source_voltage_readings.csv",
+      "sha256": "430846bf81ac1e5b225bcf6e6aee536b3e8c96a49323da7e789e36c871f1e539"
+    },
+    {
+      "path": "DATA/analysis/current/n2_max_review_20260907/summary.json",
+      "archive_path": "DATA/analysis/current/all_power_review_20260907_history/before_n3_max_coverage/DATA/analysis/current/n2_max_review_20260907/summary.json",
+      "sha256": "d35cca5745facf37868e6544431316bd49942966f76946770beb1d2f944be664"
+    }
+  ]
+}

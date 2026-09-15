@@ -1,0 +1,33 @@
+{
+  "event_id": "SUPPLY_CONTACT_M0_N3_ZERO_20260907",
+  "reported_date": "2026-09-07",
+  "event_type": "USER_CONFIRMED_SUPPLY_WIRE_OR_CONNECTOR_CONTACT_FAULT",
+  "evidence_basis": "User clarification: 供电线或供电接头接触不良",
+  "affected_run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+  "affected_record_path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M2/zero_load/PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1.yaml",
+  "affected_record_sha256": "3bfdf897927c11c1207228c0ebd3f8545bcd97a5252597358858b494b307db85",
+  "affected_module": "M0",
+  "original_M0_voltage_V": {
+    "main": 3.224,
+    "min": 3.224,
+    "max": 3.225
+  },
+  "interpretation": "Retain as an actual supply-connection fault condition; do not describe it as a voltmeter/probe measurement error.",
+  "normal_connection_analysis_action": "Exclude the original fault-condition run from normal-connection summaries; preserve it in fault-condition/history outputs.",
+  "other_fields_action": "Preserve original currents, source/M1/M2 voltages and temperatures as measurements in the original run; they are not revalidated after repair.",
+  "replacement_run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_VOLTAGE_RETEST_R1",
+  "replacement_scope": "M0 voltage only, after contact correction; no simultaneous replacement source voltage supplied.",
+  "replacement_M0_voltage_V": {
+    "main": 3.241,
+    "min": 3.241,
+    "max": 3.241
+  },
+  "drop_recalculation_allowed_with_old_source": false,
+  "repeatability_pooling_allowed": false,
+  "report_2_1_implications": [
+    "3.224 V and 89 mV describe a contact-fault condition, not the normal-connection minimum.",
+    "The associated voltage-drop result and the original N3 current/prediction point require a fault-condition label or separate analysis.",
+    "Do not claim fault-free operation; default zero counters do not override this known contact fault."
+  ],
+  "published_report_updated": false
+}

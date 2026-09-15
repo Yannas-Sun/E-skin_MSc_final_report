@@ -1,0 +1,173 @@
+{
+  "figures": [
+    {
+      "stem": "current_power_scaling",
+      "dimensions_mm": [
+        179.99999999998556,
+        109.99999999998333
+      ],
+      "pixels": [
+        2125,
+        1299
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_embedded_raster_count": 0,
+      "PDF_font_subtypes": [
+        "/Type0",
+        "/Type0"
+      ],
+      "SVG_editable_text": true,
+      "text_outside_canvas": [],
+      "scatter_points": 60,
+      "all_scatter_points_inside_axes": true
+    },
+    {
+      "stem": "voltage_scaling",
+      "dimensions_mm": [
+        179.99999999998556,
+        114.99999999999861
+      ],
+      "pixels": [
+        2125,
+        1358
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_embedded_raster_count": 0,
+      "PDF_font_subtypes": [
+        "/Type0",
+        "/Type0"
+      ],
+      "SVG_editable_text": true,
+      "text_outside_canvas": [],
+      "scatter_points": 95,
+      "all_scatter_points_inside_axes": true
+    },
+    {
+      "stem": "module_voltage_drop",
+      "dimensions_mm": [
+        179.99999999998556,
+        165.00000000001026
+      ],
+      "pixels": [
+        2125,
+        1948
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_embedded_raster_count": 0,
+      "PDF_font_subtypes": [
+        "/Type0",
+        "/Type0"
+      ],
+      "SVG_editable_text": true,
+      "text_outside_canvas": [],
+      "scatter_points": 0,
+      "all_scatter_points_inside_axes": true
+    },
+    {
+      "stem": "single_module_screening",
+      "dimensions_mm": [
+        179.99999999998556,
+        99.99999999998805
+      ],
+      "pixels": [
+        2125,
+        1181
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_embedded_raster_count": 0,
+      "PDF_font_subtypes": [
+        "/Type0"
+      ],
+      "SVG_editable_text": true,
+      "text_outside_canvas": [],
+      "scatter_points": 12,
+      "all_scatter_points_inside_axes": true
+    },
+    {
+      "stem": "branch_current_balance",
+      "dimensions_mm": [
+        179.99999999998556,
+        134.99999999998917
+      ],
+      "pixels": [
+        2125,
+        1594
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_embedded_raster_count": 0,
+      "PDF_font_subtypes": [
+        "/Type0",
+        "/Type0"
+      ],
+      "SVG_editable_text": true,
+      "text_outside_canvas": [],
+      "scatter_points": 64,
+      "all_scatter_points_inside_axes": true
+    },
+    {
+      "stem": "temperature_scaling",
+      "dimensions_mm": [
+        179.99999999998556,
+        98.99999999998501
+      ],
+      "pixels": [
+        2125,
+        1169
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_embedded_raster_count": 0,
+      "PDF_font_subtypes": [
+        "/Type0",
+        "/Type0"
+      ],
+      "SVG_editable_text": true,
+      "text_outside_canvas": [],
+      "scatter_points": 90,
+      "all_scatter_points_inside_axes": true
+    },
+    {
+      "stem": "independent_current_prediction",
+      "dimensions_mm": [
+        179.99999999998556,
+        144.99999999998442
+      ],
+      "pixels": [
+        2125,
+        1712
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_embedded_raster_count": 0,
+      "PDF_font_subtypes": [
+        "/Type0",
+        "/Type0"
+      ],
+      "SVG_editable_text": true,
+      "text_outside_canvas": [],
+      "scatter_points": 44,
+      "all_scatter_points_inside_axes": true
+    }
+  ],
+  "heatmap_text_contrast_against_darkest_cell": 4.74838437387656,
+  "visual_review": "Contact sheet and dense original-size exports inspected. No clipping or overlapping legend/footnote text. Current SD is small relative to axis scale; exact SD provided in source table. Symbol shape and dark outlines supplement load colours. No journal-compliance certification."
+}

@@ -1,0 +1,72 @@
+# Original photographs and earlier raw records are retained unchanged.
+run_id: PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_VOLTAGE_RETEST_R1
+measurement_scope: VOLTAGE_ONLY
+record_status: MEASURED
+data_quality: INCOMPLETE
+date: null
+measurement_start_time: null
+operator: null
+module_count: 3
+module_ids: Module0,Module1,Module2
+measured_module_ids: Module0
+frequency_hz: 200
+protocol_mode: FULL
+load: ZERO
+load_mass_g: 0
+load_application: NONE
+host_usb_polling_state: CONTINUOUS_USB_READ
+operating_condition_basis: Existing FULL/200 Hz continuous-read ZERO voltage supplement
+  series and folder; not independently visible in meter photos.
+instrument_model: FNIRSI 2C53P
+DMM_voltage_mode: DC
+measurement_duration_s: null
+warmup_duration_s: null
+reading_semantics: avg fields preserve main display readings for schema compatibility;
+  not verified time averages
+reset_count: null
+current_limit_count: null
+brownout_count: null
+data_stop_count: null
+data_gap_count: null
+T_regulator_C: null
+T_teensy_C: null
+V_source_avg_V: null
+V_source_min_V: null
+V_source_max_V: null
+V_module0_avg_V: 3.241
+V_module0_min_V: 3.241
+V_module0_max_V: 3.241
+I_module0_avg_mA: null
+I_module0_min_mA: null
+I_module0_max_mA: null
+T_module0_stm32_C: null
+V_module1_avg_V: null
+V_module1_min_V: null
+V_module1_max_V: null
+I_module1_avg_mA: null
+I_module1_min_mA: null
+I_module1_max_mA: null
+T_module1_stm32_C: null
+V_module2_avg_V: null
+V_module2_min_V: null
+V_module2_max_V: null
+I_module2_avg_mA: null
+I_module2_min_mA: null
+I_module2_max_mA: null
+T_module2_stm32_C: null
+record_kind: MODULE_VOLTAGE_RETEST
+photo_filename_date: null
+measurement_order:
+- M0
+retest_of_run_id: PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1
+connection_condition: AFTER_USER_REPORTED_SUPPLY_CONTACT_REPAIR
+quality_event_id: SUPPLY_CONTACT_M0_N3_ZERO_20260907
+independent_repeat_of_original_condition: false
+observation: User identified the earlier anomalous reading as caused by a supply wire
+  or connector contact issue. M0_new.jpg records M0 after correcting contact. No source,
+  M1 or M2 voltage was supplied for this retest. Do not merge old source/current readings
+  into a fictitious simultaneous repaired run.
+voltage_photo_evidence:
+- role: M0
+  file: M0_new.jpg
+  sha256: 5521ec820e006acc6dec84f64434c8bd08c5e1d58a7c2c19e581187f83ec7df4

@@ -1,0 +1,332 @@
+{
+  "status": "Preview, not published report",
+  "report_modified_by_script": false,
+  "source_directory": "power scalability/DATA/archive/m0_n1_n2_preview_20260907/data",
+  "counts": {
+    "compiled_conditions": 30,
+    "selected_branches": 64,
+    "combination_counts_per_load_by_N": [
+      4,
+      6,
+      4,
+      1
+    ],
+    "selected_targeted_current_retests": 7,
+    "additional_full_condition_repeats": 0
+  },
+  "inputs": [
+    {
+      "path": "power scalability/DATA/archive/m0_n1_n2_preview_20260907/data/configuration_summary.csv",
+      "sha256": "9eaba89deb9bcbe6f77f73bfd92f6623eb8bc5773801581a24cfcedca51b3be8"
+    },
+    {
+      "path": "power scalability/DATA/archive/m0_n1_n2_preview_20260907/data/branch_readings.csv",
+      "sha256": "e35a6f78e0ec4d549ef1b4d840924ae13d63cd2757372611fd3a9d7b7f13c970"
+    },
+    {
+      "path": "power scalability/DATA/archive/m0_n1_n2_preview_20260907/data/additivity_checks.csv",
+      "sha256": "d81c2cd3e70f1b53f67a6e60275ae4363726383e18d68224fe52078010008437"
+    },
+    {
+      "path": "power scalability/DATA/archive/m0_n1_n2_preview_20260907/data/group_summary.csv",
+      "sha256": "b9fac84f087740bd09b5ae9e0e9e42ed9250a234489bfa393edabc9a3d42a21a"
+    },
+    {
+      "path": "power scalability/script/Main/figures/power_m0_preview_figures_20260907.py",
+      "sha256": "6362a4adf8c3bb1d93a20111919c0f76c35ed0e58a6da5e3cb189e49b7141e9b"
+    },
+    {
+      "path": "power scalability/script/Main/figures/power_retest_figures.py",
+      "sha256": "4beaf25f7ede260a067ad2020b4ac4cdaf274820362c4d61a03e7952842647d1"
+    },
+    {
+      "path": "power scalability/script/Main/figures/power_revision_figures.py",
+      "sha256": "cb406d5c116788a7abc6f27e20aa1ef7b01499fce7e852e2c968a0d886c5d128"
+    },
+    {
+      "path": "power scalability/script/Main/figures/power_report.mplstyle",
+      "sha256": "e37abe59ce920caf183797d60bccb770fe42a924ff3ed25263bd7fd51834c822"
+    },
+    {
+      "path": "power scalability/DATA/reference/analysis_v2_1/analysis_summary.json",
+      "sha256": "caee63387d2733913d8b0abcd0042dba9dceb4ba3378ec5038545b6c9624c942"
+    },
+    {
+      "path": "power scalability/script/Main/figures/power_m0_preview_heatmap_scale_20260907.py",
+      "sha256": "6bf05a847b284f5a73c6b85a7a401b5ff153aa8856c4fb53812f85bdd98bf735"
+    }
+  ],
+  "versions": {
+    "matplotlib": "3.10.6",
+    "numpy": "2.3.5"
+  },
+  "figures": [
+    {
+      "stem": "current_power_scaling",
+      "description": "Latest compiled current and estimated source-output power for all combinations.",
+      "semantics": {
+        "means": "Counts 4,6,4,1 by N in each load; sample SD across combinations for N1-N3 only. N4 SD absent.",
+        "power": "Retained source main voltage multiplied by the compiled sequential branch-current sum; excludes Teensy USB and regulator loss.",
+        "lines": "Descriptive mean connectors, not fitted or extrapolated models.",
+        "preview": "Standalone preview only; this script does not edit the manuscript, published PDF or report figure assets. Concurrent work by other agents is outside this script's scope.",
+        "selection": "Five newest M0 targeted retests added to two earlier point retests; 30 compiled condition entries and 64 selected branches remain.",
+        "retained": "Source voltage, unmodified branches and temperatures are retained readings, not newly repeated measurements.",
+        "confirmed_N1_voltage": "User confirms N1 M0 ZERO voltage 3.252 V and its photo assignment; the difference from the retained 3.280 V source is 28 mV.",
+        "user_correction": "N2 M0-M1 ZERO M0 voltage 3.251 V is user-confirmed; the wrongly assigned 3.243 V photo is excluded."
+      },
+      "dimensions_mm": [
+        180.0,
+        115.0
+      ],
+      "files": [
+        {
+          "name": "current_power_scaling.png",
+          "sha256": "3de6ef0ea4e48331ebde0d13151a68d1d629b0f2ecdaa2d775324f604c0ebc2f",
+          "bytes": 192975
+        },
+        {
+          "name": "current_power_scaling.svg",
+          "sha256": "c33cef13e82b3544f9370af9ec4cc5a26e4cd9a2c49b3f62c22e4428aebd1120",
+          "bytes": 44514
+        }
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count_including_overlays": 74
+    },
+    {
+      "stem": "voltage_scaling",
+      "description": "Retained source voltages and selected module voltages with latest M0 retests.",
+      "semantics": {
+        "points": "30 source readings and 64 selected module readings; N1 ZERO M0 voltage confirmed as 3.252 V. Two earlier N3 readings shown separately.",
+        "intervals": "DMM MIN-MAX, not repeat SD or transient bounds.",
+        "guidelines": "Existing project references retained, no new electrical certification.",
+        "preview": "Standalone preview only; this script does not edit the manuscript, published PDF or report figure assets. Concurrent work by other agents is outside this script's scope.",
+        "selection": "Five newest M0 targeted retests added to two earlier point retests; 30 compiled condition entries and 64 selected branches remain.",
+        "retained": "Source voltage, unmodified branches and temperatures are retained readings, not newly repeated measurements.",
+        "confirmed_N1_voltage": "User confirms N1 M0 ZERO voltage 3.252 V and its photo assignment; the difference from the retained 3.280 V source is 28 mV.",
+        "user_correction": "N2 M0-M1 ZERO M0 voltage 3.251 V is user-confirmed; the wrongly assigned 3.243 V photo is excluded."
+      },
+      "dimensions_mm": [
+        180.0,
+        122.0
+      ],
+      "files": [
+        {
+          "name": "voltage_scaling.png",
+          "sha256": "2c85788a239dfe3f1843507816037ad5c21f2fb5da9ad48d0906e1ab37d17f25",
+          "bytes": 171544
+        },
+        {
+          "name": "voltage_scaling.svg",
+          "sha256": "0a5708fc0fbe9407137c13adbc987fbd7a3863c17594f14925ab357e33233dd9",
+          "bytes": 76702
+        }
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count_including_overlays": 96
+    },
+    {
+      "stem": "module_voltage_drop",
+      "description": "Zero-load and recorded loaded voltage drops for all combinations, with 32 signed loaded-minus-zero module comparisons.",
+      "semantics": {
+        "cells": "1000 × (retained source main V − selected module main V). Cross-record differences, not synchronous drops.",
+        "panels": "(a) ZERO, (b) loaded/MAX, (c) loaded/MAX minus ZERO for the same physical combination and module.",
+        "change_formula": "delta_drop_mV = drop_MAX_mV − drop_ZERO_mV = 1000 × [(V_source_MAX − V_module_MAX) − (V_source_ZERO − V_module_ZERO)].",
+        "change_comparisons": 32,
+        "change_labels": "Positive increases use +; negative decreases use −; unchanged is 0. Values are differences of selected point readings, not averages.",
+        "change_inference": "Descriptive difference between separate recorded conditions; loading equivalence, timing and causal isolation are not established.",
+        "missing": "Em dash denotes a physically absent module.",
+        "range": "One shared linear data-adaptive colour scale for ZERO and MAX, using nice enclosing bounds from all 64 current branch differences.",
+        "color_scale": {
+          "data_min": 26.0,
+          "data_max": 39.0,
+          "vmin": 25.0,
+          "vmax": 40.0,
+          "ticks": [
+            25.0,
+            27.5,
+            30.0,
+            32.5,
+            35.0,
+            37.5,
+            40.0
+          ],
+          "policy": "Linear scale enclosing all plotted values with readable ticks; shared by ZERO and MAX panels in each figure"
+        },
+        "change_color_scale": {
+          "data_min": -4.0,
+          "data_max": 10.0,
+          "vmin": -10.0,
+          "vmax": 10.0,
+          "ticks": [
+            -10.0,
+            -5.0,
+            0.0,
+            5.0,
+            10.0
+          ],
+          "center": 0.0,
+          "policy": "Independent linear diverging scale, symmetric about zero with enclosing bounds determined by maximum absolute observed change."
+        },
+        "uncertainty": "One selected value per condition/module cell; N1 ZERO M0 voltage and photo assignment are user-confirmed.",
+        "preview": "Standalone preview only; this script does not edit the manuscript, published PDF or report figure assets. Concurrent work by other agents is outside this script's scope.",
+        "selection": "Five newest M0 targeted retests added to two earlier point retests; 30 compiled condition entries and 64 selected branches remain.",
+        "retained": "Source voltage, unmodified branches and temperatures are retained readings, not newly repeated measurements.",
+        "confirmed_N1_voltage": "User confirms N1 M0 ZERO voltage 3.252 V and its photo assignment; the difference from the retained 3.280 V source is 28 mV.",
+        "user_correction": "N2 M0-M1 ZERO M0 voltage 3.251 V is user-confirmed; the wrongly assigned 3.243 V photo is excluded."
+      },
+      "dimensions_mm": [
+        250.0,
+        182.0
+      ],
+      "files": [
+        {
+          "name": "module_voltage_drop.png",
+          "sha256": "5d7eba8b77abc3d72f9f1ed683b68dce21a579993bb5849559edd588f839f7c6",
+          "bytes": 284324
+        },
+        {
+          "name": "module_voltage_drop.svg",
+          "sha256": "bf57ef47493c31ae5a3f6a7fba0856b6c984eadc71bbf634e527562a873b90e3",
+          "bytes": 200008
+        }
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count_including_overlays": 0
+    },
+    {
+      "stem": "single_module_screening",
+      "description": "Separate N=1 records compare blocked zero-load current with continuously read zero-load and loaded current for each recorded module label.",
+      "semantics": {
+        "conditions": "200 Hz FULL. Historical N1 blocked readings retained; continuous M0 ZERO and MAX currents use latest targeted retests.",
+        "module_identity": "Labels follow experiment records; physical identity across runs was not independently verified by a hardware UID.",
+        "comparison": "Historical blocked records and later continuous records are distinct measurements, not a randomized matched state intervention.",
+        "loaded": "Recorded loaded condition; loading equivalence is not established across N.",
+        "exclusions": "100 Hz and blocked loaded screening rows are not used in this state comparison.",
+        "preview": "Standalone preview only; this script does not edit the manuscript, published PDF or report figure assets. Concurrent work by other agents is outside this script's scope.",
+        "selection": "Five newest M0 targeted retests added to two earlier point retests; 30 compiled condition entries and 64 selected branches remain.",
+        "retained": "Source voltage, unmodified branches and temperatures are retained readings, not newly repeated measurements.",
+        "confirmed_N1_voltage": "User confirms N1 M0 ZERO voltage 3.252 V and its photo assignment; the difference from the retained 3.280 V source is 28 mV.",
+        "user_correction": "N2 M0-M1 ZERO M0 voltage 3.251 V is user-confirmed; the wrongly assigned 3.243 V photo is excluded."
+      },
+      "dimensions_mm": [
+        180.0,
+        100.0
+      ],
+      "files": [
+        {
+          "name": "single_module_screening.png",
+          "sha256": "8717b411b16aa2d68f508e8812a8ea57437116522ced1f1e5fdd37ec51c7de16",
+          "bytes": 98968
+        },
+        {
+          "name": "single_module_screening.svg",
+          "sha256": "a251755e7199ba350ce1f5a21391f7e9caadb91a32956c7ad2b98ed5d6bb8fc1",
+          "bytes": 15354
+        }
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count_including_overlays": 14
+    },
+    {
+      "stem": "branch_current_balance",
+      "description": "Recorded branch main currents by physical module, module count and load, retaining every measured module combination.",
+      "semantics": {
+        "points": "64 selected branch readings; seven targeted currents are marked with stars. No extra whole-configuration runs.",
+        "comparison": "Same-module differences across recorded configurations are descriptive; no independent same-configuration repeats.",
+        "jitter": "Deterministic offsets distinguish load and every available combination at each N.",
+        "lines": "No connectors or fitted lines because configurations differ.",
+        "preview": "Standalone preview only; this script does not edit the manuscript, published PDF or report figure assets. Concurrent work by other agents is outside this script's scope.",
+        "selection": "Five newest M0 targeted retests added to two earlier point retests; 30 compiled condition entries and 64 selected branches remain.",
+        "retained": "Source voltage, unmodified branches and temperatures are retained readings, not newly repeated measurements.",
+        "confirmed_N1_voltage": "User confirms N1 M0 ZERO voltage 3.252 V and its photo assignment; the difference from the retained 3.280 V source is 28 mV.",
+        "user_correction": "N2 M0-M1 ZERO M0 voltage 3.251 V is user-confirmed; the wrongly assigned 3.243 V photo is excluded."
+      },
+      "dimensions_mm": [
+        180.0,
+        135.0
+      ],
+      "files": [
+        {
+          "name": "branch_current_balance.png",
+          "sha256": "23c42765cb5344c9f71649649bddb90713409060da3cfd308d44a7307f567f9c",
+          "bytes": 134280
+        },
+        {
+          "name": "branch_current_balance.svg",
+          "sha256": "67e38578b10d976c6523637f8c11d047eb9d3e9c3722aadb668617837b4c4067",
+          "bytes": 38643
+        }
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count_including_overlays": 71
+    },
+    {
+      "stem": "temperature_scaling",
+      "description": "Available absolute temperature observations during continuous USB reads, separated by component and load; no thermal-equilibrium inference.",
+      "semantics": {
+        "STM32": "Maximum of the identified module temperatures in each of 30 compiled condition entries; all 64 module readings available.",
+        "regulator_and_host": "30 regulator and 30 Teensy point readings, retained unchanged; not duplicated as branch observations.",
+        "missing": "Missing temperature values are omitted, never imputed.",
+        "limitations": "Different observation timing and unverified stabilization prevent a claim of thermal equilibrium, ambient-normalized rise, or thermal capacity.",
+        "preview": "Standalone preview only; this script does not edit the manuscript, published PDF or report figure assets. Concurrent work by other agents is outside this script's scope.",
+        "selection": "Five newest M0 targeted retests added to two earlier point retests; 30 compiled condition entries and 64 selected branches remain.",
+        "retained": "Source voltage, unmodified branches and temperatures are retained readings, not newly repeated measurements.",
+        "confirmed_N1_voltage": "User confirms N1 M0 ZERO voltage 3.252 V and its photo assignment; the difference from the retained 3.280 V source is 28 mV.",
+        "user_correction": "N2 M0-M1 ZERO M0 voltage 3.251 V is user-confirmed; the wrongly assigned 3.243 V photo is excluded."
+      },
+      "dimensions_mm": [
+        180.0,
+        99.0
+      ],
+      "files": [
+        {
+          "name": "temperature_scaling.png",
+          "sha256": "376ad092a780a32062cbc637c1f4f025406afd859efeb7863236181d08180cee",
+          "bytes": 150304
+        },
+        {
+          "name": "temperature_scaling.svg",
+          "sha256": "35d34ef88339eceff372192d2aa82d06ced3e432f73398e813fd98107987e508",
+          "bytes": 42212
+        }
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count_including_overlays": 90
+    },
+    {
+      "stem": "independent_current_prediction",
+      "description": "Separate single-module reference sums and signed residuals for all 11 multi-module combinations under each recorded load label.",
+      "semantics": {
+        "prediction": "Sum of separate N=1 main currents of exactly the physical modules present, using the same ZERO/MAX label.",
+        "points": "22 comparisons: 11 physical multi-module combinations per recorded load; newest M0 N1 references used. No added complete condition repeats.",
+        "residual": "100 × (multi-module branch-current sum − separate N=1 reference sum) / separate N=1 reference sum.",
+        "limitations": "Descriptive additivity only; shared modules and batches, no repeatability or instrument-uncertainty estimate. MAX labels do not establish matched load mass/area/distribution.",
+        "axes": "Prediction and observation share identical linear limits with equality line. Residual axis includes zero and every observation.",
+        "preview": "Standalone preview only; this script does not edit the manuscript, published PDF or report figure assets. Concurrent work by other agents is outside this script's scope.",
+        "selection": "Five newest M0 targeted retests added to two earlier point retests; 30 compiled condition entries and 64 selected branches remain.",
+        "retained": "Source voltage, unmodified branches and temperatures are retained readings, not newly repeated measurements.",
+        "confirmed_N1_voltage": "User confirms N1 M0 ZERO voltage 3.252 V and its photo assignment; the difference from the retained 3.280 V source is 28 mV.",
+        "user_correction": "N2 M0-M1 ZERO M0 voltage 3.251 V is user-confirmed; the wrongly assigned 3.243 V photo is excluded."
+      },
+      "dimensions_mm": [
+        180.0,
+        145.0
+      ],
+      "files": [
+        {
+          "name": "independent_current_prediction.png",
+          "sha256": "150cfd101f08abc2f8ec149a7ab8fa2211757ceb9cc4c68a39e4f0a556516c56",
+          "bytes": 191100
+        },
+        {
+          "name": "independent_current_prediction.svg",
+          "sha256": "ae1aad276bfcf833e717a17b7d64eacaff365b20f42ea5c97361250a5ac711ba",
+          "bytes": 28455
+        }
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count_including_overlays": 44
+    }
+  ]
+}

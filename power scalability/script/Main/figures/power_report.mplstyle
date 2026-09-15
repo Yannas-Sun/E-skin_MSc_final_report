@@ -1,0 +1,45 @@
+# Adapted from scientific-visualization/assets/publication.mplstyle (2026-07-23).
+# General report figures at 180 mm width; NOT a journal-compliance preset.
+figure.dpi: 120
+figure.facecolor: white
+figure.autolayout: False
+font.family: sans-serif
+font.sans-serif: DejaVu Sans, Arial
+font.size: 8.5
+text.color: 596073
+axes.titlesize: 9.5
+axes.titleweight: bold
+axes.labelsize: 8.5
+axes.labelcolor: 596073
+axes.edgecolor: 596073
+axes.linewidth: 0.65
+axes.spines.top: False
+axes.spines.right: False
+axes.axisbelow: True
+axes.grid: False
+axes.prop_cycle: cycler('color', ['7BB6BA', 'B8442D', '9D725F', 'D7BBA5', 'DBD4CC'])
+xtick.labelsize: 8
+ytick.labelsize: 8
+xtick.color: 596073
+ytick.color: 596073
+xtick.major.width: 0.65
+ytick.major.width: 0.65
+xtick.major.size: 3
+ytick.major.size: 3
+xtick.direction: out
+ytick.direction: out
+lines.linewidth: 1.5
+lines.markersize: 5
+lines.markeredgewidth: 0.8
+legend.fontsize: 7.5
+legend.frameon: False
+grid.color: E8E4DF
+grid.linewidth: 0.6
+grid.alpha: 0.65
+savefig.dpi: 300
+savefig.bbox: standard
+savefig.transparent: False
+savefig.facecolor: white
+pdf.fonttype: 42
+ps.fonttype: 42
+svg.fonttype: none

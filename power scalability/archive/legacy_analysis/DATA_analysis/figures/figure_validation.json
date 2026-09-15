@@ -1,0 +1,155 @@
+{
+  "checked_at_utc": "2026-09-04T16:39:59.084438+00:00",
+  "status": "PASS",
+  "source_sha256": "fbd65b76a92654e966c7569d17f777da3267aebc3c1674b1006714fc8b8f76d1",
+  "scope": "File integrity, canvas, DPI, opacity, embedded PDF fonts and SVG text; not a scientific-validity or journal-compliance certification.",
+  "figures": [
+    {
+      "stem": "current_power_scaling",
+      "status": "PASS",
+      "png_pixels": [
+        2125,
+        1358
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_opaque": true,
+      "pdf_mm": [
+        180.0,
+        115.0
+      ],
+      "pdf_fonts_embedded": true,
+      "svg_text_elements": 42,
+      "export_hashes_match": true,
+      "text_inside_canvas": true
+    },
+    {
+      "stem": "voltage_scaling",
+      "status": "PASS",
+      "png_pixels": [
+        2125,
+        1322
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_opaque": true,
+      "pdf_mm": [
+        180.0,
+        112.0
+      ],
+      "pdf_fonts_embedded": true,
+      "svg_text_elements": 28,
+      "export_hashes_match": true,
+      "text_inside_canvas": true
+    },
+    {
+      "stem": "module_voltage_drop",
+      "status": "PASS",
+      "png_pixels": [
+        2125,
+        1275
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_opaque": true,
+      "pdf_mm": [
+        180.0,
+        108.0
+      ],
+      "pdf_fonts_embedded": true,
+      "svg_text_elements": 28,
+      "export_hashes_match": true,
+      "text_inside_canvas": true
+    },
+    {
+      "stem": "branch_current_balance",
+      "status": "PASS",
+      "png_pixels": [
+        2125,
+        1641
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_opaque": true,
+      "pdf_mm": [
+        180.0,
+        139.0
+      ],
+      "pdf_fonts_embedded": true,
+      "svg_text_elements": 56,
+      "export_hashes_match": true,
+      "text_inside_canvas": true
+    },
+    {
+      "stem": "temperature_scaling",
+      "status": "PASS",
+      "png_pixels": [
+        2125,
+        1275
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_opaque": true,
+      "pdf_mm": [
+        180.0,
+        108.0
+      ],
+      "pdf_fonts_embedded": true,
+      "svg_text_elements": 49,
+      "export_hashes_match": true,
+      "text_inside_canvas": true
+    },
+    {
+      "stem": "peak_current_upper_estimate",
+      "status": "PASS",
+      "png_pixels": [
+        2125,
+        1275
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_opaque": true,
+      "pdf_mm": [
+        180.0,
+        108.0
+      ],
+      "pdf_fonts_embedded": true,
+      "svg_text_elements": 25,
+      "export_hashes_match": true,
+      "text_inside_canvas": true
+    },
+    {
+      "stem": "single_module_screening",
+      "status": "PASS",
+      "png_pixels": [
+        2125,
+        1322
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_opaque": true,
+      "pdf_mm": [
+        180.0,
+        112.0
+      ],
+      "pdf_fonts_embedded": true,
+      "svg_text_elements": 29,
+      "export_hashes_match": true,
+      "text_inside_canvas": true
+    }
+  ]
+}

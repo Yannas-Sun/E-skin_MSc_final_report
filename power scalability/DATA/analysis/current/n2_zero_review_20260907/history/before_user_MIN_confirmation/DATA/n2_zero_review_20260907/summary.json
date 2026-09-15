@@ -1,0 +1,185 @@
+{
+  "scope": "N=2 ZERO; continuous USB read; FULL; configured 200 Hz",
+  "n_combinations": 6,
+  "n_current_records_per_combination": 1,
+  "SD_meaning": "Descriptive sample SD across six different configurations, not repeatability SD. Pairs share modules; acquisition batch and configuration effects are confounded.",
+  "aggregate": {
+    "I_sum_mA": {
+      "n": 6,
+      "mean": "36.26333333333333333333333333",
+      "sample_SD": "0.2651178354367481378156202331",
+      "minimum": "35.907",
+      "maximum": "36.561",
+      "CV_percent": "0.7310906391306594479702736459"
+    },
+    "P_source_output_estimate_mW": {
+      "n": 6,
+      "mean": "118.9073383333333333333333333",
+      "sample_SD": "0.8483850356734651096321562372",
+      "minimum": "117.739053",
+      "maximum": "119.846958",
+      "CV_percent": "0.7134841697450030744237830997"
+    },
+    "T_teensy_C": {
+      "n": 6,
+      "mean": "42.68333333333333333333333333",
+      "sample_SD": "0.2316606713852540544489875457",
+      "minimum": "42.5",
+      "maximum": "43.1"
+    },
+    "T_regulator_C": {
+      "n": 6,
+      "mean": "29.1",
+      "sample_SD": "0.1788854381999831757127338935",
+      "minimum": "28.8",
+      "maximum": "29.3"
+    },
+    "prediction_residual_percent": {
+      "n": 6,
+      "mean": "-1.055634741096554328299754801",
+      "sample_SD": "0.5200712578638345246803011087",
+      "minimum": "-1.786105032822757111597374179",
+      "maximum": "-0.5954323001631321370309951060"
+    }
+  },
+  "by_current_filename_date_batch": {
+    "2026-09-05": {
+      "I_sum_mA": {
+        "n": 2,
+        "mean": "36.275",
+        "sample_SD": "0.3662813126546316176396373796",
+        "minimum": "36.016",
+        "maximum": "36.534",
+        "CV_percent": "1.009734838469005148558614417"
+      },
+      "P_source_output_estimate_mW": {
+        "n": 2,
+        "mean": "118.981741",
+        "sample_SD": "1.150102108532107682962729347",
+        "minimum": "118.168496",
+        "maximum": "119.794986",
+        "CV_percent": "0.9666206754632273223861544831"
+      },
+      "T_teensy_C": {
+        "n": 2,
+        "mean": "42.85",
+        "sample_SD": "0.3535533905932737622004221811",
+        "minimum": "42.6",
+        "maximum": "43.1"
+      },
+      "T_regulator_C": {
+        "n": 2,
+        "mean": "29.1",
+        "sample_SD": "0.1414213562373095048801688724",
+        "minimum": "29.0",
+        "maximum": "29.2"
+      },
+      "prediction_residual_percent": {
+        "n": 2,
+        "mean": "-1.024421788276803098010557393",
+        "sample_SD": "0.5792945350581715469156411778",
+        "minimum": "-1.434044882320744389709906951",
+        "maximum": "-0.6147986942328618063112078346"
+      }
+    },
+    "2026-09-07": {
+      "I_sum_mA": {
+        "n": 4,
+        "mean": "36.2575",
+        "sample_SD": "0.2688661376968100086818590543",
+        "minimum": "35.907",
+        "maximum": "36.561",
+        "CV_percent": "0.7415462668325450146365829257"
+      },
+      "P_source_output_estimate_mW": {
+        "n": 4,
+        "mean": "118.870137",
+        "sample_SD": "0.8678409442023348093836078705",
+        "minimum": "117.739053",
+        "maximum": "119.846958",
+        "CV_percent": "0.7300748245981535374049479479"
+      },
+      "T_teensy_C": {
+        "n": 4,
+        "mean": "42.6",
+        "sample_SD": "0.1414213562373095048801688724",
+        "minimum": "42.5",
+        "maximum": "42.8"
+      },
+      "T_regulator_C": {
+        "n": 4,
+        "mean": "29.1",
+        "sample_SD": "0.2160246899469286743655322479",
+        "minimum": "28.8",
+        "maximum": "29.3"
+      },
+      "prediction_residual_percent": {
+        "n": 4,
+        "mean": "-1.071241217506429943444353505",
+        "sample_SD": "0.5813391616663798917390557259",
+        "minimum": "-1.786105032822757111597374179",
+        "maximum": "-0.5954323001631321370309951060"
+      }
+    }
+  },
+  "N1_ZERO_reference_main_mA": {
+    "M0": "18.16",
+    "M1": "18.38",
+    "M2": "18.36",
+    "M3": "18.4"
+  },
+  "module_branch_ranges_mA": {
+    "M0": {
+      "minimum": "17.961",
+      "maximum": "17.985",
+      "n_partner_configurations": 3
+    },
+    "M1": {
+      "minimum": "18.055",
+      "maximum": "18.464",
+      "n_partner_configurations": 3
+    },
+    "M2": {
+      "minimum": "18.110",
+      "maximum": "18.379",
+      "n_partner_configurations": 3
+    },
+    "M3": {
+      "minimum": "17.922",
+      "maximum": "18.155",
+      "n_partner_configurations": 3
+    }
+  },
+  "module_temperature_range_C": [
+    "26.3",
+    "27.3"
+  ],
+  "current_main_coverage": "6/6 combinations; 12/12 branches",
+  "current_MIN_MAX_coverage": "11/12 branches; one new MIN unreadable",
+  "quality_issues": [
+    {
+      "combo": "M0-M1",
+      "module_id": "M1",
+      "issue": "MAIN_OUTSIDE_DISPLAY_MIN_MAX",
+      "main_mA": "18.055",
+      "min_mA": "18.06",
+      "max_mA": "18.31",
+      "action": "Retain source readings; no inferred or corrected value"
+    },
+    {
+      "combo": "M0-M3",
+      "module_id": "M3",
+      "issue": "MIN_UNREADABLE_GLARE",
+      "main_mA": "17.922",
+      "min_mA": null,
+      "max_mA": "18.05",
+      "action": "Retain source readings; no inferred or corrected value"
+    }
+  ],
+  "limitations": [
+    "M0-M3 M3 current MIN is unreadable because of glare and remains null.",
+    "Temperatures are point readings; no ambient reference or verified settling duration.",
+    "New combinations and older combinations were acquired in different filename-date batches; batch and combination effects are confounded.",
+    "This is a data supplement; published main 2.1 and frozen analysis_v2_1 remain unchanged."
+  ]
+}

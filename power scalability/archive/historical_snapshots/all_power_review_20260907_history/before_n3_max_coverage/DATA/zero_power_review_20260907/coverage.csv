@@ -1,0 +1,5 @@
+﻿module_count,possible_combinations,ZERO_voltage_configurations,ZERO_current_main_configurations,ZERO_temperature_configurations,ZERO_current_main_branches,ZERO_current_MIN_MAX_branches,MAX_current_configurations,MAX_available_combos,MAX_missing_combos,current_records_per_configuration_condition,independent_repeat_SD_available
+1,4,4,4,4,4,4,4,M0;M1;M2;M3,,1,False
+2,6,6,6,6,12,12,6,M0-M1;M0-M2;M0-M3;M1-M2;M1-M3;M2-M3,,1,False
+3,4,4,4,4,12,12,2,M0-M1-M2;M1-M2-M3,M0-M1-M3;M0-M2-M3,1,False
+4,1,1,1,1,4,4,1,M0-M1-M2-M3,,1,False

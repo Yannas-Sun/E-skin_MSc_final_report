@@ -1,0 +1,17 @@
+﻿load,module_count,metric,n_configurations,mean,sample_SD_across_configurations,interpretation
+ZERO,1,I_sum_mA,4,18.2895,0.1817351552855601646943929451,Descriptive compiled values; not independent repeat SD
+ZERO,1,P_source_output_estimate_mW,4,59.998745,0.6015853986204563237656636769,Descriptive compiled values; not independent repeat SD
+ZERO,2,I_sum_mA,6,36.2525,0.2762554976828515534185257425,Descriptive compiled values; not independent repeat SD
+ZERO,2,P_source_output_estimate_mW,6,118.8718091666666666666666667,0.8847024142461501538335786481,Descriptive compiled values; not independent repeat SD
+ZERO,3,I_sum_mA,4,54.426,0.3457233961806268422661806355,Descriptive compiled values; not independent repeat SD
+ZERO,3,P_source_output_estimate_mW,4,178.31311575,1.118888479240111757796706361,Descriptive compiled values; not independent repeat SD
+ZERO,4,I_sum_mA,1,72.513,,Descriptive compiled values; not independent repeat SD
+ZERO,4,P_source_output_estimate_mW,1,237.407562,,Descriptive compiled values; not independent repeat SD
+MAX,1,I_sum_mA,4,20.0055,0.2850806903317024030809900099,Descriptive compiled values; not independent repeat SD
+MAX,1,P_source_output_estimate_mW,4,65.6329605,0.9274160603046509674995210823,Descriptive compiled values; not independent repeat SD
+MAX,2,I_sum_mA,6,39.629,0.3148682264059046018750101736,Descriptive compiled values; not independent repeat SD
+MAX,2,P_source_output_estimate_mW,6,129.8905728333333333333333333,1.020166724181967555841173700,Descriptive compiled values; not independent repeat SD
+MAX,3,I_sum_mA,4,58.84925,0.4823431523994786293836338028,Descriptive compiled values; not independent repeat SD
+MAX,3,P_source_output_estimate_mW,4,192.7609155,1.612005473411820232541192732,Descriptive compiled values; not independent repeat SD
+MAX,4,I_sum_mA,1,78.72,,Descriptive compiled values; not independent repeat SD
+MAX,4,P_source_output_estimate_mW,1,257.65056,,Descriptive compiled values; not independent repeat SD

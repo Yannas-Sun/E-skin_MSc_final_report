@@ -1,0 +1,81 @@
+﻿run_id: PS01_N3_F200_ZERO_M1-M2-M3_STANDBY_R1
+date:
+measurement_start_time:
+operator:
+
+record_status: MEASURED
+data_quality: INCOMPLETE
+
+module_count: 3
+module_ids: Module1,Module2,Module3
+frequency_hz: 200
+protocol_mode: FULL
+load: ZERO
+load_mass_g: 0
+load_area_mm2: 0
+load_application: NONE
+acc_used: NO
+
+host_controller: Teensy 4.1
+host_connected_to_modules: YES
+host_software_running: YES
+host_power_source: USB
+host_power_status: STABLE_USB_SUPPLY
+host_gui_state: CLOSED
+host_usb_polling_state: BLOCKED_STANDBY_NO_CONTINUOUS_USB_READ
+module_signal_connection: HOST_SPI
+stm32_swd_connection: DISCONNECTED
+
+power_supply_v: 3.3
+power_supply_model: LM2596
+power_topology: INDEPENDENT_PARALLEL_BRANCHES
+power_return: COMMON_GND
+power_supply_current_limit_setting_mA: NOT_AVAILABLE
+
+DMM_current_range: mA
+current_measurement_method: SEPARATE_BRANCH
+measurement_duration_s: 10
+warmup_duration_s: 30
+V_source_avg_V: 3.279
+V_source_min_V: 3.278
+V_source_max_V: 3.279
+
+V_module1_avg_V: 3.268
+V_module1_min_V: 3.267
+V_module1_max_V: 3.268
+V_module2_avg_V: 3.265
+V_module2_min_V: 3.264
+V_module2_max_V: 3.266
+V_module3_avg_V: 3.265
+V_module3_min_V: 3.264
+V_module3_max_V: 3.266
+
+I_module1_avg_mA: 8.359
+I_module1_min_mA: 8.142
+I_module1_max_mA: 16.39
+I_module1_peak_instant_mA: 16.39
+I_module2_avg_mA: 8.790
+I_module2_min_mA: 8.732
+I_module2_max_mA: 15.09
+I_module2_peak_instant_mA: 15.09
+I_module3_avg_mA: 7.761
+I_module3_min_mA: 7.596
+I_module3_max_mA: 14.97
+I_module3_peak_instant_mA: 14.97
+
+T_start_C: 24.6
+T_module1_stm32_C: 25.9
+T_module2_stm32_C: 25.9
+T_module3_stm32_C: 25.9
+T_regulator_C:
+T_teensy_C:
+
+# Default is 0; replace with the observed count if an event occurs.
+reset_count: 0
+current_limit_count: 0
+brownout_count: 0
+data_stop_count: 0
+data_gap_count: 0
+other_fault: 0
+observation:
+conclusion:

@@ -1,0 +1,21 @@
+{
+  "M0_M1_wrong_photo": {
+    "excluded_file": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M1/zero_load/new_V.jpg",
+    "duplicate_of": "DATA/raw/canonical/power_experiment_records/targeted_retests/20260907_M1-M2-M3_MAX_M3/M3_voltage_retest.jpg",
+    "user_confirmed_wrong_photo": true,
+    "user_initial_text": "放错照片，应该是2.251，max和min都是",
+    "user_final_confirmation": "是3.251 V，主读数/MIN/MAX均为3.251",
+    "accepted_voltage_main_min_max_V": [
+      "3.251",
+      "3.251",
+      "3.251"
+    ],
+    "replacement_photo_available": false
+  },
+  "N1_ZERO_duplicate": {
+    "selected_by_filename": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M0/zero_load/new_v.jpg",
+    "duplicate_extra_file": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/zero_load/IMG_20260907_064239.jpg",
+    "assignment_confirmed": true,
+    "handling": "Never counted as another measurement; N2 uses its distinct new_V=3.251 V."
+  }
+}

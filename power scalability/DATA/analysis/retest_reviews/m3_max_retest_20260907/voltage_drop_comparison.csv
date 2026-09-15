@@ -1,0 +1,2 @@
+﻿combo,load,module_id,original_source_V,original_module_V,original_drop_mV,retained_source_V,retest_module_V,retest_drop_estimate_mV,change_mV,source_confirmation,connector_reinserted,source_and_module_new_simultaneous_measurement,cause_established
+M1-M2-M3,MAX,M3,3.276,3.232,44,3.276,3.243,33,-11,user: source和之前一样,True,False,False

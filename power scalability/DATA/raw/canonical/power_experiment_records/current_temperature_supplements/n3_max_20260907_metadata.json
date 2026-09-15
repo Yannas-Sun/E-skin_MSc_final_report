@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "scope": "N=3 MAX; continuous USB read; FULL; configured 200 Hz",
+  "condition_basis": "User supplied these temperatures to complete the two missing N=3 MAX configurations immediately after the N=2 MAX intake and request to record voltage/current. MAX follows that task context and the new photos outside zero_load. FULL/rate/host state follows the ongoing Power series; DMM photos do not verify actual firmware/rate.",
+  "load": "MAX",
+  "load_mass_g": null,
+  "load_area_mm2": null,
+  "load_application": null,
+  "load_definition_note": "No mass, area or load distribution was supplied for these two new MAX configurations. Do not copy the older MAX YAMLs' 2000 g value.",
+  "readings_source": "Fourteen photographs: six DC mA and eight DC V photos, visually transcribed for main, MIN and MAX. All displayed values were readable.",
+  "module_mapping_basis": "Ascending physical module-ID order established by user. Current and module-voltage photos are mapped independently in filename order.",
+  "source_voltage_mapping_basis": "Assign first voltage photo in each combination to SOURCE under the established capture convention. Probe endpoint is not visible, so identity is inferred rather than independently verified in the photograph.",
+  "photo_filename_date": "2026-09-07",
+  "photo_measurement_order": {
+    "M0-M1-M3": ["033428 I_M0", "033545 I_M1", "033654 I_M3", "033809 V_SOURCE", "033856 V_M0", "033917 V_M1", "033942 V_M3"],
+    "M0-M2-M3": ["034438 V_SOURCE", "034509 V_M0", "034530 V_M2", "034555 V_M3", "034818 I_M0", "035053 I_M2", "035303 I_M3"]
+  },
+  "temperature_source": "Latest user message: M0+M1+M3 27.4 27.3 26.9 42.6 30; M0+M2+M3 27.2 26.8 26.6 42.6 29.6.",
+  "temperature_order": "Three module STM32 points in ascending module ID, Teensy, regulator",
+  "temperature_unit": "degC",
+  "temperature_message_values": {
+    "M0-M1-M3": [27.4, 27.3, 26.9, 42.6, 30.0],
+    "M0-M2-M3": [27.2, 26.8, 26.6, 42.6, 29.6]
+  },
+  "temperature_transcription_note": "M0-M1-M3 regulator value supplied as 30 is stored as 30.0 degC for consistent temperature formatting, without inferring extra measurement precision. The trailing backslash is a message line-break artifact.",
+  "actual_measurement_start_time": null,
+  "measurement_duration_s": null,
+  "warmup_duration_s": null,
+  "ambient_temperature_C": null,
+  "fault_counts": null,
+  "simultaneous_voltage_current_measurement_verified": false,
+  "simultaneous_total_current_measured": false,
+  "thermal_steady_state_verified": false,
+  "measurement_meaning": "Representative DMM main readings, not verified time averages; MIN/MAX are display extrema, not standard deviations or verified transient peaks. Sequential readings are not simultaneous voltage/current or total-current acquisition.",
+  "counting": "Two additional MAX configurations with one observation per branch. No independent same-condition repetitions added. Prior N=3 ZERO observations and their user-confirmed MIN values are separate and unchanged.",
+  "power_estimate": "P_source_output_estimate_mW = V_source_main_V times sequential branch current main sum in mA. Excludes USB-powered Teensy and regulator losses. Source-to-module voltage differences are sequential main-reading differences, not dynamic worst-case drops.",
+  "known_limitations": [
+    "Physical load mass, area and distribution remain unspecified for the new N=2 and N=3 MAX supplements, limiting quantitative comparisons with older MAX observations.",
+    "The original two N=3 MAX combinations and the new two were photographed on different dates. Date, setup and combination effects cannot be separated from these single records.",
+    "M0-M1-M3 M3 main current is clearly 19.178 mA and is retained even though below other MAX branch currents; no correction or fault inference follows from that difference alone.",
+    "Temperatures are point readings without verified ambient reference or settling time. Startup peaks, supply ripple, load-switching waveforms and continuous thermal curves remain future work as requested.",
+    "Full configuration coverage does not establish repeatability, uniform load application, zero faults or a validated power-supply capacity. Published main 2.1 and frozen analysis_v2_1 remain unchanged by this data intake."
+  ]
+}

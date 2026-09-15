@@ -1,0 +1,247 @@
+{
+  "created_at_utc": "2026-09-04T16:39:49.934226+00:00",
+  "source_csv": "power scalability/DATA/raw/canonical/power_raw.csv",
+  "source_sha256": "552edb10076000c5e3999ac5f2a185ae9c4e3a590ac4421ca850c8e8016a4752",
+  "style_sha256": "e37abe59ce920caf183797d60bccb770fe42a924ff3ed25263bd7fd51834c822",
+  "plot_script_sha256": "267e3b06f647641acc4a94389ada171628ee76c6fd7ba960f24a33a809db3681",
+  "versions": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.6",
+    "numpy": "2.3.2"
+  },
+  "destination": "General English-language report / Markdown; 180 mm wide. Target journal unspecified.",
+  "source_changes": "The active N=2 M2+M3 and N=3 M1+M2+M3 records were added; the active N=4 source row uses PS01_M3DROP_A_R1; the previous N=4 backup and diagnostic rawdata archive are no longer retained.",
+  "accessibility": "Okabe-Ito-derived colors plus marker shapes, text labels, hatching or separate panels. Not a compliance certification.",
+  "exports": "300 dpi opaque PNG; TrueType-embedded PDF; SVG with editable (unembedded) text.",
+  "figures": [
+    {
+      "stem": "current_power_scaling",
+      "title": "Current and power scaling",
+      "alt_text": "Current and output power rise across N=1-4; the N=2 point aggregates M0+M1 and M2+M3, the N=3 point aggregates M0+M1+M2 and M1+M2+M3, and the N=4 point uses the new record. Dashed lines to N=8 are unvalidated extrapolations.",
+      "dimensions_mm": [
+        180.0,
+        115.0
+      ],
+      "dpi": 300,
+      "formats": [
+        {
+          "name": "current_power_scaling.png",
+          "bytes": 124595,
+          "sha256": "9042f861ead916a35e1ddb9cf8904aa88f8843143c34d5ea23af9db85bde8f72"
+        },
+        {
+          "name": "current_power_scaling.pdf",
+          "bytes": 18448,
+          "sha256": "80fcd7ec58ad4a7806c2db9ca29566373a7f28771f3faf06a0fa1f26402da030"
+        },
+        {
+          "name": "current_power_scaling.svg",
+          "bytes": 36499,
+          "sha256": "7127669c6b344eb301b479defec4a036779bca14ad91c4a56711717cf0732cba"
+        }
+      ],
+      "semantics": {
+        "aggregation": "Unchanged power_scaling.csv estimators and fits.",
+        "uncertainty": "N=1 current: sample SD across four distinct module references, not repeatability or CI. N=2-4: no same-combination repeat uncertainty available; N=2 and N=3 aggregate different module combinations.",
+        "model": "Solid least-squares fit at N=1-4; dashed extrapolation N=4-8."
+      },
+      "text_outside_canvas": []
+    },
+    {
+      "stem": "voltage_scaling",
+      "title": "Voltage margin",
+      "alt_text": "Full 3.135-3.465 V design band shown. Source mean is 3.278 V at N=4; the lowest module minimum is 3.259 V, 124 mV above the lower limit.",
+      "dimensions_mm": [
+        180.0,
+        112.0
+      ],
+      "dpi": 300,
+      "formats": [
+        {
+          "name": "voltage_scaling.png",
+          "bytes": 104410,
+          "sha256": "affceb489db13217fe99898e01833db286edb3dbc15fcbec76bfe9bfe5384c2c"
+        },
+        {
+          "name": "voltage_scaling.pdf",
+          "bytes": 14050,
+          "sha256": "0b02636c33ae01e15bff0a9b7fe6892d42a79ac031b95cc77f4feea3c1e9ca34"
+        },
+        {
+          "name": "voltage_scaling.svg",
+          "bytes": 19874,
+          "sha256": "426f9c10751882f1e47f9f4386650278bbd43ffaeca0ca721a569d312ea576af"
+        }
+      ],
+      "semantics": {
+        "scale": "Linear voltage axis; full +/-5% design band shown.",
+        "uncertainty": "Minimum and mean are recorded window statistics, not CIs."
+      },
+      "text_outside_canvas": []
+    },
+    {
+      "stem": "module_voltage_drop",
+      "title": "Source-to-module voltage drop",
+      "alt_text": "Annotated 4 by 4 voltage-drop matrix. The colour scale spans the measured range of 10-18 mV; grey dash cells are modules absent from the run, not zeros.",
+      "dimensions_mm": [
+        180.0,
+        108.0
+      ],
+      "dpi": 300,
+      "formats": [
+        {
+          "name": "module_voltage_drop.png",
+          "bytes": 59721,
+          "sha256": "c2ab5d4fbf841dee8f83bd2bccdfa11b8a81fadf16c31a89acb6566094f46685"
+        },
+        {
+          "name": "module_voltage_drop.pdf",
+          "bytes": 23567,
+          "sha256": "99f62d2fb20d34432ed8fa2ca0dbcd15f6675dfa17df88f1a1d69e1b4b04ad35"
+        },
+        {
+          "name": "module_voltage_drop.svg",
+          "bytes": 27263,
+          "sha256": "fc353b30595f8bf29f3dc0386e2ccd6189dcdc8d998d51756dfd852f2f3b6019"
+        }
+      ],
+      "semantics": {
+        "normalization": "Sequential white-to-teal scale from the measured minimum 10 mV to maximum 18 mV, linear.",
+        "missing": "Absent module-count combinations are explicitly masked; no interpolation.",
+        "aggregation": "Mean across available records per module and N; currently one each."
+      },
+      "text_outside_canvas": []
+    },
+    {
+      "stem": "branch_current_balance",
+      "title": "Per-branch average current",
+      "alt_text": "Four same-scale dot panels compare branch means. Module 2 has 8.988 mA in its single-module reference; the N=4 Module 1 branch mean is 8.189 mA. Absent modules are labelled not in run.",
+      "dimensions_mm": [
+        180.0,
+        139.0
+      ],
+      "dpi": 300,
+      "formats": [
+        {
+          "name": "branch_current_balance.png",
+          "bytes": 102333,
+          "sha256": "aaed11d5dd227c257051d72ee02770c38ad3fd44ac19e62cb44283d61d7368b9"
+        },
+        {
+          "name": "branch_current_balance.pdf",
+          "bytes": 17330,
+          "sha256": "6db06a5749a5a5a7d1f597e859a3bbbc6a0f96afdd2a9ac949c60dfa5fe62ac0"
+        },
+        {
+          "name": "branch_current_balance.svg",
+          "bytes": 30047,
+          "sha256": "80c4f875df4249a07965ab71f1d8d3f17dce7a43c2778e1370df998e5e84587b"
+        }
+      ],
+      "semantics": {
+        "encoding": "Dots with exact values; color and marker shape identify physical modules.",
+        "scale": "Identical focused x-axis in all panels; not a bar chart.",
+        "uncertainty": "Not estimated from one run; no fabricated error bars."
+      },
+      "text_outside_canvas": []
+    },
+    {
+      "stem": "temperature_scaling",
+      "title": "Recorded temperatures",
+      "alt_text": "Three same-scale point panels show recorded STM32, regulator and USB-powered Teensy temperatures. Duration is missing; no thermal scaling trend is asserted.",
+      "dimensions_mm": [
+        180.0,
+        108.0
+      ],
+      "dpi": 300,
+      "formats": [
+        {
+          "name": "temperature_scaling.png",
+          "bytes": 67290,
+          "sha256": "ff39fcb7d5b0612732a002308a698fa80626665f729d323ea3eae81785e9778b"
+        },
+        {
+          "name": "temperature_scaling.pdf",
+          "bytes": 19606,
+          "sha256": "652420cef72b5da1c1105055fb524e955fab9a86f112188b74369c5c0de8c2a5"
+        },
+        {
+          "name": "temperature_scaling.svg",
+          "bytes": 31959,
+          "sha256": "068cdc0e86d3fec9b6b9cb7fc6f48d44d0ddb9d84b1663d3cc19dfc70b8b3957"
+        }
+      ],
+      "semantics": {
+        "aggregation": "Unchanged thermal_summary.csv: N=1 max STM32 and mean regulator/Teensy.",
+        "limitation": "Durations missing and historical field conflict unresolved; no fit or connecting trend line.",
+        "scale": "Shared linear 20-52 degC range in all three panels."
+      },
+      "text_outside_canvas": []
+    },
+    {
+      "stem": "peak_current_upper_estimate",
+      "title": "Average versus separately captured maxima",
+      "alt_text": "Zero-baseline grouped bars show 32.492 mA mean and 64.22 mA sum of separately captured branch maxima at N=4. The latter is not a synchronized peak measurement.",
+      "dimensions_mm": [
+        180.0,
+        108.0
+      ],
+      "dpi": 300,
+      "formats": [
+        {
+          "name": "peak_current_upper_estimate.png",
+          "bytes": 89756,
+          "sha256": "a439787594c053c6bd08d8c9fc26060addc45be2e54e5c6187abb2934003da38"
+        },
+        {
+          "name": "peak_current_upper_estimate.pdf",
+          "bytes": 13437,
+          "sha256": "76ae927aee95e8a94b237fc87815762ef619c95737cd29104e8574b1bf85f8e5"
+        },
+        {
+          "name": "peak_current_upper_estimate.svg",
+          "bytes": 16803,
+          "sha256": "c7011d8142d041a3471d58eb13e698b6a4561956d4fb3a5531b6deb78889e4a2"
+        }
+      ],
+      "semantics": {
+        "baseline": "Both bar series start at zero.",
+        "estimator": "Unchanged I_peak_upper_est_mA; N=1 mean of four independent maximum readings.",
+        "limitation": "Non-synchronous recorded maxima do not establish a bound on unrecorded transients."
+      },
+      "text_outside_canvas": []
+    },
+    {
+      "stem": "single_module_screening",
+      "title": "Single-module screening",
+      "alt_text": "Two panels show unchanged Module 0 and Module 1 recorded average currents and module voltages across 100 Hz ZERO, 200 Hz ZERO and 200 Hz MAX.",
+      "dimensions_mm": [
+        180.0,
+        112.0
+      ],
+      "dpi": 300,
+      "formats": [
+        {
+          "name": "single_module_screening.png",
+          "bytes": 73737,
+          "sha256": "d25d27ec61ed0df2fd84f02331820a4207fc6d31ee534723f405937f189130e7"
+        },
+        {
+          "name": "single_module_screening.pdf",
+          "bytes": 13864,
+          "sha256": "4c0d20434e2ec74d451db8729a842ef23b22cc63922f1947b03a60ce68698971"
+        },
+        {
+          "name": "single_module_screening.svg",
+          "bytes": 20612,
+          "sha256": "5625a8ebb9d803715033be848ed43731d65144b5d84aa5f0fa303e4c1c431fcd"
+        }
+      ],
+      "semantics": {
+        "scale": "Explicit focused linear y-ranges; no offset notation, no bar-length encoding.",
+        "data": "Original three recorded conditions for Module0 and Module1; no smoothing or invented repeats."
+      },
+      "text_outside_canvas": []
+    }
+  ]
+}

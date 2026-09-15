@@ -1,0 +1,6 @@
+﻿load,combo,module_id,issue,action
+ZERO,M0-M1,M1,I_MAIN_OUTSIDE_DISPLAY_MIN_MAX,retain original readings; not a hardware fault conclusion
+ZERO,M0-M1-M2,M0,I_MAIN_OUTSIDE_DISPLAY_MIN_MAX,retain original readings; not a hardware fault conclusion
+ZERO,M0-M1-M2,M2,I_MAIN_OUTSIDE_DISPLAY_MIN_MAX,retain original readings; not a hardware fault conclusion
+ZERO,M1-M2-M3,M3,I_MAIN_OUTSIDE_DISPLAY_MIN_MAX,retain original readings; not a hardware fault conclusion
+ZERO,M0-M1-M2-M3,M1,I_MAIN_OUTSIDE_DISPLAY_MIN_MAX,retain original readings; not a hardware fault conclusion

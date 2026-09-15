@@ -1,0 +1,39 @@
+{
+  "figures": [
+    {
+      "stem": "module_drop_N1_N4",
+      "description": "Individual combination values, means and combination SD for each module, N=1–4.",
+      "files": [
+        {
+          "name": "module_drop_N1_N4.png",
+          "sha256": "c906b90a95be912894336f901f7989e7718a94f9b914d82e80a98b4735227b5c"
+        },
+        {
+          "name": "module_drop_N1_N4.svg",
+          "sha256": "68b087d62e513d83fada088b57cc33146660f606a4a44cf8105e74414413ac9e"
+        }
+      ]
+    }
+  ],
+  "source_hashes": {
+    "additivity_checks.csv": "d81c2cd3e70f1b53f67a6e60275ae4363726383e18d68224fe52078010008437",
+    "branch_readings.csv": "7f933815d084c1f525314f7aa484b1063d16ac3d4646e302fc4b129765c9b1b0",
+    "configuration_summary.csv": "e44bb8e375cb2517a4683aeb81a17ec72709c527090eabf4d61a4a0ee25fd526",
+    "group_summary.csv": "b9fac84f087740bd09b5ae9e0e9e42ed9250a234489bfa393edabc9a3d42a21a",
+    "load_voltage_drop_changes.csv": "8ccc7946c22288abe9913148697a0e7914be8695dd9a255d2701465e5a70dc43",
+    "module_drop_by_N_summary.csv": "883e57cbc23df43c1dbcd12c55a83790ab17cdb82f4011c121b19801dee99e31"
+  },
+  "script_sha256": "52873b01d48299aebe58e2563d22f6d17223458436d1f3414c356d83d5b6e997",
+  "groups": 32,
+  "branches": 64,
+  "group_counts_by_N": [
+    1,
+    3,
+    3,
+    1
+  ],
+  "spread": "Sample SD across combinations only; no additional full repeats",
+  "confirmed": "N1 M0 ZERO voltage3.252V/drop28mV and M0-M1 ZERO3.251V user confirmed",
+  "retired_figure": "module_drop_mean_by_N: removed from active preview; original exported files archived",
+  "scale_helper_sha256": "6bf05a847b284f5a73c6b85a7a401b5ff153aa8856c4fb53812f85bdd98bf735"
+}

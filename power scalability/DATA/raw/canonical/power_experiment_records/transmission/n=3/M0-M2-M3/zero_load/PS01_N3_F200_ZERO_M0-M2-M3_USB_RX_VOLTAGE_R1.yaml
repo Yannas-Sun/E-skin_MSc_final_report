@@ -1,0 +1,83 @@
+# Original photographs and earlier raw records are retained unchanged.
+run_id: PS01_N3_F200_ZERO_M0-M2-M3_USB_RX_VOLTAGE_R1
+measurement_scope: VOLTAGE_ONLY
+record_status: MEASURED
+data_quality: INCOMPLETE
+date: null
+measurement_start_time: null
+operator: null
+module_count: 3
+module_ids: Module0,Module2,Module3
+measured_module_ids: Module0,Module2,Module3
+frequency_hz: 200
+protocol_mode: FULL
+load: ZERO
+load_mass_g: 0
+load_application: NONE
+host_usb_polling_state: CONTINUOUS_USB_READ
+operating_condition_basis: Existing FULL/200 Hz continuous-read ZERO voltage supplement
+  series and folder; not independently visible in meter photos.
+instrument_model: FNIRSI 2C53P
+DMM_voltage_mode: DC
+measurement_duration_s: null
+warmup_duration_s: null
+reading_semantics: avg fields preserve main display readings for schema compatibility;
+  not verified time averages
+reset_count: null
+current_limit_count: null
+brownout_count: null
+data_stop_count: null
+data_gap_count: null
+T_regulator_C: null
+T_teensy_C: null
+V_source_avg_V: 3.276
+V_source_min_V: 3.276
+V_source_max_V: 3.277
+V_module0_avg_V: 3.241
+V_module0_min_V: 3.241
+V_module0_max_V: 3.241
+I_module0_avg_mA: null
+I_module0_min_mA: null
+I_module0_max_mA: null
+T_module0_stm32_C: null
+V_module2_avg_V: 3.242
+V_module2_min_V: 3.242
+V_module2_max_V: 3.242
+I_module2_avg_mA: null
+I_module2_min_mA: null
+I_module2_max_mA: null
+T_module2_stm32_C: null
+V_module3_avg_V: 3.244
+V_module3_min_V: 3.244
+V_module3_max_V: 3.244
+I_module3_avg_mA: null
+I_module3_min_mA: null
+I_module3_max_mA: null
+T_module3_stm32_C: null
+record_kind: COMBINATION_VOLTAGE
+photo_filename_date: '2026-09-07'
+measurement_order:
+- SOURCE
+- M0
+- M2
+- M3
+module_order_basis: Ascending module order retained from user instruction for the
+  voltage supplement series.
+source_order_basis: First photograph assigned to source following established capture
+  sequence; probe endpoint is not identifiable.
+source_order_independently_verified: false
+voltage_photo_evidence:
+- role: SOURCE
+  file: ../IMG_20260907_002056.jpg
+  sha256: e8353872781b06d1c9fbd036bd98f94709493b7b7e2059fcd9d339d7f345865b
+- role: M0
+  file: ../IMG_20260907_002247.jpg
+  sha256: 5e115cad159cd3be6cadf6c6128c862e3d68047ad0f7d8603f2e1fe54a696082
+- role: M2
+  file: ../IMG_20260907_002315.jpg
+  sha256: f32c91321ba40922ab8ee92893ab699ea32789f3fa8ac74fcba3602132106690
+- role: M3
+  file: ../IMG_20260907_002343.jpg
+  sha256: b5a11b850f35ea7d8663efac3c99466de3f0ec7f9ec61056aaab6b28a77db43d
+observation: ZERO voltage-only supplement; all three connected modules measured in
+  ascending order. No current, temperature, fault or elapsed-time observations supplied.

@@ -1,0 +1,336 @@
+{
+  "created_at_utc": "2026-09-07T03:52:05.357995+00:00",
+  "figures": [
+    {
+      "stem": "module_drop_mean_by_N",
+      "description": "Mean accepted voltage drop by N and module, separately for zero and recorded load.",
+      "semantics": {
+        "measurement": "1000*(source main V - accepted module main V), sequential DMM readings.",
+        "estimator": "Equal-weight arithmetic mean within each recorded load, N and physical module.",
+        "counts_per_module_by_N": [
+          1,
+          3,
+          3,
+          1
+        ],
+        "spread": "Sample SD (ddof=1) across distinct combinations at N=2,3. No SD at N=1,4.",
+        "independence": "One observation per exact combination/load; shared modules and sources, not independent repeat trials.",
+        "correction": "ZERO N3 M0 includes 35 mV from separate 3.241 V M0 retest with retained user-confirmed source 3.276 V. Original 52 mV contact-fault difference is preserved in source event and original report, outside accepted means.",
+        "loading": "MAX is the recorded load label; mass/area/distribution are not harmonised.",
+        "jitter": "Deterministic horizontal separation only; all measured y values unchanged.",
+        "report": "Supplementary figures only; published main 2.3 and existing figures unchanged."
+      },
+      "dimensions_mm": [
+        180.0,
+        112.0
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count": 0,
+      "scatter_points_outside_axes": 0,
+      "files": [
+        {
+          "name": "module_drop_mean_by_N.pdf",
+          "sha256": "815f412d43d214b1b30ee1f7e2b14a62d6602fe5d877e7aedf4941e4818cd7fc",
+          "bytes": 28887
+        },
+        {
+          "name": "module_drop_mean_by_N.png",
+          "sha256": "8e14ae6842df89f3f066602bf2208650e5ef88e3b3b0220fa8f8028c2345c23c",
+          "bytes": 159268
+        },
+        {
+          "name": "module_drop_mean_by_N.svg",
+          "sha256": "99dc77c264c4d8148ac44dbe3e3d6e3a858178d5ade95cebb1a23031b14f1b8c",
+          "bytes": 75905
+        }
+      ]
+    },
+    {
+      "stem": "module_drop_N1_N4",
+      "description": "Four panels compare individual and mean module voltage drops for N=1,2,3,4.",
+      "semantics": {
+        "measurement": "1000*(source main V - accepted module main V), sequential DMM readings.",
+        "estimator": "Equal-weight arithmetic mean within each recorded load, N and physical module.",
+        "counts_per_module_by_N": [
+          1,
+          3,
+          3,
+          1
+        ],
+        "spread": "Sample SD (ddof=1) across distinct combinations at N=2,3. No SD at N=1,4.",
+        "independence": "One observation per exact combination/load; shared modules and sources, not independent repeat trials.",
+        "correction": "ZERO N3 M0 includes 35 mV from separate 3.241 V M0 retest with retained user-confirmed source 3.276 V. Original 52 mV contact-fault difference is preserved in source event and original report, outside accepted means.",
+        "loading": "MAX is the recorded load label; mass/area/distribution are not harmonised.",
+        "jitter": "Deterministic horizontal separation only; all measured y values unchanged.",
+        "report": "Supplementary figures only; published main 2.3 and existing figures unchanged."
+      },
+      "dimensions_mm": [
+        180.0,
+        170.0
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count": 64,
+      "scatter_points_outside_axes": 0,
+      "files": [
+        {
+          "name": "module_drop_N1_N4.pdf",
+          "sha256": "b2543600221714e24d098b898e92a2f28b4601975fe17a422727e49e8ac353db",
+          "bytes": 30283
+        },
+        {
+          "name": "module_drop_N1_N4.png",
+          "sha256": "298bce9eef220743ce6ba28ef697634299c9ecc8e279e31a760758f147042355",
+          "bytes": 204648
+        },
+        {
+          "name": "module_drop_N1_N4.svg",
+          "sha256": "e9b68c96cbda3579fb593af3476e8349010ad2b1dc1a59f4b43cc7e7040c66bf",
+          "bytes": 63758
+        }
+      ]
+    },
+    {
+      "stem": "module_drop_N1",
+      "description": "Individual points and per-module means at N=1, both recorded load labels.",
+      "semantics": {
+        "measurement": "1000*(source main V - accepted module main V), sequential DMM readings.",
+        "estimator": "Equal-weight arithmetic mean within each recorded load, N and physical module.",
+        "counts_per_module_by_N": [
+          1,
+          3,
+          3,
+          1
+        ],
+        "spread": "Sample SD (ddof=1) across distinct combinations at N=2,3. No SD at N=1,4.",
+        "independence": "One observation per exact combination/load; shared modules and sources, not independent repeat trials.",
+        "correction": "ZERO N3 M0 includes 35 mV from separate 3.241 V M0 retest with retained user-confirmed source 3.276 V. Original 52 mV contact-fault difference is preserved in source event and original report, outside accepted means.",
+        "loading": "MAX is the recorded load label; mass/area/distribution are not harmonised.",
+        "jitter": "Deterministic horizontal separation only; all measured y values unchanged.",
+        "report": "Supplementary figures only; published main 2.3 and existing figures unchanged."
+      },
+      "dimensions_mm": [
+        180.0,
+        98.0
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count": 8,
+      "scatter_points_outside_axes": 0,
+      "files": [
+        {
+          "name": "module_drop_N1.pdf",
+          "sha256": "c96884e629affa4b3d18e33c6354a81d039e7f15f1a4296457414aadcc27c81d",
+          "bytes": 19811
+        },
+        {
+          "name": "module_drop_N1.png",
+          "sha256": "083d0d73552214e3e97dbfa3ab6475c5475e258175f2954b6685dc7839a9a66a",
+          "bytes": 99094
+        },
+        {
+          "name": "module_drop_N1.svg",
+          "sha256": "e61ee2bda0a07a18fa9723948a2cf789884f8a43c772a3066fb6378c9e52b213",
+          "bytes": 15817
+        }
+      ]
+    },
+    {
+      "stem": "module_drop_N2",
+      "description": "Individual points and per-module means at N=2, both recorded load labels.",
+      "semantics": {
+        "measurement": "1000*(source main V - accepted module main V), sequential DMM readings.",
+        "estimator": "Equal-weight arithmetic mean within each recorded load, N and physical module.",
+        "counts_per_module_by_N": [
+          1,
+          3,
+          3,
+          1
+        ],
+        "spread": "Sample SD (ddof=1) across distinct combinations at N=2,3. No SD at N=1,4.",
+        "independence": "One observation per exact combination/load; shared modules and sources, not independent repeat trials.",
+        "correction": "ZERO N3 M0 includes 35 mV from separate 3.241 V M0 retest with retained user-confirmed source 3.276 V. Original 52 mV contact-fault difference is preserved in source event and original report, outside accepted means.",
+        "loading": "MAX is the recorded load label; mass/area/distribution are not harmonised.",
+        "jitter": "Deterministic horizontal separation only; all measured y values unchanged.",
+        "report": "Supplementary figures only; published main 2.3 and existing figures unchanged."
+      },
+      "dimensions_mm": [
+        180.0,
+        98.0
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count": 24,
+      "scatter_points_outside_axes": 0,
+      "files": [
+        {
+          "name": "module_drop_N2.pdf",
+          "sha256": "130bc28c98375b972de3f3779374e6ea23d19c6e679cdd9c96f191a6ba902d14",
+          "bytes": 22199
+        },
+        {
+          "name": "module_drop_N2.png",
+          "sha256": "eaa1e5ecffab1e6e50f50833fec2d64147cfdd0b56720116d4319fb72eb628bc",
+          "bytes": 107596
+        },
+        {
+          "name": "module_drop_N2.svg",
+          "sha256": "e95ab31182f0dd16301f5eec26c9e5fca8af1c8c667c2423d438af8264142d63",
+          "bytes": 23318
+        }
+      ]
+    },
+    {
+      "stem": "module_drop_N3",
+      "description": "Individual points and per-module means at N=3, both recorded load labels.",
+      "semantics": {
+        "measurement": "1000*(source main V - accepted module main V), sequential DMM readings.",
+        "estimator": "Equal-weight arithmetic mean within each recorded load, N and physical module.",
+        "counts_per_module_by_N": [
+          1,
+          3,
+          3,
+          1
+        ],
+        "spread": "Sample SD (ddof=1) across distinct combinations at N=2,3. No SD at N=1,4.",
+        "independence": "One observation per exact combination/load; shared modules and sources, not independent repeat trials.",
+        "correction": "ZERO N3 M0 includes 35 mV from separate 3.241 V M0 retest with retained user-confirmed source 3.276 V. Original 52 mV contact-fault difference is preserved in source event and original report, outside accepted means.",
+        "loading": "MAX is the recorded load label; mass/area/distribution are not harmonised.",
+        "jitter": "Deterministic horizontal separation only; all measured y values unchanged.",
+        "report": "Supplementary figures only; published main 2.3 and existing figures unchanged."
+      },
+      "dimensions_mm": [
+        180.0,
+        98.0
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count": 24,
+      "scatter_points_outside_axes": 0,
+      "files": [
+        {
+          "name": "module_drop_N3.pdf",
+          "sha256": "de943d59c3111a33b78de111ac0a7309b44a2bb686d34c0a5d99c2ab725f1ca4",
+          "bytes": 22813
+        },
+        {
+          "name": "module_drop_N3.png",
+          "sha256": "13faec277c82eb2f8ce5948e8d991c01a105cddd6a60545694ae7c0f4720ca2f",
+          "bytes": 129707
+        },
+        {
+          "name": "module_drop_N3.svg",
+          "sha256": "09a26c9f8270cdb24958aab711eee89a3cf155512fa8e168738fef0e9d707f49",
+          "bytes": 24053
+        }
+      ]
+    },
+    {
+      "stem": "module_drop_N4",
+      "description": "Individual points and per-module means at N=4, both recorded load labels.",
+      "semantics": {
+        "measurement": "1000*(source main V - accepted module main V), sequential DMM readings.",
+        "estimator": "Equal-weight arithmetic mean within each recorded load, N and physical module.",
+        "counts_per_module_by_N": [
+          1,
+          3,
+          3,
+          1
+        ],
+        "spread": "Sample SD (ddof=1) across distinct combinations at N=2,3. No SD at N=1,4.",
+        "independence": "One observation per exact combination/load; shared modules and sources, not independent repeat trials.",
+        "correction": "ZERO N3 M0 includes 35 mV from separate 3.241 V M0 retest with retained user-confirmed source 3.276 V. Original 52 mV contact-fault difference is preserved in source event and original report, outside accepted means.",
+        "loading": "MAX is the recorded load label; mass/area/distribution are not harmonised.",
+        "jitter": "Deterministic horizontal separation only; all measured y values unchanged.",
+        "report": "Supplementary figures only; published main 2.3 and existing figures unchanged."
+      },
+      "dimensions_mm": [
+        180.0,
+        98.0
+      ],
+      "text_outside_canvas": [],
+      "scatter_points_count": 8,
+      "scatter_points_outside_axes": 0,
+      "files": [
+        {
+          "name": "module_drop_N4.pdf",
+          "sha256": "a979e97354516d38f59601d240a5768419830bab4dd23e0610c0b684ede2abe1",
+          "bytes": 19946
+        },
+        {
+          "name": "module_drop_N4.png",
+          "sha256": "032e64c383f26884761a8467840bb93820d997f7ca9c3736657fe0135d3cd8f7",
+          "bytes": 98852
+        },
+        {
+          "name": "module_drop_N4.svg",
+          "sha256": "bfd81473becf84667a29fdbdc91ce0838c0dc8a59216c715b38d2946062b2354",
+          "bytes": 15819
+        }
+      ]
+    }
+  ],
+  "source_hashes_checked": 158,
+  "input_files": {
+    "DATA/analysis/current/all_power_review_20260907/additivity_checks.csv": "2e2e3c3730306ade535a0272467d8b591dc4a45b6ce49fcb8e0166f5c0d7ce98",
+    "DATA/analysis/current/all_power_review_20260907/branch_readings.csv": "3013ef97a1f84cf43fa46a089ecec081d44d7f9854452a2d29bd5d68160fa57d",
+    "DATA/analysis/current/all_power_review_20260907/configuration_summary.csv": "18bb6c48005a6adab3f3613314fd8e40ad370a48fb98a5b3cffff397ae6c41d6",
+    "DATA/analysis/current/all_power_review_20260907/coverage.csv": "6931aa7463291668d010137ae547de1daba826c79eab7d7c6faccbb5ba05f3a0",
+    "DATA/analysis/current/all_power_review_20260907/group_summary.csv": "65a5bc9eb6b9924319ab31d83d0a6bc9d03e3d499a3860a9df11029f9847d3fd",
+    "DATA/analysis/current/all_power_review_20260907/load_pairs.csv": "8b21a90293e3fa2ef070cc03fa3f1625866e1ae57a0b0f74bd0bd0426e2f4d56",
+    "DATA/analysis/current/all_power_review_20260907/quality_issues.csv": "bc8540694aaf8a861c62ea56a30de4a649ae04bece755c74710549cd3c8aaf5d",
+    "DATA/analysis/current/all_power_review_20260907/README_CN.md": "980a0ff34a4bdc4e8da21503adcd99bd2829dc279e84a5051b027d8ac48500fc",
+    "DATA/analysis/current/all_power_review_20260907/source_manifest.json": "19a13018dc2c4fd41dffb255b01820a38c1e0ed2383b46a8dd79dd1a92f2d05c",
+    "DATA/analysis/current/all_power_review_20260907/source_voltage_readings.csv": "02a6627776949b279360a88a6fd34e864495468eb432c644bebc1e458dc17bab",
+    "DATA/analysis/current/all_power_review_20260907/summary.json": "756757de72f3cb9357c573a537799bda9e4920ba14ef79c2040fadd3d14353a0"
+  },
+  "script_sha256": "1bcdfc5ff64f9d888939a0de464eb29af28374b9fce651bebd721021def7feb9",
+  "helper_sha256": "fa8969c0196aa11808d34f7828090e0021e9e2625a4348fb3ac89833e7e52e0a",
+  "style_sha256": "e37abe59ce920caf183797d60bccb770fe42a924ff3ed25263bd7fd51834c822",
+  "shared_style_sha256": "ee1838ffd228258d62f551faa3080c6562fea2b1ec285c627a2c3779a8246377",
+  "matplotlib": "3.10.6",
+  "semantics": {
+    "measurement": "1000*(source main V - accepted module main V), sequential DMM readings.",
+    "estimator": "Equal-weight arithmetic mean within each recorded load, N and physical module.",
+    "counts_per_module_by_N": [
+      1,
+      3,
+      3,
+      1
+    ],
+    "spread": "Sample SD (ddof=1) across distinct combinations at N=2,3. No SD at N=1,4.",
+    "independence": "One observation per exact combination/load; shared modules and sources, not independent repeat trials.",
+    "correction": "ZERO N3 M0 includes 35 mV from separate 3.241 V M0 retest with retained user-confirmed source 3.276 V. Original 52 mV contact-fault difference is preserved in source event and original report, outside accepted means.",
+    "loading": "MAX is the recorded load label; mass/area/distribution are not harmonised.",
+    "jitter": "Deterministic horizontal separation only; all measured y values unchanged.",
+    "report": "Supplementary figures only; published main 2.3 and existing figures unchanged."
+  },
+  "summary_rows": 32,
+  "contributing_rows": 64,
+  "protected_report_hashes": {
+    "main 2.3.pdf": "1316e94ea76de1f2748c6ec856c41870658d8c8737f8243ff3093260bc3891d3",
+    "report_versions/v2.3/manifest.json": "69ba231e80b840f2387dd12fd0e42674fa9acf855495e5b37af2a03c74c49027",
+    "Imperial College Individual Project Template_LaTeX/figures/power/branch_current_balance.pdf": "0edccf388788f3c41abf85aefbd8e75d7143b8538c273ee14f39dd5f3966a28f",
+    "Imperial College Individual Project Template_LaTeX/figures/power/branch_current_balance.png": "1efb8850fcc929728228785458eb0c6c5295f9404f328504a3c1c9753b540cc6",
+    "Imperial College Individual Project Template_LaTeX/figures/power/branch_current_balance.svg": "1746537f5c2b03d8a4e042c3d316148af4513f854ac0aa2fb27a90541f7d77a0",
+    "Imperial College Individual Project Template_LaTeX/figures/power/current_power_scaling.pdf": "131da01678ab628dbd140487c5eb0cfd10534d49b2316e0394ae1a6a23c8dc76",
+    "Imperial College Individual Project Template_LaTeX/figures/power/current_power_scaling.png": "619f65b9a466e5062b36bd1ad64e202c85c346037eb1375c8c4326188b07a5e3",
+    "Imperial College Individual Project Template_LaTeX/figures/power/current_power_scaling.svg": "2e0dc091f0f4cd66061906437245289eb2c4c409fcbb6939f17a1bfb65ae8796",
+    "Imperial College Individual Project Template_LaTeX/figures/power/figure_manifest_v2_1.json": "2ba8e97c00cb1242bcbb3c4f46d87f3857a89f7fea8ef69b9e8a43ba0ba6600b",
+    "Imperial College Individual Project Template_LaTeX/figures/power/figure_manifest_v2_3.json": "db442af454081626ced51773e92ad589c8c623cd0e94b9df1b1552b80011da36",
+    "Imperial College Individual Project Template_LaTeX/figures/power/independent_current_prediction.pdf": "a258ff7b6087a22e32cc49ac88ebb681dd7bce58c67d4ea76435a1089661ad71",
+    "Imperial College Individual Project Template_LaTeX/figures/power/independent_current_prediction.png": "2f652b3cfb826e8ed7ab7c06b889f1c4c764259f05deafe3479a8c21f008bdfb",
+    "Imperial College Individual Project Template_LaTeX/figures/power/independent_current_prediction.svg": "7aa9bd981ce9b66fe1a6f067e7876e074e812c70f409385bf2ee79bf50e43712",
+    "Imperial College Individual Project Template_LaTeX/figures/power/module_voltage_drop.pdf": "108dfed3b68b8bbe0a06fcd05ceefb90206f4ddefbdb2bd11dda09f49ef96631",
+    "Imperial College Individual Project Template_LaTeX/figures/power/module_voltage_drop.png": "4012e31ef59357792bdc37a5f219ebdeb1c17785b5f68c03d751dc27276a459b",
+    "Imperial College Individual Project Template_LaTeX/figures/power/module_voltage_drop.svg": "59de8d16029678141f08d85c39d57624bbb591ee2e13bde6c2b388eae39243fd",
+    "Imperial College Individual Project Template_LaTeX/figures/power/peak_current_upper_estimate.pdf": "76ae927aee95e8a94b237fc87815762ef619c95737cd29104e8574b1bf85f8e5",
+    "Imperial College Individual Project Template_LaTeX/figures/power/peak_current_upper_estimate.png": "a439787594c053c6bd08d8c9fc26060addc45be2e54e5c6187abb2934003da38",
+    "Imperial College Individual Project Template_LaTeX/figures/power/peak_current_upper_estimate.svg": "c7011d8142d041a3471d58eb13e698b6a4561956d4fb3a5531b6deb78889e4a2",
+    "Imperial College Individual Project Template_LaTeX/figures/power/single_module_screening.pdf": "1ab33afda6f42087feb48faf0fd0cdeaf8ed84df09aaaf2652b4fc13871217a5",
+    "Imperial College Individual Project Template_LaTeX/figures/power/single_module_screening.png": "74d9826dd4550bd473ffb80ea87c6aebc42cfa71a5fb10cc28e853d3147ccd78",
+    "Imperial College Individual Project Template_LaTeX/figures/power/single_module_screening.svg": "72cba67c9b4e92c514ad496698a5f295fd118b25babe9d7feab6d5e789354b9a",
+    "Imperial College Individual Project Template_LaTeX/figures/power/temperature_scaling.pdf": "8ef42b6056eb38e97b24e520eda52445d3726b80206c554414dffa6e61db4c02",
+    "Imperial College Individual Project Template_LaTeX/figures/power/temperature_scaling.png": "28a5b02e8adf1f3afc7a0f86a4635d03b67d4004475f111fefcbd2434fb94eb0",
+    "Imperial College Individual Project Template_LaTeX/figures/power/temperature_scaling.svg": "9a510e8fc5b5e0b9c4103b9a5ec369f0897b0a45afb0b35fff0eca600bf4ea25",
+    "Imperial College Individual Project Template_LaTeX/figures/power/voltage_scaling.pdf": "f68f6d69e69dbda233c855e45a8f318ecf7411486e02f6805d1598dac169791f",
+    "Imperial College Individual Project Template_LaTeX/figures/power/voltage_scaling.png": "a2296eea06953299f86a69d6894a5ac33c40df6e0a64aea51e2d181420287082",
+    "Imperial College Individual Project Template_LaTeX/figures/power/voltage_scaling.svg": "6074a365dcb97e663b85f7a8059171716b4b3af6a2233d7f77d8f6d3c8e734c1"
+  }
+}

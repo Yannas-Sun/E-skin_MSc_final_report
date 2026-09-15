@@ -1,0 +1,67 @@
+{
+  "figures": [
+    {
+      "stem": "module_drop_mean_by_N",
+      "description": "Per-module arithmetic mean voltage difference by N; data-driven color scale shared by both load panels.",
+      "files": [
+        {
+          "name": "module_drop_mean_by_N.png",
+          "sha256": "1fd17a57aba6d8d818717e4f6a0ad7581ce2a6eaf36614e41878847b2554bd40"
+        },
+        {
+          "name": "module_drop_mean_by_N.svg",
+          "sha256": "2ec2482c441b8f343efa6ff545b8786f0f3bc3d14f496754c8594d67d77d4373"
+        }
+      ]
+    },
+    {
+      "stem": "module_drop_N1_N4",
+      "description": "Individual combination values, means and combination SD for each module, N=1–4.",
+      "files": [
+        {
+          "name": "module_drop_N1_N4.png",
+          "sha256": "c906b90a95be912894336f901f7989e7718a94f9b914d82e80a98b4735227b5c"
+        },
+        {
+          "name": "module_drop_N1_N4.svg",
+          "sha256": "0b55fa5e4b6c1d45de3cd165371b9962bb6996a38e74c93278340df080b2a4bc"
+        }
+      ]
+    }
+  ],
+  "source_hashes": {
+    "additivity_checks.csv": "d81c2cd3e70f1b53f67a6e60275ae4363726383e18d68224fe52078010008437",
+    "branch_readings.csv": "7f933815d084c1f525314f7aa484b1063d16ac3d4646e302fc4b129765c9b1b0",
+    "configuration_summary.csv": "e44bb8e375cb2517a4683aeb81a17ec72709c527090eabf4d61a4a0ee25fd526",
+    "group_summary.csv": "b9fac84f087740bd09b5ae9e0e9e42ed9250a234489bfa393edabc9a3d42a21a",
+    "module_drop_by_N_summary.csv": "883e57cbc23df43c1dbcd12c55a83790ab17cdb82f4011c121b19801dee99e31"
+  },
+  "script_sha256": "3c1e99137fbfb8211811e7fea31d0d88031090f737fb17bb4aeba0969229836b",
+  "groups": 32,
+  "branches": 64,
+  "group_counts_by_N": [
+    1,
+    3,
+    3,
+    1
+  ],
+  "spread": "Sample SD across combinations only; no additional full repeats",
+  "confirmed": "N1 M0 ZERO voltage3.252V/drop28mV and M0-M1 ZERO3.251V user confirmed",
+  "scale": {
+    "data_min": 26.0,
+    "data_max": 37.333333333333336,
+    "vmin": 26.0,
+    "vmax": 38.0,
+    "ticks": [
+      26.0,
+      28.0,
+      30.0,
+      32.0,
+      34.0,
+      36.0,
+      38.0
+    ],
+    "policy": "Linear scale enclosing all plotted values with readable ticks; shared by ZERO and MAX panels in each figure"
+  },
+  "scale_helper_sha256": "6bf05a847b284f5a73c6b85a7a401b5ff153aa8856c4fb53812f85bdd98bf735"
+}

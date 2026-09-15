@@ -1,0 +1,16 @@
+﻿module_count,combo,ZERO_voltage_current_temperature_main_recorded,MAX_voltage_current_temperature_main_recorded,n_records_per_configuration_condition,same_condition_repeats_available,MAX_load_mass_g_recorded,MAX_area_distribution_recorded,entry_basis
+1,M0,True,True,1,False,2000,False,compiled selected points; retained SOURCE and coverage labels are not new measurements
+1,M1,True,True,1,False,2000,False,compiled selected points; retained SOURCE and coverage labels are not new measurements
+1,M2,True,True,1,False,2000,False,compiled selected points; retained SOURCE and coverage labels are not new measurements
+1,M3,True,True,1,False,2000,False,compiled selected points; retained SOURCE and coverage labels are not new measurements
+2,M0-M1,True,True,1,False,2000,False,compiled selected points; retained SOURCE and coverage labels are not new measurements
+2,M0-M2,True,True,1,False,,False,compiled selected points; retained SOURCE and coverage labels are not new measurements
+2,M0-M3,True,True,1,False,,False,compiled selected points; retained SOURCE and coverage labels are not new measurements
+2,M1-M2,True,True,1,False,,False,compiled selected points; retained SOURCE and coverage labels are not new measurements
+2,M1-M3,True,True,1,False,,False,compiled selected points; retained SOURCE and coverage labels are not new measurements
+2,M2-M3,True,True,1,False,2000,False,compiled selected points; retained SOURCE and coverage labels are not new measurements
+3,M0-M1-M2,True,True,1,False,2000,False,compiled selected points; retained SOURCE and coverage labels are not new measurements
+3,M0-M1-M3,True,True,1,False,,False,compiled selected points; retained SOURCE and coverage labels are not new measurements
+3,M0-M2-M3,True,True,1,False,,False,compiled selected points; retained SOURCE and coverage labels are not new measurements
+3,M1-M2-M3,True,True,1,False,2000,False,compiled selected points; retained SOURCE and coverage labels are not new measurements
+4,M0-M1-M2-M3,True,True,1,False,2000,False,compiled selected points; retained SOURCE and coverage labels are not new measurements

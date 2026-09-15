@@ -1,0 +1,1755 @@
+{
+  "review_id": "voltage_review_20260907",
+  "scope": "FULL, configured 200 Hz, continuous USB read, voltage only",
+  "definitions": {
+    "raw_historical_including_known_fault": "All supplied continuous-read records, including additions, original fault condition, and separate repaired M0 record.",
+    "no_reported_supply_contact_fault": "Point-level filter: only the affected original M0 voltage is excluded. SOURCE/M1/M2 are user-confirmed unaffected and retained. This does not establish verified fault-free operation.",
+    "complete_voltage_record": "Same record contains main/MIN/MAX source voltage and main/MIN/MAX voltage for every connected module.",
+    "accepted_complete_voltage_record": "A complete raw voltage record whose voltage points have no reported supply-contact fault.",
+    "accepted_configuration_coverage": "Configuration has accepted source and all module main/MIN/MAX readings, either in one record or via the explicitly user-confirmed pointwise correction. Coverage counts configurations, not new runs or independent repeats.",
+    "same_record_coverage": "Accepted complete records remain separately counted; original M0 fault plus partial retest does not become a same-record acquisition.",
+    "main_reading": "Existing avg fields retained as main/representative readings; not verified time averages.",
+    "recorded_min": "Meter MIN field, not a statistical lower confidence bound or an independently repeated run.",
+    "drop": "Raw module_voltages.csv uses decimal (source main - module main) * 1000 from the same record only; sequential readings are not guaranteed simultaneous. The raw M0 retest has no source or drop.",
+    "corrected_drop": "accepted_configuration_voltage.csv permits the explicit user-confirmed unchanged source minus retested M0 estimate (35 mV), flagged as not same-record. It is excluded from same-record drop summaries.",
+    "numeric_encoding": "Voltage and voltage-drop quantities are exact decimal strings; CSV blank and JSON null mean unavailable.",
+    "repair": "M0-only measurement after connector repair. Its voltage replaces only the faulty M0 point in the accepted configuration; original SOURCE/M1/M2 are retained under user confirmation. No new full acquisition or independent repeat is created."
+  },
+  "counts": {
+    "input_runs": 25,
+    "module_voltage_points": 51,
+    "known_supply_contact_fault_runs": 1,
+    "excluded_fault_condition_module_points": 1,
+    "no_reported_supply_contact_fault_module_points": 50,
+    "accepted_complete_voltage_configurations": 24,
+    "user_confirmed_pointwise_corrected_configurations": 1,
+    "additional_independent_runs_from_correction": 0
+  },
+  "quality_event": {
+    "event_id": "SUPPLY_CONTACT_M0_N3_ZERO_20260907",
+    "reported_date": "2026-09-07",
+    "event_type": "USER_CONFIRMED_SUPPLY_WIRE_OR_CONNECTOR_CONTACT_FAULT",
+    "evidence_basis": "User clarification: 供电线或供电接头接触不良",
+    "affected_run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+    "affected_record_path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M2/zero_load/PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1.yaml",
+    "affected_record_sha256": "3bfdf897927c11c1207228c0ebd3f8545bcd97a5252597358858b494b307db85",
+    "affected_module": "M0",
+    "event_revision": 2,
+    "clarification_date": "2026-09-07",
+    "clarification_basis": "User: 其他测点并未接触不良，还是原来的电压。M0是因为connector接触不良",
+    "affected_voltage_points": [
+      "M0"
+    ],
+    "confirmed_unaffected_voltage_points": [
+      "SOURCE",
+      "M1",
+      "M2"
+    ],
+    "retained_voltage_values_user_confirmed_unchanged": true,
+    "accepted_voltage_configuration": {
+      "kind": "USER_CONFIRMED_POINTWISE_CORRECTION",
+      "combo": "M0+M1+M2",
+      "load": "ZERO",
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+        "M0": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_VOLTAGE_RETEST_R1",
+        "M1": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+        "M2": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1"
+      },
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false
+    },
+    "original_M0_voltage_V": {
+      "main": 3.224,
+      "min": 3.224,
+      "max": 3.225
+    },
+    "interpretation": "Retain as an actual supply-connection fault condition; do not describe it as a voltmeter/probe measurement error.",
+    "normal_connection_analysis_action": "Exclude only the original M0 voltage point. Retain SOURCE/M1/M2 voltages confirmed unchanged by the user; use the separate 3.241 V M0 retest in a pointwise-corrected configuration with per-point provenance.",
+    "other_fields_action": "SOURCE/M1/M2 voltages are explicitly confirmed unaffected and remain valid. Original current and temperature values remain unchanged; the clarification does not supply new current or temperature measurements and does not authorize blanket exclusion of the whole run.",
+    "replacement_run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_VOLTAGE_RETEST_R1",
+    "replacement_scope": "M0 voltage only. Retain the other voltage points under explicit user confirmation; do not claim a new simultaneous acquisition.",
+    "replacement_M0_voltage_V": {
+      "main": 3.241,
+      "min": 3.241,
+      "max": 3.241
+    },
+    "drop_recalculation_allowed_with_old_source": false,
+    "drop_recalculation_allowed_with_user_confirmed_unchanged_source": true,
+    "corrected_drop_basis": "Retained source 3.276 V minus retested M0 3.241 V gives 35 mV; a user-confirmed pointwise estimate, not a same-record or simultaneous new measurement.",
+    "repeatability_pooling_allowed": false,
+    "report_2_1_implications": [
+      "3.224 V and 89 mV describe a contact-fault condition, not the normal-connection minimum.",
+      "Only the original M0 voltage point and its 52 mV difference carry the connector-fault label. SOURCE/M1/M2 voltages remain accepted; do not infer that the entire configuration is invalid.",
+      "ZERO voltage configuration coverage is complete using the user-confirmed pointwise correction, with explicit source provenance and no extra independent repeat.",
+      "Do not claim fault-free operation; default zero counters do not override this known contact fault."
+    ],
+    "published_report_updated": false
+  },
+  "summaries": {
+    "raw_historical_including_known_fault": {
+      "ALL": {
+        "run_count": 25,
+        "module_voltage_point_count": 51,
+        "complete_voltage_run_count": 24,
+        "accepted_complete_same_record_voltage_run_count": 23,
+        "partial_voltage_run_count": 1,
+        "post_repair_record_count": 1,
+        "minimum_module_main_V": {
+          "value": "3.224",
+          "points": [
+            {
+              "run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+              "combo": "M0+M1+M2",
+              "load": "ZERO",
+              "module_id": "M0",
+              "quality_class": "SUPPLY_CONTACT_FAULT"
+            }
+          ]
+        },
+        "minimum_module_recorded_min_V": {
+          "value": "3.224",
+          "points": [
+            {
+              "run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+              "combo": "M0+M1+M2",
+              "load": "ZERO",
+              "module_id": "M0",
+              "quality_class": "SUPPLY_CONTACT_FAULT"
+            }
+          ]
+        },
+        "minimum_source_main_V": {
+          "value": "3.273",
+          "points": [
+            {
+              "run_id": "PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1",
+              "combo": "M0+M1+M2+M3",
+              "load": "MAX",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "minimum_source_recorded_min_V": {
+          "value": "3.273",
+          "points": [
+            {
+              "run_id": "PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1",
+              "combo": "M0+M1+M2+M3",
+              "load": "MAX",
+              "quality_class": "no_reported_supply_contact_fault"
+            },
+            {
+              "run_id": "PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1",
+              "combo": "M0+M1+M2+M3",
+              "load": "ZERO",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "maximum_same_record_source_to_module_drop_mV": {
+          "value": "52.000",
+          "points": [
+            {
+              "run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+              "combo": "M0+M1+M2",
+              "load": "ZERO",
+              "module_id": "M0",
+              "quality_class": "SUPPLY_CONTACT_FAULT"
+            }
+          ]
+        },
+        "module_points_with_same_record_drop": 50
+      },
+      "ZERO": {
+        "run_count": 16,
+        "module_voltage_point_count": 33,
+        "complete_voltage_run_count": 15,
+        "accepted_complete_same_record_voltage_run_count": 14,
+        "partial_voltage_run_count": 1,
+        "post_repair_record_count": 1,
+        "minimum_module_main_V": {
+          "value": "3.224",
+          "points": [
+            {
+              "run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+              "combo": "M0+M1+M2",
+              "load": "ZERO",
+              "module_id": "M0",
+              "quality_class": "SUPPLY_CONTACT_FAULT"
+            }
+          ]
+        },
+        "minimum_module_recorded_min_V": {
+          "value": "3.224",
+          "points": [
+            {
+              "run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+              "combo": "M0+M1+M2",
+              "load": "ZERO",
+              "module_id": "M0",
+              "quality_class": "SUPPLY_CONTACT_FAULT"
+            }
+          ]
+        },
+        "minimum_source_main_V": {
+          "value": "3.274",
+          "points": [
+            {
+              "run_id": "PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1",
+              "combo": "M0+M1+M2+M3",
+              "load": "ZERO",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "minimum_source_recorded_min_V": {
+          "value": "3.273",
+          "points": [
+            {
+              "run_id": "PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1",
+              "combo": "M0+M1+M2+M3",
+              "load": "ZERO",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "maximum_same_record_source_to_module_drop_mV": {
+          "value": "52.000",
+          "points": [
+            {
+              "run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+              "combo": "M0+M1+M2",
+              "load": "ZERO",
+              "module_id": "M0",
+              "quality_class": "SUPPLY_CONTACT_FAULT"
+            }
+          ]
+        },
+        "module_points_with_same_record_drop": 32
+      },
+      "MAX": {
+        "run_count": 9,
+        "module_voltage_point_count": 18,
+        "complete_voltage_run_count": 9,
+        "accepted_complete_same_record_voltage_run_count": 9,
+        "partial_voltage_run_count": 0,
+        "post_repair_record_count": 0,
+        "minimum_module_main_V": {
+          "value": "3.231",
+          "points": [
+            {
+              "run_id": "PS01_N1_F200_MAX_M0_USB_RX_R1",
+              "combo": "M0",
+              "load": "MAX",
+              "module_id": "M0",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "minimum_module_recorded_min_V": {
+          "value": "3.231",
+          "points": [
+            {
+              "run_id": "PS01_N1_F200_MAX_M0_USB_RX_R1",
+              "combo": "M0",
+              "load": "MAX",
+              "module_id": "M0",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "minimum_source_main_V": {
+          "value": "3.273",
+          "points": [
+            {
+              "run_id": "PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1",
+              "combo": "M0+M1+M2+M3",
+              "load": "MAX",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "minimum_source_recorded_min_V": {
+          "value": "3.273",
+          "points": [
+            {
+              "run_id": "PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1",
+              "combo": "M0+M1+M2+M3",
+              "load": "MAX",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "maximum_same_record_source_to_module_drop_mV": {
+          "value": "50.000",
+          "points": [
+            {
+              "run_id": "PS01_N1_F200_MAX_M0_USB_RX_R1",
+              "combo": "M0",
+              "load": "MAX",
+              "module_id": "M0",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "module_points_with_same_record_drop": 18
+      }
+    },
+    "no_reported_supply_contact_fault": {
+      "ALL": {
+        "run_count": 25,
+        "module_voltage_point_count": 50,
+        "complete_voltage_run_count": 24,
+        "accepted_complete_same_record_voltage_run_count": 23,
+        "partial_voltage_run_count": 1,
+        "post_repair_record_count": 1,
+        "minimum_module_main_V": {
+          "value": "3.231",
+          "points": [
+            {
+              "run_id": "PS01_N1_F200_MAX_M0_USB_RX_R1",
+              "combo": "M0",
+              "load": "MAX",
+              "module_id": "M0",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "minimum_module_recorded_min_V": {
+          "value": "3.231",
+          "points": [
+            {
+              "run_id": "PS01_N1_F200_MAX_M0_USB_RX_R1",
+              "combo": "M0",
+              "load": "MAX",
+              "module_id": "M0",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "minimum_source_main_V": {
+          "value": "3.273",
+          "points": [
+            {
+              "run_id": "PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1",
+              "combo": "M0+M1+M2+M3",
+              "load": "MAX",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "minimum_source_recorded_min_V": {
+          "value": "3.273",
+          "points": [
+            {
+              "run_id": "PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1",
+              "combo": "M0+M1+M2+M3",
+              "load": "MAX",
+              "quality_class": "no_reported_supply_contact_fault"
+            },
+            {
+              "run_id": "PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1",
+              "combo": "M0+M1+M2+M3",
+              "load": "ZERO",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "maximum_same_record_source_to_module_drop_mV": {
+          "value": "50.000",
+          "points": [
+            {
+              "run_id": "PS01_N1_F200_MAX_M0_USB_RX_R1",
+              "combo": "M0",
+              "load": "MAX",
+              "module_id": "M0",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "module_points_with_same_record_drop": 49
+      },
+      "ZERO": {
+        "run_count": 16,
+        "module_voltage_point_count": 32,
+        "complete_voltage_run_count": 15,
+        "accepted_complete_same_record_voltage_run_count": 14,
+        "partial_voltage_run_count": 1,
+        "post_repair_record_count": 1,
+        "minimum_module_main_V": {
+          "value": "3.234",
+          "points": [
+            {
+              "run_id": "PS01_N2_F200_ZERO_M0-M1_USB_RX_R1",
+              "combo": "M0+M1",
+              "load": "ZERO",
+              "module_id": "M0",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "minimum_module_recorded_min_V": {
+          "value": "3.234",
+          "points": [
+            {
+              "run_id": "PS01_N2_F200_ZERO_M0-M1_USB_RX_R1",
+              "combo": "M0+M1",
+              "load": "ZERO",
+              "module_id": "M0",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "minimum_source_main_V": {
+          "value": "3.274",
+          "points": [
+            {
+              "run_id": "PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1",
+              "combo": "M0+M1+M2+M3",
+              "load": "ZERO",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "minimum_source_recorded_min_V": {
+          "value": "3.273",
+          "points": [
+            {
+              "run_id": "PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1",
+              "combo": "M0+M1+M2+M3",
+              "load": "ZERO",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "maximum_same_record_source_to_module_drop_mV": {
+          "value": "47.000",
+          "points": [
+            {
+              "run_id": "PS01_N2_F200_ZERO_M0-M1_USB_RX_R1",
+              "combo": "M0+M1",
+              "load": "ZERO",
+              "module_id": "M0",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "module_points_with_same_record_drop": 31
+      },
+      "MAX": {
+        "run_count": 9,
+        "module_voltage_point_count": 18,
+        "complete_voltage_run_count": 9,
+        "accepted_complete_same_record_voltage_run_count": 9,
+        "partial_voltage_run_count": 0,
+        "post_repair_record_count": 0,
+        "minimum_module_main_V": {
+          "value": "3.231",
+          "points": [
+            {
+              "run_id": "PS01_N1_F200_MAX_M0_USB_RX_R1",
+              "combo": "M0",
+              "load": "MAX",
+              "module_id": "M0",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "minimum_module_recorded_min_V": {
+          "value": "3.231",
+          "points": [
+            {
+              "run_id": "PS01_N1_F200_MAX_M0_USB_RX_R1",
+              "combo": "M0",
+              "load": "MAX",
+              "module_id": "M0",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "minimum_source_main_V": {
+          "value": "3.273",
+          "points": [
+            {
+              "run_id": "PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1",
+              "combo": "M0+M1+M2+M3",
+              "load": "MAX",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "minimum_source_recorded_min_V": {
+          "value": "3.273",
+          "points": [
+            {
+              "run_id": "PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1",
+              "combo": "M0+M1+M2+M3",
+              "load": "MAX",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "maximum_same_record_source_to_module_drop_mV": {
+          "value": "50.000",
+          "points": [
+            {
+              "run_id": "PS01_N1_F200_MAX_M0_USB_RX_R1",
+              "combo": "M0",
+              "load": "MAX",
+              "module_id": "M0",
+              "quality_class": "no_reported_supply_contact_fault"
+            }
+          ]
+        },
+        "module_points_with_same_record_drop": 18
+      }
+    }
+  },
+  "coverage": {
+    "ZERO": {
+      "ALL": {
+        "nominal_subsets": 15,
+        "complete_subsets": 15,
+        "partial_subsets": 0,
+        "missing_subsets": 0,
+        "same_record_complete_subsets": 14,
+        "user_confirmed_pointwise_corrected_subsets": 1,
+        "known_supply_contact_fault_run_count": 1
+      },
+      "1": {
+        "nominal_subsets": 4,
+        "complete_subsets": 4,
+        "partial_subsets": 0,
+        "missing_subsets": 0,
+        "same_record_complete_subsets": 4,
+        "user_confirmed_pointwise_corrected_subsets": 0,
+        "known_supply_contact_fault_run_count": 0
+      },
+      "2": {
+        "nominal_subsets": 6,
+        "complete_subsets": 6,
+        "partial_subsets": 0,
+        "missing_subsets": 0,
+        "same_record_complete_subsets": 6,
+        "user_confirmed_pointwise_corrected_subsets": 0,
+        "known_supply_contact_fault_run_count": 0
+      },
+      "3": {
+        "nominal_subsets": 4,
+        "complete_subsets": 4,
+        "partial_subsets": 0,
+        "missing_subsets": 0,
+        "same_record_complete_subsets": 3,
+        "user_confirmed_pointwise_corrected_subsets": 1,
+        "known_supply_contact_fault_run_count": 1
+      },
+      "4": {
+        "nominal_subsets": 1,
+        "complete_subsets": 1,
+        "partial_subsets": 0,
+        "missing_subsets": 0,
+        "same_record_complete_subsets": 1,
+        "user_confirmed_pointwise_corrected_subsets": 0,
+        "known_supply_contact_fault_run_count": 0
+      }
+    },
+    "MAX": {
+      "ALL": {
+        "nominal_subsets": 15,
+        "complete_subsets": 9,
+        "partial_subsets": 0,
+        "missing_subsets": 6,
+        "same_record_complete_subsets": 9,
+        "user_confirmed_pointwise_corrected_subsets": 0,
+        "known_supply_contact_fault_run_count": 0
+      },
+      "1": {
+        "nominal_subsets": 4,
+        "complete_subsets": 4,
+        "partial_subsets": 0,
+        "missing_subsets": 0,
+        "same_record_complete_subsets": 4,
+        "user_confirmed_pointwise_corrected_subsets": 0,
+        "known_supply_contact_fault_run_count": 0
+      },
+      "2": {
+        "nominal_subsets": 6,
+        "complete_subsets": 2,
+        "partial_subsets": 0,
+        "missing_subsets": 4,
+        "same_record_complete_subsets": 2,
+        "user_confirmed_pointwise_corrected_subsets": 0,
+        "known_supply_contact_fault_run_count": 0
+      },
+      "3": {
+        "nominal_subsets": 4,
+        "complete_subsets": 2,
+        "partial_subsets": 0,
+        "missing_subsets": 2,
+        "same_record_complete_subsets": 2,
+        "user_confirmed_pointwise_corrected_subsets": 0,
+        "known_supply_contact_fault_run_count": 0
+      },
+      "4": {
+        "nominal_subsets": 1,
+        "complete_subsets": 1,
+        "partial_subsets": 0,
+        "missing_subsets": 0,
+        "same_record_complete_subsets": 1,
+        "user_confirmed_pointwise_corrected_subsets": 0,
+        "known_supply_contact_fault_run_count": 0
+      }
+    }
+  },
+  "runs": [
+    {
+      "run_id": "PS01_N1_F200_MAX_M0_USB_RX_R1",
+      "combo": "M0",
+      "module_count": 1,
+      "connected_module_ids": "M0",
+      "load": "MAX",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M0/full_load/PS01_N1_F200_MAX_M0_USB_RX_R1.yaml",
+      "source_sha256": "1faa6b068ba1e6bea5afbe4fb32bffff334dfe9de9d9743937256b5410e72584",
+      "source_main_V": "3.281",
+      "source_min_V": "3.281",
+      "source_max_V": "3.281",
+      "measured_module_ids": "M0",
+      "measured_module_count": 1,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N1_F200_ZERO_M0_USB_RX_R1",
+      "combo": "M0",
+      "module_count": 1,
+      "connected_module_ids": "M0",
+      "load": "ZERO",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M0/zero_load/PS01_N1_F200_ZERO_M0_USB_RX_R1.yaml",
+      "source_sha256": "f452895420bd4a9bdaa1bf2bf39ca41d3da3bbf383eb1a983a2ba58468894ace",
+      "source_main_V": "3.280",
+      "source_min_V": "3.280",
+      "source_max_V": "3.281",
+      "measured_module_ids": "M0",
+      "measured_module_count": 1,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N1_F200_MAX_M1_USB_RX_R1",
+      "combo": "M1",
+      "module_count": 1,
+      "connected_module_ids": "M1",
+      "load": "MAX",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M1/full_load/PS01_N1_F200_MAX_M1_USB_RX_R1.yaml",
+      "source_sha256": "158d10a7314e366231638b3ab4098c63333c2db55ae189456cb8ff930fd14b54",
+      "source_main_V": "3.281",
+      "source_min_V": "3.280",
+      "source_max_V": "3.281",
+      "measured_module_ids": "M1",
+      "measured_module_count": 1,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N1_F200_ZERO_M1_USB_RX_R1",
+      "combo": "M1",
+      "module_count": 1,
+      "connected_module_ids": "M1",
+      "load": "ZERO",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M1/zero_load/PS01_N1_F200_ZERO_M1_USB_RX_R1.yaml",
+      "source_sha256": "ff0fd645259d56a948ea6d2382f6c5b09d0dc4dacc90acec3778432c1cdb6e4b",
+      "source_main_V": "3.281",
+      "source_min_V": "3.280",
+      "source_max_V": "3.281",
+      "measured_module_ids": "M1",
+      "measured_module_count": 1,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N1_F200_MAX_M2_USB_RX_R1",
+      "combo": "M2",
+      "module_count": 1,
+      "connected_module_ids": "M2",
+      "load": "MAX",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M2/full_load/PS01_N1_F200_MAX_M2_USB_RX_R1.yaml",
+      "source_sha256": "0e5661fb3f44c55ed5acd0b8eaf3f4f2d9262e9ebce7351a87bb39635f4a62a8",
+      "source_main_V": "3.281",
+      "source_min_V": "3.280",
+      "source_max_V": "3.281",
+      "measured_module_ids": "M2",
+      "measured_module_count": 1,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N1_F200_ZERO_M2_USB_RX_R1",
+      "combo": "M2",
+      "module_count": 1,
+      "connected_module_ids": "M2",
+      "load": "ZERO",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M2/zero_load/PS01_N1_F200_ZERO_M2_USB_RX_R1.yaml",
+      "source_sha256": "65d749c9c43f6e31ff4737849c8511fa0994a9156b0359efb2a3bf102bae0713",
+      "source_main_V": "3.281",
+      "source_min_V": "3.280",
+      "source_max_V": "3.281",
+      "measured_module_ids": "M2",
+      "measured_module_count": 1,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N1_F200_MAX_M3_USB_RX_R1",
+      "combo": "M3",
+      "module_count": 1,
+      "connected_module_ids": "M3",
+      "load": "MAX",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M3/full_load/PS01_N1_F200_MAX_M3_USB_RX_R1.yaml",
+      "source_sha256": "3a67413791ed758694a803890a0320e1a2b61ab25f2bf781d762e251fb88ae64",
+      "source_main_V": "3.280",
+      "source_min_V": "3.280",
+      "source_max_V": "3.280",
+      "measured_module_ids": "M3",
+      "measured_module_count": 1,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N1_F200_ZERO_M3_USB_RX_R1",
+      "combo": "M3",
+      "module_count": 1,
+      "connected_module_ids": "M3",
+      "load": "ZERO",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M3/zero_load/PS01_N1_F200_ZERO_M3_USB_RX_R1.yaml",
+      "source_sha256": "9707e77d13f820cfdae66fc04d5874a955ea55f0040f9d2f0576762f7ca7b638",
+      "source_main_V": "3.280",
+      "source_min_V": "3.280",
+      "source_max_V": "3.280",
+      "measured_module_ids": "M3",
+      "measured_module_count": 1,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N2_F200_MAX_M0-M1_USB_RX_R1",
+      "combo": "M0+M1",
+      "module_count": 2,
+      "connected_module_ids": "M0,M1",
+      "load": "MAX",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M1/full_load/PS01_N2_F200_MAX_M0-M1_USB_RX_R1.yaml",
+      "source_sha256": "a51af797896fa4a7d45c85814ab5953409baf4b2282c1c3dbd07619c81170e13",
+      "source_main_V": "3.278",
+      "source_min_V": "3.278",
+      "source_max_V": "3.279",
+      "measured_module_ids": "M0,M1",
+      "measured_module_count": 2,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N2_F200_ZERO_M0-M1_USB_RX_R1",
+      "combo": "M0+M1",
+      "module_count": 2,
+      "connected_module_ids": "M0,M1",
+      "load": "ZERO",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M1/zero_load/PS01_N2_F200_ZERO_M0-M1_USB_RX_R1.yaml",
+      "source_sha256": "293bb811d78b71c31571ffa0e5485ba41be5925ce97f475f8ed6699cc8d98dfb",
+      "source_main_V": "3.281",
+      "source_min_V": "3.281",
+      "source_max_V": "3.281",
+      "measured_module_ids": "M0,M1",
+      "measured_module_count": 2,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N2_F200_ZERO_M0-M2_USB_RX_VOLTAGE_R1",
+      "combo": "M0+M2",
+      "module_count": 2,
+      "connected_module_ids": "M0,M2",
+      "load": "ZERO",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "VOLTAGE_ONLY",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/zero_load/PS01_N2_F200_ZERO_M0-M2_USB_RX_VOLTAGE_R1.yaml",
+      "source_sha256": "61fb4eab2ee15e218706767d0d6c694b12c3d8018d2da9773245157496811fef",
+      "source_main_V": "3.279",
+      "source_min_V": "3.279",
+      "source_max_V": "3.279",
+      "measured_module_ids": "M0,M2",
+      "measured_module_count": 2,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N2_F200_ZERO_M0-M3_USB_RX_VOLTAGE_R1",
+      "combo": "M0+M3",
+      "module_count": 2,
+      "connected_module_ids": "M0,M3",
+      "load": "ZERO",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "VOLTAGE_ONLY",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/zero_load/PS01_N2_F200_ZERO_M0-M3_USB_RX_VOLTAGE_R1.yaml",
+      "source_sha256": "ea37816dd44a084a23490a531bc5eaa8634403acc6a4bbe63375234b9ae4de80",
+      "source_main_V": "3.279",
+      "source_min_V": "3.278",
+      "source_max_V": "3.279",
+      "measured_module_ids": "M0,M3",
+      "measured_module_count": 2,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N2_F200_ZERO_M1-M2_USB_RX_VOLTAGE_R1",
+      "combo": "M1+M2",
+      "module_count": 2,
+      "connected_module_ids": "M1,M2",
+      "load": "ZERO",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "VOLTAGE_ONLY",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/zero_load/PS01_N2_F200_ZERO_M1-M2_USB_RX_VOLTAGE_R1.yaml",
+      "source_sha256": "6de2a9ff6fe5d6035346802c2411c29a8ed87e0ef5c54d376eb7b73e1ba08979",
+      "source_main_V": "3.278",
+      "source_min_V": "3.278",
+      "source_max_V": "3.278",
+      "measured_module_ids": "M1,M2",
+      "measured_module_count": 2,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N2_F200_ZERO_M1-M3_USB_RX_VOLTAGE_R1",
+      "combo": "M1+M3",
+      "module_count": 2,
+      "connected_module_ids": "M1,M3",
+      "load": "ZERO",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "VOLTAGE_ONLY",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/zero_load/PS01_N2_F200_ZERO_M1-M3_USB_RX_VOLTAGE_R1.yaml",
+      "source_sha256": "d3aac60eb88bfcb9208d4acf2ceb07be8d751e33e28b3316085f5470a26458cc",
+      "source_main_V": "3.278",
+      "source_min_V": "3.278",
+      "source_max_V": "3.279",
+      "measured_module_ids": "M1,M3",
+      "measured_module_count": 2,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N2_F200_MAX_M2-M3_USB_RX_R1",
+      "combo": "M2+M3",
+      "module_count": 2,
+      "connected_module_ids": "M2,M3",
+      "load": "MAX",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M2-M3/full_load/PS01_N2_F200_MAX_M2-M3_USB_RX_R1.yaml",
+      "source_sha256": "16702fb7acfa55949c2c84878861f02ecf076e32b994f91455267644b310b43a",
+      "source_main_V": "3.278",
+      "source_min_V": "3.278",
+      "source_max_V": "3.279",
+      "measured_module_ids": "M2,M3",
+      "measured_module_count": 2,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N2_F200_ZERO_M2-M3_USB_RX_R1",
+      "combo": "M2+M3",
+      "module_count": 2,
+      "connected_module_ids": "M2,M3",
+      "load": "ZERO",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M2-M3/zero_load/PS01_N2_F200_ZERO_M2-M3_USB_RX_R1.yaml",
+      "source_sha256": "b50050a18d67351c74810a9376ad094906abec2e5c6c944e645fddea7bd4dc2d",
+      "source_main_V": "3.279",
+      "source_min_V": "3.278",
+      "source_max_V": "3.279",
+      "measured_module_ids": "M2,M3",
+      "measured_module_count": 2,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N3_F200_MAX_M0-M1-M2_USB_RX_R1",
+      "combo": "M0+M1+M2",
+      "module_count": 3,
+      "connected_module_ids": "M0,M1,M2",
+      "load": "MAX",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M2/full_load/PS01_N3_F200_MAX_M0-M1-M2_USB_RX_R1.yaml",
+      "source_sha256": "31e4de3dd989405d4b9493b715842080243526e317562b584b09ae90ebcb5f27",
+      "source_main_V": "3.276",
+      "source_min_V": "3.275",
+      "source_max_V": "3.276",
+      "measured_module_ids": "M0,M1,M2",
+      "measured_module_count": 3,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+      "combo": "M0+M1+M2",
+      "module_count": 3,
+      "connected_module_ids": "M0,M1,M2",
+      "load": "ZERO",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "CONTAINS_POINT_SPECIFIC_SUPPLY_CONTACT_FAULT",
+      "contains_known_fault_voltage_point": true,
+      "affected_voltage_points": "M0",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M2/zero_load/PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1.yaml",
+      "source_sha256": "3bfdf897927c11c1207228c0ebd3f8545bcd97a5252597358858b494b307db85",
+      "source_main_V": "3.276",
+      "source_min_V": "3.276",
+      "source_max_V": "3.277",
+      "measured_module_ids": "M0,M1,M2",
+      "measured_module_count": 3,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": false
+    },
+    {
+      "run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_VOLTAGE_RETEST_R1",
+      "combo": "M0+M1+M2",
+      "module_count": 3,
+      "connected_module_ids": "M0,M1,M2",
+      "load": "ZERO",
+      "record_kind": "MODULE_VOLTAGE_RETEST",
+      "measurement_scope": "VOLTAGE_ONLY",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": true,
+      "independent_repeat_of_original_condition": false,
+      "retest_of_run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M2/zero_load/PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_VOLTAGE_RETEST_R1.yaml",
+      "source_sha256": "9760ab4a02208163c9a1cd28ae637e52bebf29716b5970a76fc96ca114a03dfc",
+      "source_main_V": null,
+      "source_min_V": null,
+      "source_max_V": null,
+      "measured_module_ids": "M0",
+      "measured_module_count": 1,
+      "complete_voltage_record": false,
+      "accepted_complete_voltage_record": false
+    },
+    {
+      "run_id": "PS01_N3_F200_ZERO_M0-M1-M3_USB_RX_VOLTAGE_R1",
+      "combo": "M0+M1+M3",
+      "module_count": 3,
+      "connected_module_ids": "M0,M1,M3",
+      "load": "ZERO",
+      "record_kind": "COMBINATION_VOLTAGE",
+      "measurement_scope": "VOLTAGE_ONLY",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/zero_load/PS01_N3_F200_ZERO_M0-M1-M3_USB_RX_VOLTAGE_R1.yaml",
+      "source_sha256": "5b2c74f7f3098d0dda00b67e6722170919d59941eb3f3bf74e754bd298a4ec09",
+      "source_main_V": "3.277",
+      "source_min_V": "3.277",
+      "source_max_V": "3.277",
+      "measured_module_ids": "M0,M1,M3",
+      "measured_module_count": 3,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N3_F200_ZERO_M0-M2-M3_USB_RX_VOLTAGE_R1",
+      "combo": "M0+M2+M3",
+      "module_count": 3,
+      "connected_module_ids": "M0,M2,M3",
+      "load": "ZERO",
+      "record_kind": "COMBINATION_VOLTAGE",
+      "measurement_scope": "VOLTAGE_ONLY",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/zero_load/PS01_N3_F200_ZERO_M0-M2-M3_USB_RX_VOLTAGE_R1.yaml",
+      "source_sha256": "7ac9267e6536148eef3d68ae21bd79fee309cc0779c33dacdeb5087682c4f47d",
+      "source_main_V": "3.276",
+      "source_min_V": "3.276",
+      "source_max_V": "3.277",
+      "measured_module_ids": "M0,M2,M3",
+      "measured_module_count": 3,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N3_F200_MAX_M1-M2-M3_USB_RX_R1",
+      "combo": "M1+M2+M3",
+      "module_count": 3,
+      "connected_module_ids": "M1,M2,M3",
+      "load": "MAX",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M1-M2-M3/full_load/PS01_N3_F200_MAX_M1-M2-M3_USB_RX_R1.yaml",
+      "source_sha256": "4892e0d86e57c09da28d32627cf7ae4928f16b7b79963522a83846c2477c0423",
+      "source_main_V": "3.276",
+      "source_min_V": "3.276",
+      "source_max_V": "3.276",
+      "measured_module_ids": "M1,M2,M3",
+      "measured_module_count": 3,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N3_F200_ZERO_M1-M2-M3_USB_RX_R1",
+      "combo": "M1+M2+M3",
+      "module_count": 3,
+      "connected_module_ids": "M1,M2,M3",
+      "load": "ZERO",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M1-M2-M3/zero_load/PS01_N3_F200_ZERO_M1-M2-M3_USB_RX_R1.yaml",
+      "source_sha256": "c05ab0823c9d26dc0956d827927022f30b82f7edac55885308bafad9ce9cd911",
+      "source_main_V": "3.276",
+      "source_min_V": "3.276",
+      "source_max_V": "3.277",
+      "measured_module_ids": "M1,M2,M3",
+      "measured_module_count": 3,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1",
+      "combo": "M0+M1+M2+M3",
+      "module_count": 4,
+      "connected_module_ids": "M0,M1,M2,M3",
+      "load": "MAX",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/full_load/PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1.yaml",
+      "source_sha256": "5d646a643cf07a40cc5e0526dcee4cfde2e0bf50405af0e858298c54ba203102",
+      "source_main_V": "3.273",
+      "source_min_V": "3.273",
+      "source_max_V": "3.273",
+      "measured_module_ids": "M0,M1,M2,M3",
+      "measured_module_count": 4,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    },
+    {
+      "run_id": "PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1",
+      "combo": "M0+M1+M2+M3",
+      "module_count": 4,
+      "connected_module_ids": "M0,M1,M2,M3",
+      "load": "ZERO",
+      "record_kind": "ORIGINAL_FULL_RECORD",
+      "measurement_scope": "ORIGINAL_MULTIMODAL_RECORD",
+      "quality_class": "no_reported_supply_contact_fault",
+      "contains_known_fault_voltage_point": false,
+      "affected_voltage_points": "",
+      "source_quality_class": "no_reported_supply_contact_fault",
+      "included_no_reported_supply_contact_fault": true,
+      "post_repair_record": false,
+      "independent_repeat_of_original_condition": null,
+      "retest_of_run_id": null,
+      "source_path": "DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/zero_load/PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1.yaml",
+      "source_sha256": "d4aac0c47b7db4f3eb9060d65d999e826499d6b3cdda5174650d9a2c04294c01",
+      "source_main_V": "3.274",
+      "source_min_V": "3.273",
+      "source_max_V": "3.274",
+      "measured_module_ids": "M0,M1,M2,M3",
+      "measured_module_count": 4,
+      "complete_voltage_record": true,
+      "accepted_complete_voltage_record": true
+    }
+  ],
+  "accepted_configurations": [
+    {
+      "configuration_id": "MAX:M0",
+      "load": "MAX",
+      "combo": "M0",
+      "module_count": 1,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N1_F200_MAX_M0_USB_RX_R1",
+        "M0": "PS01_N1_F200_MAX_M0_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "MAX:M0+M1",
+      "load": "MAX",
+      "combo": "M0+M1",
+      "module_count": 2,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N2_F200_MAX_M0-M1_USB_RX_R1",
+        "M0": "PS01_N2_F200_MAX_M0-M1_USB_RX_R1",
+        "M1": "PS01_N2_F200_MAX_M0-M1_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "MAX:M0+M1+M2",
+      "load": "MAX",
+      "combo": "M0+M1+M2",
+      "module_count": 3,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N3_F200_MAX_M0-M1-M2_USB_RX_R1",
+        "M0": "PS01_N3_F200_MAX_M0-M1-M2_USB_RX_R1",
+        "M1": "PS01_N3_F200_MAX_M0-M1-M2_USB_RX_R1",
+        "M2": "PS01_N3_F200_MAX_M0-M1-M2_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "MAX:M0+M1+M2+M3",
+      "load": "MAX",
+      "combo": "M0+M1+M2+M3",
+      "module_count": 4,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1",
+        "M0": "PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1",
+        "M1": "PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1",
+        "M2": "PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1",
+        "M3": "PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "MAX:M1",
+      "load": "MAX",
+      "combo": "M1",
+      "module_count": 1,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N1_F200_MAX_M1_USB_RX_R1",
+        "M1": "PS01_N1_F200_MAX_M1_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "MAX:M1+M2+M3",
+      "load": "MAX",
+      "combo": "M1+M2+M3",
+      "module_count": 3,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N3_F200_MAX_M1-M2-M3_USB_RX_R1",
+        "M1": "PS01_N3_F200_MAX_M1-M2-M3_USB_RX_R1",
+        "M2": "PS01_N3_F200_MAX_M1-M2-M3_USB_RX_R1",
+        "M3": "PS01_N3_F200_MAX_M1-M2-M3_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "MAX:M2",
+      "load": "MAX",
+      "combo": "M2",
+      "module_count": 1,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N1_F200_MAX_M2_USB_RX_R1",
+        "M2": "PS01_N1_F200_MAX_M2_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "MAX:M2+M3",
+      "load": "MAX",
+      "combo": "M2+M3",
+      "module_count": 2,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N2_F200_MAX_M2-M3_USB_RX_R1",
+        "M2": "PS01_N2_F200_MAX_M2-M3_USB_RX_R1",
+        "M3": "PS01_N2_F200_MAX_M2-M3_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "MAX:M3",
+      "load": "MAX",
+      "combo": "M3",
+      "module_count": 1,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N1_F200_MAX_M3_USB_RX_R1",
+        "M3": "PS01_N1_F200_MAX_M3_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "ZERO:M0",
+      "load": "ZERO",
+      "combo": "M0",
+      "module_count": 1,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N1_F200_ZERO_M0_USB_RX_R1",
+        "M0": "PS01_N1_F200_ZERO_M0_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "ZERO:M0+M1",
+      "load": "ZERO",
+      "combo": "M0+M1",
+      "module_count": 2,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N2_F200_ZERO_M0-M1_USB_RX_R1",
+        "M0": "PS01_N2_F200_ZERO_M0-M1_USB_RX_R1",
+        "M1": "PS01_N2_F200_ZERO_M0-M1_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "ZERO:M0+M1+M2",
+      "load": "ZERO",
+      "combo": "M0+M1+M2",
+      "module_count": 3,
+      "configuration_kind": "USER_CONFIRMED_POINTWISE_CORRECTION",
+      "accepted_complete": true,
+      "same_record_complete": false,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+        "M0": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_VOLTAGE_RETEST_R1",
+        "M1": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+        "M2": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "ZERO:M0+M1+M2+M3",
+      "load": "ZERO",
+      "combo": "M0+M1+M2+M3",
+      "module_count": 4,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1",
+        "M0": "PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1",
+        "M1": "PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1",
+        "M2": "PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1",
+        "M3": "PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "ZERO:M0+M1+M3",
+      "load": "ZERO",
+      "combo": "M0+M1+M3",
+      "module_count": 3,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N3_F200_ZERO_M0-M1-M3_USB_RX_VOLTAGE_R1",
+        "M0": "PS01_N3_F200_ZERO_M0-M1-M3_USB_RX_VOLTAGE_R1",
+        "M1": "PS01_N3_F200_ZERO_M0-M1-M3_USB_RX_VOLTAGE_R1",
+        "M3": "PS01_N3_F200_ZERO_M0-M1-M3_USB_RX_VOLTAGE_R1"
+      }
+    },
+    {
+      "configuration_id": "ZERO:M0+M2",
+      "load": "ZERO",
+      "combo": "M0+M2",
+      "module_count": 2,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N2_F200_ZERO_M0-M2_USB_RX_VOLTAGE_R1",
+        "M0": "PS01_N2_F200_ZERO_M0-M2_USB_RX_VOLTAGE_R1",
+        "M2": "PS01_N2_F200_ZERO_M0-M2_USB_RX_VOLTAGE_R1"
+      }
+    },
+    {
+      "configuration_id": "ZERO:M0+M2+M3",
+      "load": "ZERO",
+      "combo": "M0+M2+M3",
+      "module_count": 3,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N3_F200_ZERO_M0-M2-M3_USB_RX_VOLTAGE_R1",
+        "M0": "PS01_N3_F200_ZERO_M0-M2-M3_USB_RX_VOLTAGE_R1",
+        "M2": "PS01_N3_F200_ZERO_M0-M2-M3_USB_RX_VOLTAGE_R1",
+        "M3": "PS01_N3_F200_ZERO_M0-M2-M3_USB_RX_VOLTAGE_R1"
+      }
+    },
+    {
+      "configuration_id": "ZERO:M0+M3",
+      "load": "ZERO",
+      "combo": "M0+M3",
+      "module_count": 2,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N2_F200_ZERO_M0-M3_USB_RX_VOLTAGE_R1",
+        "M0": "PS01_N2_F200_ZERO_M0-M3_USB_RX_VOLTAGE_R1",
+        "M3": "PS01_N2_F200_ZERO_M0-M3_USB_RX_VOLTAGE_R1"
+      }
+    },
+    {
+      "configuration_id": "ZERO:M1",
+      "load": "ZERO",
+      "combo": "M1",
+      "module_count": 1,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N1_F200_ZERO_M1_USB_RX_R1",
+        "M1": "PS01_N1_F200_ZERO_M1_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "ZERO:M1+M2",
+      "load": "ZERO",
+      "combo": "M1+M2",
+      "module_count": 2,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N2_F200_ZERO_M1-M2_USB_RX_VOLTAGE_R1",
+        "M1": "PS01_N2_F200_ZERO_M1-M2_USB_RX_VOLTAGE_R1",
+        "M2": "PS01_N2_F200_ZERO_M1-M2_USB_RX_VOLTAGE_R1"
+      }
+    },
+    {
+      "configuration_id": "ZERO:M1+M2+M3",
+      "load": "ZERO",
+      "combo": "M1+M2+M3",
+      "module_count": 3,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N3_F200_ZERO_M1-M2-M3_USB_RX_R1",
+        "M1": "PS01_N3_F200_ZERO_M1-M2-M3_USB_RX_R1",
+        "M2": "PS01_N3_F200_ZERO_M1-M2-M3_USB_RX_R1",
+        "M3": "PS01_N3_F200_ZERO_M1-M2-M3_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "ZERO:M1+M3",
+      "load": "ZERO",
+      "combo": "M1+M3",
+      "module_count": 2,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N2_F200_ZERO_M1-M3_USB_RX_VOLTAGE_R1",
+        "M1": "PS01_N2_F200_ZERO_M1-M3_USB_RX_VOLTAGE_R1",
+        "M3": "PS01_N2_F200_ZERO_M1-M3_USB_RX_VOLTAGE_R1"
+      }
+    },
+    {
+      "configuration_id": "ZERO:M2",
+      "load": "ZERO",
+      "combo": "M2",
+      "module_count": 1,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N1_F200_ZERO_M2_USB_RX_R1",
+        "M2": "PS01_N1_F200_ZERO_M2_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "ZERO:M2+M3",
+      "load": "ZERO",
+      "combo": "M2+M3",
+      "module_count": 2,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N2_F200_ZERO_M2-M3_USB_RX_R1",
+        "M2": "PS01_N2_F200_ZERO_M2-M3_USB_RX_R1",
+        "M3": "PS01_N2_F200_ZERO_M2-M3_USB_RX_R1"
+      }
+    },
+    {
+      "configuration_id": "ZERO:M3",
+      "load": "ZERO",
+      "combo": "M3",
+      "module_count": 1,
+      "configuration_kind": "SAME_RECORD_VOLTAGE_CONFIGURATION",
+      "accepted_complete": true,
+      "same_record_complete": true,
+      "counts_as_additional_independent_run": false,
+      "simultaneous_new_acquisition_claimed": false,
+      "point_source_run_ids": {
+        "SOURCE": "PS01_N1_F200_ZERO_M3_USB_RX_R1",
+        "M3": "PS01_N1_F200_ZERO_M3_USB_RX_R1"
+      }
+    }
+  ],
+  "provenance": {
+    "source_files_verified_unchanged": true,
+    "sources": [
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M0/full_load/PS01_N1_F200_MAX_M0_USB_RX_R1.yaml",
+        "sha256": "1faa6b068ba1e6bea5afbe4fb32bffff334dfe9de9d9743937256b5410e72584"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M0/zero_load/PS01_N1_F200_ZERO_M0_USB_RX_R1.yaml",
+        "sha256": "f452895420bd4a9bdaa1bf2bf39ca41d3da3bbf383eb1a983a2ba58468894ace"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M1/full_load/PS01_N1_F200_MAX_M1_USB_RX_R1.yaml",
+        "sha256": "158d10a7314e366231638b3ab4098c63333c2db55ae189456cb8ff930fd14b54"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M1/zero_load/PS01_N1_F200_ZERO_M1_USB_RX_R1.yaml",
+        "sha256": "ff0fd645259d56a948ea6d2382f6c5b09d0dc4dacc90acec3778432c1cdb6e4b"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M2/full_load/PS01_N1_F200_MAX_M2_USB_RX_R1.yaml",
+        "sha256": "0e5661fb3f44c55ed5acd0b8eaf3f4f2d9262e9ebce7351a87bb39635f4a62a8"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M2/zero_load/PS01_N1_F200_ZERO_M2_USB_RX_R1.yaml",
+        "sha256": "65d749c9c43f6e31ff4737849c8511fa0994a9156b0359efb2a3bf102bae0713"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M3/full_load/PS01_N1_F200_MAX_M3_USB_RX_R1.yaml",
+        "sha256": "3a67413791ed758694a803890a0320e1a2b61ab25f2bf781d762e251fb88ae64"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=1/M3/zero_load/PS01_N1_F200_ZERO_M3_USB_RX_R1.yaml",
+        "sha256": "9707e77d13f820cfdae66fc04d5874a955ea55f0040f9d2f0576762f7ca7b638"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M1/full_load/PS01_N2_F200_MAX_M0-M1_USB_RX_R1.yaml",
+        "sha256": "a51af797896fa4a7d45c85814ab5953409baf4b2282c1c3dbd07619c81170e13"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M1/zero_load/PS01_N2_F200_ZERO_M0-M1_USB_RX_R1.yaml",
+        "sha256": "293bb811d78b71c31571ffa0e5485ba41be5925ce97f475f8ed6699cc8d98dfb"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M2/zero_load/PS01_N2_F200_ZERO_M0-M2_USB_RX_VOLTAGE_R1.yaml",
+        "sha256": "61fb4eab2ee15e218706767d0d6c694b12c3d8018d2da9773245157496811fef"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M0-M3/zero_load/PS01_N2_F200_ZERO_M0-M3_USB_RX_VOLTAGE_R1.yaml",
+        "sha256": "ea37816dd44a084a23490a531bc5eaa8634403acc6a4bbe63375234b9ae4de80"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M2/zero_load/PS01_N2_F200_ZERO_M1-M2_USB_RX_VOLTAGE_R1.yaml",
+        "sha256": "6de2a9ff6fe5d6035346802c2411c29a8ed87e0ef5c54d376eb7b73e1ba08979"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M1-M3/zero_load/PS01_N2_F200_ZERO_M1-M3_USB_RX_VOLTAGE_R1.yaml",
+        "sha256": "d3aac60eb88bfcb9208d4acf2ceb07be8d751e33e28b3316085f5470a26458cc"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M2-M3/full_load/PS01_N2_F200_MAX_M2-M3_USB_RX_R1.yaml",
+        "sha256": "16702fb7acfa55949c2c84878861f02ecf076e32b994f91455267644b310b43a"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=2/M2-M3/zero_load/PS01_N2_F200_ZERO_M2-M3_USB_RX_R1.yaml",
+        "sha256": "b50050a18d67351c74810a9376ad094906abec2e5c6c944e645fddea7bd4dc2d"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M2/full_load/PS01_N3_F200_MAX_M0-M1-M2_USB_RX_R1.yaml",
+        "sha256": "31e4de3dd989405d4b9493b715842080243526e317562b584b09ae90ebcb5f27"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M2/zero_load/PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1.yaml",
+        "sha256": "3bfdf897927c11c1207228c0ebd3f8545bcd97a5252597358858b494b307db85"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M2/zero_load/PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_VOLTAGE_RETEST_R1.yaml",
+        "sha256": "9760ab4a02208163c9a1cd28ae637e52bebf29716b5970a76fc96ca114a03dfc"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M3/zero_load/PS01_N3_F200_ZERO_M0-M1-M3_USB_RX_VOLTAGE_R1.yaml",
+        "sha256": "5b2c74f7f3098d0dda00b67e6722170919d59941eb3f3bf74e754bd298a4ec09"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M2-M3/zero_load/PS01_N3_F200_ZERO_M0-M2-M3_USB_RX_VOLTAGE_R1.yaml",
+        "sha256": "7ac9267e6536148eef3d68ae21bd79fee309cc0779c33dacdeb5087682c4f47d"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M1-M2-M3/full_load/PS01_N3_F200_MAX_M1-M2-M3_USB_RX_R1.yaml",
+        "sha256": "4892e0d86e57c09da28d32627cf7ae4928f16b7b79963522a83846c2477c0423"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M1-M2-M3/zero_load/PS01_N3_F200_ZERO_M1-M2-M3_USB_RX_R1.yaml",
+        "sha256": "c05ab0823c9d26dc0956d827927022f30b82f7edac55885308bafad9ce9cd911"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/full_load/PS01_N4_F200_MAX_M0-M1-M2-M3_USB_RX_R1.yaml",
+        "sha256": "5d646a643cf07a40cc5e0526dcee4cfde2e0bf50405af0e858298c54ba203102"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/transmission/n=4/M0-M1-M2-M3/zero_load/PS01_N4_F200_ZERO_M0-M1-M2-M3_USB_RX_R1.yaml",
+        "sha256": "d4aac0c47b7db4f3eb9060d65d999e826499d6b3cdda5174650d9a2c04294c01"
+      },
+      {
+        "path": "DATA/raw/canonical/power_experiment_records/quality_events/supply_contact_M0_20260907.json",
+        "sha256": "bb93db4143b289c090f3ddfdf0b29f4044ad66570c3581a38bc7847e49015079"
+      }
+    ],
+    "old_analysis_or_report_written": false
+  }
+}

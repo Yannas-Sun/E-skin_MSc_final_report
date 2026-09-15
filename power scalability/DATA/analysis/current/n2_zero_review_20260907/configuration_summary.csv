@@ -1,0 +1,7 @@
+﻿combo,module_count,load,protocol_mode,configured_frequency_Hz,module_lower,module_upper,I_lower_main_mA,I_upper_main_mA,I_sum_mA,V_source_main_V,P_source_output_estimate_mW,power_uses_cross_record_voltage,simultaneous_branch_sum_measured,T_lower_stm32_C,T_upper_stm32_C,T_teensy_C,T_regulator_C,I_N1_prediction_mA,prediction_residual_mA,prediction_residual_percent,current_filename_date_batch,n_records_per_configuration,within_condition_repeat_SD_mA
+M0-M1,2,ZERO,FULL,200,M0,M1,17.961,18.055,36.016,3.281,118.168496,False,False,27.1,26.5,43.1,29.0,36.54,-0.524,-1.434044882320744389709906951,2026-09-05,1,
+M0-M2,2,ZERO,FULL,200,M0,M2,17.985,18.316,36.301,3.279,119.030979,True,False,27.3,26.8,42.5,29.3,36.52,-0.219,-0.5996714129244249726177437021,2026-09-07,1,
+M0-M3,2,ZERO,FULL,200,M0,M3,17.985,17.922,35.907,3.279,117.739053,True,False,27.3,26.4,42.6,29.2,36.56,-0.653,-1.786105032822757111597374179,2026-09-07,1,
+M1-M2,2,ZERO,FULL,200,M1,M2,18.151,18.110,36.261,3.278,118.863558,True,False,26.5,26.3,42.8,29.1,36.74,-0.479,-1.303756124115405552531301034,2026-09-07,1,
+M1-M3,2,ZERO,FULL,200,M1,M3,18.464,18.097,36.561,3.278,119.846958,True,False,26.7,26.5,42.5,28.8,36.78,-0.219,-0.5954323001631321370309951060,2026-09-07,1,
+M2-M3,2,ZERO,FULL,200,M2,M3,18.379,18.155,36.534,3.279,119.794986,False,False,26.7,27.1,42.6,29.2,36.76,-0.226,-0.6147986942328618063112078346,2026-09-05,1,

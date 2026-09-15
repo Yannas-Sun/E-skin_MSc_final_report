@@ -1,0 +1,3 @@
+﻿quantity,unit,original_main,earlier_voltage_retest_main,new_main,new_min,new_max,change_from_original,new_value_basis,scope
+current,mA,17.968,,18.051,18.00,18.08,0.083,photo,M0 only
+voltage,V,3.224,3.241,3.241,,,0.017,user confirms unchanged corrected voltage; no new voltage photo,M0 only

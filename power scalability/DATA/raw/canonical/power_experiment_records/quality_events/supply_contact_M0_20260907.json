@@ -1,0 +1,55 @@
+{
+  "event_id": "SUPPLY_CONTACT_M0_N3_ZERO_20260907",
+  "reported_date": "2026-09-07",
+  "event_type": "USER_CONFIRMED_SUPPLY_WIRE_OR_CONNECTOR_CONTACT_FAULT",
+  "evidence_basis": "User clarification: 供电线或供电接头接触不良",
+  "affected_run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+  "affected_record_path": "DATA/raw/canonical/power_experiment_records/transmission/n=3/M0-M1-M2/zero_load/PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1.yaml",
+  "affected_record_sha256": "3bfdf897927c11c1207228c0ebd3f8545bcd97a5252597358858b494b307db85",
+  "affected_module": "M0",
+  "event_revision": 2,
+  "clarification_date": "2026-09-07",
+  "clarification_basis": "User: 其他测点并未接触不良，还是原来的电压。M0是因为connector接触不良",
+  "affected_voltage_points": ["M0"],
+  "confirmed_unaffected_voltage_points": ["SOURCE", "M1", "M2"],
+  "retained_voltage_values_user_confirmed_unchanged": true,
+  "accepted_voltage_configuration": {
+    "kind": "USER_CONFIRMED_POINTWISE_CORRECTION",
+    "combo": "M0+M1+M2",
+    "load": "ZERO",
+    "point_source_run_ids": {
+      "SOURCE": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+      "M0": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_VOLTAGE_RETEST_R1",
+      "M1": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1",
+      "M2": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_R1"
+    },
+    "counts_as_additional_independent_run": false,
+    "simultaneous_new_acquisition_claimed": false
+  },
+  "original_M0_voltage_V": {
+    "main": 3.224,
+    "min": 3.224,
+    "max": 3.225
+  },
+  "interpretation": "Retain as an actual supply-connection fault condition; do not describe it as a voltmeter/probe measurement error.",
+  "normal_connection_analysis_action": "Exclude only the original M0 voltage point. Retain SOURCE/M1/M2 voltages confirmed unchanged by the user; use the separate 3.241 V M0 retest in a pointwise-corrected configuration with per-point provenance.",
+  "other_fields_action": "SOURCE/M1/M2 voltages are explicitly confirmed unaffected and remain valid. Original current and temperature values remain unchanged; the clarification does not supply new current or temperature measurements and does not authorize blanket exclusion of the whole run.",
+  "replacement_run_id": "PS01_N3_F200_ZERO_M0-M1-M2_USB_RX_VOLTAGE_RETEST_R1",
+  "replacement_scope": "M0 voltage only. Retain the other voltage points under explicit user confirmation; do not claim a new simultaneous acquisition.",
+  "replacement_M0_voltage_V": {
+    "main": 3.241,
+    "min": 3.241,
+    "max": 3.241
+  },
+  "drop_recalculation_allowed_with_old_source": false,
+  "drop_recalculation_allowed_with_user_confirmed_unchanged_source": true,
+  "corrected_drop_basis": "Retained source 3.276 V minus retested M0 3.241 V gives 35 mV; a user-confirmed pointwise estimate, not a same-record or simultaneous new measurement.",
+  "repeatability_pooling_allowed": false,
+  "report_2_1_implications": [
+    "3.224 V and 89 mV describe a contact-fault condition, not the normal-connection minimum.",
+    "Only the original M0 voltage point and its 52 mV difference carry the connector-fault label. SOURCE/M1/M2 voltages remain accepted; do not infer that the entire configuration is invalid.",
+    "ZERO voltage configuration coverage is complete using the user-confirmed pointwise correction, with explicit source provenance and no extra independent repeat.",
+    "Do not claim fault-free operation; default zero counters do not override this known contact fault."
+  ],
+  "published_report_updated": false
+}
