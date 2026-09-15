@@ -1,0 +1,30 @@
+{
+  "status": "PASS_PDF_ALIGNED",
+  "basis": "Existing report_versions/main_final.pdf",
+  "all_runs": 114,
+  "FULL_zero_runs": 48,
+  "DELTA_zero_runs": 45,
+  "DELTA_dynamic_runs": 21,
+  "zero_load_primary_runs": 90,
+  "dynamic_selected_runs": 15,
+  "analysis_selected_runs": 105,
+  "dynamic_complete_pass_batches": 5,
+  "main_window_PASS": 108,
+  "main_window_CHECK": 6,
+  "source_files_per_record": 6,
+  "source_files_in_inventory": 684,
+  "path_map_rows": 140,
+  "active_indices": {
+    "run_index_csv": 114,
+    "primary_matrix_csv": 90,
+    "dynamic_analysis_selected_csv": 15,
+    "analysis_selected_csv": 105
+  },
+  "newly_organized_runs": 15,
+  "original_measurement_hashes_preserved": true,
+  "raw_data_changed": false,
+  "report_source_changed": false,
+  "report_pdf_changed": false,
+  "superseded_snapshot": "history/superseded_111_102_20260913/",
+  "validated_on": "2026-09-13"
+}

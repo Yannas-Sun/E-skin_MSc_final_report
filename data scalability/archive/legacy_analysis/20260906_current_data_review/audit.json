@@ -1,0 +1,1465 @@
+{
+  "schema_version": 1,
+  "audit_time": "2026-09-06T23:15:29.997641+01:00",
+  "fixed_snapshot_run_ids": [
+    "20260906_225934_745706",
+    "20260906_230014_784220",
+    "20260906_230054_835519",
+    "20260906_230200_451593",
+    "20260906_230240_486802",
+    "20260906_230320_515930",
+    "20260906_230445_150722",
+    "20260906_230525_193234",
+    "20260906_230605_248880",
+    "20260906_230909_089519",
+    "20260906_230949_124162",
+    "20260906_231029_180830"
+  ],
+  "runs": [
+    {
+      "run_id": "20260906_225934_745706",
+      "source_directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260906_225934_745706",
+      "started_at": "2026-09-06T22:59:34.745706+01:00",
+      "metadata": {
+        "batch_id": "BATCH_a3da6b70a7684d359fd18d817b963390",
+        "batch_repeat_index": 1,
+        "batch_repeat_count": 3,
+        "block": "1",
+        "repeat": "1",
+        "condition": "zero_load",
+        "target_mode": "FULL",
+        "target_modules": [
+          0
+        ],
+        "deployment_confirmed": false
+      },
+      "duration_seconds": 40.00156010000501,
+      "completed_requested_duration": true,
+      "complete_packet_count": 8004,
+      "main_complete_packet_count": 6003,
+      "main_rate_Hz": 200.08959467407823,
+      "full_complete_packet_rate_Hz": 200.0921959041042,
+      "first_sequence": 1060785,
+      "last_sequence": 1068788,
+      "actual_valid_slot_counts": {
+        "0": 8004
+      },
+      "actual_mode_counts": {
+        "FULL": 8004
+      },
+      "markers": {
+        "ESKF": 8004
+      },
+      "independent_nonzero_errors": {},
+      "raw_complete_packet_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": [],
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_status": "PASS",
+      "main_review_reasons": [],
+      "full_status": "CHECK REQUIRED",
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "known_start_boundary_bytes": 1083,
+      "unassigned_raw_bytes": 1,
+      "actual_trailing_hex": "4d",
+      "boundary_checks": [
+        {
+          "event_sequence": 1060784,
+          "prefix_bytes": 1,
+          "suffix_bytes": 1083,
+          "event_errors": [],
+          "evidence": "inferred_magic_M_not_recorded_prefix",
+          "recovered_sequence": 1060784,
+          "independently_valid": true,
+          "independent_errors": [],
+          "previous_run_id": null
+        }
+      ],
+      "local_provenance": {
+        "source": "local_files_not_device_flash_readback",
+        "firmware_variant": "four-module-variable-spi",
+        "files": {
+          "stm32_elf": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\stm32\\combined-system\\build\\Release\\ESKIN_STM32.elf",
+            "sha256": "8fb1791504f3c2bf23dce9d57ca9b877b8cd1653d167dfe5a58b0c5176c4c8b6"
+          },
+          "teensy_hex": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\build\\teensy\\four_module.ino.hex",
+            "sha256": "32a95ff60bef1029a8b25a62d4ece524abc97813955e6586fc50fc9bf4cd2a67"
+          },
+          "pc_monitor": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\four-module-fsr-monitor.py",
+            "sha256": "f3cb2910054e26300a223cbac611e08eb4eae6ac6fa2a60ebd3c414695758949"
+          },
+          "pc_recorder": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_recording.py",
+            "sha256": "aff5787daa91bdb16719b0601d71707307e9d3471f636192cc5308445bf1b9ed"
+          },
+          "pc_controls": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_controls.py",
+            "sha256": "9e7ff3b5678de04c46dbf9653385e7dbac9a8ec59f95737122020de50299b194"
+          },
+          "pc_module_detection": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\module_detection.py",
+            "sha256": "52e35e8991c13e70e8f1e64d7b32d6b25bfa0fa7aeda8ec2333033540eb59ec1"
+          }
+        }
+      },
+      "raw_sha256_verified": true,
+      "raw_sha256": "9a85f05cb83b83057066919615ee9c29bb30d4263124f18f740a5b853e049267"
+    },
+    {
+      "run_id": "20260906_230014_784220",
+      "source_directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260906_230014_784220",
+      "started_at": "2026-09-06T23:00:14.784220+01:00",
+      "metadata": {
+        "batch_id": "BATCH_a3da6b70a7684d359fd18d817b963390",
+        "batch_repeat_index": 2,
+        "batch_repeat_count": 3,
+        "block": "1",
+        "repeat": "2",
+        "condition": "zero_load",
+        "target_mode": "FULL",
+        "target_modules": [
+          0
+        ],
+        "deployment_confirmed": false
+      },
+      "duration_seconds": 40.002488600002835,
+      "completed_requested_duration": true,
+      "complete_packet_count": 8011,
+      "main_complete_packet_count": 6003,
+      "main_rate_Hz": 200.0834024148061,
+      "full_complete_packet_rate_Hz": 200.26254066601828,
+      "first_sequence": 1068790,
+      "last_sequence": 1076800,
+      "actual_valid_slot_counts": {
+        "0": 8011
+      },
+      "actual_mode_counts": {
+        "FULL": 8011
+      },
+      "markers": {
+        "ESKF": 8011
+      },
+      "independent_nonzero_errors": {},
+      "raw_complete_packet_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": [],
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_status": "PASS",
+      "main_review_reasons": [],
+      "full_status": "CHECK REQUIRED",
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "known_start_boundary_bytes": 1083,
+      "unassigned_raw_bytes": 1,
+      "actual_trailing_hex": "4d",
+      "boundary_checks": [
+        {
+          "event_sequence": 1068789,
+          "prefix_bytes": 1,
+          "suffix_bytes": 1083,
+          "event_errors": [],
+          "evidence": "actual_previous_run_tail_plus_current_run_prefix",
+          "recovered_sequence": 1068789,
+          "independently_valid": true,
+          "independent_errors": [],
+          "previous_run_id": "20260906_225934_745706"
+        }
+      ],
+      "local_provenance": {
+        "source": "local_files_not_device_flash_readback",
+        "firmware_variant": "four-module-variable-spi",
+        "files": {
+          "stm32_elf": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\stm32\\combined-system\\build\\Release\\ESKIN_STM32.elf",
+            "sha256": "8fb1791504f3c2bf23dce9d57ca9b877b8cd1653d167dfe5a58b0c5176c4c8b6"
+          },
+          "teensy_hex": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\build\\teensy\\four_module.ino.hex",
+            "sha256": "32a95ff60bef1029a8b25a62d4ece524abc97813955e6586fc50fc9bf4cd2a67"
+          },
+          "pc_monitor": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\four-module-fsr-monitor.py",
+            "sha256": "f3cb2910054e26300a223cbac611e08eb4eae6ac6fa2a60ebd3c414695758949"
+          },
+          "pc_recorder": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_recording.py",
+            "sha256": "aff5787daa91bdb16719b0601d71707307e9d3471f636192cc5308445bf1b9ed"
+          },
+          "pc_controls": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_controls.py",
+            "sha256": "9e7ff3b5678de04c46dbf9653385e7dbac9a8ec59f95737122020de50299b194"
+          },
+          "pc_module_detection": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\module_detection.py",
+            "sha256": "52e35e8991c13e70e8f1e64d7b32d6b25bfa0fa7aeda8ec2333033540eb59ec1"
+          }
+        }
+      },
+      "raw_sha256_verified": true,
+      "raw_sha256": "1ded04791cddef1de3063d9dd4a3e48c7f5f0db9be9671590e8c0567f72387f4"
+    },
+    {
+      "run_id": "20260906_230054_835519",
+      "source_directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260906_230054_835519",
+      "started_at": "2026-09-06T23:00:54.835519+01:00",
+      "metadata": {
+        "batch_id": "BATCH_a3da6b70a7684d359fd18d817b963390",
+        "batch_repeat_index": 3,
+        "batch_repeat_count": 3,
+        "block": "1",
+        "repeat": "3",
+        "condition": "zero_load",
+        "target_mode": "FULL",
+        "target_modules": [
+          0
+        ],
+        "deployment_confirmed": false
+      },
+      "duration_seconds": 40.000773400010075,
+      "completed_requested_duration": true,
+      "complete_packet_count": 8014,
+      "main_complete_packet_count": 6004,
+      "main_rate_Hz": 200.12817402893967,
+      "full_complete_packet_rate_Hz": 200.3461263075974,
+      "first_sequence": 1076802,
+      "last_sequence": 1084815,
+      "actual_valid_slot_counts": {
+        "0": 8014
+      },
+      "actual_mode_counts": {
+        "FULL": 8014
+      },
+      "markers": {
+        "ESKF": 8014
+      },
+      "independent_nonzero_errors": {},
+      "raw_complete_packet_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": [],
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_status": "PASS",
+      "main_review_reasons": [],
+      "full_status": "CHECK REQUIRED",
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "known_start_boundary_bytes": 1083,
+      "unassigned_raw_bytes": 1,
+      "actual_trailing_hex": "4d",
+      "boundary_checks": [
+        {
+          "event_sequence": 1076801,
+          "prefix_bytes": 1,
+          "suffix_bytes": 1083,
+          "event_errors": [],
+          "evidence": "actual_previous_run_tail_plus_current_run_prefix",
+          "recovered_sequence": 1076801,
+          "independently_valid": true,
+          "independent_errors": [],
+          "previous_run_id": "20260906_230014_784220"
+        }
+      ],
+      "local_provenance": {
+        "source": "local_files_not_device_flash_readback",
+        "firmware_variant": "four-module-variable-spi",
+        "files": {
+          "stm32_elf": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\stm32\\combined-system\\build\\Release\\ESKIN_STM32.elf",
+            "sha256": "8fb1791504f3c2bf23dce9d57ca9b877b8cd1653d167dfe5a58b0c5176c4c8b6"
+          },
+          "teensy_hex": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\build\\teensy\\four_module.ino.hex",
+            "sha256": "32a95ff60bef1029a8b25a62d4ece524abc97813955e6586fc50fc9bf4cd2a67"
+          },
+          "pc_monitor": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\four-module-fsr-monitor.py",
+            "sha256": "f3cb2910054e26300a223cbac611e08eb4eae6ac6fa2a60ebd3c414695758949"
+          },
+          "pc_recorder": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_recording.py",
+            "sha256": "aff5787daa91bdb16719b0601d71707307e9d3471f636192cc5308445bf1b9ed"
+          },
+          "pc_controls": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_controls.py",
+            "sha256": "9e7ff3b5678de04c46dbf9653385e7dbac9a8ec59f95737122020de50299b194"
+          },
+          "pc_module_detection": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\module_detection.py",
+            "sha256": "52e35e8991c13e70e8f1e64d7b32d6b25bfa0fa7aeda8ec2333033540eb59ec1"
+          }
+        }
+      },
+      "raw_sha256_verified": true,
+      "raw_sha256": "208fe8ad5362ab848d4fe52a7a409fb71cd128f0c93d5f8a14559c61621c5650"
+    },
+    {
+      "run_id": "20260906_230200_451593",
+      "source_directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260906_230200_451593",
+      "started_at": "2026-09-06T23:02:00.451593+01:00",
+      "metadata": {
+        "batch_id": "BATCH_d49624f461e24a80b1176d3a6386840c",
+        "batch_repeat_index": 1,
+        "batch_repeat_count": 3,
+        "block": "1",
+        "repeat": "1",
+        "condition": "zero_load",
+        "target_mode": "FULL",
+        "target_modules": [
+          1
+        ],
+        "deployment_confirmed": false
+      },
+      "duration_seconds": 40.003053599997656,
+      "completed_requested_duration": true,
+      "complete_packet_count": 8014,
+      "main_complete_packet_count": 6010,
+      "main_rate_Hz": 200.31294414647414,
+      "full_complete_packet_rate_Hz": 200.33470644852144,
+      "first_sequence": 1087951,
+      "last_sequence": 1095964,
+      "actual_valid_slot_counts": {
+        "1": 8014
+      },
+      "actual_mode_counts": {
+        "FULL": 8014
+      },
+      "markers": {
+        "ESKF": 8014
+      },
+      "independent_nonzero_errors": {},
+      "raw_complete_packet_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": [],
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_status": "PASS",
+      "main_review_reasons": [],
+      "full_status": "CHECK REQUIRED",
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "known_start_boundary_bytes": 1083,
+      "unassigned_raw_bytes": 1,
+      "actual_trailing_hex": "4d",
+      "boundary_checks": [
+        {
+          "event_sequence": 1087950,
+          "prefix_bytes": 1,
+          "suffix_bytes": 1083,
+          "event_errors": [],
+          "evidence": "inferred_magic_M_not_recorded_prefix",
+          "recovered_sequence": 1087950,
+          "independently_valid": true,
+          "independent_errors": [],
+          "previous_run_id": null
+        }
+      ],
+      "local_provenance": {
+        "source": "local_files_not_device_flash_readback",
+        "firmware_variant": "four-module-variable-spi",
+        "files": {
+          "stm32_elf": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\stm32\\combined-system\\build\\Release\\ESKIN_STM32.elf",
+            "sha256": "8fb1791504f3c2bf23dce9d57ca9b877b8cd1653d167dfe5a58b0c5176c4c8b6"
+          },
+          "teensy_hex": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\build\\teensy\\four_module.ino.hex",
+            "sha256": "32a95ff60bef1029a8b25a62d4ece524abc97813955e6586fc50fc9bf4cd2a67"
+          },
+          "pc_monitor": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\four-module-fsr-monitor.py",
+            "sha256": "f3cb2910054e26300a223cbac611e08eb4eae6ac6fa2a60ebd3c414695758949"
+          },
+          "pc_recorder": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_recording.py",
+            "sha256": "aff5787daa91bdb16719b0601d71707307e9d3471f636192cc5308445bf1b9ed"
+          },
+          "pc_controls": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_controls.py",
+            "sha256": "9e7ff3b5678de04c46dbf9653385e7dbac9a8ec59f95737122020de50299b194"
+          },
+          "pc_module_detection": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\module_detection.py",
+            "sha256": "52e35e8991c13e70e8f1e64d7b32d6b25bfa0fa7aeda8ec2333033540eb59ec1"
+          }
+        }
+      },
+      "raw_sha256_verified": true,
+      "raw_sha256": "b1b5940d0cf9aa095dfc3f5b3fe7cea59f6ad3cc98e26f55149a6a671a2a1a40"
+    },
+    {
+      "run_id": "20260906_230240_486802",
+      "source_directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260906_230240_486802",
+      "started_at": "2026-09-06T23:02:40.486802+01:00",
+      "metadata": {
+        "batch_id": "BATCH_d49624f461e24a80b1176d3a6386840c",
+        "batch_repeat_index": 2,
+        "batch_repeat_count": 3,
+        "block": "1",
+        "repeat": "2",
+        "condition": "zero_load",
+        "target_mode": "FULL",
+        "target_modules": [
+          1
+        ],
+        "deployment_confirmed": false
+      },
+      "duration_seconds": 40.000113500020234,
+      "completed_requested_duration": true,
+      "complete_packet_count": 8023,
+      "main_complete_packet_count": 6012,
+      "main_rate_Hz": 200.39924182273327,
+      "full_complete_packet_rate_Hz": 200.57443086995096,
+      "first_sequence": 1095966,
+      "last_sequence": 1103988,
+      "actual_valid_slot_counts": {
+        "1": 8023
+      },
+      "actual_mode_counts": {
+        "FULL": 8023
+      },
+      "markers": {
+        "ESKF": 8023
+      },
+      "independent_nonzero_errors": {},
+      "raw_complete_packet_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": [],
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_status": "PASS",
+      "main_review_reasons": [],
+      "full_status": "CHECK REQUIRED",
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "known_start_boundary_bytes": 1083,
+      "unassigned_raw_bytes": 1,
+      "actual_trailing_hex": "4d",
+      "boundary_checks": [
+        {
+          "event_sequence": 1095965,
+          "prefix_bytes": 1,
+          "suffix_bytes": 1083,
+          "event_errors": [],
+          "evidence": "actual_previous_run_tail_plus_current_run_prefix",
+          "recovered_sequence": 1095965,
+          "independently_valid": true,
+          "independent_errors": [],
+          "previous_run_id": "20260906_230200_451593"
+        }
+      ],
+      "local_provenance": {
+        "source": "local_files_not_device_flash_readback",
+        "firmware_variant": "four-module-variable-spi",
+        "files": {
+          "stm32_elf": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\stm32\\combined-system\\build\\Release\\ESKIN_STM32.elf",
+            "sha256": "8fb1791504f3c2bf23dce9d57ca9b877b8cd1653d167dfe5a58b0c5176c4c8b6"
+          },
+          "teensy_hex": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\build\\teensy\\four_module.ino.hex",
+            "sha256": "32a95ff60bef1029a8b25a62d4ece524abc97813955e6586fc50fc9bf4cd2a67"
+          },
+          "pc_monitor": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\four-module-fsr-monitor.py",
+            "sha256": "f3cb2910054e26300a223cbac611e08eb4eae6ac6fa2a60ebd3c414695758949"
+          },
+          "pc_recorder": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_recording.py",
+            "sha256": "aff5787daa91bdb16719b0601d71707307e9d3471f636192cc5308445bf1b9ed"
+          },
+          "pc_controls": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_controls.py",
+            "sha256": "9e7ff3b5678de04c46dbf9653385e7dbac9a8ec59f95737122020de50299b194"
+          },
+          "pc_module_detection": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\module_detection.py",
+            "sha256": "52e35e8991c13e70e8f1e64d7b32d6b25bfa0fa7aeda8ec2333033540eb59ec1"
+          }
+        }
+      },
+      "raw_sha256_verified": true,
+      "raw_sha256": "6153a5408bdcf7bee0c32372fcb864e3d8c0085c9720d3b38768ec5ceb672979"
+    },
+    {
+      "run_id": "20260906_230320_515930",
+      "source_directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260906_230320_515930",
+      "started_at": "2026-09-06T23:03:20.515930+01:00",
+      "metadata": {
+        "batch_id": "BATCH_d49624f461e24a80b1176d3a6386840c",
+        "batch_repeat_index": 3,
+        "batch_repeat_count": 3,
+        "block": "1",
+        "repeat": "3",
+        "condition": "zero_load",
+        "target_mode": "FULL",
+        "target_modules": [
+          1
+        ],
+        "deployment_confirmed": false
+      },
+      "duration_seconds": 40.003719100001035,
+      "completed_requested_duration": true,
+      "complete_packet_count": 8023,
+      "main_complete_packet_count": 6013,
+      "main_rate_Hz": 200.40848869298316,
+      "full_complete_packet_rate_Hz": 200.55635277170498,
+      "first_sequence": 1103990,
+      "last_sequence": 1112012,
+      "actual_valid_slot_counts": {
+        "1": 8023
+      },
+      "actual_mode_counts": {
+        "FULL": 8023
+      },
+      "markers": {
+        "ESKF": 8023
+      },
+      "independent_nonzero_errors": {},
+      "raw_complete_packet_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": [],
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_status": "PASS",
+      "main_review_reasons": [],
+      "full_status": "CHECK REQUIRED",
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "known_start_boundary_bytes": 1083,
+      "unassigned_raw_bytes": 1,
+      "actual_trailing_hex": "4d",
+      "boundary_checks": [
+        {
+          "event_sequence": 1103989,
+          "prefix_bytes": 1,
+          "suffix_bytes": 1083,
+          "event_errors": [],
+          "evidence": "actual_previous_run_tail_plus_current_run_prefix",
+          "recovered_sequence": 1103989,
+          "independently_valid": true,
+          "independent_errors": [],
+          "previous_run_id": "20260906_230240_486802"
+        }
+      ],
+      "local_provenance": {
+        "source": "local_files_not_device_flash_readback",
+        "firmware_variant": "four-module-variable-spi",
+        "files": {
+          "stm32_elf": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\stm32\\combined-system\\build\\Release\\ESKIN_STM32.elf",
+            "sha256": "8fb1791504f3c2bf23dce9d57ca9b877b8cd1653d167dfe5a58b0c5176c4c8b6"
+          },
+          "teensy_hex": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\build\\teensy\\four_module.ino.hex",
+            "sha256": "32a95ff60bef1029a8b25a62d4ece524abc97813955e6586fc50fc9bf4cd2a67"
+          },
+          "pc_monitor": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\four-module-fsr-monitor.py",
+            "sha256": "f3cb2910054e26300a223cbac611e08eb4eae6ac6fa2a60ebd3c414695758949"
+          },
+          "pc_recorder": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_recording.py",
+            "sha256": "aff5787daa91bdb16719b0601d71707307e9d3471f636192cc5308445bf1b9ed"
+          },
+          "pc_controls": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_controls.py",
+            "sha256": "9e7ff3b5678de04c46dbf9653385e7dbac9a8ec59f95737122020de50299b194"
+          },
+          "pc_module_detection": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\module_detection.py",
+            "sha256": "52e35e8991c13e70e8f1e64d7b32d6b25bfa0fa7aeda8ec2333033540eb59ec1"
+          }
+        }
+      },
+      "raw_sha256_verified": true,
+      "raw_sha256": "b209dcbb1be2cfd5a62281cc36e0da1ec4d09d9ef14db29ab97d17681a007840"
+    },
+    {
+      "run_id": "20260906_230445_150722",
+      "source_directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260906_230445_150722",
+      "started_at": "2026-09-06T23:04:45.150722+01:00",
+      "metadata": {
+        "batch_id": "BATCH_bd456b8e61be480ca230158c349c63e4",
+        "batch_repeat_index": 1,
+        "batch_repeat_count": 3,
+        "block": "1",
+        "repeat": "1",
+        "condition": "zero_load",
+        "target_mode": "FULL",
+        "target_modules": [
+          2
+        ],
+        "deployment_confirmed": false
+      },
+      "duration_seconds": 40.00239179999335,
+      "completed_requested_duration": true,
+      "complete_packet_count": 8010,
+      "main_complete_packet_count": 6007,
+      "main_rate_Hz": 200.21737066980546,
+      "full_complete_packet_rate_Hz": 200.23802676722275,
+      "first_sequence": 1117337,
+      "last_sequence": 1125346,
+      "actual_valid_slot_counts": {
+        "2": 8010
+      },
+      "actual_mode_counts": {
+        "FULL": 8010
+      },
+      "markers": {
+        "ESKF": 8010
+      },
+      "independent_nonzero_errors": {},
+      "raw_complete_packet_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": [],
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_status": "PASS",
+      "main_review_reasons": [],
+      "full_status": "CHECK REQUIRED",
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "known_start_boundary_bytes": 1083,
+      "unassigned_raw_bytes": 1,
+      "actual_trailing_hex": "4d",
+      "boundary_checks": [
+        {
+          "event_sequence": 1117336,
+          "prefix_bytes": 1,
+          "suffix_bytes": 1083,
+          "event_errors": [],
+          "evidence": "inferred_magic_M_not_recorded_prefix",
+          "recovered_sequence": 1117336,
+          "independently_valid": true,
+          "independent_errors": [],
+          "previous_run_id": null
+        }
+      ],
+      "local_provenance": {
+        "source": "local_files_not_device_flash_readback",
+        "firmware_variant": "four-module-variable-spi",
+        "files": {
+          "stm32_elf": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\stm32\\combined-system\\build\\Release\\ESKIN_STM32.elf",
+            "sha256": "8fb1791504f3c2bf23dce9d57ca9b877b8cd1653d167dfe5a58b0c5176c4c8b6"
+          },
+          "teensy_hex": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\build\\teensy\\four_module.ino.hex",
+            "sha256": "32a95ff60bef1029a8b25a62d4ece524abc97813955e6586fc50fc9bf4cd2a67"
+          },
+          "pc_monitor": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\four-module-fsr-monitor.py",
+            "sha256": "f3cb2910054e26300a223cbac611e08eb4eae6ac6fa2a60ebd3c414695758949"
+          },
+          "pc_recorder": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_recording.py",
+            "sha256": "aff5787daa91bdb16719b0601d71707307e9d3471f636192cc5308445bf1b9ed"
+          },
+          "pc_controls": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_controls.py",
+            "sha256": "9e7ff3b5678de04c46dbf9653385e7dbac9a8ec59f95737122020de50299b194"
+          },
+          "pc_module_detection": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\module_detection.py",
+            "sha256": "52e35e8991c13e70e8f1e64d7b32d6b25bfa0fa7aeda8ec2333033540eb59ec1"
+          }
+        }
+      },
+      "raw_sha256_verified": true,
+      "raw_sha256": "e3c079e014c2e0653ad27552ace898bf9c8af204b43682246c65d505cda543f4"
+    },
+    {
+      "run_id": "20260906_230525_193234",
+      "source_directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260906_230525_193234",
+      "started_at": "2026-09-06T23:05:25.193234+01:00",
+      "metadata": {
+        "batch_id": "BATCH_bd456b8e61be480ca230158c349c63e4",
+        "batch_repeat_index": 2,
+        "batch_repeat_count": 3,
+        "block": "1",
+        "repeat": "2",
+        "condition": "zero_load",
+        "target_mode": "FULL",
+        "target_modules": [
+          2
+        ],
+        "deployment_confirmed": false
+      },
+      "duration_seconds": 40.00319839999429,
+      "completed_requested_duration": true,
+      "complete_packet_count": 8016,
+      "main_complete_packet_count": 6006,
+      "main_rate_Hz": 200.17865828601603,
+      "full_complete_packet_rate_Hz": 200.38397729720393,
+      "first_sequence": 1125348,
+      "last_sequence": 1133363,
+      "actual_valid_slot_counts": {
+        "2": 8016
+      },
+      "actual_mode_counts": {
+        "FULL": 8016
+      },
+      "markers": {
+        "ESKF": 8016
+      },
+      "independent_nonzero_errors": {},
+      "raw_complete_packet_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": [],
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_status": "PASS",
+      "main_review_reasons": [],
+      "full_status": "CHECK REQUIRED",
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "known_start_boundary_bytes": 1083,
+      "unassigned_raw_bytes": 1,
+      "actual_trailing_hex": "4d",
+      "boundary_checks": [
+        {
+          "event_sequence": 1125347,
+          "prefix_bytes": 1,
+          "suffix_bytes": 1083,
+          "event_errors": [],
+          "evidence": "actual_previous_run_tail_plus_current_run_prefix",
+          "recovered_sequence": 1125347,
+          "independently_valid": true,
+          "independent_errors": [],
+          "previous_run_id": "20260906_230445_150722"
+        }
+      ],
+      "local_provenance": {
+        "source": "local_files_not_device_flash_readback",
+        "firmware_variant": "four-module-variable-spi",
+        "files": {
+          "stm32_elf": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\stm32\\combined-system\\build\\Release\\ESKIN_STM32.elf",
+            "sha256": "8fb1791504f3c2bf23dce9d57ca9b877b8cd1653d167dfe5a58b0c5176c4c8b6"
+          },
+          "teensy_hex": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\build\\teensy\\four_module.ino.hex",
+            "sha256": "32a95ff60bef1029a8b25a62d4ece524abc97813955e6586fc50fc9bf4cd2a67"
+          },
+          "pc_monitor": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\four-module-fsr-monitor.py",
+            "sha256": "f3cb2910054e26300a223cbac611e08eb4eae6ac6fa2a60ebd3c414695758949"
+          },
+          "pc_recorder": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_recording.py",
+            "sha256": "aff5787daa91bdb16719b0601d71707307e9d3471f636192cc5308445bf1b9ed"
+          },
+          "pc_controls": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_controls.py",
+            "sha256": "9e7ff3b5678de04c46dbf9653385e7dbac9a8ec59f95737122020de50299b194"
+          },
+          "pc_module_detection": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\module_detection.py",
+            "sha256": "52e35e8991c13e70e8f1e64d7b32d6b25bfa0fa7aeda8ec2333033540eb59ec1"
+          }
+        }
+      },
+      "raw_sha256_verified": true,
+      "raw_sha256": "27d0fe72d1760660e39473f2c9c0db729fc26fc2ad464b1b6d282b89940585f1"
+    },
+    {
+      "run_id": "20260906_230605_248880",
+      "source_directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260906_230605_248880",
+      "started_at": "2026-09-06T23:06:05.248880+01:00",
+      "metadata": {
+        "batch_id": "BATCH_bd456b8e61be480ca230158c349c63e4",
+        "batch_repeat_index": 3,
+        "batch_repeat_count": 3,
+        "block": "1",
+        "repeat": "3",
+        "condition": "zero_load",
+        "target_mode": "FULL",
+        "target_modules": [
+          2
+        ],
+        "deployment_confirmed": false
+      },
+      "duration_seconds": 40.000710499996785,
+      "completed_requested_duration": true,
+      "complete_packet_count": 8018,
+      "main_complete_packet_count": 6006,
+      "main_rate_Hz": 200.1952587089777,
+      "full_complete_packet_rate_Hz": 200.44643957013324,
+      "first_sequence": 1133365,
+      "last_sequence": 1141382,
+      "actual_valid_slot_counts": {
+        "2": 8018
+      },
+      "actual_mode_counts": {
+        "FULL": 8018
+      },
+      "markers": {
+        "ESKF": 8018
+      },
+      "independent_nonzero_errors": {},
+      "raw_complete_packet_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": [],
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_status": "PASS",
+      "main_review_reasons": [],
+      "full_status": "CHECK REQUIRED",
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "known_start_boundary_bytes": 1083,
+      "unassigned_raw_bytes": 1,
+      "actual_trailing_hex": "4d",
+      "boundary_checks": [
+        {
+          "event_sequence": 1133364,
+          "prefix_bytes": 1,
+          "suffix_bytes": 1083,
+          "event_errors": [],
+          "evidence": "actual_previous_run_tail_plus_current_run_prefix",
+          "recovered_sequence": 1133364,
+          "independently_valid": true,
+          "independent_errors": [],
+          "previous_run_id": "20260906_230525_193234"
+        }
+      ],
+      "local_provenance": {
+        "source": "local_files_not_device_flash_readback",
+        "firmware_variant": "four-module-variable-spi",
+        "files": {
+          "stm32_elf": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\stm32\\combined-system\\build\\Release\\ESKIN_STM32.elf",
+            "sha256": "8fb1791504f3c2bf23dce9d57ca9b877b8cd1653d167dfe5a58b0c5176c4c8b6"
+          },
+          "teensy_hex": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\build\\teensy\\four_module.ino.hex",
+            "sha256": "32a95ff60bef1029a8b25a62d4ece524abc97813955e6586fc50fc9bf4cd2a67"
+          },
+          "pc_monitor": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\four-module-fsr-monitor.py",
+            "sha256": "f3cb2910054e26300a223cbac611e08eb4eae6ac6fa2a60ebd3c414695758949"
+          },
+          "pc_recorder": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_recording.py",
+            "sha256": "aff5787daa91bdb16719b0601d71707307e9d3471f636192cc5308445bf1b9ed"
+          },
+          "pc_controls": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_controls.py",
+            "sha256": "9e7ff3b5678de04c46dbf9653385e7dbac9a8ec59f95737122020de50299b194"
+          },
+          "pc_module_detection": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\module_detection.py",
+            "sha256": "52e35e8991c13e70e8f1e64d7b32d6b25bfa0fa7aeda8ec2333033540eb59ec1"
+          }
+        }
+      },
+      "raw_sha256_verified": true,
+      "raw_sha256": "8c6b32d70ea3eb4095d63a3b4b954b7e17279d29dfff67dc9719989901b8b368"
+    },
+    {
+      "run_id": "20260906_230909_089519",
+      "source_directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260906_230909_089519",
+      "started_at": "2026-09-06T23:09:09.089519+01:00",
+      "metadata": {
+        "batch_id": "BATCH_cc0eb326656541f899210da5cd6ce59e",
+        "batch_repeat_index": 1,
+        "batch_repeat_count": 3,
+        "block": "1",
+        "repeat": "1",
+        "condition": "zero_load",
+        "target_mode": "FULL",
+        "target_modules": [
+          3
+        ],
+        "deployment_confirmed": false
+      },
+      "duration_seconds": 40.0016869000101,
+      "completed_requested_duration": true,
+      "complete_packet_count": 8015,
+      "main_complete_packet_count": 6011,
+      "main_rate_Hz": 200.35540068241883,
+      "full_complete_packet_rate_Hz": 200.36655004161778,
+      "first_sequence": 1168018,
+      "last_sequence": 1176032,
+      "actual_valid_slot_counts": {
+        "3": 8015
+      },
+      "actual_mode_counts": {
+        "FULL": 8015
+      },
+      "markers": {
+        "ESKF": 8015
+      },
+      "independent_nonzero_errors": {},
+      "raw_complete_packet_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": [],
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_status": "PASS",
+      "main_review_reasons": [],
+      "full_status": "CHECK REQUIRED",
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "known_start_boundary_bytes": 1083,
+      "unassigned_raw_bytes": 1,
+      "actual_trailing_hex": "4d",
+      "boundary_checks": [
+        {
+          "event_sequence": 1168017,
+          "prefix_bytes": 1,
+          "suffix_bytes": 1083,
+          "event_errors": [],
+          "evidence": "inferred_magic_M_not_recorded_prefix",
+          "recovered_sequence": 1168017,
+          "independently_valid": true,
+          "independent_errors": [],
+          "previous_run_id": null
+        }
+      ],
+      "local_provenance": {
+        "source": "local_files_not_device_flash_readback",
+        "firmware_variant": "four-module-variable-spi",
+        "files": {
+          "stm32_elf": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\stm32\\combined-system\\build\\Release\\ESKIN_STM32.elf",
+            "sha256": "8fb1791504f3c2bf23dce9d57ca9b877b8cd1653d167dfe5a58b0c5176c4c8b6"
+          },
+          "teensy_hex": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\build\\teensy\\four_module.ino.hex",
+            "sha256": "32a95ff60bef1029a8b25a62d4ece524abc97813955e6586fc50fc9bf4cd2a67"
+          },
+          "pc_monitor": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\four-module-fsr-monitor.py",
+            "sha256": "f3cb2910054e26300a223cbac611e08eb4eae6ac6fa2a60ebd3c414695758949"
+          },
+          "pc_recorder": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_recording.py",
+            "sha256": "aff5787daa91bdb16719b0601d71707307e9d3471f636192cc5308445bf1b9ed"
+          },
+          "pc_controls": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_controls.py",
+            "sha256": "9e7ff3b5678de04c46dbf9653385e7dbac9a8ec59f95737122020de50299b194"
+          },
+          "pc_module_detection": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\module_detection.py",
+            "sha256": "52e35e8991c13e70e8f1e64d7b32d6b25bfa0fa7aeda8ec2333033540eb59ec1"
+          }
+        }
+      },
+      "raw_sha256_verified": true,
+      "raw_sha256": "6169e3302bad0212c3d1f46bb243b7c89ad74b439a943ea604af1a129ca5f4c2"
+    },
+    {
+      "run_id": "20260906_230949_124162",
+      "source_directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260906_230949_124162",
+      "started_at": "2026-09-06T23:09:49.124162+01:00",
+      "metadata": {
+        "batch_id": "BATCH_cc0eb326656541f899210da5cd6ce59e",
+        "batch_repeat_index": 2,
+        "batch_repeat_count": 3,
+        "block": "1",
+        "repeat": "2",
+        "condition": "zero_load",
+        "target_mode": "FULL",
+        "target_modules": [
+          3
+        ],
+        "deployment_confirmed": false
+      },
+      "duration_seconds": 40.00881070000469,
+      "completed_requested_duration": true,
+      "complete_packet_count": 8020,
+      "main_complete_packet_count": 6010,
+      "main_rate_Hz": 200.27451471107653,
+      "full_complete_packet_rate_Hz": 200.45584609189746,
+      "first_sequence": 1176034,
+      "last_sequence": 1184053,
+      "actual_valid_slot_counts": {
+        "3": 8020
+      },
+      "actual_mode_counts": {
+        "FULL": 8020
+      },
+      "markers": {
+        "ESKF": 8020
+      },
+      "independent_nonzero_errors": {},
+      "raw_complete_packet_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": [],
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_status": "PASS",
+      "main_review_reasons": [],
+      "full_status": "CHECK REQUIRED",
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "known_start_boundary_bytes": 1083,
+      "unassigned_raw_bytes": 1,
+      "actual_trailing_hex": "4d",
+      "boundary_checks": [
+        {
+          "event_sequence": 1176033,
+          "prefix_bytes": 1,
+          "suffix_bytes": 1083,
+          "event_errors": [],
+          "evidence": "actual_previous_run_tail_plus_current_run_prefix",
+          "recovered_sequence": 1176033,
+          "independently_valid": true,
+          "independent_errors": [],
+          "previous_run_id": "20260906_230909_089519"
+        }
+      ],
+      "local_provenance": {
+        "source": "local_files_not_device_flash_readback",
+        "firmware_variant": "four-module-variable-spi",
+        "files": {
+          "stm32_elf": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\stm32\\combined-system\\build\\Release\\ESKIN_STM32.elf",
+            "sha256": "8fb1791504f3c2bf23dce9d57ca9b877b8cd1653d167dfe5a58b0c5176c4c8b6"
+          },
+          "teensy_hex": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\build\\teensy\\four_module.ino.hex",
+            "sha256": "32a95ff60bef1029a8b25a62d4ece524abc97813955e6586fc50fc9bf4cd2a67"
+          },
+          "pc_monitor": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\four-module-fsr-monitor.py",
+            "sha256": "f3cb2910054e26300a223cbac611e08eb4eae6ac6fa2a60ebd3c414695758949"
+          },
+          "pc_recorder": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_recording.py",
+            "sha256": "aff5787daa91bdb16719b0601d71707307e9d3471f636192cc5308445bf1b9ed"
+          },
+          "pc_controls": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_controls.py",
+            "sha256": "9e7ff3b5678de04c46dbf9653385e7dbac9a8ec59f95737122020de50299b194"
+          },
+          "pc_module_detection": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\module_detection.py",
+            "sha256": "52e35e8991c13e70e8f1e64d7b32d6b25bfa0fa7aeda8ec2333033540eb59ec1"
+          }
+        }
+      },
+      "raw_sha256_verified": true,
+      "raw_sha256": "494d05d0f1221ddc9452b011787f9544b3468682837e7d915b4794326d8ad05d"
+    },
+    {
+      "run_id": "20260906_231029_180830",
+      "source_directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260906_231029_180830",
+      "started_at": "2026-09-06T23:10:29.180830+01:00",
+      "metadata": {
+        "batch_id": "BATCH_cc0eb326656541f899210da5cd6ce59e",
+        "batch_repeat_index": 3,
+        "batch_repeat_count": 3,
+        "block": "1",
+        "repeat": "3",
+        "condition": "zero_load",
+        "target_mode": "FULL",
+        "target_modules": [
+          3
+        ],
+        "deployment_confirmed": false
+      },
+      "duration_seconds": 40.00033999999869,
+      "completed_requested_duration": true,
+      "complete_packet_count": 8025,
+      "main_complete_packet_count": 6011,
+      "main_rate_Hz": 200.3643958701889,
+      "full_complete_packet_rate_Hz": 200.62329470200163,
+      "first_sequence": 1184055,
+      "last_sequence": 1192079,
+      "actual_valid_slot_counts": {
+        "3": 8025
+      },
+      "actual_mode_counts": {
+        "FULL": 8025
+      },
+      "markers": {
+        "ESKF": 8025
+      },
+      "independent_nonzero_errors": {},
+      "raw_complete_packet_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": [],
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_status": "PASS",
+      "main_review_reasons": [],
+      "full_status": "CHECK REQUIRED",
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "known_start_boundary_bytes": 1083,
+      "unassigned_raw_bytes": 1,
+      "actual_trailing_hex": "4d",
+      "boundary_checks": [
+        {
+          "event_sequence": 1184054,
+          "prefix_bytes": 1,
+          "suffix_bytes": 1083,
+          "event_errors": [],
+          "evidence": "actual_previous_run_tail_plus_current_run_prefix",
+          "recovered_sequence": 1184054,
+          "independently_valid": true,
+          "independent_errors": [],
+          "previous_run_id": "20260906_230949_124162"
+        }
+      ],
+      "local_provenance": {
+        "source": "local_files_not_device_flash_readback",
+        "firmware_variant": "four-module-variable-spi",
+        "files": {
+          "stm32_elf": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\stm32\\combined-system\\build\\Release\\ESKIN_STM32.elf",
+            "sha256": "8fb1791504f3c2bf23dce9d57ca9b877b8cd1653d167dfe5a58b0c5176c4c8b6"
+          },
+          "teensy_hex": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\build\\teensy\\four_module.ino.hex",
+            "sha256": "32a95ff60bef1029a8b25a62d4ece524abc97813955e6586fc50fc9bf4cd2a67"
+          },
+          "pc_monitor": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\four-module-fsr-monitor.py",
+            "sha256": "f3cb2910054e26300a223cbac611e08eb4eae6ac6fa2a60ebd3c414695758949"
+          },
+          "pc_recorder": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_recording.py",
+            "sha256": "aff5787daa91bdb16719b0601d71707307e9d3471f636192cc5308445bf1b9ed"
+          },
+          "pc_controls": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\experiment_controls.py",
+            "sha256": "9e7ff3b5678de04c46dbf9653385e7dbac9a8ec59f95737122020de50299b194"
+          },
+          "pc_module_detection": {
+            "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\module_detection.py",
+            "sha256": "52e35e8991c13e70e8f1e64d7b32d6b25bfa0fa7aeda8ec2333033540eb59ec1"
+          }
+        }
+      },
+      "raw_sha256_verified": true,
+      "raw_sha256": "0beded9feaf47b70eca13a4ac5e04c6608b350a80ea5a308c42426d23fa20364"
+    }
+  ],
+  "batches": [
+    {
+      "batch_id": "BATCH_a3da6b70a7684d359fd18d817b963390",
+      "modules": [
+        0
+      ],
+      "mode": "FULL",
+      "run_ids": [
+        "20260906_225934_745706",
+        "20260906_230014_784220",
+        "20260906_230054_835519"
+      ],
+      "repeat_indices": [
+        1,
+        2,
+        3
+      ],
+      "n_temporal_repeats": 3,
+      "independent_setup_blocks": 1,
+      "main_Hz_mean": 200.100390372608,
+      "main_Hz_sample_sd": 0.024259733883340837,
+      "interpretation": "Three consecutive recording windows in one setup, not three independently re-established blocks."
+    },
+    {
+      "batch_id": "BATCH_d49624f461e24a80b1176d3a6386840c",
+      "modules": [
+        1
+      ],
+      "mode": "FULL",
+      "run_ids": [
+        "20260906_230200_451593",
+        "20260906_230240_486802",
+        "20260906_230320_515930"
+      ],
+      "repeat_indices": [
+        1,
+        2,
+        3
+      ],
+      "n_temporal_repeats": 3,
+      "independent_setup_blocks": 1,
+      "main_Hz_mean": 200.3735582207302,
+      "main_Hz_sample_sd": 0.05269654306302369,
+      "interpretation": "Three consecutive recording windows in one setup, not three independently re-established blocks."
+    },
+    {
+      "batch_id": "BATCH_bd456b8e61be480ca230158c349c63e4",
+      "modules": [
+        2
+      ],
+      "mode": "FULL",
+      "run_ids": [
+        "20260906_230445_150722",
+        "20260906_230525_193234",
+        "20260906_230605_248880"
+      ],
+      "repeat_indices": [
+        1,
+        2,
+        3
+      ],
+      "n_temporal_repeats": 3,
+      "independent_setup_blocks": 1,
+      "main_Hz_mean": 200.1970958882664,
+      "main_Hz_sample_sd": 0.01942147227861931,
+      "interpretation": "Three consecutive recording windows in one setup, not three independently re-established blocks."
+    },
+    {
+      "batch_id": "BATCH_cc0eb326656541f899210da5cd6ce59e",
+      "modules": [
+        3
+      ],
+      "mode": "FULL",
+      "run_ids": [
+        "20260906_230909_089519",
+        "20260906_230949_124162",
+        "20260906_231029_180830"
+      ],
+      "repeat_indices": [
+        1,
+        2,
+        3
+      ],
+      "n_temporal_repeats": 3,
+      "independent_setup_blocks": 1,
+      "main_Hz_mean": 200.33143708789476,
+      "main_Hz_sample_sd": 0.0495009705736299,
+      "interpretation": "Three consecutive recording windows in one setup, not three independently re-established blocks."
+    }
+  ],
+  "complete_packet_total": 96193,
+  "main_packet_total": 72096,
+  "new_completed_runs_not_audited": [],
+  "unparseable_summaries": [],
+  "limits": [
+    "Main timing comes from packet_log completion timestamps; raw has no arrival timestamps.",
+    "Local provenance hashes do not verify device flash contents.",
+    "Slot IDs are CS/IRQ positions, not unique physical-board identities.",
+    "Four first-batch boundary prefixes are inferred magic bytes; eight within-batch boundaries use actual previous raw tails.",
+    "No observed MUL1/ESK discontinuity does not prove every physical scan was transmitted."
+  ]
+}

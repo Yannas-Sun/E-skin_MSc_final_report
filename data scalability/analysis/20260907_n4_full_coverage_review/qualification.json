@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "raw_audit_sha256": "1d34e4b45d7ae44e6fbe9595dc0f0ffd88c7349e071f9b93dbcd197b238e19a4",
+  "runs": [
+    {
+      "run_id": "20260907_060147_020562",
+      "original_gui_main_status": "PASS",
+      "independent_main_status": "PASS",
+      "main_review_reasons": [],
+      "main_inner_sequence_events": 0,
+      "main_outer_crc_errors": 0,
+      "main_outer_missing_sequence_numbers": 0,
+      "main_missing_valid_expected_updates": 0,
+      "main_cache_base_error_events": 0,
+      "main_observed_base_discontinuities": 0,
+      "main_unapplied_ESKD_after_anchor": 0,
+      "main_valid_outer_packets": 5978,
+      "main_valid_module_frames": 23912,
+      "actual_condition": "large_area",
+      "actual_description": "四模块同时全覆盖按下",
+      "batch_selection_note": "Evaluate the three-run batch together; a passing R1 does not turn this batch into three passing repetitions."
+    },
+    {
+      "run_id": "20260907_060227_053987",
+      "original_gui_main_status": "CHECK REQUIRED",
+      "independent_main_status": "CHECK REQUIRED",
+      "main_review_reasons": [
+        "main_inner_sequence_discontinuities",
+        "main_outer_sequence_discontinuities",
+        "main_missing_valid_expected_updates"
+      ],
+      "main_inner_sequence_events": 7,
+      "main_outer_crc_errors": 0,
+      "main_outer_missing_sequence_numbers": 4,
+      "main_missing_valid_expected_updates": 4,
+      "main_cache_base_error_events": 0,
+      "main_observed_base_discontinuities": 0,
+      "main_unapplied_ESKD_after_anchor": 0,
+      "main_valid_outer_packets": 5852,
+      "main_valid_module_frames": 23404,
+      "actual_condition": "large_area",
+      "actual_description": "四模块同时全覆盖按下",
+      "batch_selection_note": "Evaluate the three-run batch together; a passing R1 does not turn this batch into three passing repetitions."
+    },
+    {
+      "run_id": "20260907_060307_083182",
+      "original_gui_main_status": "CHECK REQUIRED",
+      "independent_main_status": "CHECK REQUIRED",
+      "main_review_reasons": [
+        "main_inner_sequence_discontinuities",
+        "main_outer_sequence_discontinuities"
+      ],
+      "main_inner_sequence_events": 7,
+      "main_outer_crc_errors": 0,
+      "main_outer_missing_sequence_numbers": 4,
+      "main_missing_valid_expected_updates": 0,
+      "main_cache_base_error_events": 0,
+      "main_observed_base_discontinuities": 0,
+      "main_unapplied_ESKD_after_anchor": 0,
+      "main_valid_outer_packets": 5879,
+      "main_valid_module_frames": 23516,
+      "actual_condition": "large_area",
+      "actual_description": "四模块同时全覆盖按下",
+      "batch_selection_note": "Evaluate the three-run batch together; a passing R1 does not turn this batch into three passing repetitions."
+    }
+  ],
+  "original_files_unchanged": true
+}

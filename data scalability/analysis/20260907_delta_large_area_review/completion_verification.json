@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "moved_runs": 3,
+  "moved_files_hash_verified": 27,
+  "source_raw_files_unchanged": 18,
+  "all_index_runs": 96,
+  "primary_runs": 90,
+  "new_independent_CHECK": 3,
+  "readme_links_checked": 46,
+  "protected_FULL_and_zero_views_unchanged": true
+}

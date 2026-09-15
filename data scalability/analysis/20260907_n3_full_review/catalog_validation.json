@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "checked_catalog_documents": [
+    "data\\README.md",
+    "data\\FULL\\N=3\\200Hz\\README.md",
+    "data\\FULL\\N=3\\200Hz\\M0_M1_M2\\README.md",
+    "data\\FULL\\N=3\\200Hz\\M0_M1_M3\\README.md",
+    "data\\FULL\\N=3\\200Hz\\M0_M2_M3\\README.md",
+    "data\\FULL\\N=3\\200Hz\\M1_M2_M3\\README.md",
+    "data\\FULL\\N=2\\200Hz\\README.md",
+    "data\\FULL\\N=2\\200Hz\\M0_M1\\README.md",
+    "data\\FULL\\N=2\\200Hz\\M0_M2\\README.md",
+    "data\\FULL\\N=2\\200Hz\\M0_M3\\README.md",
+    "data\\FULL\\N=2\\200Hz\\M1_M2\\README.md",
+    "data\\FULL\\N=2\\200Hz\\M1_M3\\README.md",
+    "data\\FULL\\N=2\\200Hz\\M2_M3\\README.md",
+    "data\\FULL\\N=1\\200Hz\\README.md",
+    "data\\FULL\\N=1\\200Hz\\M0\\README.md",
+    "data\\FULL\\N=1\\200Hz\\M1\\README.md",
+    "data\\FULL\\N=1\\200Hz\\M2\\README.md",
+    "data\\FULL\\N=1\\200Hz\\M3\\README.md",
+    "analysis\\20260907_n3_full_review\\TIMING_NOTE_CN.md"
+  ],
+  "original_files_sha256_verified": 72,
+  "indexed_runs": 42,
+  "main_eligible_runs": 41,
+  "main_check_runs": 1,
+  "performance_groups": 14,
+  "all_run_diagnostic_groups": 14,
+  "excluded_from_clean_performance_but_retained_run_id": "20260907_000133_670681",
+  "slow_PASS_retained_run_id": "20260907_001505_375008"
+}

@@ -1,0 +1,8 @@
+{
+  "recorded_condition": "zero_load",
+  "actual_condition": "large_area",
+  "actual_load_protocol": "full_coverage_all_modules_after_connector_reinstallation",
+  "operator_confirmation": "All four modules were covered and loaded simultaneously. The earlier fault was poor connector contact; reinstallation resolved it.",
+  "evidence_limit": "The intervention and non-recurrence are documented observations; the batch is not a randomized connector fault experiment.",
+  "source_metadata_unchanged": true
+}

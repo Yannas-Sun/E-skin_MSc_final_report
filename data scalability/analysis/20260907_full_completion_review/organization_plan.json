@@ -1,0 +1,416 @@
+{
+  "prepared_at": "2026-09-07T00:58:20.839498+01:00",
+  "data_root": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data",
+  "status": "planned",
+  "rule": "FULL/N=<N>/200Hz/<slots>/[Batch_<retest-first-run>/]Repeat_<within-batch-repeat>",
+  "collision_policy": "abort; never overwrite or renumber another batch",
+  "original_file_content_policy": "preserve every byte including embedded old paths",
+  "statistics_policy": "Exclude CHECK windows from clean performance mean only; keep every run/file and all-run diagnostics for reliability assessment",
+  "runs": [
+    {
+      "run_id": "20260907_004948_668301",
+      "source": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_004948_668301",
+      "destination": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_1",
+      "files": [
+        {
+          "run_id": "20260907_004948_668301",
+          "file_name": "events.jsonl",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_004948_668301\\events.jsonl",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_1\\events.jsonl",
+          "old_relative_path": "20260907_004948_668301/events.jsonl",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_1/events.jsonl",
+          "bytes": 7690,
+          "sha256": "af4e6206230cded891cb2bfb647e8c7f5ad9d76b36e9dcf827eb9ee72ea12071"
+        },
+        {
+          "run_id": "20260907_004948_668301",
+          "file_name": "experiment_log.md",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_004948_668301\\experiment_log.md",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_1\\experiment_log.md",
+          "old_relative_path": "20260907_004948_668301/experiment_log.md",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_1/experiment_log.md",
+          "bytes": 6996,
+          "sha256": "701a89cfa53fbf4bc36cc42ba86021ff37da566d91067a2309dabda7a6c59314"
+        },
+        {
+          "run_id": "20260907_004948_668301",
+          "file_name": "module_log.csv",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_004948_668301\\module_log.csv",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_1\\module_log.csv",
+          "old_relative_path": "20260907_004948_668301/module_log.csv",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_1/module_log.csv",
+          "bytes": 3489325,
+          "sha256": "6f47a32385d2c6a94d07ca3f601099ce8f2df0bd59e124f3c063dd9aed27182c"
+        },
+        {
+          "run_id": "20260907_004948_668301",
+          "file_name": "mul1_raw.bin",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_004948_668301\\mul1_raw.bin",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_1\\mul1_raw.bin",
+          "old_relative_path": "20260907_004948_668301/mul1_raw.bin",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_1/mul1_raw.bin",
+          "bytes": 25395032,
+          "sha256": "c947056996e3c61fb6ef7074480b45f4a33d58c1b927dafddc83d31800b535dc"
+        },
+        {
+          "run_id": "20260907_004948_668301",
+          "file_name": "packet_log.csv",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_004948_668301\\packet_log.csv",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_1\\packet_log.csv",
+          "old_relative_path": "20260907_004948_668301/packet_log.csv",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_1/packet_log.csv",
+          "bytes": 1435331,
+          "sha256": "400536c3301f403a6176f1bab631f783143e29f8474f3a8dc19dc74c0ba59a86"
+        },
+        {
+          "run_id": "20260907_004948_668301",
+          "file_name": "summary.json",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_004948_668301\\summary.json",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_1\\summary.json",
+          "old_relative_path": "20260907_004948_668301/summary.json",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_1/summary.json",
+          "bytes": 37309,
+          "sha256": "8de59f602d6f4fc7d284899367a16da4652a9775be42bf0b0f08f0d1f9e168f7"
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_005028_724004",
+      "source": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005028_724004",
+      "destination": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_2",
+      "files": [
+        {
+          "run_id": "20260907_005028_724004",
+          "file_name": "events.jsonl",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005028_724004\\events.jsonl",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_2\\events.jsonl",
+          "old_relative_path": "20260907_005028_724004/events.jsonl",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_2/events.jsonl",
+          "bytes": 7039,
+          "sha256": "088a6192c0eeb597901259275d9f7d0bc090c8cf4d62977af640901202f243f1"
+        },
+        {
+          "run_id": "20260907_005028_724004",
+          "file_name": "experiment_log.md",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005028_724004\\experiment_log.md",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_2\\experiment_log.md",
+          "old_relative_path": "20260907_005028_724004/experiment_log.md",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_2/experiment_log.md",
+          "bytes": 6139,
+          "sha256": "69a3902f421f91310861c81a91fdb71e478e326585c1c3d277f348165eb7f154"
+        },
+        {
+          "run_id": "20260907_005028_724004",
+          "file_name": "module_log.csv",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005028_724004\\module_log.csv",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_2\\module_log.csv",
+          "old_relative_path": "20260907_005028_724004/module_log.csv",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_2/module_log.csv",
+          "bytes": 3493666,
+          "sha256": "2c97c3f8ad51bf4fd9b6f8390202ac7cd8debb3012bde73a13d3dcbdbc21382d"
+        },
+        {
+          "run_id": "20260907_005028_724004",
+          "file_name": "mul1_raw.bin",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005028_724004\\mul1_raw.bin",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_2\\mul1_raw.bin",
+          "old_relative_path": "20260907_005028_724004/mul1_raw.bin",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_2/mul1_raw.bin",
+          "bytes": 25423579,
+          "sha256": "5942a456a47171ec219cf2c20e3fc411d4a765a2a29f8a313acd00f0a50f9801"
+        },
+        {
+          "run_id": "20260907_005028_724004",
+          "file_name": "packet_log.csv",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005028_724004\\packet_log.csv",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_2\\packet_log.csv",
+          "old_relative_path": "20260907_005028_724004/packet_log.csv",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_2/packet_log.csv",
+          "bytes": 1437053,
+          "sha256": "913762152c6d3818bba2066a676946295cf7162a6eb4dd7f28200c8417861835"
+        },
+        {
+          "run_id": "20260907_005028_724004",
+          "file_name": "summary.json",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005028_724004\\summary.json",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_2\\summary.json",
+          "old_relative_path": "20260907_005028_724004/summary.json",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_2/summary.json",
+          "bytes": 35243,
+          "sha256": "78e23cea99ebacc3d687d97388a947f1604ffe8e12967f90443c8e7725dd58eb"
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_005108_797842",
+      "source": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005108_797842",
+      "destination": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_3",
+      "files": [
+        {
+          "run_id": "20260907_005108_797842",
+          "file_name": "events.jsonl",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005108_797842\\events.jsonl",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_3\\events.jsonl",
+          "old_relative_path": "20260907_005108_797842/events.jsonl",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_3/events.jsonl",
+          "bytes": 5527,
+          "sha256": "b86fb3c25d6d7aff5f1338ac2fdc26e11db9e4b637b80252dc46a53cb1512cfc"
+        },
+        {
+          "run_id": "20260907_005108_797842",
+          "file_name": "experiment_log.md",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005108_797842\\experiment_log.md",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_3\\experiment_log.md",
+          "old_relative_path": "20260907_005108_797842/experiment_log.md",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_3/experiment_log.md",
+          "bytes": 6181,
+          "sha256": "8805bac6d50309fcef5dc4054058860c03b9c27e353dbe40f1bb2b9dd475a0d7"
+        },
+        {
+          "run_id": "20260907_005108_797842",
+          "file_name": "module_log.csv",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005108_797842\\module_log.csv",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_3\\module_log.csv",
+          "old_relative_path": "20260907_005108_797842/module_log.csv",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_3/module_log.csv",
+          "bytes": 3495570,
+          "sha256": "7303911781db57a8bd49f96b4da5c3179fd053fad1e8dbee588ca624f992c42a"
+        },
+        {
+          "run_id": "20260907_005108_797842",
+          "file_name": "mul1_raw.bin",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005108_797842\\mul1_raw.bin",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_3\\mul1_raw.bin",
+          "old_relative_path": "20260907_005108_797842/mul1_raw.bin",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_3/mul1_raw.bin",
+          "bytes": 25433097,
+          "sha256": "76965e08a1c13ca0d485f1cd5e534bfb00a1412e24c5d01b55a91fe9d87402b0"
+        },
+        {
+          "run_id": "20260907_005108_797842",
+          "file_name": "packet_log.csv",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005108_797842\\packet_log.csv",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_3\\packet_log.csv",
+          "old_relative_path": "20260907_005108_797842/packet_log.csv",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_3/packet_log.csv",
+          "bytes": 1437805,
+          "sha256": "551b26dc2b1500bb24cf17c925bdaaf4542868c52af0b0b200ae23abfe57311c"
+        },
+        {
+          "run_id": "20260907_005108_797842",
+          "file_name": "summary.json",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005108_797842\\summary.json",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=3\\200Hz\\M0_M1_M2\\Batch_20260907_004948_668301\\Repeat_3\\summary.json",
+          "old_relative_path": "20260907_005108_797842/summary.json",
+          "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_3/summary.json",
+          "bytes": 35374,
+          "sha256": "6799d6421e0874d434030fadd7d198dd648a31411902f207e603293641a9bcc8"
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_005250_875035",
+      "source": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005250_875035",
+      "destination": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_1",
+      "files": [
+        {
+          "run_id": "20260907_005250_875035",
+          "file_name": "events.jsonl",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005250_875035\\events.jsonl",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_1\\events.jsonl",
+          "old_relative_path": "20260907_005250_875035/events.jsonl",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_1/events.jsonl",
+          "bytes": 7985,
+          "sha256": "0fc98f06a3189b3c361f61331909bbc3e41bf93f9250de1456e308d00435e48d"
+        },
+        {
+          "run_id": "20260907_005250_875035",
+          "file_name": "experiment_log.md",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005250_875035\\experiment_log.md",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_1\\experiment_log.md",
+          "old_relative_path": "20260907_005250_875035/experiment_log.md",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_1/experiment_log.md",
+          "bytes": 7202,
+          "sha256": "8c21b55ae118d63befd9184ab3b127fd123b94c62d2100cb8c53461e421f313d"
+        },
+        {
+          "run_id": "20260907_005250_875035",
+          "file_name": "module_log.csv",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005250_875035\\module_log.csv",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_1\\module_log.csv",
+          "old_relative_path": "20260907_005250_875035/module_log.csv",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_1/module_log.csv",
+          "bytes": 3704448,
+          "sha256": "2e4937f32a0af7d29c332fdce6bceef3d19798862cf0a963ffb70784de1c1827"
+        },
+        {
+          "run_id": "20260907_005250_875035",
+          "file_name": "mul1_raw.bin",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005250_875035\\mul1_raw.bin",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_1\\mul1_raw.bin",
+          "old_relative_path": "20260907_005250_875035/mul1_raw.bin",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_1/mul1_raw.bin",
+          "bytes": 33744864,
+          "sha256": "a701dc758ab68977f04c4bf0f719c25a379e5ac936e751755512c430348d346e"
+        },
+        {
+          "run_id": "20260907_005250_875035",
+          "file_name": "packet_log.csv",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005250_875035\\packet_log.csv",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_1\\packet_log.csv",
+          "old_relative_path": "20260907_005250_875035/packet_log.csv",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_1/packet_log.csv",
+          "bytes": 1403806,
+          "sha256": "494e3e49a45da89e5d721d92a3c1486383415c7972e36a3798fb66445e948731"
+        },
+        {
+          "run_id": "20260907_005250_875035",
+          "file_name": "summary.json",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005250_875035\\summary.json",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_1\\summary.json",
+          "old_relative_path": "20260907_005250_875035/summary.json",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_1/summary.json",
+          "bytes": 38121,
+          "sha256": "95373a0958b008b4505914706f786a70b58709d28a71e75b2a3b33a8b2682896"
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_005330_930696",
+      "source": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005330_930696",
+      "destination": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_2",
+      "files": [
+        {
+          "run_id": "20260907_005330_930696",
+          "file_name": "events.jsonl",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005330_930696\\events.jsonl",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_2\\events.jsonl",
+          "old_relative_path": "20260907_005330_930696/events.jsonl",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_2/events.jsonl",
+          "bytes": 7289,
+          "sha256": "df51635d5178b396021eb8e32e6dce64744c2281d5aeb4a8e8f9fb936822bdfb"
+        },
+        {
+          "run_id": "20260907_005330_930696",
+          "file_name": "experiment_log.md",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005330_930696\\experiment_log.md",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_2\\experiment_log.md",
+          "old_relative_path": "20260907_005330_930696/experiment_log.md",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_2/experiment_log.md",
+          "bytes": 6286,
+          "sha256": "263718d251d7fb870ec62ef93d0eac54f2099c7f9c6dca90378b34ca0eaa0404"
+        },
+        {
+          "run_id": "20260907_005330_930696",
+          "file_name": "module_log.csv",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005330_930696\\module_log.csv",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_2\\module_log.csv",
+          "old_relative_path": "20260907_005330_930696/module_log.csv",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_2/module_log.csv",
+          "bytes": 3740039,
+          "sha256": "d11529fb603fc555ea78e9a2b0f7ee65c4ef770b5fae7a08be6cd34ff8ddd4fe"
+        },
+        {
+          "run_id": "20260907_005330_930696",
+          "file_name": "mul1_raw.bin",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005330_930696\\mul1_raw.bin",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_2\\mul1_raw.bin",
+          "old_relative_path": "20260907_005330_930696/mul1_raw.bin",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_2/mul1_raw.bin",
+          "bytes": 33787023,
+          "sha256": "eadc52b7adcc8c474d08ace3009535014685ee70f30f0ed9c4793f2c93f2f7c1"
+        },
+        {
+          "run_id": "20260907_005330_930696",
+          "file_name": "packet_log.csv",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005330_930696\\packet_log.csv",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_2\\packet_log.csv",
+          "old_relative_path": "20260907_005330_930696/packet_log.csv",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_2/packet_log.csv",
+          "bytes": 1405682,
+          "sha256": "08187edc3ec6bcb809b11bff559986b1d54c2dea5096872b1af762249b247cbc"
+        },
+        {
+          "run_id": "20260907_005330_930696",
+          "file_name": "summary.json",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005330_930696\\summary.json",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_2\\summary.json",
+          "old_relative_path": "20260907_005330_930696/summary.json",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_2/summary.json",
+          "bytes": 35930,
+          "sha256": "41e2d871c32324de1151c5137ab7846c1292a78c9ef548288f8c592ec2fdc051"
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_005410_996854",
+      "source": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005410_996854",
+      "destination": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_3",
+      "files": [
+        {
+          "run_id": "20260907_005410_996854",
+          "file_name": "events.jsonl",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005410_996854\\events.jsonl",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_3\\events.jsonl",
+          "old_relative_path": "20260907_005410_996854/events.jsonl",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_3/events.jsonl",
+          "bytes": 5781,
+          "sha256": "670a4188336d738c72115c0065160f5c4755bae9febb90ae1478dc919b4b8d76"
+        },
+        {
+          "run_id": "20260907_005410_996854",
+          "file_name": "experiment_log.md",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005410_996854\\experiment_log.md",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_3\\experiment_log.md",
+          "old_relative_path": "20260907_005410_996854/experiment_log.md",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_3/experiment_log.md",
+          "bytes": 6286,
+          "sha256": "90431e876a01a70fe278bee211c32ca3c86f80c98cc9d341c00f9249c988caea"
+        },
+        {
+          "run_id": "20260907_005410_996854",
+          "file_name": "module_log.csv",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005410_996854\\module_log.csv",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_3\\module_log.csv",
+          "old_relative_path": "20260907_005410_996854/module_log.csv",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_3/module_log.csv",
+          "bytes": 3743204,
+          "sha256": "659dd91d37f2a4197dc927b9aae085631b63d25a84b1a6ea4a362bf87a5a55c1"
+        },
+        {
+          "run_id": "20260907_005410_996854",
+          "file_name": "mul1_raw.bin",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005410_996854\\mul1_raw.bin",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_3\\mul1_raw.bin",
+          "old_relative_path": "20260907_005410_996854/mul1_raw.bin",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_3/mul1_raw.bin",
+          "bytes": 33799672,
+          "sha256": "66f100bdf6125e70145713667970f1d1c36ac35af9fd2e391ff8ae0e2b362997"
+        },
+        {
+          "run_id": "20260907_005410_996854",
+          "file_name": "packet_log.csv",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005410_996854\\packet_log.csv",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_3\\packet_log.csv",
+          "old_relative_path": "20260907_005410_996854/packet_log.csv",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_3/packet_log.csv",
+          "bytes": 1406311,
+          "sha256": "acc0df5728a6b8e705d98d407d1ad378b1de4fa2eec3e218f19bf8c1f05ae339"
+        },
+        {
+          "run_id": "20260907_005410_996854",
+          "file_name": "summary.json",
+          "old_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_005410_996854\\summary.json",
+          "new_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\FULL\\N=4\\200Hz\\M0_M1_M2_M3\\Repeat_3\\summary.json",
+          "old_relative_path": "20260907_005410_996854/summary.json",
+          "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_3/summary.json",
+          "bytes": 35761,
+          "sha256": "c449ffdc4943787a70cec54aae46b2471f6ae7d4fcd595b6e40e07d41a8a17db"
+        }
+      ]
+    }
+  ],
+  "total_runs": 6,
+  "total_files": 36,
+  "total_bytes": 208073646
+}

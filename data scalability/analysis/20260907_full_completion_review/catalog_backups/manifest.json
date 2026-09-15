@@ -1,0 +1,31 @@
+{
+  "scope": "Derived catalog README files only; captured before completion update",
+  "files": [
+    {
+      "relative_path": "FULL/N=3/200Hz/README.md",
+      "existed_before": true,
+      "backup_relative_path": "catalog_backups/data/FULL/N=3/200Hz/README.md",
+      "sha256": "8211b1c27627a56c502676a9cef5674c060ebbe34c0e3f5f67b7b82e7fb4a9fe",
+      "bytes": 5583
+    },
+    {
+      "relative_path": "FULL/N=3/200Hz/M0_M1_M2/README.md",
+      "existed_before": true,
+      "backup_relative_path": "catalog_backups/data/FULL/N=3/200Hz/M0_M1_M2/README.md",
+      "sha256": "8045aef9f906127def4ca2784f29bf3b4d1ca509229d07fa86804aadaf0023ef",
+      "bytes": 1908
+    },
+    {
+      "relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/README.md",
+      "existed_before": false
+    },
+    {
+      "relative_path": "FULL/N=4/200Hz/README.md",
+      "existed_before": false
+    },
+    {
+      "relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/README.md",
+      "existed_before": false
+    }
+  ]
+}

@@ -1,0 +1,1028 @@
+{
+  "schema_version": 1,
+  "scope": "Six completion captures only; summary/CSV timing, independent raw integrity audit is separate",
+  "helper_relative_path": "../20260907_n3_full_review/audit_timing.py",
+  "helper_sha256": "2fe31cbd25c13b783a71dbf17b4e65145913e1e97ec80e831d3c3b85bfe27d7e",
+  "bridge_timestamp_definition": "MUL1 host_ms is Teensy millis() at enqueueMultiPacket; not physical scan or USB transaction time",
+  "pc_timestamp_definition": "Packet-completion observation; buffered packets can share a timestamp",
+  "selection_policy": "All three runs in each new batch retained, including the 278.7935 ms PC-observation interval run",
+  "runs": [
+    {
+      "run_id": "20260907_004948_668301",
+      "modules": "M0_M1_M2",
+      "repeat": 1,
+      "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_1",
+      "packet_log_sha256": "400536c3301f403a6176f1bab631f783143e29f8474f3a8dc19dc74c0ba59a86",
+      "main_status": "PASS",
+      "main_eligible": true,
+      "main_duration_s": 30.004172599990852,
+      "main_valid_packets": 6005,
+      "main_packet_rate_Hz": 200.1388300239891,
+      "main_packet_Mbit_s": 5.078722950688747,
+      "main_review_reasons": [],
+      "main_session_error_deltas": {
+        "outer_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "inner_crc_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_trailing_raw_bytes": 1,
+      "first": {
+        "csv_line": 2002,
+        "packet_sequence": "2242582",
+        "elapsed_s": "10.00155809998978",
+        "host_ms": "16665534"
+      },
+      "last": {
+        "csv_line": 8006,
+        "packet_sequence": "2248586",
+        "elapsed_s": "39.999143599998206",
+        "host_ms": "16695537"
+      },
+      "pc_5s_bins": [
+        {
+          "start_s": 10,
+          "end_s": 15,
+          "valid_packets": 1002
+        },
+        {
+          "start_s": 15,
+          "end_s": 20,
+          "valid_packets": 1000
+        },
+        {
+          "start_s": 20,
+          "end_s": 25,
+          "valid_packets": 1001
+        },
+        {
+          "start_s": 25,
+          "end_s": 30,
+          "valid_packets": 1001
+        },
+        {
+          "start_s": 30,
+          "end_s": 35,
+          "valid_packets": 1000
+        },
+        {
+          "start_s": 35,
+          "end_s": 40,
+          "valid_packets": 1001
+        }
+      ],
+      "main_packets_at_or_after_40_s": 0,
+      "pc_1s_counts_10_to_40": [
+        201,
+        200,
+        201,
+        200,
+        200,
+        200,
+        199,
+        201,
+        200,
+        200,
+        200,
+        200,
+        199,
+        202,
+        200,
+        200,
+        200,
+        200,
+        201,
+        200,
+        200,
+        199,
+        201,
+        200,
+        200,
+        199,
+        201,
+        197,
+        204,
+        200
+      ],
+      "max_pc_gap": {
+        "pc_completion_gap_s": 0.03222240001196042,
+        "bridge_enqueue_gap_ms": 5,
+        "mul1_sequence_step": 1,
+        "previous": {
+          "csv_line": 7058,
+          "packet_sequence": "2247638",
+          "elapsed_s": "35.26321379997535",
+          "host_ms": "16690799"
+        },
+        "current": {
+          "csv_line": 7059,
+          "packet_sequence": "2247639",
+          "elapsed_s": "35.29543619998731",
+          "host_ms": "16690804"
+        }
+      },
+      "max_bridge_gap": {
+        "pc_completion_gap_s": 0.004464500001631677,
+        "bridge_enqueue_gap_ms": 6,
+        "mul1_sequence_step": 1,
+        "previous": {
+          "csv_line": 3264,
+          "packet_sequence": "2243844",
+          "elapsed_s": "16.303157199989073",
+          "host_ms": "16671839"
+        },
+        "current": {
+          "csv_line": 3265,
+          "packet_sequence": "2243845",
+          "elapsed_s": "16.307621699990705",
+          "host_ms": "16671845"
+        }
+      },
+      "module_sequence_steps_at_max_bridge_gap": {
+        "M0": {
+          "sequences": [
+            148269,
+            148270
+          ],
+          "step": 1
+        },
+        "M1": {
+          "sequences": [
+            149822,
+            149823
+          ],
+          "step": 1
+        },
+        "M2": {
+          "sequences": [
+            206212,
+            206213
+          ],
+          "step": 1
+        }
+      },
+      "zero_pc_gap_count": 258,
+      "bridge_gap_ms_histogram": {
+        "4": 19,
+        "5": 5983,
+        "6": 2
+      },
+      "nonconsecutive_valid_mul1_steps": []
+    },
+    {
+      "run_id": "20260907_005028_724004",
+      "modules": "M0_M1_M2",
+      "repeat": 2,
+      "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_2",
+      "packet_log_sha256": "913762152c6d3818bba2066a676946295cf7162a6eb4dd7f28200c8417861835",
+      "main_status": "PASS",
+      "main_eligible": true,
+      "main_duration_s": 30.001436699996702,
+      "main_valid_packets": 6003,
+      "main_packet_rate_Hz": 200.0904176699198,
+      "main_packet_Mbit_s": 5.077494438791884,
+      "main_review_reasons": [],
+      "main_session_error_deltas": {
+        "outer_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "inner_crc_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_trailing_raw_bytes": 0,
+      "first": {
+        "csv_line": 2013,
+        "packet_sequence": "2250599",
+        "elapsed_s": "10.003705400013132",
+        "host_ms": "16705596"
+      },
+      "last": {
+        "csv_line": 8015,
+        "packet_sequence": "2256601",
+        "elapsed_s": "39.998940399993444",
+        "host_ms": "16735590"
+      },
+      "pc_5s_bins": [
+        {
+          "start_s": 10,
+          "end_s": 15,
+          "valid_packets": 1000
+        },
+        {
+          "start_s": 15,
+          "end_s": 20,
+          "valid_packets": 999
+        },
+        {
+          "start_s": 20,
+          "end_s": 25,
+          "valid_packets": 1002
+        },
+        {
+          "start_s": 25,
+          "end_s": 30,
+          "valid_packets": 1001
+        },
+        {
+          "start_s": 30,
+          "end_s": 35,
+          "valid_packets": 1001
+        },
+        {
+          "start_s": 35,
+          "end_s": 40,
+          "valid_packets": 1000
+        }
+      ],
+      "main_packets_at_or_after_40_s": 0,
+      "pc_1s_counts_10_to_40": [
+        199,
+        201,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        199,
+        202,
+        199,
+        200,
+        199,
+        202,
+        201,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        199,
+        201,
+        201,
+        200,
+        199,
+        201,
+        200,
+        200
+      ],
+      "max_pc_gap": {
+        "pc_completion_gap_s": 0.05417509999824688,
+        "bridge_enqueue_gap_ms": 5,
+        "mul1_sequence_step": 1,
+        "previous": {
+          "csv_line": 6233,
+          "packet_sequence": "2254819",
+          "elapsed_s": "31.095546299999114",
+          "host_ms": "16726685"
+        },
+        "current": {
+          "csv_line": 6234,
+          "packet_sequence": "2254820",
+          "elapsed_s": "31.14972139999736",
+          "host_ms": "16726690"
+        }
+      },
+      "max_bridge_gap": {
+        "pc_completion_gap_s": 0.0038326999929267913,
+        "bridge_enqueue_gap_ms": 6,
+        "mul1_sequence_step": 1,
+        "previous": {
+          "csv_line": 3505,
+          "packet_sequence": "2252091",
+          "elapsed_s": "17.4605356999964",
+          "host_ms": "16713051"
+        },
+        "current": {
+          "csv_line": 3506,
+          "packet_sequence": "2252092",
+          "elapsed_s": "17.464368399989326",
+          "host_ms": "16713057"
+        }
+      },
+      "module_sequence_steps_at_max_bridge_gap": {
+        "M0": {
+          "sequences": [
+            156516,
+            156517
+          ],
+          "step": 1
+        },
+        "M1": {
+          "sequences": [
+            158069,
+            158070
+          ],
+          "step": 1
+        },
+        "M2": {
+          "sequences": [
+            214459,
+            214460
+          ],
+          "step": 1
+        }
+      },
+      "zero_pc_gap_count": 829,
+      "bridge_gap_ms_histogram": {
+        "4": 20,
+        "5": 5978,
+        "6": 4
+      },
+      "nonconsecutive_valid_mul1_steps": []
+    },
+    {
+      "run_id": "20260907_005108_797842",
+      "modules": "M0_M1_M2",
+      "repeat": 3,
+      "new_relative_path": "FULL/N=3/200Hz/M0_M1_M2/Batch_20260907_004948_668301/Repeat_3",
+      "packet_log_sha256": "551b26dc2b1500bb24cf17c925bdaaf4542868c52af0b0b200ae23abfe57311c",
+      "main_status": "PASS",
+      "main_eligible": true,
+      "main_duration_s": 30.006370699993568,
+      "main_valid_packets": 6002,
+      "main_packet_rate_Hz": 200.02419019642673,
+      "main_packet_Mbit_s": 5.075813850424525,
+      "main_review_reasons": [],
+      "main_session_error_deltas": {
+        "outer_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "inner_crc_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_trailing_raw_bytes": 1,
+      "first": {
+        "csv_line": 2018,
+        "packet_sequence": "2258618",
+        "elapsed_s": "10.004937799996696",
+        "host_ms": "16745670"
+      },
+      "last": {
+        "csv_line": 8019,
+        "packet_sequence": "2264619",
+        "elapsed_s": "39.99658310000086",
+        "host_ms": "16775662"
+      },
+      "pc_5s_bins": [
+        {
+          "start_s": 10,
+          "end_s": 15,
+          "valid_packets": 1000
+        },
+        {
+          "start_s": 15,
+          "end_s": 20,
+          "valid_packets": 1001
+        },
+        {
+          "start_s": 20,
+          "end_s": 25,
+          "valid_packets": 1000
+        },
+        {
+          "start_s": 25,
+          "end_s": 30,
+          "valid_packets": 1000
+        },
+        {
+          "start_s": 30,
+          "end_s": 35,
+          "valid_packets": 1001
+        },
+        {
+          "start_s": 35,
+          "end_s": 40,
+          "valid_packets": 1000
+        }
+      ],
+      "main_packets_at_or_after_40_s": 0,
+      "pc_1s_counts_10_to_40": [
+        199,
+        199,
+        202,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        201,
+        200,
+        199,
+        201,
+        200,
+        200,
+        200,
+        200,
+        196,
+        190,
+        214,
+        201,
+        200,
+        199,
+        201,
+        200,
+        200,
+        199,
+        201,
+        154,
+        246
+      ],
+      "max_pc_gap": {
+        "pc_completion_gap_s": 0.27879350000876,
+        "bridge_enqueue_gap_ms": 5,
+        "mul1_sequence_step": 1,
+        "previous": {
+          "csv_line": 7709,
+          "packet_sequence": "2264309",
+          "elapsed_s": "38.44863450000412",
+          "host_ms": "16774112"
+        },
+        "current": {
+          "csv_line": 7710,
+          "packet_sequence": "2264310",
+          "elapsed_s": "38.72742800001288",
+          "host_ms": "16774117"
+        }
+      },
+      "max_bridge_gap": {
+        "pc_completion_gap_s": 0.0074804000032600015,
+        "bridge_enqueue_gap_ms": 6,
+        "mul1_sequence_step": 1,
+        "previous": {
+          "csv_line": 2209,
+          "packet_sequence": "2258809",
+          "elapsed_s": "10.95882349999738",
+          "host_ms": "16746624"
+        },
+        "current": {
+          "csv_line": 2210,
+          "packet_sequence": "2258810",
+          "elapsed_s": "10.96630390000064",
+          "host_ms": "16746630"
+        }
+      },
+      "module_sequence_steps_at_max_bridge_gap": {
+        "M0": {
+          "sequences": [
+            163234,
+            163235
+          ],
+          "step": 1
+        },
+        "M1": {
+          "sequences": [
+            164787,
+            164788
+          ],
+          "step": 1
+        },
+        "M2": {
+          "sequences": [
+            221177,
+            221178
+          ],
+          "step": 1
+        }
+      },
+      "zero_pc_gap_count": 1052,
+      "bridge_gap_ms_histogram": {
+        "4": 22,
+        "5": 5970,
+        "6": 9
+      },
+      "nonconsecutive_valid_mul1_steps": []
+    },
+    {
+      "run_id": "20260907_005250_875035",
+      "modules": "M0_M1_M2_M3",
+      "repeat": 1,
+      "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_1",
+      "packet_log_sha256": "494e3e49a45da89e5d721d92a3c1486383415c7972e36a3798fb66445e948731",
+      "main_status": "PASS",
+      "main_eligible": true,
+      "main_duration_s": 30.00000839997665,
+      "main_valid_packets": 6002,
+      "main_packet_rate_Hz": 200.0666106481714,
+      "main_packet_Mbit_s": 6.747846643941525,
+      "main_review_reasons": [],
+      "main_session_error_deltas": {
+        "outer_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "inner_crc_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_trailing_raw_bytes": 1,
+      "first": {
+        "csv_line": 2003,
+        "packet_sequence": "2277601",
+        "elapsed_s": "10.00082570000086",
+        "host_ms": "16847742"
+      },
+      "last": {
+        "csv_line": 8004,
+        "packet_sequence": "2283602",
+        "elapsed_s": "39.99527459999081",
+        "host_ms": "16877737"
+      },
+      "pc_5s_bins": [
+        {
+          "start_s": 10,
+          "end_s": 15,
+          "valid_packets": 1000
+        },
+        {
+          "start_s": 15,
+          "end_s": 20,
+          "valid_packets": 1001
+        },
+        {
+          "start_s": 20,
+          "end_s": 25,
+          "valid_packets": 1000
+        },
+        {
+          "start_s": 25,
+          "end_s": 30,
+          "valid_packets": 1001
+        },
+        {
+          "start_s": 30,
+          "end_s": 35,
+          "valid_packets": 1000
+        },
+        {
+          "start_s": 35,
+          "end_s": 40,
+          "valid_packets": 1000
+        }
+      ],
+      "main_packets_at_or_after_40_s": 0,
+      "pc_1s_counts_10_to_40": [
+        200,
+        201,
+        200,
+        200,
+        199,
+        201,
+        200,
+        199,
+        201,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        201,
+        199,
+        200,
+        200,
+        201,
+        200,
+        199,
+        200,
+        200,
+        201,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "max_pc_gap": {
+        "pc_completion_gap_s": 0.03209310001693666,
+        "bridge_enqueue_gap_ms": 5,
+        "mul1_sequence_step": 1,
+        "previous": {
+          "csv_line": 5021,
+          "packet_sequence": "2280619",
+          "elapsed_s": "25.085434599983273",
+          "host_ms": "16862827"
+        },
+        "current": {
+          "csv_line": 5022,
+          "packet_sequence": "2280620",
+          "elapsed_s": "25.11752770000021",
+          "host_ms": "16862832"
+        }
+      },
+      "max_bridge_gap": {
+        "pc_completion_gap_s": 0.004458599985809997,
+        "bridge_enqueue_gap_ms": 6,
+        "mul1_sequence_step": 1,
+        "previous": {
+          "csv_line": 2639,
+          "packet_sequence": "2278237",
+          "elapsed_s": "13.179477300000144",
+          "host_ms": "16850920"
+        },
+        "current": {
+          "csv_line": 2640,
+          "packet_sequence": "2278238",
+          "elapsed_s": "13.183935899985954",
+          "host_ms": "16850926"
+        }
+      },
+      "module_sequence_steps_at_max_bridge_gap": {
+        "M0": {
+          "sequences": [
+            4241,
+            4242
+          ],
+          "step": 1
+        },
+        "M1": {
+          "sequences": [
+            4242,
+            4243
+          ],
+          "step": 1
+        },
+        "M2": {
+          "sequences": [
+            4242,
+            4243
+          ],
+          "step": 1
+        },
+        "M3": {
+          "sequences": [
+            4242,
+            4243
+          ],
+          "step": 1
+        }
+      },
+      "zero_pc_gap_count": 209,
+      "bridge_gap_ms_histogram": {
+        "4": 17,
+        "5": 5977,
+        "6": 7
+      },
+      "nonconsecutive_valid_mul1_steps": []
+    },
+    {
+      "run_id": "20260907_005330_930696",
+      "modules": "M0_M1_M2_M3",
+      "repeat": 2,
+      "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_2",
+      "packet_log_sha256": "08187edc3ec6bcb809b11bff559986b1d54c2dea5096872b1af762249b247cbc",
+      "main_status": "PASS",
+      "main_eligible": true,
+      "main_duration_s": 30.005236500001047,
+      "main_valid_packets": 6002,
+      "main_packet_rate_Hz": 200.03175112450091,
+      "main_packet_Mbit_s": 6.746670901927166,
+      "main_review_reasons": [],
+      "main_session_error_deltas": {
+        "outer_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "inner_crc_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_trailing_raw_bytes": 0,
+      "first": {
+        "csv_line": 2013,
+        "packet_sequence": "2285615",
+        "elapsed_s": "10.005416599975433",
+        "host_ms": "16887800"
+      },
+      "last": {
+        "csv_line": 8014,
+        "packet_sequence": "2291616",
+        "elapsed_s": "39.999844899983145",
+        "host_ms": "16917794"
+      },
+      "pc_5s_bins": [
+        {
+          "start_s": 10,
+          "end_s": 15,
+          "valid_packets": 1000
+        },
+        {
+          "start_s": 15,
+          "end_s": 20,
+          "valid_packets": 1000
+        },
+        {
+          "start_s": 20,
+          "end_s": 25,
+          "valid_packets": 999
+        },
+        {
+          "start_s": 25,
+          "end_s": 30,
+          "valid_packets": 1002
+        },
+        {
+          "start_s": 30,
+          "end_s": 35,
+          "valid_packets": 1001
+        },
+        {
+          "start_s": 35,
+          "end_s": 40,
+          "valid_packets": 1000
+        }
+      ],
+      "main_packets_at_or_after_40_s": 0,
+      "pc_1s_counts_10_to_40": [
+        199,
+        201,
+        200,
+        200,
+        200,
+        200,
+        200,
+        201,
+        198,
+        201,
+        201,
+        199,
+        201,
+        200,
+        198,
+        202,
+        199,
+        201,
+        200,
+        200,
+        200,
+        201,
+        200,
+        200,
+        200,
+        200,
+        200,
+        199,
+        200,
+        201
+      ],
+      "max_pc_gap": {
+        "pc_completion_gap_s": 0.04870439998921938,
+        "bridge_enqueue_gap_ms": 5,
+        "mul1_sequence_step": 1,
+        "previous": {
+          "csv_line": 7712,
+          "packet_sequence": "2291314",
+          "elapsed_s": "38.48706449999008",
+          "host_ms": "16916284"
+        },
+        "current": {
+          "csv_line": 7713,
+          "packet_sequence": "2291315",
+          "elapsed_s": "38.5357688999793",
+          "host_ms": "16916289"
+        }
+      },
+      "max_bridge_gap": {
+        "pc_completion_gap_s": 0.005149899981915951,
+        "bridge_enqueue_gap_ms": 6,
+        "mul1_sequence_step": 1,
+        "previous": {
+          "csv_line": 3278,
+          "packet_sequence": "2286880",
+          "elapsed_s": "16.325537099997746",
+          "host_ms": "16894122"
+        },
+        "current": {
+          "csv_line": 3279,
+          "packet_sequence": "2286881",
+          "elapsed_s": "16.330686999979662",
+          "host_ms": "16894128"
+        }
+      },
+      "module_sequence_steps_at_max_bridge_gap": {
+        "M0": {
+          "sequences": [
+            12884,
+            12885
+          ],
+          "step": 1
+        },
+        "M1": {
+          "sequences": [
+            12885,
+            12886
+          ],
+          "step": 1
+        },
+        "M2": {
+          "sequences": [
+            12885,
+            12886
+          ],
+          "step": 1
+        },
+        "M3": {
+          "sequences": [
+            12885,
+            12886
+          ],
+          "step": 1
+        }
+      },
+      "zero_pc_gap_count": 195,
+      "bridge_gap_ms_histogram": {
+        "4": 17,
+        "5": 5978,
+        "6": 6
+      },
+      "nonconsecutive_valid_mul1_steps": []
+    },
+    {
+      "run_id": "20260907_005410_996854",
+      "modules": "M0_M1_M2_M3",
+      "repeat": 3,
+      "new_relative_path": "FULL/N=4/200Hz/M0_M1_M2_M3/Repeat_3",
+      "packet_log_sha256": "acc0df5728a6b8e705d98d407d1ad378b1de4fa2eec3e218f19bf8c1f05ae339",
+      "main_status": "PASS",
+      "main_eligible": true,
+      "main_duration_s": 30.000026299996534,
+      "main_valid_packets": 6003,
+      "main_packet_rate_Hz": 200.0998245791769,
+      "main_packet_Mbit_s": 6.748966883406479,
+      "main_review_reasons": [],
+      "main_session_error_deltas": {
+        "outer_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "inner_crc_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_trailing_raw_bytes": 0,
+      "first": {
+        "csv_line": 2016,
+        "packet_sequence": "2293631",
+        "elapsed_s": "10.001138299994636",
+        "host_ms": "16927864"
+      },
+      "last": {
+        "csv_line": 8018,
+        "packet_sequence": "2299633",
+        "elapsed_s": "39.999296199996024",
+        "host_ms": "16957862"
+      },
+      "pc_5s_bins": [
+        {
+          "start_s": 10,
+          "end_s": 15,
+          "valid_packets": 1001
+        },
+        {
+          "start_s": 15,
+          "end_s": 20,
+          "valid_packets": 1000
+        },
+        {
+          "start_s": 20,
+          "end_s": 25,
+          "valid_packets": 1000
+        },
+        {
+          "start_s": 25,
+          "end_s": 30,
+          "valid_packets": 1000
+        },
+        {
+          "start_s": 30,
+          "end_s": 35,
+          "valid_packets": 1001
+        },
+        {
+          "start_s": 35,
+          "end_s": 40,
+          "valid_packets": 1001
+        }
+      ],
+      "main_packets_at_or_after_40_s": 0,
+      "pc_1s_counts_10_to_40": [
+        200,
+        200,
+        199,
+        202,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        198,
+        201,
+        201,
+        200,
+        199,
+        201,
+        200,
+        200,
+        201,
+        199,
+        201,
+        200,
+        200,
+        200,
+        200,
+        201,
+        200,
+        200
+      ],
+      "max_pc_gap": {
+        "pc_completion_gap_s": 0.018478100013453513,
+        "bridge_enqueue_gap_ms": 5,
+        "mul1_sequence_step": 1,
+        "previous": {
+          "csv_line": 4226,
+          "packet_sequence": "2295841",
+          "elapsed_s": "21.049372799985576",
+          "host_ms": "16938909"
+        },
+        "current": {
+          "csv_line": 4227,
+          "packet_sequence": "2295842",
+          "elapsed_s": "21.06785089999903",
+          "host_ms": "16938914"
+        }
+      },
+      "max_bridge_gap": {
+        "pc_completion_gap_s": 0.0,
+        "bridge_enqueue_gap_ms": 6,
+        "mul1_sequence_step": 1,
+        "previous": {
+          "csv_line": 5010,
+          "packet_sequence": "2296625",
+          "elapsed_s": "24.974839899979997",
+          "host_ms": "16942827"
+        },
+        "current": {
+          "csv_line": 5011,
+          "packet_sequence": "2296626",
+          "elapsed_s": "24.974839899979997",
+          "host_ms": "16942833"
+        }
+      },
+      "module_sequence_steps_at_max_bridge_gap": {
+        "M0": {
+          "sequences": [
+            22629,
+            22630
+          ],
+          "step": 1
+        },
+        "M1": {
+          "sequences": [
+            22630,
+            22631
+          ],
+          "step": 1
+        },
+        "M2": {
+          "sequences": [
+            22630,
+            22631
+          ],
+          "step": 1
+        },
+        "M3": {
+          "sequences": [
+            22630,
+            22631
+          ],
+          "step": 1
+        }
+      },
+      "zero_pc_gap_count": 159,
+      "bridge_gap_ms_histogram": {
+        "4": 14,
+        "5": 5986,
+        "6": 2
+      },
+      "nonconsecutive_valid_mul1_steps": []
+    }
+  ]
+}

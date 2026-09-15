@@ -1,0 +1,29 @@
+{
+  "status": "PASS_PDF_ALIGNED",
+  "basis": "Existing report_versions/main_final.pdf",
+  "run_count": 114,
+  "zero_load_primary": 90,
+  "dynamic_complete_batch_selected": 15,
+  "analysis_selected": 105,
+  "dynamic_passing_batches": 5,
+  "FULL_zero_retained": 48,
+  "DELTA_zero_retained": 45,
+  "DELTA_dynamic_retained": 21,
+  "main_window_PASS": 108,
+  "main_window_CHECK": 6,
+  "source_files_per_record": 6,
+  "source_files_hash_checked": 684,
+  "active_indices_verified": true,
+  "active_index_paths": [
+    "../../data/run_index.csv",
+    "../../data/primary_matrix.csv",
+    "../../data/dynamic_analysis_selected.csv",
+    "../../data/analysis_selected.csv"
+  ],
+  "post_reinstallation_N4_batch": "20260907_n4_connector_retest_review",
+  "post_reinstallation_N4_status": "PASS",
+  "superseded_snapshot": "history/superseded_111_102_20260913/",
+  "report_source_changed": false,
+  "report_pdf_changed": false,
+  "verified_on": "2026-09-13"
+}

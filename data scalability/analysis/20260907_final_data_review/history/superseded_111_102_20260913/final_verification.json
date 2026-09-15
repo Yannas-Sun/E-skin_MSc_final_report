@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "run_count": 111,
+  "original_measurement_files_sha256_checked": 666,
+  "original_measurement_bytes": 1587506417,
+  "current_move_files_sha256_checked": 140,
+  "zero_load_primary": 90,
+  "dynamic_complete_batch_selected": 12,
+  "analysis_selected": 102,
+  "root_DELTA_dynamic_aggregation_consistent": true,
+  "documents_checked": 11,
+  "local_links_checked": 53,
+  "source_summary_identity_and_original_GUI_status_preserved": true,
+  "no_unclassified_run_directories": true
+}

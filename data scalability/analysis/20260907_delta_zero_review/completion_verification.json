@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "original_files_hash_checked": 558,
+  "DELTA_original_files": 270,
+  "FULL_original_files": 288,
+  "original_total_bytes": 1431181319,
+  "run_index_rows": 93,
+  "primary_matrix_rows": 90,
+  "DELTA_zero_main_PASS": 45,
+  "FULL_failure_retained": "20260907_000133_670681",
+  "main_conditions": 30,
+  "batches": 31,
+  "local_document_links_checked": 45,
+  "broken_links": [],
+  "report_v2_2_and_archived_source_assets_unchanged": true,
+  "raw_audit_tests_passed": 7,
+  "main_valid_MUL1": 270412,
+  "main_valid_module_frames": 576926,
+  "statistical_unit": "consecutive temporal windows nested in one setup per slot combination",
+  "scope": "All 45 fixed DELTA zero-load captures; no later recordings or dynamic conditions included."
+}

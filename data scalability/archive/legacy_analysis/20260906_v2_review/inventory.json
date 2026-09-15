@@ -1,0 +1,634 @@
+{
+  "analysis_date": "2026-09-06",
+  "reference_date_yesterday": "2026-09-05",
+  "date_source": "summary.started_at; preserved acquisition timezone offset; no mtime",
+  "runs": [
+    {
+      "run_id": "20260901_212641",
+      "started_at": "2026-09-01T21:26:41.390616+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Dynamic_load\\M1\\High_frequency_rolling\\Repeat_1",
+      "raw_bytes": 3328996
+    },
+    {
+      "run_id": "20260901_210355",
+      "started_at": "2026-09-01T21:03:55.800797+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_1",
+      "raw_bytes": 2093470
+    },
+    {
+      "run_id": "20260901_210456",
+      "started_at": "2026-09-01T21:04:56.986169+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_2",
+      "raw_bytes": 2039350
+    },
+    {
+      "run_id": "20260901_210531",
+      "started_at": "2026-09-01T21:05:31.148679+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_3",
+      "raw_bytes": 2078098
+    },
+    {
+      "run_id": "20260905_192429",
+      "started_at": "2026-09-05T19:24:29.023932+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_4",
+      "raw_bytes": 1914914
+    },
+    {
+      "run_id": "20260905_192558",
+      "started_at": "2026-09-05T19:25:58.158405+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_5",
+      "raw_bytes": 1797072
+    },
+    {
+      "run_id": "20260905_192704",
+      "started_at": "2026-09-05T19:27:04.382105+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Dynamic_load\\M1\\Large_area\\Repeat_6",
+      "raw_bytes": 1962140
+    },
+    {
+      "run_id": "20260901_211257",
+      "started_at": "2026-09-01T21:12:57.197875+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_1",
+      "raw_bytes": 1719004
+    },
+    {
+      "run_id": "20260901_211411",
+      "started_at": "2026-09-01T21:14:11.952499+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_2",
+      "raw_bytes": 1694966
+    },
+    {
+      "run_id": "20260901_211445",
+      "started_at": "2026-09-01T21:14:45.324977+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_3",
+      "raw_bytes": 1668618
+    },
+    {
+      "run_id": "20260905_193003",
+      "started_at": "2026-09-05T19:30:03.035054+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_4",
+      "raw_bytes": 1576574
+    },
+    {
+      "run_id": "20260905_193110",
+      "started_at": "2026-09-05T19:31:10.561791+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_5",
+      "raw_bytes": 1495878
+    },
+    {
+      "run_id": "20260905_193204",
+      "started_at": "2026-09-05T19:32:04.380221+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Dynamic_load\\M1\\Small_area_3x1.6cm\\Repeat_6",
+      "raw_bytes": 1559726
+    },
+    {
+      "run_id": "20260901_220515",
+      "started_at": "2026-09-01T22:05:15.784578+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Dynamic_load\\N=2\\M1_M3\\Full_coverage_all_FSR\\Repeat_1",
+      "raw_bytes": 5170844
+    },
+    {
+      "run_id": "20260901_215751",
+      "started_at": "2026-09-01T21:57:51.996795+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Dynamic_load\\N=4\\M0_M1_M2_M3\\Full_coverage_all_FSR\\Repeat_1",
+      "raw_bytes": 12556792
+    },
+    {
+      "run_id": "20260901_192407",
+      "started_at": "2026-09-01T19:24:07.964352+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M0\\Repeat_1",
+      "raw_bytes": 1076736
+    },
+    {
+      "run_id": "20260901_192450",
+      "started_at": "2026-09-01T19:24:50.257341+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M0\\Repeat_2",
+      "raw_bytes": 1093190
+    },
+    {
+      "run_id": "20260901_192525",
+      "started_at": "2026-09-01T19:25:25.911603+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M0\\Repeat_3",
+      "raw_bytes": 1074658
+    },
+    {
+      "run_id": "20260905_185935",
+      "started_at": "2026-09-05T18:59:35.680069+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M0\\Repeat_4",
+      "raw_bytes": 1239060
+    },
+    {
+      "run_id": "20260905_190017",
+      "started_at": "2026-09-05T19:00:17.383430+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M0\\Repeat_5",
+      "raw_bytes": 1308424
+    },
+    {
+      "run_id": "20260905_190049",
+      "started_at": "2026-09-05T19:00:49.339390+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M0\\Repeat_6",
+      "raw_bytes": 1316844
+    },
+    {
+      "run_id": "20260901_192613",
+      "started_at": "2026-09-01T19:26:13.861628+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M1\\Repeat_1",
+      "raw_bytes": 1087750
+    },
+    {
+      "run_id": "20260901_192646",
+      "started_at": "2026-09-01T19:26:46.795167+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M1\\Repeat_2",
+      "raw_bytes": 1081902
+    },
+    {
+      "run_id": "20260901_192721",
+      "started_at": "2026-09-01T19:27:21.745247+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M1\\Repeat_3",
+      "raw_bytes": 1071776
+    },
+    {
+      "run_id": "20260905_190158",
+      "started_at": "2026-09-05T19:01:58.980735+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M1\\Repeat_4",
+      "raw_bytes": 1013256
+    },
+    {
+      "run_id": "20260905_190232",
+      "started_at": "2026-09-05T19:02:32.712613+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M1\\Repeat_5",
+      "raw_bytes": 1021658
+    },
+    {
+      "run_id": "20260901_192812",
+      "started_at": "2026-09-01T19:28:12.524039+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M2\\Repeat_1",
+      "raw_bytes": 1027082
+    },
+    {
+      "run_id": "20260901_192844",
+      "started_at": "2026-09-01T19:28:44.689702+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M2\\Repeat_2",
+      "raw_bytes": 1022728
+    },
+    {
+      "run_id": "20260901_192933",
+      "started_at": "2026-09-01T19:29:33.274853+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M2\\Repeat_3",
+      "raw_bytes": 1020922
+    },
+    {
+      "run_id": "20260905_190327",
+      "started_at": "2026-09-05T19:03:27.204541+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M2\\Repeat_4",
+      "raw_bytes": 1297316
+    },
+    {
+      "run_id": "20260905_190358",
+      "started_at": "2026-09-05T19:03:58.793715+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M2\\Repeat_5",
+      "raw_bytes": 1269596
+    },
+    {
+      "run_id": "20260905_190430",
+      "started_at": "2026-09-05T19:04:30.631968+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M2\\Repeat_6",
+      "raw_bytes": 1292790
+    },
+    {
+      "run_id": "20260905_190503",
+      "started_at": "2026-09-05T19:05:03.107304+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M2\\Repeat_7",
+      "raw_bytes": 1302576
+    },
+    {
+      "run_id": "20260901_193036",
+      "started_at": "2026-09-01T19:30:36.444487+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M3\\Repeat_1",
+      "raw_bytes": 880004
+    },
+    {
+      "run_id": "20260901_193117",
+      "started_at": "2026-09-01T19:31:17.219666+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M3\\Repeat_2",
+      "raw_bytes": 911216
+    },
+    {
+      "run_id": "20260901_193149",
+      "started_at": "2026-09-01T19:31:49.499417+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M3\\Repeat_3",
+      "raw_bytes": 890464
+    },
+    {
+      "run_id": "20260905_190722",
+      "started_at": "2026-09-05T19:07:22.475480+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M3\\Repeat_4",
+      "raw_bytes": 1305232
+    },
+    {
+      "run_id": "20260905_190838",
+      "started_at": "2026-09-05T19:08:38.535617+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M3\\Repeat_5",
+      "raw_bytes": 1293696
+    },
+    {
+      "run_id": "20260905_190910",
+      "started_at": "2026-09-05T19:09:10.265626+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=1\\M3\\Repeat_6",
+      "raw_bytes": 1295144
+    },
+    {
+      "run_id": "20260901_200355",
+      "started_at": "2026-09-01T20:03:55.766443+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=2\\M0_M1",
+      "raw_bytes": 2495472
+    },
+    {
+      "run_id": "20260901_201006",
+      "started_at": "2026-09-01T20:10:06.921281+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=2\\M0_M2",
+      "raw_bytes": 2699584
+    },
+    {
+      "run_id": "20260901_201106",
+      "started_at": "2026-09-01T20:11:06.880253+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=2\\M0_M3",
+      "raw_bytes": 1865320
+    },
+    {
+      "run_id": "20260901_202827",
+      "started_at": "2026-09-01T20:28:27.960900+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=2\\M1_M2",
+      "raw_bytes": 2429032
+    },
+    {
+      "run_id": "20260901_202930",
+      "started_at": "2026-09-01T20:29:30.561423+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=2\\M1_M3",
+      "raw_bytes": 2051792
+    },
+    {
+      "run_id": "20260901_203045",
+      "started_at": "2026-09-01T20:30:45.529454+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=2\\M2_M3",
+      "raw_bytes": 2141366
+    },
+    {
+      "run_id": "20260901_203359",
+      "started_at": "2026-09-01T20:33:59.102455+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=3\\M0_M1_M2",
+      "raw_bytes": 4075416
+    },
+    {
+      "run_id": "20260901_204308",
+      "started_at": "2026-09-01T20:43:08.179625+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_1",
+      "raw_bytes": 3682416
+    },
+    {
+      "run_id": "20260905_191210",
+      "started_at": "2026-09-05T19:12:10.316198+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_2",
+      "raw_bytes": 3714776
+    },
+    {
+      "run_id": "20260905_191244",
+      "started_at": "2026-09-05T19:12:44.963476+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_3",
+      "raw_bytes": 3674522
+    },
+    {
+      "run_id": "20260905_191317",
+      "started_at": "2026-09-05T19:13:17.409814+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=3\\M0_M1_M3\\Repeat_4",
+      "raw_bytes": 3681154
+    },
+    {
+      "run_id": "20260901_205014",
+      "started_at": "2026-09-01T20:50:14.379672+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_1",
+      "raw_bytes": 3685076
+    },
+    {
+      "run_id": "20260905_191433",
+      "started_at": "2026-09-05T19:14:33.190543+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_2",
+      "raw_bytes": 3947754
+    },
+    {
+      "run_id": "20260905_191504",
+      "started_at": "2026-09-05T19:15:04.667307+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_3",
+      "raw_bytes": 4086846
+    },
+    {
+      "run_id": "20260905_191537",
+      "started_at": "2026-09-05T19:15:37.660842+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=3\\M0_M2_M3\\Repeat_4",
+      "raw_bytes": 4031434
+    },
+    {
+      "run_id": "20260901_204633",
+      "started_at": "2026-09-01T20:46:33.707160+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_1",
+      "raw_bytes": 3562136
+    },
+    {
+      "run_id": "20260905_191911",
+      "started_at": "2026-09-05T19:19:11.674437+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_2",
+      "raw_bytes": 3441428
+    },
+    {
+      "run_id": "20260905_191946",
+      "started_at": "2026-09-05T19:19:46.632219+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_3",
+      "raw_bytes": 3440312
+    },
+    {
+      "run_id": "20260905_192018",
+      "started_at": "2026-09-05T19:20:18.909721+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=3\\M1_M2_M3\\Repeat_4",
+      "raw_bytes": 3446886
+    },
+    {
+      "run_id": "20260901_205141",
+      "started_at": "2026-09-01T20:51:41.204058+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R1",
+      "raw_bytes": 5906366
+    },
+    {
+      "run_id": "20260905_184520",
+      "started_at": "2026-09-05T18:45:20.431932+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R2",
+      "raw_bytes": 6304768
+    },
+    {
+      "run_id": "20260905_184604",
+      "started_at": "2026-09-05T18:46:04.452457+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R3",
+      "raw_bytes": 6070272
+    },
+    {
+      "run_id": "20260905_185602",
+      "started_at": "2026-09-05T18:56:02.783765+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R4",
+      "raw_bytes": 5976740
+    },
+    {
+      "run_id": "20260905_185647",
+      "started_at": "2026-09-05T18:56:47.923096+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R5",
+      "raw_bytes": 6056304
+    },
+    {
+      "run_id": "20260905_185720",
+      "started_at": "2026-09-05T18:57:20.028774+01:00",
+      "date": "2026-09-05",
+      "relative_dir": "DELTA\\Zero_load\\N=4\\M0_M1_M2_M3\\R6",
+      "raw_bytes": 6341732
+    },
+    {
+      "run_id": "20260901_184454",
+      "started_at": "2026-09-01T18:44:54.147993+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=1\\100Hz\\M0",
+      "raw_bytes": 3254168
+    },
+    {
+      "run_id": "20260901_184609",
+      "started_at": "2026-09-01T18:46:09.614987+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=1\\100Hz\\M1",
+      "raw_bytes": 3259588
+    },
+    {
+      "run_id": "20260901_184723",
+      "started_at": "2026-09-01T18:47:23.195616+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=1\\100Hz\\M2",
+      "raw_bytes": 3255252
+    },
+    {
+      "run_id": "20260901_184822",
+      "started_at": "2026-09-01T18:48:22.308274+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=1\\100Hz\\M3",
+      "raw_bytes": 3245496
+    },
+    {
+      "run_id": "20260901_182704",
+      "started_at": "2026-09-01T18:27:04.023139+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=1\\200Hz\\M0",
+      "raw_bytes": 6508336
+    },
+    {
+      "run_id": "20260901_183546",
+      "started_at": "2026-09-01T18:35:46.344823+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=1\\200Hz\\M1",
+      "raw_bytes": 6518092
+    },
+    {
+      "run_id": "20260901_183900",
+      "started_at": "2026-09-01T18:39:00.890407+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=1\\200Hz\\M2",
+      "raw_bytes": 6509420
+    },
+    {
+      "run_id": "20260901_184014",
+      "started_at": "2026-09-01T18:40:14.293229+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=1\\200Hz\\M3",
+      "raw_bytes": 6494244
+    },
+    {
+      "run_id": "20260901_185551",
+      "started_at": "2026-09-01T18:55:51.134426+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=1\\50Hz\\M0",
+      "raw_bytes": 1628168
+    },
+    {
+      "run_id": "20260901_185503",
+      "started_at": "2026-09-01T18:55:03.866391+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=1\\50Hz\\M1",
+      "raw_bytes": 1629252
+    },
+    {
+      "run_id": "20260901_185357",
+      "started_at": "2026-09-01T18:53:57.333716+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=1\\50Hz\\M2",
+      "raw_bytes": 1628168
+    },
+    {
+      "run_id": "20260901_185305",
+      "started_at": "2026-09-01T18:53:05.410698+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=1\\50Hz\\M3",
+      "raw_bytes": 1623832
+    },
+    {
+      "run_id": "20260901_185923",
+      "started_at": "2026-09-01T18:59:23.866985+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=2\\200Hz\\M0_M1",
+      "raw_bytes": 12778640
+    },
+    {
+      "run_id": "20260901_190012",
+      "started_at": "2026-09-01T19:00:12.341681+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=2\\200Hz\\M0_M2",
+      "raw_bytes": 12780768
+    },
+    {
+      "run_id": "20260901_190056",
+      "started_at": "2026-09-01T19:00:56.210531+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=2\\200Hz\\M0_M3",
+      "raw_bytes": 12750976
+    },
+    {
+      "run_id": "20260901_190300",
+      "started_at": "2026-09-01T19:03:00.100559+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=2\\200Hz\\M1_M2",
+      "raw_bytes": 12774384
+    },
+    {
+      "run_id": "20260901_190151",
+      "started_at": "2026-09-01T19:01:51.084220+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=2\\200Hz\\M1_M3",
+      "raw_bytes": 12746720
+    },
+    {
+      "run_id": "20260901_190356",
+      "started_at": "2026-09-01T19:03:56.734577+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=2\\200Hz\\M2_M3",
+      "raw_bytes": 12708416
+    },
+    {
+      "run_id": "20260901_190923",
+      "started_at": "2026-09-01T19:09:23.609191+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=3\\200Hz\\M0_M1_M2",
+      "raw_bytes": 19047860
+    },
+    {
+      "run_id": "20260901_191010",
+      "started_at": "2026-09-01T19:10:10.687604+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=3\\200Hz\\M0_M1_M3",
+      "raw_bytes": 18993936
+    },
+    {
+      "run_id": "20260901_191135",
+      "started_at": "2026-09-01T19:11:35.958652+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=3\\200Hz\\M0_M2_M3",
+      "raw_bytes": 19000280
+    },
+    {
+      "run_id": "20260901_191230",
+      "started_at": "2026-09-01T19:12:30.296722+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=3\\200Hz\\M1_M2_M3",
+      "raw_bytes": 18987592
+    },
+    {
+      "run_id": "20260901_191328",
+      "started_at": "2026-09-01T19:13:28.858662+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=4\\200Hz\\Repeat_1",
+      "raw_bytes": 25245408
+    },
+    {
+      "run_id": "20260901_191436",
+      "started_at": "2026-09-01T19:14:36.675775+01:00",
+      "date": "2026-09-01",
+      "relative_dir": "FULL\\N=4\\200Hz\\Repeat_2",
+      "raw_bytes": 25148440
+    }
+  ],
+  "run_count": 88,
+  "total_raw_bytes": 417176802,
+  "runs_by_date": {
+    "2026-09-01": 56,
+    "2026-09-05": 32
+  },
+  "max_run_bytes": 25245408,
+  "strategy": "complete per-run reads; CSV-indexed packet boundaries; no sampling",
+  "unique_run_ids": 88,
+  "unique_raw_hashes": 88,
+  "script_sha256": "93bbdd32ed85bf35bedc50f09ba0e4371557415a35632afb9e493ed6e55368ce"
+}

@@ -1,0 +1,284 @@
+{
+  "created_at": "2026-09-07T02:15:29.330627+01:00",
+  "input_root_at_audit": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data",
+  "selected_directory_count": 45,
+  "completed_summary_count": 45,
+  "pending_or_incomplete": [],
+  "expected_combinations": [
+    "M0",
+    "M0+M1",
+    "M0+M1+M2",
+    "M0+M1+M2+M3",
+    "M0+M1+M3",
+    "M0+M2",
+    "M0+M2+M3",
+    "M0+M3",
+    "M1",
+    "M1+M2",
+    "M1+M2+M3",
+    "M1+M3",
+    "M2",
+    "M2+M3",
+    "M3"
+  ],
+  "missing_combinations": [],
+  "unexpected_combinations": [],
+  "records_by_N": {
+    "1": 12,
+    "2": 18,
+    "3": 12,
+    "4": 3
+  },
+  "batch_count": 15,
+  "invalid_batches": [],
+  "uniform_metadata": {
+    "mode": {
+      "DELTA": 45
+    },
+    "condition": {
+      "zero_load": 45
+    },
+    "target_hz": {
+      "200": 45
+    },
+    "spi_setting_hz": {
+      "10000000": 45
+    },
+    "delta_threshold": {
+      "8": 45
+    },
+    "observed_mode_at_record": {
+      "DELTA": 45
+    },
+    "block": {
+      "1": 45
+    },
+    "repeat": {
+      "1": 15,
+      "2": 15,
+      "3": 15
+    },
+    "batch_repeat_count": {
+      "3": 45
+    },
+    "batch_recording_method": {
+      "consecutive_capture_windows_same_setup": 45
+    },
+    "requested_duration_seconds": {
+      "40.0": 45
+    },
+    "settle_seconds": {
+      "10.0": 45
+    },
+    "deployment_confirmed": {
+      "False": 45
+    },
+    "board_identity_handling": {
+      "slots_only": 45
+    }
+  },
+  "full_status_counts": {
+    "CHECK REQUIRED": 45
+  },
+  "main_status_counts": {
+    "PASS": 45
+  },
+  "full_review_reason_counts": {
+    "initial_delta_prefix_cache_not_verifiable_from_file": 45,
+    "unassigned_raw_bytes_in_full_capture": 30
+  },
+  "main_review_reason_counts": {},
+  "full_counts": {
+    "raw_arrival_bytes": 96637067,
+    "raw_chunks": 571591,
+    "capture_start_boundary_packets": 35,
+    "capture_start_boundary_errors": 0,
+    "packet_candidates": 360824,
+    "candidate_packet_bytes": 96626848,
+    "valid_outer_packets": 360824,
+    "valid_outer_packet_bytes": 96626848,
+    "expected_module_update_opportunities": 769607,
+    "valid_module_frames": 769607,
+    "valid_module_payload_bytes": 82193888,
+    "valid_expected_module_frames": 769607,
+    "ESKD": 765760,
+    "initial_unanchored_delta": 10540,
+    "diagnostic_payload_bytes": 0,
+    "missing_valid_expected_updates": 0,
+    "all_expected_modules_updated_packets": 360824,
+    "valid_inner_packets": 360824,
+    "raw_offset_errors": 0,
+    "ESKF": 3847,
+    "applied_full_baseline": 3847,
+    "applied_delta": 755220,
+    "known_start_boundary_bytes": 10189,
+    "unassigned_raw_bytes": 30,
+    "trailing_unassigned_raw_bytes": 30
+  },
+  "main_counts": {
+    "raw_arrival_bytes": 72311333,
+    "raw_chunks": 427797,
+    "packet_candidates": 270412,
+    "candidate_packet_bytes": 72311308,
+    "valid_outer_packets": 270412,
+    "valid_outer_packet_bytes": 72311308,
+    "expected_module_update_opportunities": 576926,
+    "valid_module_frames": 576926,
+    "valid_module_payload_bytes": 61494828,
+    "valid_expected_module_frames": 576926,
+    "ESKD": 574042,
+    "applied_delta": 574042,
+    "diagnostic_payload_bytes": 0,
+    "missing_valid_expected_updates": 0,
+    "all_expected_modules_updated_packets": 270412,
+    "valid_inner_packets": 270412,
+    "raw_offset_errors": 0,
+    "ESKF": 2884,
+    "applied_full_baseline": 2884,
+    "known_start_boundary_bytes": 0,
+    "unassigned_raw_bytes": 30,
+    "trailing_unassigned_raw_bytes": 30
+  },
+  "full_session_error_deltas": {
+    "outer_crc_errors": 0,
+    "sequence_gap_events": 0,
+    "lost_frames": 0,
+    "duplicate_frames": 0,
+    "out_of_order_frames": 0,
+    "format_errors": 0,
+    "inner_crc_errors": 0,
+    "delta_base_mismatches": 0
+  },
+  "main_session_error_deltas": {
+    "outer_crc_errors": 0,
+    "sequence_gap_events": 0,
+    "lost_frames": 0,
+    "duplicate_frames": 0,
+    "out_of_order_frames": 0,
+    "format_errors": 0,
+    "inner_crc_errors": 0,
+    "delta_base_mismatches": 0
+  },
+  "packet_count_mismatches": [],
+  "interpretation": [
+    "Three consecutive capture windows per unchanged setup are temporal repeats, not three independent reconnect/reassembly blocks.",
+    "Slot labels identify communicating CS/IRQ positions; no MCU board UID or physical-board mapping was recorded.",
+    "Local firmware/PC hashes identify local files only; all operator deployment confirmations are false.",
+    "SPI 10 MHz and threshold 8 are local configuration metadata, not hardware readback or measured timing.",
+    "PC completion times can repeat for buffered packets. host_ms is Teensy millis() when constructing/enqueuing MUL1, not SPI SCK or ADC scan timestamp.",
+    "Packet timing alone cannot establish unstable SPI clocks or physical-scan loss."
+  ],
+  "input_files_changed_during_review": []
+}
+{
+  "pc_completion_dt_ms": {
+    "n": 270367,
+    "mean": 4.989243646599336,
+    "sd_population": 15.911774890550996,
+    "min": 0.0,
+    "p50": 4.855100007262081,
+    "p95": 10.804039999493394,
+    "p99": 18.4817379928427,
+    "max": 4040.859400003683
+  },
+  "host_enqueue_dt_ms": {
+    "n": 270367,
+    "mean": 4.995402545428991,
+    "sd_population": 0.22422569355568453,
+    "min": 3.0,
+    "p50": 5.0,
+    "p95": 5.0,
+    "p99": 6.0,
+    "max": 7.0
+  },
+  "largest_pc_gaps": [
+    {
+      "run_id": "20260907_020041_855845",
+      "packet_sequence": 2996400,
+      "pc_dt_ms": 4040.859400003683,
+      "host_dt_ms": 5,
+      "outer_sequence_step": 1
+    },
+    {
+      "run_id": "20260907_014545_965962",
+      "packet_sequence": 2822430,
+      "pc_dt_ms": 3783.2827999955043,
+      "host_dt_ms": 5,
+      "outer_sequence_step": 1
+    },
+    {
+      "run_id": "20260907_015550_103879",
+      "packet_sequence": 2937579,
+      "pc_dt_ms": 3737.0086000009906,
+      "host_dt_ms": 5,
+      "outer_sequence_step": 1
+    },
+    {
+      "run_id": "20260907_014545_965962",
+      "packet_sequence": 2822673,
+      "pc_dt_ms": 1780.0402000139002,
+      "host_dt_ms": 5,
+      "outer_sequence_step": 1
+    },
+    {
+      "run_id": "20260907_020041_855845",
+      "packet_sequence": 2996933,
+      "pc_dt_ms": 1371.9295000191778,
+      "host_dt_ms": 5,
+      "outer_sequence_step": 1
+    },
+    {
+      "run_id": "20260907_015217_328962",
+      "packet_sequence": 2894688,
+      "pc_dt_ms": 1008.8706999958958,
+      "host_dt_ms": 5,
+      "outer_sequence_step": 1
+    },
+    {
+      "run_id": "20260907_020041_855845",
+      "packet_sequence": 2996221,
+      "pc_dt_ms": 975.9882999933325,
+      "host_dt_ms": 5,
+      "outer_sequence_step": 1
+    },
+    {
+      "run_id": "20260907_015217_328962",
+      "packet_sequence": 2898808,
+      "pc_dt_ms": 802.0919999980833,
+      "host_dt_ms": 5,
+      "outer_sequence_step": 1
+    },
+    {
+      "run_id": "20260907_014545_965962",
+      "packet_sequence": 2822296,
+      "pc_dt_ms": 674.2838999780361,
+      "host_dt_ms": 5,
+      "outer_sequence_step": 1
+    },
+    {
+      "run_id": "20260907_015217_328962",
+      "packet_sequence": 2898677,
+      "pc_dt_ms": 663.8995000103023,
+      "host_dt_ms": 5,
+      "outer_sequence_step": 1
+    },
+    {
+      "run_id": "20260907_014715_022979",
+      "packet_sequence": 2840902,
+      "pc_dt_ms": 591.6125000221655,
+      "host_dt_ms": 5,
+      "outer_sequence_step": 1
+    },
+    {
+      "run_id": "20260907_015630_225115",
+      "packet_sequence": 2946385,
+      "pc_dt_ms": 562.935900001321,
+      "host_dt_ms": 5,
+      "outer_sequence_step": 1
+    }
+  ],
+  "total_pc_dt_zero_count": 38603,
+  "total_pc_dt_gt_100ms_count": 162,
+  "total_host_dt_gt_100ms_count": 0,
+  "total_sequence_step_not_one_count": 0
+}

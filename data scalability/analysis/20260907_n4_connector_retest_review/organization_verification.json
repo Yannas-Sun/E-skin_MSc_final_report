@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "all_runs": 114,
+  "dynamic_runs": 21,
+  "primary_zero_load_runs": 90,
+  "dynamic_selected_runs": 15,
+  "analysis_selected_runs": 105,
+  "original_path_entries": 684,
+  "new_batch_PASS": 3,
+  "new_batch_CHECK": 0,
+  "old_problem_batch_preserved": true,
+  "moved_runs": [
+    "20260907_115145_448767",
+    "20260907_115225_490019",
+    "20260907_115305_535263"
+  ],
+  "batch_id": "BATCH_044efb5e7ab5440fa025a8237d0fe1f9",
+  "source_files_hash_verified": 18
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "run_ids": [
+    "20260907_053858_001637",
+    "20260907_053938_027960",
+    "20260907_054018_056649"
+  ],
+  "recorded_condition": "zero_load",
+  "actual_condition": "rolling",
+  "actual_load_protocol": "rolling",
+  "actual_condition_description": "rolling（滚动加载）",
+  "confirmation_source": "User explicitly stated that the newly added records are rolling experiments",
+  "confirmed_on": "2026-09-07",
+  "raw_metadata_modified": false,
+  "load_layers": "unspecified_in_record",
+  "interpretation": "Use the user-provided rolling condition in derived analysis and retain recorded zero_load metadata. Contact area, force, speed, rolling path and per-action timestamps were not recorded."
+}

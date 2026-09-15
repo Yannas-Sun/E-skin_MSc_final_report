@@ -1,0 +1,131 @@
+{
+  "run": {
+    "run_id": "20260901_185305",
+    "started_at": "2026-09-01T18:53:05.410698+01:00",
+    "date": "2026-09-01",
+    "date_bucket": "before_2026-09-05",
+    "mode": "FULL",
+    "target_Hz": 50,
+    "N": 1,
+    "modules": "M3",
+    "load": "load_not_recorded",
+    "load_source": "metadata_or_missing",
+    "load_metadata": null,
+    "repeat_label": "single_run_no_repeat_label",
+    "duration_s": 30.017028300004313,
+    "raw_bytes": 1623832,
+    "raw_packets": 1498,
+    "complete_outer_packets": 1498,
+    "valid_inner_packets": 1498,
+    "valid_module_frames": 1498,
+    "expected_module_frames": 1498,
+    "unupdated_expected_module_frames": 0,
+    "all_expected_modules_updated_packets": 1498,
+    "partial_update_packets": 0,
+    "f_all_expected_modules_Hz": 49.905006752443406,
+    "diagnostic_payload_bytes": 0,
+    "unupdated_module_status_counts": {},
+    "fixed_N_mixture_applicable": true,
+    "K_effective_present_module_frames": null,
+    "Lmean_B": 1084.0,
+    "Lmodel_mean_B": 1084.0,
+    "f_packet_Hz": 49.905006752443406,
+    "f_complete_Hz": 49.905006752443406,
+    "f_valid_inner_Hz": 49.905006752443406,
+    "bytes_per_s": 54097.02731964865,
+    "Mbit_per_s": 0.43277621855718923,
+    "ESKF_count": 1498,
+    "ESKD_count": 0,
+    "q_ESKF_module_frames": 1.0,
+    "K_ESKD_mean": null,
+    "K_ESKD_sd_population": null,
+    "K_ESKD_median": null,
+    "K_ESKD_p05": null,
+    "K_ESKD_p95": null,
+    "K_zero_fraction": null,
+    "K_effective_all_frames": null,
+    "summary_result": "PASS: no recorded transport/parser/cache error",
+    "summary_session_base_mismatches": 0,
+    "log_parse_errors": 0,
+    "raw_base_break_events_after_anchor": 0,
+    "raw_unapplied_after_anchor": 0,
+    "raw_initial_unanchored_delta_frames": 0,
+    "raw_sha256": "c82c6a021bf3bf806d050b548d586aa225a69d7de638061f36b620edc7a0ef71",
+    "source_dir": "FULL\\N=1\\50Hz\\M3",
+    "audit_issue_counts": {
+      "experiment_log_run_id_missing": 1
+    }
+  },
+  "modules": [
+    {
+      "run_id": "20260901_185305",
+      "date": "2026-09-01",
+      "date_bucket": "before_2026-09-05",
+      "mode": "FULL",
+      "target_Hz": 50,
+      "N": 1,
+      "modules": "M3",
+      "load": "load_not_recorded",
+      "repeat_label": "single_run_no_repeat_label",
+      "module_id": "M3",
+      "ESKF_count": 1498,
+      "ESKD_count": 0,
+      "q_ESKF": 1.0,
+      "module_update_rate_Hz": 49.905006752443406,
+      "unupdated_packets_for_this_module": 0,
+      "K_n": 0,
+      "K_mean": null,
+      "K_sd_population": null,
+      "K_p05": null,
+      "K_p25": null,
+      "K_median": null,
+      "K_p75": null,
+      "K_p95": null,
+      "K_min": null,
+      "K_max": null,
+      "K_zero_fraction": null,
+      "K_FSR1_mean": null,
+      "K_FSR2_mean": null,
+      "ESKF_interval_count": 1497,
+      "ESKF_interval_mean_s": 0.02003788376753507,
+      "ESKF_interval_min_s": 0.0038389999999992597,
+      "ESKF_interval_max_s": 0.03649000000000058,
+      "flags_counts": {
+        "0x13": 1498
+      },
+      "base_link_discontinuities": 0,
+      "break_events_after_anchor": 0,
+      "unapplied_after_anchor": 0,
+      "initial_unanchored_delta_frames": 0,
+      "full_trigger_reason": "not_identifiable_from_recorded_frame_type"
+    }
+  ],
+  "raw_counts": {
+    "log_rows": 1498,
+    "raw_packets": 1498,
+    "raw_complete_outer_packets": 1498,
+    "diagnostic_payload_bytes": 0,
+    "raw_valid_inner_packets": 1498,
+    "packets_containing_eskf": 1498
+  },
+  "module_status_counts": {
+    "M0:0x83": 1498,
+    "M1:0x83": 1498,
+    "M2:0x83": 1498,
+    "M3:0x00": 1498
+  },
+  "audit_examples": [
+    {
+      "code": "experiment_log_run_id_missing",
+      "detail": ""
+    }
+  ],
+  "updated_mask_counts": {
+    "0x08": 1498
+  },
+  "K_histograms_by_module": {
+    "M3": {}
+  },
+  "summary_sha256": "b5dcad81b4758f7284778080d3a56e2d6276e787a5a4bf4f1c6891ae8c3849a1",
+  "packet_log_sha256": "36355c4d3949a3fc76b2b0ad8c24ff96b16a2c4508a19ffd1c8ca7292cdeed7a"
+}

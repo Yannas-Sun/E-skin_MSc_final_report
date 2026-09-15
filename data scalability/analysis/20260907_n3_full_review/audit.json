@@ -1,0 +1,2447 @@
+{
+  "schema_version": 1,
+  "audit_time": "2026-09-07T00:44:13.337432+01:00",
+  "fixed_snapshot_run_ids": [
+    "20260907_000133_670681",
+    "20260907_000213_737553",
+    "20260907_000253_764287",
+    "20260907_001345_234235",
+    "20260907_001425_309099",
+    "20260907_001505_375008",
+    "20260907_001710_986331",
+    "20260907_001751_034069",
+    "20260907_001831_069491",
+    "20260907_003258_918645",
+    "20260907_003339_025463",
+    "20260907_003419_073823"
+  ],
+  "known_prior_excluded": [
+    "20260906_225934_745706",
+    "20260906_230014_784220",
+    "20260906_230054_835519",
+    "20260906_230200_451593",
+    "20260906_230240_486802",
+    "20260906_230320_515930",
+    "20260906_230445_150722",
+    "20260906_230525_193234",
+    "20260906_230605_248880",
+    "20260906_230909_089519",
+    "20260906_230949_124162",
+    "20260906_231029_180830",
+    "20260906_232205_264776",
+    "20260906_232245_299955",
+    "20260906_232325_329233",
+    "20260906_232950_210894",
+    "20260906_233030_242504",
+    "20260906_233110_283624",
+    "20260906_233400_039763",
+    "20260906_233440_083230",
+    "20260906_233520_115774",
+    "20260906_233935_041252",
+    "20260906_234015_080026",
+    "20260906_234055_124089",
+    "20260906_234339_617031",
+    "20260906_234419_667943",
+    "20260906_234459_699129",
+    "20260906_234631_872633",
+    "20260906_234711_905577",
+    "20260906_234751_945640"
+  ],
+  "totals": {
+    "logged_candidate_count": 96120,
+    "logged_valid_outer_count": 96119,
+    "logged_rejected_count": 1,
+    "main_logged_candidate_count": 72029,
+    "main_logged_valid_count": 72028,
+    "raw_all_magic_candidate_count": 96121,
+    "raw_independent_valid_outer_count": 96120,
+    "module_log_rows_checked": 384476,
+    "main_PASS": 11,
+    "full_PASS": 4,
+    "logged_valid_ESKF": 288357,
+    "main_logged_valid_ESKF": 216084,
+    "PASS_subset_main_logged_valid_MUL1": 66027,
+    "PASS_subset_main_logged_valid_ESKF": 198081
+  },
+  "groups": [
+    {
+      "slots": [
+        0,
+        1,
+        2
+      ],
+      "all_run_ids": [
+        "20260907_000133_670681",
+        "20260907_000213_737553",
+        "20260907_000253_764287"
+      ],
+      "PASS_run_ids": [
+        "20260907_000213_737553",
+        "20260907_000253_764287"
+      ],
+      "PASS_window_statistics": {
+        "main_Hz": {
+          "n": 2,
+          "mean": 200.13109999672082,
+          "sample_sd": 0.0007281407519209029
+        },
+        "main_packet_Mbit_per_s": {
+          "n": 2,
+          "mean": 5.078526793516788,
+          "sample_sd": 1.847729972103218e-05
+        }
+      },
+      "all_runs_diagnostic_statistics": {
+        "main_Hz": {
+          "n": 3,
+          "mean": 200.09184266456603,
+          "sample_sd": 0.06799764318128679
+        },
+        "main_packet_Mbit_per_s": {
+          "n": 3,
+          "mean": 5.077530599456028,
+          "sample_sd": 0.0017255081933687966
+        }
+      }
+    },
+    {
+      "slots": [
+        0,
+        1,
+        3
+      ],
+      "all_run_ids": [
+        "20260907_001345_234235",
+        "20260907_001425_309099",
+        "20260907_001505_375008"
+      ],
+      "PASS_run_ids": [
+        "20260907_001345_234235",
+        "20260907_001425_309099",
+        "20260907_001505_375008"
+      ],
+      "PASS_window_statistics": {
+        "main_Hz": {
+          "n": 3,
+          "mean": 199.7669082237092,
+          "sample_sd": 0.5569588767389314
+        },
+        "main_packet_Mbit_per_s": {
+          "n": 3,
+          "mean": 5.069285063084845,
+          "sample_sd": 0.014133388456126881
+        }
+      },
+      "all_runs_diagnostic_statistics": {
+        "main_Hz": {
+          "n": 3,
+          "mean": 199.7669082237092,
+          "sample_sd": 0.5569588767389314
+        },
+        "main_packet_Mbit_per_s": {
+          "n": 3,
+          "mean": 5.069285063084845,
+          "sample_sd": 0.014133388456126881
+        }
+      }
+    },
+    {
+      "slots": [
+        0,
+        2,
+        3
+      ],
+      "all_run_ids": [
+        "20260907_001710_986331",
+        "20260907_001751_034069",
+        "20260907_001831_069491"
+      ],
+      "PASS_run_ids": [
+        "20260907_001710_986331",
+        "20260907_001751_034069",
+        "20260907_001831_069491"
+      ],
+      "PASS_window_statistics": {
+        "main_Hz": {
+          "n": 3,
+          "mean": 200.16594208285287,
+          "sample_sd": 0.03661586886726978
+        },
+        "main_packet_Mbit_per_s": {
+          "n": 3,
+          "mean": 5.079410946294474,
+          "sample_sd": 0.0009291642883753899
+        }
+      },
+      "all_runs_diagnostic_statistics": {
+        "main_Hz": {
+          "n": 3,
+          "mean": 200.16594208285287,
+          "sample_sd": 0.03661586886726978
+        },
+        "main_packet_Mbit_per_s": {
+          "n": 3,
+          "mean": 5.079410946294474,
+          "sample_sd": 0.0009291642883753899
+        }
+      }
+    },
+    {
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "all_run_ids": [
+        "20260907_003258_918645",
+        "20260907_003339_025463",
+        "20260907_003419_073823"
+      ],
+      "PASS_run_ids": [
+        "20260907_003258_918645",
+        "20260907_003339_025463",
+        "20260907_003419_073823"
+      ],
+      "PASS_window_statistics": {
+        "main_Hz": {
+          "n": 3,
+          "mean": 200.2185287227097,
+          "sample_sd": 0.040178447183146934
+        },
+        "main_packet_Mbit_per_s": {
+          "n": 3,
+          "mean": 5.080745384867481,
+          "sample_sd": 0.0010195682757197547
+        }
+      },
+      "all_runs_diagnostic_statistics": {
+        "main_Hz": {
+          "n": 3,
+          "mean": 200.2185287227097,
+          "sample_sd": 0.040178447183146934
+        },
+        "main_packet_Mbit_per_s": {
+          "n": 3,
+          "mean": 5.080745384867481,
+          "sample_sd": 0.0010195682757197547
+        }
+      }
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "20260907_000133_670681",
+      "directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_000133_670681",
+      "started_at": "2026-09-07T00:01:33.670681+01:00",
+      "duration_seconds": 40.00300060000154,
+      "metadata": {
+        "target_modules": [
+          0,
+          1,
+          2
+        ],
+        "target_mode": "FULL",
+        "condition": "zero_load",
+        "batch_id": "BATCH_5ccf81b3a4814c0a88241ef83d9e4bcf",
+        "batch_repeat_index": 1,
+        "block": "1",
+        "repeat": "1"
+      },
+      "logged_candidate_count": 8003,
+      "logged_valid_outer_count": 8002,
+      "logged_rejected_count": 1,
+      "main_logged_candidate_count": 6002,
+      "main_logged_valid_count": 6001,
+      "raw_all_magic_candidate_count": 8004,
+      "raw_independent_valid_outer_count": 8003,
+      "raw_crc_bad_candidate_count": 1,
+      "raw_valid_unlogged_packets": [
+        {
+          "offset": 12331711,
+          "length": 3172,
+          "sequence": 1675978,
+          "host_ms": 13780024,
+          "outer_crc_valid": true,
+          "crc_calculated": "0xda4726e2",
+          "crc_stored": "0xda4726e2",
+          "independent_decode_errors": [],
+          "module_sequences": {
+            "0": 8042,
+            "1": 8043,
+            "2": 8042
+          }
+        }
+      ],
+      "module_log_rows_checked": 32008,
+      "logged_valid_module_counts": {
+        "0": 8002,
+        "1": 8002,
+        "2": 8002
+      },
+      "actual_modes": {
+        "FULL": 24006
+      },
+      "cross_check_errors": {},
+      "valid_envelope_decode_errors": [],
+      "logged_valid_sequence_discontinuities": [
+        {
+          "previous": 1675976,
+          "current": 1675979,
+          "current_offset": 12334883,
+          "step": 3,
+          "missing_sequence_numbers": 2
+        }
+      ],
+      "raw_valid_sequence_discontinuities": [
+        {
+          "previous": 1675976,
+          "current": 1675978,
+          "current_offset": 12331711,
+          "step": 2,
+          "missing_sequence_numbers": 1
+        }
+      ],
+      "raw_valid_inner_sequence_discontinuities": {
+        "0": [
+          {
+            "previous": 8040,
+            "current": 8042,
+            "current_offset": 12331711,
+            "step": 2,
+            "missing_sequence_numbers": 1
+          }
+        ],
+        "1": [
+          {
+            "previous": 8041,
+            "current": 8043,
+            "current_offset": 12331711,
+            "step": 2,
+            "missing_sequence_numbers": 1
+          }
+        ],
+        "2": [
+          {
+            "previous": 8040,
+            "current": 8042,
+            "current_offset": 12331711,
+            "step": 2,
+            "missing_sequence_numbers": 1
+          }
+        ]
+      },
+      "main_status": "CHECK REQUIRED",
+      "full_status": "CHECK REQUIRED",
+      "main_review_reasons": [
+        "outer_crc_error",
+        "pc_parser_errors",
+        "outer_sequence_gap_events",
+        "session_lost_frames",
+        "session_outer_crc_errors",
+        "session_sequence_gap_events",
+        "unassigned_interior_or_unframed_raw_bytes"
+      ],
+      "full_review_reasons": [
+        "outer_crc_error",
+        "pc_parser_errors",
+        "outer_sequence_gap_events",
+        "session_lost_frames",
+        "session_outer_crc_errors",
+        "session_sequence_gap_events",
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "main_Hz": 200.01332800025648,
+      "main_Lmean_B": 3172.0,
+      "main_packet_Mbit_per_s": 5.075538211334508,
+      "session_error_delta": {
+        "outer_crc_errors": 1,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 1,
+        "lost_frames": 2,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 1,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 1,
+        "lost_frames": 2,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "logged_unassigned_ranges": [
+        {
+          "start": 12332735,
+          "end": 12334883,
+          "bytes": 2148,
+          "kind": "interior"
+        },
+        {
+          "start": 25390835,
+          "end": 25390836,
+          "bytes": 1,
+          "kind": "trailing"
+        }
+      ],
+      "forensic_valid_packet_uncovered_ranges": [
+        {
+          "start": 12329563,
+          "end": 12331711,
+          "bytes": 2148,
+          "kind": "interior"
+        },
+        {
+          "start": 25390835,
+          "end": 25390836,
+          "bytes": 1,
+          "kind": "trailing"
+        }
+      ],
+      "boundary_checks": [
+        {
+          "sequence": 1672090,
+          "prefix_bytes": 1,
+          "suffix_bytes": 3171,
+          "evidence": "inferred_magic_M_not_recorded",
+          "independent_errors": [],
+          "decoded_sequence": 1672090,
+          "event_errors": []
+        }
+      ],
+      "trailing_partial_candidates": [],
+      "anomaly_context": [
+        {
+          "rejected_logged_candidate": {
+            "offset": 12329563,
+            "length": 3172,
+            "sequence": 1675977,
+            "host_ms": 13780020,
+            "outer_crc_valid": false,
+            "crc_calculated": "0x86c8783e",
+            "crc_stored": "0x00010001",
+            "independent_decode_errors": [
+              "outer_crc",
+              "inner_crc",
+              "descriptor_layout",
+              "layout_or_mask"
+            ],
+            "module_sequences": {
+              "0": 8041
+            },
+            "elapsed_s": 19.472339200001443,
+            "main_window": true,
+            "packet_completed_time": "2026-09-07T00:01:53.143020+01:00",
+            "logged_error": "outer_crc_error | pc_parser_error: MUL1 CRC32 mismatch"
+          },
+          "neighbour_candidates": [
+            {
+              "offset": 12326391,
+              "length": 3172,
+              "sequence": 1675976,
+              "host_ms": 13780015,
+              "outer_crc_valid": true,
+              "crc_calculated": "0x04e549fc",
+              "crc_stored": "0x04e549fc",
+              "independent_decode_errors": [],
+              "module_sequences": {
+                "0": 8040,
+                "1": 8041,
+                "2": 8040
+              }
+            },
+            {
+              "offset": 12329563,
+              "length": 3172,
+              "sequence": 1675977,
+              "host_ms": 13780020,
+              "outer_crc_valid": false,
+              "crc_calculated": "0x86c8783e",
+              "crc_stored": "0x00010001",
+              "independent_decode_errors": [
+                "outer_crc",
+                "inner_crc",
+                "descriptor_layout",
+                "layout_or_mask"
+              ],
+              "module_sequences": {
+                "0": 8041
+              }
+            },
+            {
+              "offset": 12331711,
+              "length": 3172,
+              "sequence": 1675978,
+              "host_ms": 13780024,
+              "outer_crc_valid": true,
+              "crc_calculated": "0xda4726e2",
+              "crc_stored": "0xda4726e2",
+              "independent_decode_errors": [],
+              "module_sequences": {
+                "0": 8042,
+                "1": 8043,
+                "2": 8042
+              }
+            },
+            {
+              "offset": 12334883,
+              "length": 3172,
+              "sequence": 1675979,
+              "host_ms": 13780030,
+              "outer_crc_valid": true,
+              "crc_calculated": "0xd65df20a",
+              "crc_stored": "0xd65df20a",
+              "independent_decode_errors": [],
+              "module_sequences": {
+                "0": 8043,
+                "1": 8044,
+                "2": 8043
+              }
+            }
+          ],
+          "distance_to_next_magic_bytes": 2148,
+          "shortfall_vs_declared_length_bytes": 1024,
+          "overlapping_raw_valid_unlogged": [
+            {
+              "offset": 12331711,
+              "length": 3172,
+              "sequence": 1675978,
+              "host_ms": 13780024,
+              "outer_crc_valid": true,
+              "crc_calculated": "0xda4726e2",
+              "crc_stored": "0xda4726e2",
+              "independent_decode_errors": [],
+              "module_sequences": {
+                "0": 8042,
+                "1": 8043,
+                "2": 8042
+              }
+            }
+          ]
+        }
+      ],
+      "raw_sha256": "b9a9cf4d4780c25a14995d2dfc4a6738cb8e0394a15ab0b1af9cb805669f692a",
+      "main_timing_largest_pc_gaps": [
+        {
+          "previous_sequence": 1675961,
+          "sequence": 1675962,
+          "elapsed_s": 19.466415600007167,
+          "pc_completion_gap_ms": 133.20630000089295,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1676112,
+          "sequence": 1676113,
+          "elapsed_s": 20.14910000000964,
+          "pc_completion_gap_ms": 46.349600015673786,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1678515,
+          "sequence": 1678516,
+          "elapsed_s": 32.15112369999406,
+          "pc_completion_gap_ms": 43.196899991016835,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1678426,
+          "sequence": 1678427,
+          "elapsed_s": 31.702489499992225,
+          "pc_completion_gap_ms": 39.21650000847876,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1676200,
+          "sequence": 1676201,
+          "elapsed_s": 20.57977209999808,
+          "pc_completion_gap_ms": 37.25009999470785,
+          "bridge_host_gap_ms": 5
+        }
+      ],
+      "main_timing_largest_bridge_gaps": [
+        {
+          "previous_sequence": 1675982,
+          "sequence": 1675983,
+          "elapsed_s": 19.472339200001443,
+          "pc_completion_gap_ms": 0.0,
+          "bridge_host_gap_ms": 26
+        },
+        {
+          "previous_sequence": 1675976,
+          "sequence": 1675979,
+          "elapsed_s": 19.472339200001443,
+          "pc_completion_gap_ms": 5.923599994275719,
+          "bridge_host_gap_ms": 15
+        },
+        {
+          "previous_sequence": 1674238,
+          "sequence": 1674239,
+          "elapsed_s": 10.729396699985955,
+          "pc_completion_gap_ms": 2.06679999246262,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1675436,
+          "sequence": 1675437,
+          "elapsed_s": 16.72193060000427,
+          "pc_completion_gap_ms": 0.0,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1676808,
+          "sequence": 1676809,
+          "elapsed_s": 23.58520299999509,
+          "pc_completion_gap_ms": 2.423600002657622,
+          "bridge_host_gap_ms": 6
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_000213_737553",
+      "directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_000213_737553",
+      "started_at": "2026-09-07T00:02:13.737553+01:00",
+      "duration_seconds": 40.00025759998243,
+      "metadata": {
+        "target_modules": [
+          0,
+          1,
+          2
+        ],
+        "target_mode": "FULL",
+        "condition": "zero_load",
+        "batch_id": "BATCH_5ccf81b3a4814c0a88241ef83d9e4bcf",
+        "batch_repeat_index": 2,
+        "block": "1",
+        "repeat": "2"
+      },
+      "logged_candidate_count": 8016,
+      "logged_valid_outer_count": 8016,
+      "logged_rejected_count": 0,
+      "main_logged_candidate_count": 6004,
+      "main_logged_valid_count": 6004,
+      "raw_all_magic_candidate_count": 8016,
+      "raw_independent_valid_outer_count": 8016,
+      "raw_crc_bad_candidate_count": 0,
+      "raw_valid_unlogged_packets": [],
+      "module_log_rows_checked": 32064,
+      "logged_valid_module_counts": {
+        "0": 8016,
+        "1": 8016,
+        "2": 8016
+      },
+      "actual_modes": {
+        "FULL": 24048
+      },
+      "cross_check_errors": {},
+      "valid_envelope_decode_errors": [],
+      "logged_valid_sequence_discontinuities": [],
+      "raw_valid_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": {},
+      "main_status": "PASS",
+      "full_status": "PASS",
+      "main_review_reasons": [],
+      "full_review_reasons": [],
+      "main_Hz": 200.13161486998416,
+      "main_Lmean_B": 3172.0,
+      "main_packet_Mbit_per_s": 5.078539858940719,
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "logged_unassigned_ranges": [],
+      "forensic_valid_packet_uncovered_ranges": [],
+      "boundary_checks": [
+        {
+          "sequence": 1680095,
+          "prefix_bytes": 1,
+          "suffix_bytes": 3171,
+          "evidence": "actual_previous_raw_tail",
+          "independent_errors": [],
+          "decoded_sequence": 1680095,
+          "event_errors": []
+        }
+      ],
+      "trailing_partial_candidates": [],
+      "anomaly_context": [],
+      "raw_sha256": "0f3c5e7fdeb99cc6ca19a6fe9eaf6442ac71034a776baabbf84ef861a271488a",
+      "main_timing_largest_pc_gaps": [
+        {
+          "previous_sequence": 1684964,
+          "sequence": 1684965,
+          "elapsed_s": 24.307395499985432,
+          "pc_completion_gap_ms": 33.862299984321,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1684690,
+          "sequence": 1684691,
+          "elapsed_s": 22.94157609998365,
+          "pc_completion_gap_ms": 33.70179998455569,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1684373,
+          "sequence": 1684374,
+          "elapsed_s": 21.351984099979745,
+          "pc_completion_gap_ms": 33.19570000167005,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1684144,
+          "sequence": 1684145,
+          "elapsed_s": 20.2054304999765,
+          "pc_completion_gap_ms": 31.054099992616102,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1682237,
+          "sequence": 1682238,
+          "elapsed_s": 10.671715899981791,
+          "pc_completion_gap_ms": 28.393099986715242,
+          "bridge_host_gap_ms": 5
+        }
+      ],
+      "main_timing_largest_bridge_gaps": [
+        {
+          "previous_sequence": 1682941,
+          "sequence": 1682942,
+          "elapsed_s": 14.166508199996315,
+          "pc_completion_gap_ms": 4.833600018173456,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1683599,
+          "sequence": 1683600,
+          "elapsed_s": 17.455435299983947,
+          "pc_completion_gap_ms": 4.580399981932715,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1684153,
+          "sequence": 1684154,
+          "elapsed_s": 20.225066299986793,
+          "pc_completion_gap_ms": 4.429599997820333,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1685062,
+          "sequence": 1685063,
+          "elapsed_s": 24.767379099997925,
+          "pc_completion_gap_ms": 2.992699999595061,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1687959,
+          "sequence": 1687960,
+          "elapsed_s": 39.247066699987045,
+          "pc_completion_gap_ms": 7.178700005169958,
+          "bridge_host_gap_ms": 6
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_000253_764287",
+      "directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_000253_764287",
+      "started_at": "2026-09-07T00:02:53.764287+01:00",
+      "duration_seconds": 40.00540870000259,
+      "metadata": {
+        "target_modules": [
+          0,
+          1,
+          2
+        ],
+        "target_mode": "FULL",
+        "condition": "zero_load",
+        "batch_id": "BATCH_5ccf81b3a4814c0a88241ef83d9e4bcf",
+        "batch_repeat_index": 3,
+        "block": "1",
+        "repeat": "3"
+      },
+      "logged_candidate_count": 7998,
+      "logged_valid_outer_count": 7998,
+      "logged_rejected_count": 0,
+      "main_logged_candidate_count": 6005,
+      "main_logged_valid_count": 6005,
+      "raw_all_magic_candidate_count": 7998,
+      "raw_independent_valid_outer_count": 7998,
+      "raw_crc_bad_candidate_count": 0,
+      "raw_valid_unlogged_packets": [],
+      "module_log_rows_checked": 31992,
+      "logged_valid_module_counts": {
+        "0": 7998,
+        "1": 7998,
+        "2": 7998
+      },
+      "actual_modes": {
+        "FULL": 23994
+      },
+      "cross_check_errors": {},
+      "valid_envelope_decode_errors": [],
+      "logged_valid_sequence_discontinuities": [],
+      "raw_valid_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": {},
+      "main_status": "PASS",
+      "full_status": "CHECK REQUIRED",
+      "main_review_reasons": [],
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "main_Hz": 200.13058512345748,
+      "main_Lmean_B": 3172.0,
+      "main_packet_Mbit_per_s": 5.078513728092857,
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "logged_unassigned_ranges": [
+        {
+          "start": 25369656,
+          "end": 25369657,
+          "bytes": 1,
+          "kind": "trailing"
+        }
+      ],
+      "forensic_valid_packet_uncovered_ranges": [
+        {
+          "start": 25369656,
+          "end": 25369657,
+          "bytes": 1,
+          "kind": "trailing"
+        }
+      ],
+      "boundary_checks": [],
+      "trailing_partial_candidates": [],
+      "anomaly_context": [],
+      "raw_sha256": "fd720d99a07cbabfdc9fb4b0f4a3527f5890461f1b220879637edecd31df539f",
+      "main_timing_largest_pc_gaps": [
+        {
+          "previous_sequence": 1690134,
+          "sequence": 1690135,
+          "elapsed_s": 10.182649100024719,
+          "pc_completion_gap_ms": 35.86990002077073,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1694498,
+          "sequence": 1694499,
+          "elapsed_s": 31.98397850000765,
+          "pc_completion_gap_ms": 34.19589999248274,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1692043,
+          "sequence": 1692044,
+          "elapsed_s": 19.723658000002615,
+          "pc_completion_gap_ms": 33.996299986029044,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1694771,
+          "sequence": 1694772,
+          "elapsed_s": 33.34745110000949,
+          "pc_completion_gap_ms": 32.01470000203699,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1691498,
+          "sequence": 1691499,
+          "elapsed_s": 16.990739000000758,
+          "pc_completion_gap_ms": 30.148699996061623,
+          "bridge_host_gap_ms": 5
+        }
+      ],
+      "main_timing_largest_bridge_gaps": [
+        {
+          "previous_sequence": 1691914,
+          "sequence": 1691915,
+          "elapsed_s": 19.063568200013833,
+          "pc_completion_gap_ms": 24.98429999104701,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1693100,
+          "sequence": 1693101,
+          "elapsed_s": 24.97017670000787,
+          "pc_completion_gap_ms": 5.742499983171001,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1695704,
+          "sequence": 1695705,
+          "elapsed_s": 37.980341400019825,
+          "pc_completion_gap_ms": 1.9309000053908676,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1690105,
+          "sequence": 1690106,
+          "elapsed_s": 10.008727300009923,
+          "pc_completion_gap_ms": 7.987399992998689,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1690106,
+          "sequence": 1690107,
+          "elapsed_s": 10.010874200001126,
+          "pc_completion_gap_ms": 2.1468999912030995,
+          "bridge_host_gap_ms": 5
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_001345_234235",
+      "directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_001345_234235",
+      "started_at": "2026-09-07T00:13:45.234235+01:00",
+      "duration_seconds": 40.00078930001473,
+      "metadata": {
+        "target_modules": [
+          0,
+          1,
+          3
+        ],
+        "target_mode": "FULL",
+        "condition": "zero_load",
+        "batch_id": "BATCH_99a81ef679d94018b7b50eb637f57582",
+        "batch_repeat_index": 1,
+        "block": "1",
+        "repeat": "1"
+      },
+      "logged_candidate_count": 8005,
+      "logged_valid_outer_count": 8005,
+      "logged_rejected_count": 0,
+      "main_logged_candidate_count": 6003,
+      "main_logged_valid_count": 6003,
+      "raw_all_magic_candidate_count": 8005,
+      "raw_independent_valid_outer_count": 8005,
+      "raw_crc_bad_candidate_count": 0,
+      "raw_valid_unlogged_packets": [],
+      "module_log_rows_checked": 32020,
+      "logged_valid_module_counts": {
+        "0": 8005,
+        "1": 8005,
+        "3": 8005
+      },
+      "actual_modes": {
+        "FULL": 24015
+      },
+      "cross_check_errors": {},
+      "valid_envelope_decode_errors": [],
+      "logged_valid_sequence_discontinuities": [],
+      "raw_valid_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": {},
+      "main_status": "PASS",
+      "full_status": "CHECK REQUIRED",
+      "main_review_reasons": [],
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "main_Hz": 200.09473550741055,
+      "main_Lmean_B": 3172.0,
+      "main_packet_Mbit_per_s": 5.07760400823605,
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "logged_unassigned_ranges": [
+        {
+          "start": 25395031,
+          "end": 25395032,
+          "bytes": 1,
+          "kind": "trailing"
+        }
+      ],
+      "forensic_valid_packet_uncovered_ranges": [
+        {
+          "start": 25395031,
+          "end": 25395032,
+          "bytes": 1,
+          "kind": "trailing"
+        }
+      ],
+      "boundary_checks": [
+        {
+          "sequence": 1812082,
+          "prefix_bytes": 1,
+          "suffix_bytes": 3171,
+          "evidence": "inferred_magic_M_not_recorded",
+          "independent_errors": [],
+          "decoded_sequence": 1812082,
+          "event_errors": []
+        }
+      ],
+      "trailing_partial_candidates": [],
+      "anomaly_context": [],
+      "raw_sha256": "ea6ca4eb1ee940aa2ede264420ac2e3c0e31d3970ce131c9838175658e99307b",
+      "main_timing_largest_pc_gaps": [
+        {
+          "previous_sequence": 1819503,
+          "sequence": 1819504,
+          "elapsed_s": 37.11421460000565,
+          "pc_completion_gap_ms": 35.14210000867024,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1815959,
+          "sequence": 1815960,
+          "elapsed_s": 19.402306200005114,
+          "pc_completion_gap_ms": 34.31990000535734,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1817868,
+          "sequence": 1817869,
+          "elapsed_s": 28.93531930001336,
+          "pc_completion_gap_ms": 28.293400013353676,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1815411,
+          "sequence": 1815412,
+          "elapsed_s": 16.65790520000155,
+          "pc_completion_gap_ms": 27.154399984283373,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1818685,
+          "sequence": 1818686,
+          "elapsed_s": 33.01803629999631,
+          "pc_completion_gap_ms": 26.404699980048463,
+          "bridge_host_gap_ms": 5
+        }
+      ],
+      "main_timing_largest_bridge_gaps": [
+        {
+          "previous_sequence": 1814085,
+          "sequence": 1814086,
+          "elapsed_s": 10.008133700001054,
+          "pc_completion_gap_ms": 5.002499994589016,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1814086,
+          "sequence": 1814087,
+          "elapsed_s": 10.013185200019507,
+          "pc_completion_gap_ms": 5.0515000184532255,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1814087,
+          "sequence": 1814088,
+          "elapsed_s": 10.018997200008016,
+          "pc_completion_gap_ms": 5.811999988509342,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1814088,
+          "sequence": 1814089,
+          "elapsed_s": 10.024154400016414,
+          "pc_completion_gap_ms": 5.157200008397922,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1814089,
+          "sequence": 1814090,
+          "elapsed_s": 10.028418700007023,
+          "pc_completion_gap_ms": 4.264299990609288,
+          "bridge_host_gap_ms": 5
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_001425_309099",
+      "directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_001425_309099",
+      "started_at": "2026-09-07T00:14:25.309099+01:00",
+      "duration_seconds": 40.002674799994566,
+      "metadata": {
+        "target_modules": [
+          0,
+          1,
+          3
+        ],
+        "target_mode": "FULL",
+        "condition": "zero_load",
+        "batch_id": "BATCH_99a81ef679d94018b7b50eb637f57582",
+        "batch_repeat_index": 2,
+        "block": "1",
+        "repeat": "2"
+      },
+      "logged_candidate_count": 8018,
+      "logged_valid_outer_count": 8018,
+      "logged_rejected_count": 0,
+      "main_logged_candidate_count": 6003,
+      "main_logged_valid_count": 6003,
+      "raw_all_magic_candidate_count": 8018,
+      "raw_independent_valid_outer_count": 8018,
+      "raw_crc_bad_candidate_count": 0,
+      "raw_valid_unlogged_packets": [],
+      "module_log_rows_checked": 32072,
+      "logged_valid_module_counts": {
+        "0": 8018,
+        "1": 8018,
+        "3": 8018
+      },
+      "actual_modes": {
+        "FULL": 24054
+      },
+      "cross_check_errors": {},
+      "valid_envelope_decode_errors": [],
+      "logged_valid_sequence_discontinuities": [],
+      "raw_valid_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": {},
+      "main_status": "PASS",
+      "full_status": "PASS",
+      "main_review_reasons": [],
+      "full_review_reasons": [],
+      "main_Hz": 200.0821606745905,
+      "main_Lmean_B": 3172.0,
+      "main_packet_Mbit_per_s": 5.077284909278409,
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "logged_unassigned_ranges": [],
+      "forensic_valid_packet_uncovered_ranges": [],
+      "boundary_checks": [
+        {
+          "sequence": 1820088,
+          "prefix_bytes": 1,
+          "suffix_bytes": 3171,
+          "evidence": "actual_previous_raw_tail",
+          "independent_errors": [],
+          "decoded_sequence": 1820088,
+          "event_errors": []
+        }
+      ],
+      "trailing_partial_candidates": [],
+      "anomaly_context": [],
+      "raw_sha256": "6c76ed0aa04d11e25b1c8fc843ecf714b936ca7eb57d18e9352eff38b1c6daa4",
+      "main_timing_largest_pc_gaps": [
+        {
+          "previous_sequence": 1827658,
+          "sequence": 1827659,
+          "elapsed_s": 37.8810397000052,
+          "pc_completion_gap_ms": 122.18780000694096,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1824511,
+          "sequence": 1824512,
+          "elapsed_s": 22.066306699998677,
+          "pc_completion_gap_ms": 36.03289998136461,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1823869,
+          "sequence": 1823870,
+          "elapsed_s": 18.85632920000353,
+          "pc_completion_gap_ms": 33.01419998751953,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1826323,
+          "sequence": 1826324,
+          "elapsed_s": 31.119957699993392,
+          "pc_completion_gap_ms": 32.806499977596104,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1825231,
+          "sequence": 1825232,
+          "elapsed_s": 25.664226599998074,
+          "pc_completion_gap_ms": 31.363199988845736,
+          "bridge_host_gap_ms": 5
+        }
+      ],
+      "main_timing_largest_bridge_gaps": [
+        {
+          "previous_sequence": 1825208,
+          "sequence": 1825209,
+          "elapsed_s": 25.5178428000072,
+          "pc_completion_gap_ms": 4.978100012522191,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1825610,
+          "sequence": 1825611,
+          "elapsed_s": 27.527354399993783,
+          "pc_completion_gap_ms": 0.9277999924961478,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1825972,
+          "sequence": 1825973,
+          "elapsed_s": 29.335996400011936,
+          "pc_completion_gap_ms": 5.149500007973984,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1826739,
+          "sequence": 1826740,
+          "elapsed_s": 33.169852699997136,
+          "pc_completion_gap_ms": 6.027800001902506,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1822104,
+          "sequence": 1822105,
+          "elapsed_s": 10.012952299992321,
+          "pc_completion_gap_ms": 10.916100000031292,
+          "bridge_host_gap_ms": 5
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_001505_375008",
+      "directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_001505_375008",
+      "started_at": "2026-09-07T00:15:05.375008+01:00",
+      "duration_seconds": 40.00143200001912,
+      "metadata": {
+        "target_modules": [
+          0,
+          1,
+          3
+        ],
+        "target_mode": "FULL",
+        "condition": "zero_load",
+        "batch_id": "BATCH_99a81ef679d94018b7b50eb637f57582",
+        "batch_repeat_index": 3,
+        "block": "1",
+        "repeat": "3"
+      },
+      "logged_candidate_count": 7988,
+      "logged_valid_outer_count": 7988,
+      "logged_rejected_count": 0,
+      "main_logged_candidate_count": 5974,
+      "main_logged_valid_count": 5974,
+      "raw_all_magic_candidate_count": 7988,
+      "raw_independent_valid_outer_count": 7988,
+      "raw_crc_bad_candidate_count": 0,
+      "raw_valid_unlogged_packets": [],
+      "module_log_rows_checked": 31952,
+      "logged_valid_module_counts": {
+        "0": 7988,
+        "1": 7988,
+        "3": 7988
+      },
+      "actual_modes": {
+        "FULL": 23964
+      },
+      "cross_check_errors": {},
+      "valid_envelope_decode_errors": [],
+      "logged_valid_sequence_discontinuities": [],
+      "raw_valid_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": {},
+      "main_status": "PASS",
+      "full_status": "CHECK REQUIRED",
+      "main_review_reasons": [],
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "main_Hz": 199.12382848912654,
+      "main_Lmean_B": 3172.0,
+      "main_packet_Mbit_per_s": 5.052966271740075,
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "logged_unassigned_ranges": [
+        {
+          "start": 25337936,
+          "end": 25338956,
+          "bytes": 1020,
+          "kind": "trailing"
+        }
+      ],
+      "forensic_valid_packet_uncovered_ranges": [
+        {
+          "start": 25337936,
+          "end": 25338956,
+          "bytes": 1020,
+          "kind": "trailing"
+        }
+      ],
+      "boundary_checks": [],
+      "trailing_partial_candidates": [
+        {
+          "offset": 25337936,
+          "declared_bytes": 3172,
+          "available_bytes": 1020
+        }
+      ],
+      "anomaly_context": [],
+      "raw_sha256": "081214c4251cda515e5f6d55588db18a7c00959a5faaf343f86938a62abbe778",
+      "main_timing_largest_pc_gaps": [
+        {
+          "previous_sequence": 1836053,
+          "sequence": 1836054,
+          "elapsed_s": 39.95073880002019,
+          "pc_completion_gap_ms": 301.37349999859,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1835276,
+          "sequence": 1835277,
+          "elapsed_s": 35.91792000000714,
+          "pc_completion_gap_ms": 143.57200000085868,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1833811,
+          "sequence": 1833812,
+          "elapsed_s": 28.578077700018184,
+          "pc_completion_gap_ms": 127.08480001310818,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1835258,
+          "sequence": 1835259,
+          "elapsed_s": 35.774348000006285,
+          "pc_completion_gap_ms": 96.31500000250526,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1833793,
+          "sequence": 1833794,
+          "elapsed_s": 28.450992900005076,
+          "pc_completion_gap_ms": 95.52549998625182,
+          "bridge_host_gap_ms": 5
+        }
+      ],
+      "main_timing_largest_bridge_gaps": [
+        {
+          "previous_sequence": 1836089,
+          "sequence": 1836090,
+          "elapsed_s": 39.97660930000711,
+          "pc_completion_gap_ms": 0.0,
+          "bridge_host_gap_ms": 123
+        },
+        {
+          "previous_sequence": 1830480,
+          "sequence": 1830481,
+          "elapsed_s": 11.80143770002178,
+          "pc_completion_gap_ms": 5.029700027080253,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1831117,
+          "sequence": 1831118,
+          "elapsed_s": 14.985707700019702,
+          "pc_completion_gap_ms": 4.482000018469989,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1833908,
+          "sequence": 1833909,
+          "elapsed_s": 28.934308700001566,
+          "pc_completion_gap_ms": 5.281099991407245,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1830121,
+          "sequence": 1830122,
+          "elapsed_s": 10.014390399999684,
+          "pc_completion_gap_ms": 12.040200002957135,
+          "bridge_host_gap_ms": 5
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_001710_986331",
+      "directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_001710_986331",
+      "started_at": "2026-09-07T00:17:10.986331+01:00",
+      "duration_seconds": 40.00337359998957,
+      "metadata": {
+        "target_modules": [
+          0,
+          2,
+          3
+        ],
+        "target_mode": "FULL",
+        "condition": "zero_load",
+        "batch_id": "BATCH_5e558777cbde42149caff5504c6a2042",
+        "batch_repeat_index": 1,
+        "block": "1",
+        "repeat": "1"
+      },
+      "logged_candidate_count": 8007,
+      "logged_valid_outer_count": 8007,
+      "logged_rejected_count": 0,
+      "main_logged_candidate_count": 6005,
+      "main_logged_valid_count": 6005,
+      "raw_all_magic_candidate_count": 8007,
+      "raw_independent_valid_outer_count": 8007,
+      "raw_crc_bad_candidate_count": 0,
+      "raw_valid_unlogged_packets": [],
+      "module_log_rows_checked": 32028,
+      "logged_valid_module_counts": {
+        "0": 8007,
+        "2": 8007,
+        "3": 8007
+      },
+      "actual_modes": {
+        "FULL": 24021
+      },
+      "cross_check_errors": {},
+      "valid_envelope_decode_errors": [],
+      "logged_valid_sequence_discontinuities": [],
+      "raw_valid_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": {},
+      "main_status": "PASS",
+      "full_status": "CHECK REQUIRED",
+      "main_review_reasons": [],
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "main_Hz": 200.1441597888208,
+      "main_Lmean_B": 3172.0,
+      "main_packet_Mbit_per_s": 5.078858198801116,
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "logged_unassigned_ranges": [
+        {
+          "start": 25401375,
+          "end": 25401376,
+          "bytes": 1,
+          "kind": "trailing"
+        }
+      ],
+      "forensic_valid_packet_uncovered_ranges": [
+        {
+          "start": 25401375,
+          "end": 25401376,
+          "bytes": 1,
+          "kind": "trailing"
+        }
+      ],
+      "boundary_checks": [
+        {
+          "sequence": 1852748,
+          "prefix_bytes": 1,
+          "suffix_bytes": 3171,
+          "evidence": "inferred_magic_M_not_recorded",
+          "independent_errors": [],
+          "decoded_sequence": 1852748,
+          "event_errors": []
+        }
+      ],
+      "trailing_partial_candidates": [],
+      "anomaly_context": [],
+      "raw_sha256": "298b63623eaef21b4ba1daaf5f1c4ab1c73a6f31c6771cf6e483673a579de8bd",
+      "main_timing_largest_pc_gaps": [
+        {
+          "previous_sequence": 1855415,
+          "sequence": 1855416,
+          "elapsed_s": 13.386300999991363,
+          "pc_completion_gap_ms": 66.67369999922812,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1855150,
+          "sequence": 1855151,
+          "elapsed_s": 12.033630999998422,
+          "pc_completion_gap_ms": 37.17039999901317,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1856151,
+          "sequence": 1856152,
+          "elapsed_s": 17.030926499981433,
+          "pc_completion_gap_ms": 34.00029998738319,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1859080,
+          "sequence": 1859081,
+          "elapsed_s": 31.66466650000075,
+          "pc_completion_gap_ms": 33.41630002250895,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1857170,
+          "sequence": 1857171,
+          "elapsed_s": 22.119585899985395,
+          "pc_completion_gap_ms": 31.547399994451553,
+          "bridge_host_gap_ms": 5
+        }
+      ],
+      "main_timing_largest_bridge_gaps": [
+        {
+          "previous_sequence": 1856071,
+          "sequence": 1856072,
+          "elapsed_s": 16.607015599991428,
+          "pc_completion_gap_ms": 8.552599989343435,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1856073,
+          "sequence": 1856074,
+          "elapsed_s": 16.612040399981197,
+          "pc_completion_gap_ms": 4.17509998078458,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1856383,
+          "sequence": 1856384,
+          "elapsed_s": 18.16104059998179,
+          "pc_completion_gap_ms": 4.9368999898433685,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1856855,
+          "sequence": 1856856,
+          "elapsed_s": 20.521982299978845,
+          "pc_completion_gap_ms": 7.869499997468665,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1860429,
+          "sequence": 1860430,
+          "elapsed_s": 38.374846999999136,
+          "pc_completion_gap_ms": 3.3500000135973096,
+          "bridge_host_gap_ms": 6
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_001751_034069",
+      "directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_001751_034069",
+      "started_at": "2026-09-07T00:17:51.034069+01:00",
+      "duration_seconds": 40.00318010000046,
+      "metadata": {
+        "target_modules": [
+          0,
+          2,
+          3
+        ],
+        "target_mode": "FULL",
+        "condition": "zero_load",
+        "batch_id": "BATCH_5e558777cbde42149caff5504c6a2042",
+        "batch_repeat_index": 2,
+        "block": "1",
+        "repeat": "2"
+      },
+      "logged_candidate_count": 8015,
+      "logged_valid_outer_count": 8015,
+      "logged_rejected_count": 0,
+      "main_logged_candidate_count": 6005,
+      "main_logged_valid_count": 6005,
+      "raw_all_magic_candidate_count": 8015,
+      "raw_independent_valid_outer_count": 8015,
+      "raw_crc_bad_candidate_count": 0,
+      "raw_valid_unlogged_packets": [],
+      "module_log_rows_checked": 32060,
+      "logged_valid_module_counts": {
+        "0": 8015,
+        "2": 8015,
+        "3": 8015
+      },
+      "actual_modes": {
+        "FULL": 24045
+      },
+      "cross_check_errors": {},
+      "valid_envelope_decode_errors": [],
+      "logged_valid_sequence_discontinuities": [],
+      "raw_valid_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": {},
+      "main_status": "PASS",
+      "full_status": "CHECK REQUIRED",
+      "main_review_reasons": [],
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "main_Hz": 200.1454505817504,
+      "main_Lmean_B": 3172.0,
+      "main_packet_Mbit_per_s": 5.078890953962499,
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "logged_unassigned_ranges": [
+        {
+          "start": 25426751,
+          "end": 25426752,
+          "bytes": 1,
+          "kind": "trailing"
+        }
+      ],
+      "forensic_valid_packet_uncovered_ranges": [
+        {
+          "start": 25426751,
+          "end": 25426752,
+          "bytes": 1,
+          "kind": "trailing"
+        }
+      ],
+      "boundary_checks": [
+        {
+          "sequence": 1860756,
+          "prefix_bytes": 1,
+          "suffix_bytes": 3171,
+          "evidence": "actual_previous_raw_tail",
+          "independent_errors": [],
+          "decoded_sequence": 1860756,
+          "event_errors": []
+        }
+      ],
+      "trailing_partial_candidates": [],
+      "anomaly_context": [],
+      "raw_sha256": "5b69c14b3ff3edcb05910f7d6938be92ffd97b0fa8291ab8dd34615c7fc91bca",
+      "main_timing_largest_pc_gaps": [
+        {
+          "previous_sequence": 1863696,
+          "sequence": 1863697,
+          "elapsed_s": 14.70886650000466,
+          "pc_completion_gap_ms": 64.00640000356361,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1865354,
+          "sequence": 1865355,
+          "elapsed_s": 22.96504849998746,
+          "pc_completion_gap_ms": 36.58719998202287,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1868160,
+          "sequence": 1868161,
+          "elapsed_s": 36.97948350000661,
+          "pc_completion_gap_ms": 33.23500000988133,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1862897,
+          "sequence": 1862898,
+          "elapsed_s": 10.690399699989939,
+          "pc_completion_gap_ms": 31.12100000726059,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1868083,
+          "sequence": 1868084,
+          "elapsed_s": 36.59157829999458,
+          "pc_completion_gap_ms": 30.20420001121238,
+          "bridge_host_gap_ms": 5
+        }
+      ],
+      "main_timing_largest_bridge_gaps": [
+        {
+          "previous_sequence": 1863095,
+          "sequence": 1863096,
+          "elapsed_s": 11.648021100001642,
+          "pc_completion_gap_ms": 4.666399996494874,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1864308,
+          "sequence": 1864309,
+          "elapsed_s": 17.708070799999405,
+          "pc_completion_gap_ms": 5.439400003524497,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1864589,
+          "sequence": 1864590,
+          "elapsed_s": 19.111631299980218,
+          "pc_completion_gap_ms": 5.018600000767037,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1867408,
+          "sequence": 1867409,
+          "elapsed_s": 33.1942203999788,
+          "pc_completion_gap_ms": 4.6236999914981425,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1868572,
+          "sequence": 1868573,
+          "elapsed_s": 39.00944160000654,
+          "pc_completion_gap_ms": 4.685700027039275,
+          "bridge_host_gap_ms": 6
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_001831_069491",
+      "directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_001831_069491",
+      "started_at": "2026-09-07T00:18:31.069491+01:00",
+      "duration_seconds": 40.003763699991396,
+      "metadata": {
+        "target_modules": [
+          0,
+          2,
+          3
+        ],
+        "target_mode": "FULL",
+        "condition": "zero_load",
+        "batch_id": "BATCH_5e558777cbde42149caff5504c6a2042",
+        "batch_repeat_index": 3,
+        "block": "1",
+        "repeat": "3"
+      },
+      "logged_candidate_count": 8014,
+      "logged_valid_outer_count": 8014,
+      "logged_rejected_count": 0,
+      "main_logged_candidate_count": 6007,
+      "main_logged_valid_count": 6007,
+      "raw_all_magic_candidate_count": 8014,
+      "raw_independent_valid_outer_count": 8014,
+      "raw_crc_bad_candidate_count": 0,
+      "raw_valid_unlogged_packets": [],
+      "module_log_rows_checked": 32056,
+      "logged_valid_module_counts": {
+        "0": 8014,
+        "2": 8014,
+        "3": 8014
+      },
+      "actual_modes": {
+        "FULL": 24042
+      },
+      "cross_check_errors": {},
+      "valid_envelope_decode_errors": [],
+      "logged_valid_sequence_discontinuities": [],
+      "raw_valid_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": {},
+      "main_status": "PASS",
+      "full_status": "CHECK REQUIRED",
+      "main_review_reasons": [],
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "main_Hz": 200.2082158779874,
+      "main_Lmean_B": 3172.0,
+      "main_packet_Mbit_per_s": 5.080483686119808,
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "logged_unassigned_ranges": [
+        {
+          "start": 25423579,
+          "end": 25423580,
+          "bytes": 1,
+          "kind": "trailing"
+        }
+      ],
+      "forensic_valid_packet_uncovered_ranges": [
+        {
+          "start": 25423579,
+          "end": 25423580,
+          "bytes": 1,
+          "kind": "trailing"
+        }
+      ],
+      "boundary_checks": [
+        {
+          "sequence": 1868772,
+          "prefix_bytes": 1,
+          "suffix_bytes": 3171,
+          "evidence": "actual_previous_raw_tail",
+          "independent_errors": [],
+          "decoded_sequence": 1868772,
+          "event_errors": []
+        }
+      ],
+      "trailing_partial_candidates": [],
+      "anomaly_context": [],
+      "raw_sha256": "8883292d9278d175a4c71826b7c2c1464e31a24a844b5e1491a86ec0081ba56a",
+      "main_timing_largest_pc_gaps": [
+        {
+          "previous_sequence": 1873468,
+          "sequence": 1873469,
+          "elapsed_s": 23.488551100017503,
+          "pc_completion_gap_ms": 61.86600000364706,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1873177,
+          "sequence": 1873178,
+          "elapsed_s": 22.014496399991913,
+          "pc_completion_gap_ms": 41.2742999906186,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1872725,
+          "sequence": 1872726,
+          "elapsed_s": 19.75618170000962,
+          "pc_completion_gap_ms": 35.58799999882467,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1874912,
+          "sequence": 1874913,
+          "elapsed_s": 30.673518600000534,
+          "pc_completion_gap_ms": 33.62539998488501,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 1871362,
+          "sequence": 1871363,
+          "elapsed_s": 12.939730899990536,
+          "pc_completion_gap_ms": 31.7242999735754,
+          "bridge_host_gap_ms": 5
+        }
+      ],
+      "main_timing_largest_bridge_gaps": [
+        {
+          "previous_sequence": 1871662,
+          "sequence": 1871663,
+          "elapsed_s": 14.413297499995679,
+          "pc_completion_gap_ms": 6.689899979392067,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1872398,
+          "sequence": 1872399,
+          "elapsed_s": 18.088244600017788,
+          "pc_completion_gap_ms": 4.699400014942512,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1873832,
+          "sequence": 1873833,
+          "elapsed_s": 25.24946250001085,
+          "pc_completion_gap_ms": 0.6424000021070242,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1874549,
+          "sequence": 1874550,
+          "elapsed_s": 28.83022579998942,
+          "pc_completion_gap_ms": 4.774899978656322,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 1875846,
+          "sequence": 1875847,
+          "elapsed_s": 35.308224200009136,
+          "pc_completion_gap_ms": 4.103899991605431,
+          "bridge_host_gap_ms": 6
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_003258_918645",
+      "directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_003258_918645",
+      "started_at": "2026-09-07T00:32:58.918645+01:00",
+      "duration_seconds": 40.00021979998564,
+      "metadata": {
+        "target_modules": [
+          1,
+          2,
+          3
+        ],
+        "target_mode": "FULL",
+        "condition": "zero_load",
+        "batch_id": "BATCH_dc8d0a297550491886808808275de52f",
+        "batch_repeat_index": 1,
+        "block": "1",
+        "repeat": "1"
+      },
+      "logged_candidate_count": 8008,
+      "logged_valid_outer_count": 8008,
+      "logged_rejected_count": 0,
+      "main_logged_candidate_count": 6007,
+      "main_logged_valid_count": 6007,
+      "raw_all_magic_candidate_count": 8008,
+      "raw_independent_valid_outer_count": 8008,
+      "raw_crc_bad_candidate_count": 0,
+      "raw_valid_unlogged_packets": [],
+      "module_log_rows_checked": 32032,
+      "logged_valid_module_counts": {
+        "1": 8008,
+        "2": 8008,
+        "3": 8008
+      },
+      "actual_modes": {
+        "FULL": 24024
+      },
+      "cross_check_errors": {},
+      "valid_envelope_decode_errors": [],
+      "logged_valid_sequence_discontinuities": [],
+      "raw_valid_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": {},
+      "main_status": "PASS",
+      "full_status": "PASS",
+      "main_review_reasons": [],
+      "full_review_reasons": [],
+      "main_Hz": 200.23186630128873,
+      "main_Lmean_B": 3172.0,
+      "main_packet_Mbit_per_s": 5.0810838392615025,
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "logged_unassigned_ranges": [],
+      "forensic_valid_packet_uncovered_ranges": [],
+      "boundary_checks": [
+        {
+          "sequence": 2039893,
+          "prefix_bytes": 1,
+          "suffix_bytes": 3171,
+          "evidence": "inferred_magic_M_not_recorded",
+          "independent_errors": [],
+          "decoded_sequence": 2039893,
+          "event_errors": []
+        }
+      ],
+      "trailing_partial_candidates": [],
+      "anomaly_context": [],
+      "raw_sha256": "bcdaa2ee844c46f9095d84f0de8731765c8a83f7e2ee33b8331ad5a06f16b4ca",
+      "main_timing_largest_pc_gaps": [
+        {
+          "previous_sequence": 2045213,
+          "sequence": 2045214,
+          "elapsed_s": 26.651449400000274,
+          "pc_completion_gap_ms": 79.0125000057742,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2047343,
+          "sequence": 2047344,
+          "elapsed_s": 37.28981180000119,
+          "pc_completion_gap_ms": 77.51440000720322,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2047361,
+          "sequence": 2047362,
+          "elapsed_s": 37.371581999992486,
+          "pc_completion_gap_ms": 69.19380000908859,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2047587,
+          "sequence": 2047588,
+          "elapsed_s": 38.47104859998217,
+          "pc_completion_gap_ms": 35.50549998180941,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2044856,
+          "sequence": 2044857,
+          "elapsed_s": 24.82580299998517,
+          "pc_completion_gap_ms": 34.033300005830824,
+          "bridge_host_gap_ms": 6
+        }
+      ],
+      "main_timing_largest_bridge_gaps": [
+        {
+          "previous_sequence": 2042974,
+          "sequence": 2042975,
+          "elapsed_s": 15.393021199997747,
+          "pc_completion_gap_ms": 4.978400014806539,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 2044856,
+          "sequence": 2044857,
+          "elapsed_s": 24.82580299998517,
+          "pc_completion_gap_ms": 34.033300005830824,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 2045306,
+          "sequence": 2045307,
+          "elapsed_s": 27.042697299999418,
+          "pc_completion_gap_ms": 4.7158999950625,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 2047622,
+          "sequence": 2047623,
+          "elapsed_s": 38.62203440000303,
+          "pc_completion_gap_ms": 13.878600002499297,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 2041895,
+          "sequence": 2041896,
+          "elapsed_s": 10.001792600000044,
+          "pc_completion_gap_ms": 0.0,
+          "bridge_host_gap_ms": 5
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_003339_025463",
+      "directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_003339_025463",
+      "started_at": "2026-09-07T00:33:39.025463+01:00",
+      "duration_seconds": 40.00244559999555,
+      "metadata": {
+        "target_modules": [
+          1,
+          2,
+          3
+        ],
+        "target_mode": "FULL",
+        "condition": "zero_load",
+        "batch_id": "BATCH_dc8d0a297550491886808808275de52f",
+        "batch_repeat_index": 2,
+        "block": "1",
+        "repeat": "2"
+      },
+      "logged_candidate_count": 8031,
+      "logged_valid_outer_count": 8031,
+      "logged_rejected_count": 0,
+      "main_logged_candidate_count": 6008,
+      "main_logged_valid_count": 6008,
+      "raw_all_magic_candidate_count": 8031,
+      "raw_independent_valid_outer_count": 8031,
+      "raw_crc_bad_candidate_count": 0,
+      "raw_valid_unlogged_packets": [],
+      "module_log_rows_checked": 32124,
+      "logged_valid_module_counts": {
+        "1": 8031,
+        "2": 8031,
+        "3": 8031
+      },
+      "actual_modes": {
+        "FULL": 24093
+      },
+      "cross_check_errors": {},
+      "valid_envelope_decode_errors": [],
+      "logged_valid_sequence_discontinuities": [],
+      "raw_valid_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": {},
+      "main_status": "PASS",
+      "full_status": "CHECK REQUIRED",
+      "main_review_reasons": [],
+      "full_review_reasons": [
+        "unassigned_raw_bytes_in_full_capture"
+      ],
+      "main_Hz": 200.2503422587954,
+      "main_Lmean_B": 3172.0,
+      "main_packet_Mbit_per_s": 5.081552685159193,
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "logged_unassigned_ranges": [
+        {
+          "start": 25474332,
+          "end": 25474333,
+          "bytes": 1,
+          "kind": "trailing"
+        }
+      ],
+      "forensic_valid_packet_uncovered_ranges": [
+        {
+          "start": 25474332,
+          "end": 25474333,
+          "bytes": 1,
+          "kind": "trailing"
+        }
+      ],
+      "boundary_checks": [],
+      "trailing_partial_candidates": [],
+      "anomaly_context": [],
+      "raw_sha256": "3626491d33deca759b1f7aedecc1a32ff9c77e82d2b6d3651f8627bab1ae836c",
+      "main_timing_largest_pc_gaps": [
+        {
+          "previous_sequence": 2055668,
+          "sequence": 2055669,
+          "elapsed_s": 38.88012190000154,
+          "pc_completion_gap_ms": 198.3798999863211,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2049987,
+          "sequence": 2049988,
+          "elapsed_s": 10.419249800004764,
+          "pc_completion_gap_ms": 107.74750000564381,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2050665,
+          "sequence": 2050666,
+          "elapsed_s": 13.799936099996557,
+          "pc_completion_gap_ms": 101.32580000208691,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2055650,
+          "sequence": 2055651,
+          "elapsed_s": 38.68174200001522,
+          "pc_completion_gap_ms": 92.22099999897182,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2050649,
+          "sequence": 2050650,
+          "elapsed_s": 13.69861029999447,
+          "pc_completion_gap_ms": 81.21829997980967,
+          "bridge_host_gap_ms": 5
+        }
+      ],
+      "main_timing_largest_bridge_gaps": [
+        {
+          "previous_sequence": 2049925,
+          "sequence": 2049926,
+          "elapsed_s": 10.006859299988719,
+          "pc_completion_gap_ms": 4.6412999799940735,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2049926,
+          "sequence": 2049927,
+          "elapsed_s": 10.011947399994824,
+          "pc_completion_gap_ms": 5.088100006105378,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2049927,
+          "sequence": 2049928,
+          "elapsed_s": 10.020834599999944,
+          "pc_completion_gap_ms": 8.887200005119666,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2049928,
+          "sequence": 2049929,
+          "elapsed_s": 10.03027230000589,
+          "pc_completion_gap_ms": 9.437700005946681,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2049929,
+          "sequence": 2049930,
+          "elapsed_s": 10.031297200010158,
+          "pc_completion_gap_ms": 1.0249000042676926,
+          "bridge_host_gap_ms": 5
+        }
+      ]
+    },
+    {
+      "run_id": "20260907_003419_073823",
+      "directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\20260907_003419_073823",
+      "started_at": "2026-09-07T00:34:19.073823+01:00",
+      "duration_seconds": 40.00398989999667,
+      "metadata": {
+        "target_modules": [
+          1,
+          2,
+          3
+        ],
+        "target_mode": "FULL",
+        "condition": "zero_load",
+        "batch_id": "BATCH_dc8d0a297550491886808808275de52f",
+        "batch_repeat_index": 3,
+        "block": "1",
+        "repeat": "3"
+      },
+      "logged_candidate_count": 8017,
+      "logged_valid_outer_count": 8017,
+      "logged_rejected_count": 0,
+      "main_logged_candidate_count": 6006,
+      "main_logged_valid_count": 6006,
+      "raw_all_magic_candidate_count": 8017,
+      "raw_independent_valid_outer_count": 8017,
+      "raw_crc_bad_candidate_count": 0,
+      "raw_valid_unlogged_packets": [],
+      "module_log_rows_checked": 32068,
+      "logged_valid_module_counts": {
+        "1": 8017,
+        "2": 8017,
+        "3": 8017
+      },
+      "actual_modes": {
+        "FULL": 24051
+      },
+      "cross_check_errors": {},
+      "valid_envelope_decode_errors": [],
+      "logged_valid_sequence_discontinuities": [],
+      "raw_valid_sequence_discontinuities": [],
+      "raw_valid_inner_sequence_discontinuities": {},
+      "main_status": "PASS",
+      "full_status": "PASS",
+      "main_review_reasons": [],
+      "full_review_reasons": [],
+      "main_Hz": 200.17337760804494,
+      "main_Lmean_B": 3172.0,
+      "main_packet_Mbit_per_s": 5.0795996301817485,
+      "session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "main_session_error_delta": {
+        "outer_crc_errors": 0,
+        "inner_crc_errors": 0,
+        "sequence_gap_events": 0,
+        "lost_frames": 0,
+        "duplicate_frames": 0,
+        "out_of_order_frames": 0,
+        "format_errors": 0,
+        "delta_base_mismatches": 0
+      },
+      "logged_unassigned_ranges": [],
+      "forensic_valid_packet_uncovered_ranges": [],
+      "boundary_checks": [
+        {
+          "sequence": 2055933,
+          "prefix_bytes": 1,
+          "suffix_bytes": 3171,
+          "evidence": "actual_previous_raw_tail",
+          "independent_errors": [],
+          "decoded_sequence": 2055933,
+          "event_errors": []
+        }
+      ],
+      "trailing_partial_candidates": [],
+      "anomaly_context": [],
+      "raw_sha256": "53be4ebbe7577131814eceb7617e0bb2194eb8ee16f13db3cf2a874fa6cae9a4",
+      "main_timing_largest_pc_gaps": [
+        {
+          "previous_sequence": 2058468,
+          "sequence": 2058469,
+          "elapsed_s": 12.819917400018312,
+          "pc_completion_gap_ms": 195.58690002304502,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2062745,
+          "sequence": 2062746,
+          "elapsed_s": 34.138720200018724,
+          "pc_completion_gap_ms": 152.3360999999568,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2063419,
+          "sequence": 2063420,
+          "elapsed_s": 37.4370831999986,
+          "pc_completion_gap_ms": 91.18129999842495,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2059563,
+          "sequence": 2059564,
+          "elapsed_s": 18.161806799995247,
+          "pc_completion_gap_ms": 75.34069998655468,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2058454,
+          "sequence": 2058455,
+          "elapsed_s": 12.614019900007406,
+          "pc_completion_gap_ms": 68.48680000985041,
+          "bridge_host_gap_ms": 5
+        }
+      ],
+      "main_timing_largest_bridge_gaps": [
+        {
+          "previous_sequence": 2058768,
+          "sequence": 2058769,
+          "elapsed_s": 14.118629000004148,
+          "pc_completion_gap_ms": 4.567500000121072,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 2061001,
+          "sequence": 2061002,
+          "elapsed_s": 25.271372899995185,
+          "pc_completion_gap_ms": 4.937399993650615,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 2062536,
+          "sequence": 2062537,
+          "elapsed_s": 32.938549800019246,
+          "pc_completion_gap_ms": 4.867900017416105,
+          "bridge_host_gap_ms": 6
+        },
+        {
+          "previous_sequence": 2057945,
+          "sequence": 2057946,
+          "elapsed_s": 10.00867810001364,
+          "pc_completion_gap_ms": 5.156400002306327,
+          "bridge_host_gap_ms": 5
+        },
+        {
+          "previous_sequence": 2057946,
+          "sequence": 2057947,
+          "elapsed_s": 10.013483499991708,
+          "pc_completion_gap_ms": 4.805399978067726,
+          "bridge_host_gap_ms": 5
+        }
+      ]
+    }
+  ],
+  "new_completed_runs_not_audited": [],
+  "definitions": {
+    "logged_valid": "CRC-valid envelopes present in packet_log; comparable to original summary.",
+    "forensic_raw_valid": "All independently CRC-valid raw candidates, including overlaps missed by original live framer; never substituted into original statistics.",
+    "missing_updates": "Conditional on accepted valid outer envelopes; excludes wholesale rejected candidates.",
+    "main_time": "Original PC packet-completion timestamp, not raw byte arrival or device physical scan time."
+  }
+}

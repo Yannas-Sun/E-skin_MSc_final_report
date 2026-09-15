@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "run_count": 88,
+  "checks": [
+    "acquisition date grouping and exhaustive inventory counts",
+    "unique raw hashes and current analysis script hash",
+    "whole-stream outer/inner CRC, layout, CSV and metadata hard audits",
+    "per-module histogram and frame-count aggregation",
+    "recorded byte/packet/frequency/rate identities",
+    "general mixture identity including absent updates and diagnostic bytes",
+    "fixed-N mixture identity when complete-update assumption holds",
+    "88 runs retained in condition groups; singleton SD unavailable",
+    "offline in-file baseline chain counts and known N4 reference",
+    "target-module update coverage and explicit partial-update sample",
+    "histogram moments and quantiles against independent reference"
+  ],
+  "limitations": [
+    "No device or firmware deployment validation",
+    "No attribution of ESKF trigger causes",
+    "Validation does not establish independence or causal comparability of experiment conditions"
+  ]
+}

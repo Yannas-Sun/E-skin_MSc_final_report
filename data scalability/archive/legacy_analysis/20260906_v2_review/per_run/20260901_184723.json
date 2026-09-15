@@ -1,0 +1,131 @@
+{
+  "run": {
+    "run_id": "20260901_184723",
+    "started_at": "2026-09-01T18:47:23.195616+01:00",
+    "date": "2026-09-01",
+    "date_bucket": "before_2026-09-05",
+    "mode": "FULL",
+    "target_Hz": 100,
+    "N": 1,
+    "modules": "M2",
+    "load": "load_not_recorded",
+    "load_source": "metadata_or_missing",
+    "load_metadata": null,
+    "repeat_label": "single_run_no_repeat_label",
+    "duration_s": 30.010152899980312,
+    "raw_bytes": 3255252,
+    "raw_packets": 3003,
+    "complete_outer_packets": 3003,
+    "valid_inner_packets": 3003,
+    "valid_module_frames": 3003,
+    "expected_module_frames": 3003,
+    "unupdated_expected_module_frames": 0,
+    "all_expected_modules_updated_packets": 3003,
+    "partial_update_packets": 0,
+    "f_all_expected_modules_Hz": 100.06613461812685,
+    "diagnostic_payload_bytes": 0,
+    "unupdated_module_status_counts": {},
+    "fixed_N_mixture_applicable": true,
+    "K_effective_present_module_frames": null,
+    "Lmean_B": 1084.0,
+    "Lmodel_mean_B": 1084.0,
+    "f_packet_Hz": 100.06613461812685,
+    "f_complete_Hz": 100.06613461812685,
+    "f_valid_inner_Hz": 100.06613461812685,
+    "bytes_per_s": 108471.68992604951,
+    "Mbit_per_s": 0.8677735194083961,
+    "ESKF_count": 3003,
+    "ESKD_count": 0,
+    "q_ESKF_module_frames": 1.0,
+    "K_ESKD_mean": null,
+    "K_ESKD_sd_population": null,
+    "K_ESKD_median": null,
+    "K_ESKD_p05": null,
+    "K_ESKD_p95": null,
+    "K_zero_fraction": null,
+    "K_effective_all_frames": null,
+    "summary_result": "PASS: no recorded transport/parser/cache error",
+    "summary_session_base_mismatches": 0,
+    "log_parse_errors": 0,
+    "raw_base_break_events_after_anchor": 0,
+    "raw_unapplied_after_anchor": 0,
+    "raw_initial_unanchored_delta_frames": 0,
+    "raw_sha256": "d81dc927ecfaf37b665fce55fc30702eaf5d47e4407119de76e7792e9ce77827",
+    "source_dir": "FULL\\N=1\\100Hz\\M2",
+    "audit_issue_counts": {
+      "experiment_log_run_id_missing": 1
+    }
+  },
+  "modules": [
+    {
+      "run_id": "20260901_184723",
+      "date": "2026-09-01",
+      "date_bucket": "before_2026-09-05",
+      "mode": "FULL",
+      "target_Hz": 100,
+      "N": 1,
+      "modules": "M2",
+      "load": "load_not_recorded",
+      "repeat_label": "single_run_no_repeat_label",
+      "module_id": "M2",
+      "ESKF_count": 3003,
+      "ESKD_count": 0,
+      "q_ESKF": 1.0,
+      "module_update_rate_Hz": 100.06613461812685,
+      "unupdated_packets_for_this_module": 0,
+      "K_n": 0,
+      "K_mean": null,
+      "K_sd_population": null,
+      "K_p05": null,
+      "K_p25": null,
+      "K_median": null,
+      "K_p75": null,
+      "K_p95": null,
+      "K_min": null,
+      "K_max": null,
+      "K_zero_fraction": null,
+      "K_FSR1_mean": null,
+      "K_FSR2_mean": null,
+      "ESKF_interval_count": 3002,
+      "ESKF_interval_mean_s": 0.009992279147235177,
+      "ESKF_interval_min_s": 0.0002959999999987417,
+      "ESKF_interval_max_s": 0.02776200000000273,
+      "flags_counts": {
+        "0x13": 3003
+      },
+      "base_link_discontinuities": 0,
+      "break_events_after_anchor": 0,
+      "unapplied_after_anchor": 0,
+      "initial_unanchored_delta_frames": 0,
+      "full_trigger_reason": "not_identifiable_from_recorded_frame_type"
+    }
+  ],
+  "raw_counts": {
+    "log_rows": 3003,
+    "raw_packets": 3003,
+    "raw_complete_outer_packets": 3003,
+    "diagnostic_payload_bytes": 0,
+    "raw_valid_inner_packets": 3003,
+    "packets_containing_eskf": 3003
+  },
+  "module_status_counts": {
+    "M0:0x83": 3003,
+    "M1:0x83": 3003,
+    "M2:0x00": 3003,
+    "M3:0x83": 3003
+  },
+  "audit_examples": [
+    {
+      "code": "experiment_log_run_id_missing",
+      "detail": ""
+    }
+  ],
+  "updated_mask_counts": {
+    "0x04": 3003
+  },
+  "K_histograms_by_module": {
+    "M2": {}
+  },
+  "summary_sha256": "0a79f90c165dc5d4fe2d2e1030690b3b5f8bb4fca53cfb13446a89e6e0bfad73",
+  "packet_log_sha256": "6af656d6b57af2d975e18c01d276c272481ab777d9120a5b3f578e26486b73c5"
+}

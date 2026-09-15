@@ -1,0 +1,46 @@
+[
+  {
+    "source": "analysis\\20260906_current_data_review",
+    "destination": "archive\\legacy_analysis\\20260906_current_data_review"
+  },
+  {
+    "source": "analysis\\20260906_n2_full_review",
+    "destination": "archive\\legacy_analysis\\20260906_n2_full_review"
+  },
+  {
+    "source": "analysis\\20260906_record_boundary",
+    "destination": "archive\\legacy_analysis\\20260906_record_boundary"
+  },
+  {
+    "source": "analysis\\20260906_v2_review",
+    "destination": "archive\\legacy_analysis\\20260906_v2_review"
+  },
+  {
+    "source": "figures\\review",
+    "destination": "archive\\generated_cache\\figure_review"
+  },
+  {
+    "source": "figures\\source\\__pycache__",
+    "destination": "archive\\generated_cache\\figure_source_pycache"
+  },
+  {
+    "source": "script\\__pycache__",
+    "destination": "archive\\generated_cache\\script_pycache"
+  },
+  {
+    "source": "script\\archive_legacy_data.ps1",
+    "destination": "archive\\legacy_scripts\\archive_legacy_data.ps1"
+  },
+  {
+    "source": "docs\\Data_Scalability.md",
+    "destination": "archive\\historical_documents\\Data_Scalability_CN.md"
+  },
+  {
+    "source": "docs\\CHANGELOG.md",
+    "destination": "archive\\historical_documents\\CHANGELOG_CN.md"
+  },
+  {
+    "source": "figures\\current_recordings\\README_CN.md",
+    "destination": "archive\\historical_documents\\current_recordings_README_CN.md"
+  }
+]

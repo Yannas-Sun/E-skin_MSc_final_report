@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "run_ids": [
+    "20260907_051941_159689",
+    "20260907_052021_196300",
+    "20260907_052101_230925"
+  ],
+  "recorded_condition": "zero_load",
+  "actual_condition": "large_area",
+  "actual_load_protocol": "repeated_press_release",
+  "actual_condition_description": "大面积反复按压、释放",
+  "confirmation_source": "User explicitly described the newly added batch in the current conversation",
+  "confirmed_on": "2026-09-07",
+  "raw_metadata_modified": false,
+  "load_layers": "unspecified_in_record",
+  "interpretation": "Preserve recorded metadata; use the user-provided load description in derived analysis. No numerical contact area, force, cycle frequency or press/release timestamps were recorded."
+}

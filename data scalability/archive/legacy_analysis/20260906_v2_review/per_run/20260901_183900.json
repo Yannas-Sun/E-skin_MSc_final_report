@@ -1,0 +1,131 @@
+{
+  "run": {
+    "run_id": "20260901_183900",
+    "started_at": "2026-09-01T18:39:00.890407+01:00",
+    "date": "2026-09-01",
+    "date_bucket": "before_2026-09-05",
+    "mode": "FULL",
+    "target_Hz": 200,
+    "N": 1,
+    "modules": "M2",
+    "load": "load_not_recorded",
+    "load_source": "metadata_or_missing",
+    "load_metadata": null,
+    "repeat_label": "single_run_no_repeat_label",
+    "duration_s": 30.004015599988634,
+    "raw_bytes": 6509420,
+    "raw_packets": 6005,
+    "complete_outer_packets": 6005,
+    "valid_inner_packets": 6005,
+    "valid_module_frames": 6005,
+    "expected_module_frames": 6005,
+    "unupdated_expected_module_frames": 0,
+    "all_expected_modules_updated_packets": 6005,
+    "partial_update_packets": 0,
+    "f_all_expected_modules_Hz": 200.13987727703605,
+    "diagnostic_payload_bytes": 0,
+    "unupdated_module_status_counts": {},
+    "fixed_N_mixture_applicable": true,
+    "K_effective_present_module_frames": null,
+    "Lmean_B": 1084.0,
+    "Lmodel_mean_B": 1084.0,
+    "f_packet_Hz": 200.13987727703605,
+    "f_complete_Hz": 200.13987727703605,
+    "f_valid_inner_Hz": 200.13987727703605,
+    "bytes_per_s": 216951.62696830707,
+    "Mbit_per_s": 1.7356130157464567,
+    "ESKF_count": 6005,
+    "ESKD_count": 0,
+    "q_ESKF_module_frames": 1.0,
+    "K_ESKD_mean": null,
+    "K_ESKD_sd_population": null,
+    "K_ESKD_median": null,
+    "K_ESKD_p05": null,
+    "K_ESKD_p95": null,
+    "K_zero_fraction": null,
+    "K_effective_all_frames": null,
+    "summary_result": "PASS: no recorded transport/parser/cache error",
+    "summary_session_base_mismatches": 0,
+    "log_parse_errors": 0,
+    "raw_base_break_events_after_anchor": 0,
+    "raw_unapplied_after_anchor": 0,
+    "raw_initial_unanchored_delta_frames": 0,
+    "raw_sha256": "97f58c6e4fe402561687b48f0c3189ef52eda4c39c72683ac85eb30bc61d149e",
+    "source_dir": "FULL\\N=1\\200Hz\\M2",
+    "audit_issue_counts": {
+      "experiment_log_run_id_missing": 1
+    }
+  },
+  "modules": [
+    {
+      "run_id": "20260901_183900",
+      "date": "2026-09-01",
+      "date_bucket": "before_2026-09-05",
+      "mode": "FULL",
+      "target_Hz": 200,
+      "N": 1,
+      "modules": "M2",
+      "load": "load_not_recorded",
+      "repeat_label": "single_run_no_repeat_label",
+      "module_id": "M2",
+      "ESKF_count": 6005,
+      "ESKD_count": 0,
+      "q_ESKF": 1.0,
+      "module_update_rate_Hz": 200.13987727703605,
+      "unupdated_packets_for_this_module": 0,
+      "K_n": 0,
+      "K_mean": null,
+      "K_sd_population": null,
+      "K_p05": null,
+      "K_p25": null,
+      "K_median": null,
+      "K_p75": null,
+      "K_p95": null,
+      "K_min": null,
+      "K_max": null,
+      "K_zero_fraction": null,
+      "K_FSR1_mean": null,
+      "K_FSR2_mean": null,
+      "ESKF_interval_count": 6004,
+      "ESKF_interval_mean_s": 0.004996903064623584,
+      "ESKF_interval_min_s": 0.00017000000000066962,
+      "ESKF_interval_max_s": 0.025586000000000553,
+      "flags_counts": {
+        "0x13": 6005
+      },
+      "base_link_discontinuities": 0,
+      "break_events_after_anchor": 0,
+      "unapplied_after_anchor": 0,
+      "initial_unanchored_delta_frames": 0,
+      "full_trigger_reason": "not_identifiable_from_recorded_frame_type"
+    }
+  ],
+  "raw_counts": {
+    "log_rows": 6005,
+    "raw_packets": 6005,
+    "raw_complete_outer_packets": 6005,
+    "diagnostic_payload_bytes": 0,
+    "raw_valid_inner_packets": 6005,
+    "packets_containing_eskf": 6005
+  },
+  "module_status_counts": {
+    "M0:0x83": 6005,
+    "M1:0x83": 6005,
+    "M2:0x00": 6005,
+    "M3:0x85": 6005
+  },
+  "audit_examples": [
+    {
+      "code": "experiment_log_run_id_missing",
+      "detail": ""
+    }
+  ],
+  "updated_mask_counts": {
+    "0x04": 6005
+  },
+  "K_histograms_by_module": {
+    "M2": {}
+  },
+  "summary_sha256": "a8254e60777ab20cb29aa6d715f4acdafcb879e4bd95f01ef906ddc7e148662d",
+  "packet_log_sha256": "363a0bd65a998ccc88d0ca5c681a9d90c4f962a44ab4c23c68a58b8ddc43818e"
+}

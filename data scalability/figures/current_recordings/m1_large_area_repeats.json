@@ -1,0 +1,192 @@
+{
+  "purpose": "Diagnostic M1 large-area comparison, all three batch repeats",
+  "source_run_ids": [
+    "20260907_040621_371357",
+    "20260907_040701_400114",
+    "20260907_040741_429011"
+  ],
+  "renderer": "D:\\study\\programming\\ESKIN\\E-SKIN\\hardware\\new\\firmware\\active\\four-module-variable-spi\\pc\\recording_plots.py",
+  "renderer_sha256": "ef567d416479340e7c14602d1675187c7416fc184725eed7eb6aef15e42be23a",
+  "index_sha256": "257ba74325b3d98f4d4d28575b3dba068a2de33a5c302100dae6a2ee007c8ec1",
+  "records": [
+    {
+      "run_id": "20260907_040621_371357",
+      "directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\N=1\\200Hz\\M1\\Large_area\\Repeat_1",
+      "repeat": 1,
+      "independent_review": {
+        "status": "CHECK",
+        "matches": [
+          {
+            "index_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\N=1\\200Hz\\M1\\Large_area\\run_index.csv",
+            "index_sha256": "062597c61388554dc9cac1e17e69825220a430ff98b1b95a64e0e0bc49c650f4",
+            "independent_raw_audit": "CHECK_inner_sequence_discontinuity",
+            "main_eligible": "False",
+            "review_reasons": "inner_sequence_reset_to_2_on_ESKF"
+          },
+          {
+            "index_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\run_index.csv",
+            "index_sha256": "062597c61388554dc9cac1e17e69825220a430ff98b1b95a64e0e0bc49c650f4",
+            "independent_raw_audit": "CHECK_inner_sequence_discontinuity",
+            "main_eligible": "False",
+            "review_reasons": "inner_sequence_reset_to_2_on_ESKF"
+          },
+          {
+            "index_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\run_index.csv",
+            "index_sha256": "634881bdea52b9adb42a7fed4e9bac0e819f38b9425507598efa678a4401acaa",
+            "independent_raw_audit": "CHECK_inner_sequence_discontinuity",
+            "main_eligible": "False",
+            "review_reasons": "inner_sequence_reset_to_2_on_ESKF"
+          },
+          {
+            "index_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\run_index.csv",
+            "index_sha256": "257ba74325b3d98f4d4d28575b3dba068a2de33a5c302100dae6a2ee007c8ec1",
+            "independent_raw_audit": "CHECK_inner_sequence_discontinuity",
+            "main_eligible": "False",
+            "review_reasons": "inner_sequence_reset_to_2_on_ESKF"
+          }
+        ],
+        "lookup_errors": []
+      },
+      "original_recording_status": {
+        "main": "PASS",
+        "full_run": "CHECK REQUIRED"
+      },
+      "main_calculated": {
+        "valid_outer_packets": 5998,
+        "valid_outer_packet_bytes": 1707466,
+        "Lmean_valid_packet_B": 284.67255751917304,
+        "packet_completion_Mbit_per_s": 0.45528475705539073
+      },
+      "maximum_ordinary_MUL1_B": 1084,
+      "sources": {
+        "summary.json": "52c4c5305b0e901ff403a9c7b54e0ccebfbdebc54f467a398ea0358f2e82a576",
+        "packet_log.csv": "d04d18e482b31deb6325ad90ff8b975b9c33390aca2c50991ff0ebc5ae864fbb"
+      }
+    },
+    {
+      "run_id": "20260907_040701_400114",
+      "directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\N=1\\200Hz\\M1\\Large_area\\Repeat_2",
+      "repeat": 2,
+      "independent_review": {
+        "status": "CHECK",
+        "matches": [
+          {
+            "index_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\N=1\\200Hz\\M1\\Large_area\\run_index.csv",
+            "index_sha256": "062597c61388554dc9cac1e17e69825220a430ff98b1b95a64e0e0bc49c650f4",
+            "independent_raw_audit": "CHECK_inner_sequence_discontinuity",
+            "main_eligible": "False",
+            "review_reasons": "inner_sequence_reset_to_2_on_ESKF"
+          },
+          {
+            "index_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\run_index.csv",
+            "index_sha256": "062597c61388554dc9cac1e17e69825220a430ff98b1b95a64e0e0bc49c650f4",
+            "independent_raw_audit": "CHECK_inner_sequence_discontinuity",
+            "main_eligible": "False",
+            "review_reasons": "inner_sequence_reset_to_2_on_ESKF"
+          },
+          {
+            "index_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\run_index.csv",
+            "index_sha256": "634881bdea52b9adb42a7fed4e9bac0e819f38b9425507598efa678a4401acaa",
+            "independent_raw_audit": "CHECK_inner_sequence_discontinuity",
+            "main_eligible": "False",
+            "review_reasons": "inner_sequence_reset_to_2_on_ESKF"
+          },
+          {
+            "index_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\run_index.csv",
+            "index_sha256": "257ba74325b3d98f4d4d28575b3dba068a2de33a5c302100dae6a2ee007c8ec1",
+            "independent_raw_audit": "CHECK_inner_sequence_discontinuity",
+            "main_eligible": "False",
+            "review_reasons": "inner_sequence_reset_to_2_on_ESKF"
+          }
+        ],
+        "lookup_errors": []
+      },
+      "original_recording_status": {
+        "main": "PASS",
+        "full_run": "CHECK REQUIRED"
+      },
+      "main_calculated": {
+        "valid_outer_packets": 5950,
+        "valid_outer_packet_bytes": 1601942,
+        "Lmean_valid_packet_B": 269.2339495798319,
+        "packet_completion_Mbit_per_s": 0.427182629522756
+      },
+      "maximum_ordinary_MUL1_B": 1082,
+      "sources": {
+        "summary.json": "feb80c2bdf806b5d97c9b51e4fade9cab4108e31375efd56bc4b2fa772fbbc7b",
+        "packet_log.csv": "1cd59752c5d6516b854dc599c4218f62d0d6bb9fd2a5df61aa58d1ad4ff41b9b"
+      }
+    },
+    {
+      "run_id": "20260907_040741_429011",
+      "directory": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\N=1\\200Hz\\M1\\Large_area\\Repeat_3",
+      "repeat": 3,
+      "independent_review": {
+        "status": "CHECK",
+        "matches": [
+          {
+            "index_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\N=1\\200Hz\\M1\\Large_area\\run_index.csv",
+            "index_sha256": "062597c61388554dc9cac1e17e69825220a430ff98b1b95a64e0e0bc49c650f4",
+            "independent_raw_audit": "CHECK_inner_sequence_discontinuity",
+            "main_eligible": "False",
+            "review_reasons": "inner_sequence_forward_gaps_on_ESKF"
+          },
+          {
+            "index_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\Dynamic_load\\run_index.csv",
+            "index_sha256": "062597c61388554dc9cac1e17e69825220a430ff98b1b95a64e0e0bc49c650f4",
+            "independent_raw_audit": "CHECK_inner_sequence_discontinuity",
+            "main_eligible": "False",
+            "review_reasons": "inner_sequence_forward_gaps_on_ESKF"
+          },
+          {
+            "index_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\DELTA\\run_index.csv",
+            "index_sha256": "634881bdea52b9adb42a7fed4e9bac0e819f38b9425507598efa678a4401acaa",
+            "independent_raw_audit": "CHECK_inner_sequence_discontinuity",
+            "main_eligible": "False",
+            "review_reasons": "inner_sequence_forward_gaps_on_ESKF"
+          },
+          {
+            "index_path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data\\run_index.csv",
+            "index_sha256": "257ba74325b3d98f4d4d28575b3dba068a2de33a5c302100dae6a2ee007c8ec1",
+            "independent_raw_audit": "CHECK_inner_sequence_discontinuity",
+            "main_eligible": "False",
+            "review_reasons": "inner_sequence_forward_gaps_on_ESKF"
+          }
+        ],
+        "lookup_errors": []
+      },
+      "original_recording_status": {
+        "main": "PASS",
+        "full_run": "CHECK REQUIRED"
+      },
+      "main_calculated": {
+        "valid_outer_packets": 5979,
+        "valid_outer_packet_bytes": 1571266,
+        "Lmean_valid_packet_B": 262.79745776885767,
+        "packet_completion_Mbit_per_s": 0.41899362143522234
+      },
+      "maximum_ordinary_MUL1_B": 1082,
+      "sources": {
+        "summary.json": "19c0a1b3709e9c01e036baf3968ec396c5039ea009d4c42927b9726cdc169d2c",
+        "packet_log.csv": "a61bc68d3881e5c5cbdced51f1ef1e7b6807b7e78881f2fed35abcda5de47eb4"
+      }
+    }
+  ],
+  "definitions": {
+    "trace": "Ordinary DELTA only; entire packets containing DELTA_SYNC use vertical event markers instead",
+    "mean": "Original main-window complete outer-valid MUL1 byte mean, ESKF included",
+    "time": "Full capture, PC packet-completion elapsed time; initial 10 s shaded and excluded from main mean",
+    "ESKF": "All logged DELTA_SYNC events; trigger cause not encoded",
+    "repeat": "Three consecutive time windows in one unchanged setup, not independent loading trials"
+  },
+  "outputs": {
+    "m1_large_area_repeats.png": {
+      "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\figures\\current_recordings\\m1_large_area_repeats.png",
+      "sha256": "ce67a7096bdb5ed743d769f690c6334efa51c8a2d5c0f0993643e72e7c7224d4"
+    },
+    "m1_large_area_repeats.svg": {
+      "path": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\figures\\current_recordings\\m1_large_area_repeats.svg",
+      "sha256": "0fe0b443842af381276599c46e2e59d60e8615769ad77f5de7e4564749b8423f"
+    }
+  }
+}

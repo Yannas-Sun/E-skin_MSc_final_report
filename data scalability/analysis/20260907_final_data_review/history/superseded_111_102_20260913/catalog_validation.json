@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "all_runs": 111,
+  "FULL_runs": 48,
+  "DELTA_zero_runs": 45,
+  "DELTA_dynamic_runs": 18,
+  "newly_organized_runs": 15,
+  "zero_load_primary_runs": 90,
+  "dynamic_selected_runs": 12,
+  "analysis_selected_runs": 102,
+  "new_main_independent_counts": {
+    "CHECK REQUIRED": 2,
+    "PASS": 13
+  },
+  "original_path_entries": 666,
+  "moved_files": 140,
+  "moved_bytes": 144509120,
+  "old_rows_preserved": true,
+  "protected_views_unchanged": true,
+  "unclassified_top_level_runs": []
+}

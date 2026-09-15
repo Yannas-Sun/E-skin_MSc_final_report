@@ -1,0 +1,152 @@
+{
+  "generated_at_UTC": "2026-09-07T00:52:33.992931+00:00",
+  "figures_updated": [
+    "02",
+    "02E"
+  ],
+  "matplotlib": "3.10.6",
+  "numpy": "2.3.5",
+  "scope": "General report figure; no target journal specified",
+  "axes": {
+    "N": [
+      1,
+      100
+    ],
+    "frequency_Hz": [
+      0,
+      700
+    ],
+    "K": [
+      0,
+      480
+    ]
+  },
+  "figure_02": {
+    "layout": "Four independent PNG/PDF figures plus a USB DELTA-versus-K overview; USB and Host SPI are separate links",
+    "02A": {
+      "link": "USB",
+      "N": [
+        1,
+        100
+      ],
+      "frequency_Hz": [
+        0,
+        700
+      ],
+      "stem": "02_usb_theoretical_3d",
+      "references_Mbit_s": [
+        480.0
+      ]
+    },
+    "02B": {
+      "link": "USB",
+      "N": [
+        1,
+        700
+      ],
+      "frequency_Hz": 200,
+      "stem": "02b_usb_theoretical_200hz",
+      "references_Mbit_s": [
+        480.0
+      ]
+    },
+    "02C": {
+      "link": "HOST_SPI",
+      "N": [
+        1,
+        10
+      ],
+      "frequency_Hz": [
+        0,
+        700
+      ],
+      "stem": "02c_host_spi_theoretical_3d",
+      "references_Mbit_s": [
+        10.0,
+        40.0
+      ]
+    },
+    "02D": {
+      "link": "HOST_SPI",
+      "N": [
+        1,
+        30
+      ],
+      "frequency_Hz": 200,
+      "stem": "02d_host_spi_theoretical_200hz",
+      "references_Mbit_s": [
+        10.0,
+        40.0
+      ]
+    },
+    "02E": {
+      "link": "USB",
+      "N": [
+        0,
+        100
+      ],
+      "K": [
+        0,
+        480
+      ],
+      "frequency_Hz": 200,
+      "stem": "02e_delta_usb_k_overview_200hz",
+      "references": "FULL USB demand for each selected N"
+    },
+    "overview": {
+      "stem": "02_four_panel_overview",
+      "layout": "02A top-left; 02B top-right; 02C bottom-left; 02D bottom-right"
+    },
+    "USB_scope": "Mean ESKD/ESKF mixture plus MUL1 application framing; q=0 bounds separately retained in CSV",
+    "HOST_SPI_scope": "Mean encoded ESKD/ESKF bytes; no fixed-slot padding or MUL1 wrapper; gaps/retries excluded",
+    "HOST_SPI_Mbit_s": "8*N*((1-q)*(84+2*K_D)+1044*q)*f/1e6",
+    "crossings": "Average raw-rate references only; no achieved capacity or per-round deadline guarantee; FULL bursts can be limiting"
+  },
+  "overhead_B": "H(M) = 24 + 4*M",
+  "configured_slots_M": "M is maximum configured slot count; current M=4; require N<=M",
+  "extrapolation_M_policy": "M=max(4,N) only for minimum-capacity expansion beyond current firmware",
+  "FULL_round_B": "24 + 4*M + 1044*N",
+  "DELTA_round_B": "24 + 4*M + N*(84+2*K)",
+  "DELTA_ordinary_bound_note": "The ordinary helper and DELTA_round_B retain the q=0 ESKD-only bound; theory figures use the mean model below.",
+  "DELTA_mean_round_B": "24+4*M+N*((1-q)*(84+2*K_D)+1044*q)",
+  "mean_K_D_definition": "Mean mask popcount conditional on ordinary ESKD, not an effective K inferred from mixed-frame packet length",
+  "q_definition": "All ESKF / (ESKF+ESKD); if decomposed, event categories must be mutually exclusive. ESKF replaces ESKD, not an added frame.",
+  "periodic_reference": {
+    "T_seconds": 1.0,
+    "q_formula": "q(f)=min(1,1/(f*T)) for f>0; q=0 at f=0 (no frames)",
+    "q_at_200Hz": 0.005,
+    "q_other": 0,
+    "interpretation": "Illustrative periodic-only nominal reference, not measured q",
+    "cycle_approximation": "Continuous cycles replace the regular-scan 1/ceil(f*T) rule; firmware checks elapsed >=1000ms at encoding. Finite-window phase and millisecond quantization are excluded.",
+    "timer_reset": "Every ESKF resets the timer; other-event ESKF can replace/defer periodic events, so periodic and other event rates are not independent additive inputs.",
+    "attribution": "Current records contain total ESKF q and PC-observed intervals, not a unique per-frame trigger label."
+  },
+  "SPI_reference": {
+    "clock_Hz": 40000000,
+    "raw_Mbit_s_per_direction": 40.0,
+    "source": "User-specified theoretical reference; not hardware-tested and not a proven hardware maximum"
+  },
+  "SPI_current": {
+    "clock_Hz": 10000000,
+    "source": "hardware/new/firmware/active/four-module-variable-spi/teensy/four_module/four_module.ino: SPI_HZ and two-part SPI.transfer",
+    "validation": "User confirmed successful testing at 10 MHz; no new measurements generated here"
+  },
+  "USB_reference": {
+    "raw_Mbit_s": 480.0,
+    "source": "https://www.pjrc.com/store/teensy41.html",
+    "checked": "2026-09-02",
+    "kind": "USB 2.0 High-Speed signaling, not usable payload throughput"
+  },
+  "projection_05": "N=4 pooled per-module mean payload incl. sync frames, held constant to N=100; assumed f=200 Hz",
+  "observations_05": "Arithmetic mean rates and every individual recorded run; no QC-based exclusion",
+  "new_hardware_measurements": false,
+  "current_firmware_limits": "4 modules; 8-bit updated mask; 16-bit MUL1 packet length; current SPI configured at 10 MHz",
+  "extrapolation_limits": "N>4 needs firmware/protocol expansion; aggregate byte totals above 65535 need segmentation; its additional overhead is excluded",
+  "data_root": "D:\\study\\programming\\ESKIN\\E-SKIN\\docs\\Final\\data scalability\\data",
+  "data_sources": [],
+  "outputs": {
+    "PNG_dpi": 300,
+    "PDF_fonttype": 42,
+    "background": "white"
+  }
+}

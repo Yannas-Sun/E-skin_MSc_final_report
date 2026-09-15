@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "run_ids": [
+    "20260907_050453_154588",
+    "20260907_050533_183636",
+    "20260907_050613_222506"
+  ],
+  "recorded_condition": "zero_load",
+  "actual_condition": "large_area",
+  "actual_condition_description": "大面积动态加载，与上一批相同",
+  "confirmation_source": "User reply in the current analysis conversation",
+  "confirmed_on": "2026-09-07",
+  "comparison_batch": "BATCH_b85c7425a5b149dabf8cd9a9dcb33094",
+  "raw_metadata_modified": false,
+  "interpretation": "Use the user-confirmed condition in derived analysis; retain original summary.json and plots' recorded label as provenance. No exact force, area or loading rhythm was recorded."
+}

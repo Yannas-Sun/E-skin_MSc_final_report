@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "run_ids": [
+    "20260907_060147_020562",
+    "20260907_060227_053987",
+    "20260907_060307_083182"
+  ],
+  "recorded_condition": "zero_load",
+  "actual_condition": "large_area",
+  "actual_load_protocol": "full_coverage_all_modules",
+  "actual_condition_description": "所有四个模块同时全覆盖按下",
+  "loading_relationship_between_modules": "simultaneous_coverage_and_loading_of_all_four_modules",
+  "confirmation_source": "User description in the current analysis conversation",
+  "confirmed_on": "2026-09-07",
+  "target_slots": [0, 1, 2, 3],
+  "loading_equality": "Equal force or contact area per module has not been established",
+  "quantitative_loading": "Per-module force, contact area, timing and loading layers were not quantified",
+  "raw_metadata_modified": false,
+  "interpretation": "Use the user-confirmed loading in derived analysis. Preserve the recorded zero_load label and DELTA firmware mode in source metadata. This confirmation does not imply equal forces or areas across slots."
+}
