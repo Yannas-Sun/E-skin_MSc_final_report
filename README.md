@@ -4,6 +4,7 @@ This repository is the evidence package for a modular electronic-skin prototype 
 
 ## Contents
 
+- [Final report PDF](main_final.pdf)
 - [Project background](#project-background)
 - [System and data path](#system-and-data-path)
 - [Hardware overview](#hardware-overview)
@@ -140,7 +141,7 @@ FSR1 and FSR2 were calibrated in separate 22-point sweeps from 0 to 5000 g. In t
 | [README assets](README_assets) | Rendered copies of the core report result figures used by this README; the data-path rendering is stored with firmware. |
 | [figure_style.py](figure_style.py) | Shared plotting-style helper retained with the evidence package. |
 
-The complete report source, build outputs and report-version archive are intentionally ignored by Git. The report remains the reference document; this repository publishes the supporting records and selected supplementary material rather than a standalone report compiler.
+The complete report source and build outputs are intentionally ignored by Git. The final rendered report is available at [main_final.pdf](main_final.pdf); this repository publishes the supporting records and selected supplementary material rather than a standalone report compiler.
 
 ## Evidence and reproduction
 
