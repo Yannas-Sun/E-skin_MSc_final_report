@@ -1,0 +1,50 @@
+MAX11633 internal-clock FIFO-DMA capture
+module=1
+gap_us=0
+mux_settle_us=0
+parsed_frames=1967
+complete_fsr_frames=1967
+parse_errors=0
+sequence_errors=0
+measured_output_rate_hz=245.854
+median_complete_fsr_scan_us=3598.000
+profile_complete_fsr_scan_hz=277.932
+transport_pass=True
+
+fsr1:
+raw_range=[0, 697]
+percentiles={'p99': 29.0, 'p99_9': 692.0, 'p99_99': 696.0}
+samples_at_or_above={'1024': 0, '2048': 0, '3072': 0}
+percent_at_or_above={'1024': 0.0, '2048': 0.0, '3072': 0.0}
+maximum_location={'frame_index': 1730, 'cell_index': 238, 'row': 15, 'column': 15, 'value': 697}
+early_read_signature=False
+windows=9
+windows_passed=0
+boundary_percent=74.205..74.838
+unique_median=5.000..6.000
+frozen_percent=0.000..0.000
+low_unique_percent=1.172..2.344
+changed_percent=70.630..73.485
+global_unique_codes=44..92
+all_windows_pass=False
+
+fsr2:
+raw_range=[0, 537]
+percentiles={'p99': 418.0, 'p99_9': 482.0, 'p99_99': 532.0}
+samples_at_or_above={'1024': 0, '2048': 0, '3072': 0}
+percent_at_or_above={'1024': 0.0, '2048': 0.0, '3072': 0.0}
+maximum_location={'frame_index': 1679, 'cell_index': 215, 'row': 14, 'column': 8, 'value': 537}
+early_read_signature=False
+windows=9
+windows_passed=0
+boundary_percent=65.607..66.541
+unique_median=5.000..5.000
+frozen_percent=0.000..0.000
+low_unique_percent=0.391..1.172
+changed_percent=71.645..74.745
+global_unique_codes=88..218
+all_windows_pass=False
+
+readout_status=EOC_QUALIFIED
+result=FAIL
+scope=Unloaded short-run digital validity only; controlled pressure is still required.

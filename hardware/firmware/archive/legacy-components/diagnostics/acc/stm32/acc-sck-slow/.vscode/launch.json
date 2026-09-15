@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug STM32G474 via DAPLink",
+      "type": "cortex-debug",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}/build/Debug/ESKIN_STM32.elf",
+      "servertype": "pyocd",
+      "targetId": "stm32g474cetx",
+      "runToEntryPoint": "main",
+      "stopAtConnect": true,
+      "armToolchainPath": "D:/study/programming/ArmGnuToolchain/bin",
+      "gdbPath": "D:/study/programming/ArmGnuToolchain/bin/arm-none-eabi-gdb.exe",
+      "serverArgs": [
+        "--frequency",
+        "100000",
+        "--connect",
+        "under-reset"
+      ],
+      "showDevDebugOutput": "raw"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+port=COM9
+baud=2000000
+duration_seconds=10.0
+raw_file=D:\study\programming\ESKIN\E-SKIN\hardware\new\firmware\docs\test_results\20260830_220057_usb_mul1_raw.bin
+--- packets ---
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=3 host_ms=4220 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 03 00 00 00 7c 10 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=4 host_ms=4826 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 04 00 00 00 da 12 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=5 host_ms=5836 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 05 00 00 00 cc 16 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=6 host_ms=6442 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 06 00 00 00 2a 19 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=7 host_ms=7048 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 07 00 00 00 88 1b 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=8 host_ms=7654 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 08 00 00 00 e6 1d 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=9 host_ms=8260 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 09 00 00 00 44 20 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=10 host_ms=8866 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 0a 00 00 00 a2 22 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=11 host_ms=9472 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 0b 00 00 00 00 25 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=12 host_ms=10078 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 0c 00 00 00 5e 27 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=13 host_ms=10684 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 0d 00 00 00 bc 29 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=14 host_ms=11290 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 0e 00 00 00 1a 2c 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=15 host_ms=11896 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 0f 00 00 00 78 2e 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=16 host_ms=12502 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 10 00 00 00 d6 30 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=17 host_ms=13108 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 11 00 00 00 34 33 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=18 host_ms=13714 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 12 00 00 00 92 35 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=19 host_ms=14320 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 13 00 00 00 f0 37 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=20 host_ms=14926 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 14 00 00 00 4e 3a 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+MUL1 version=2 length=40 declared=40 modules=4 updated=0x00 seq=21 host_ms=15532 outer_crc=OK
+  M0: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  M1: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M2: status=NO_IRQ(0x83) payload=0 marker=---- esk_version=-
+  M3: status=BAD_FRAME(0x81) payload=0 marker=---- esk_version=-
+  first_32_bytes=4d 55 4c 31 02 04 00 00 28 00 00 00 15 00 00 00 ac 3c 00 00 00 81 00 00 01 83 00 00 02 83 00 00
+--- summary ---
+raw_bytes=760
+mul1_packets=19
+outer_crc_errors=0
+sync_bytes_discarded=0
+raw_file=D:\study\programming\ESKIN\E-SKIN\hardware\new\firmware\docs\test_results\20260830_220057_usb_mul1_raw.bin
+text_file=D:\study\programming\ESKIN\E-SKIN\hardware\new\firmware\docs\test_results\20260830_220057_usb_mul1_dump.txt

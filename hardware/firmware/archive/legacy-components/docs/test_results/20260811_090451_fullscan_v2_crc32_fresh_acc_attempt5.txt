@@ -1,0 +1,63 @@
+port=COM9
+baud=2000000
+duration_seconds=10
+raw_bytes=2837000
+delta_irq=2147
+delta_ok=2147
+delta_crc=0
+delta_magic=0
+delta_header=0
+delta_sequence=0
+delta_crc_checked=68
+delta_crc_skipped=2079
+delta_usb_off=0
+delta_usb_short=0
+delta_release_timeout=0
+diagnostic_interval_seconds=9.001
+acceptance_percent=100
+crc_error_percent=0
+crc_coverage_percent=3.167
+transfer_rate_hz=238.529
+usb_ready_acceptance_percent=100
+usb_output_rate_hz=238.529
+
+#ESKDBG ms=901583 irq=89733 ok=10288 magic=1 header=2 sequence=5 crc=0 usb_off=79437 usb_short=0 release_timeout=0 irq_level=0 usb_sent=10288 queue=0 queue_high=1 crc_checked=2809 crc_skipped=86923
+#ESKFIRST 45 53 4B 31 02 07 A4 04 3F 09 00 00 DF 2A 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=902583 irq=89972 ok=10527 magic=1 header=2 sequence=5 crc=0 usb_off=79437 usb_short=0 release_timeout=0 irq_level=0 usb_sent=10527 queue=0 queue_high=1 crc_checked=2817 crc_skipped=87154
+#ESKFIRST 45 53 4B 31 02 07 A4 04 2E 0A 00 00 CB 2E 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=903583 irq=90210 ok=10765 magic=1 header=2 sequence=5 crc=0 usb_off=79437 usb_short=0 release_timeout=0 irq_level=0 usb_sent=10765 queue=0 queue_high=1 crc_checked=2824 crc_skipped=87385
+#ESKFIRST 45 53 4B 31 02 07 A4 04 1C 0B 00 00 B3 32 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=904583 irq=90449 ok=11004 magic=1 header=2 sequence=5 crc=0 usb_off=79437 usb_short=0 release_timeout=0 irq_level=0 usb_sent=11004 queue=0 queue_high=1 crc_checked=2832 crc_skipped=87616
+#ESKFIRST 45 53 4B 31 02 07 A4 04 0B 0C 00 00 A0 36 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=905583 irq=90687 ok=11242 magic=1 header=2 sequence=5 crc=0 usb_off=79437 usb_short=0 release_timeout=0 irq_level=0 usb_sent=11242 queue=0 queue_high=1 crc_checked=2839 crc_skipped=87847
+#ESKFIRST 45 53 4B 31 02 07 A4 04 F9 0C 00 00 87 3A 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=906583 irq=90926 ok=11481 magic=1 header=2 sequence=5 crc=0 usb_off=79437 usb_short=0 release_timeout=0 irq_level=0 usb_sent=11481 queue=0 queue_high=1 crc_checked=2847 crc_skipped=88078
+#ESKFIRST 45 53 4B 31 02 07 A4 04 E8 0D 00 00 74 3E 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=907583 irq=91164 ok=11719 magic=1 header=2 sequence=5 crc=0 usb_off=79437 usb_short=0 release_timeout=0 irq_level=0 usb_sent=11719 queue=0 queue_high=1 crc_checked=2854 crc_skipped=88309
+#ESKFIRST 45 53 4B 31 02 07 A4 04 D6 0E 00 00 5B 42 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=908584 irq=91403 ok=11958 magic=1 header=2 sequence=5 crc=0 usb_off=79437 usb_short=0 release_timeout=0 irq_level=0 usb_sent=11958 queue=0 queue_high=1 crc_checked=2862 crc_skipped=88540
+#ESKFIRST 45 53 4B 31 02 07 A4 04 C5 0F 00 00 47 46 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=909584 irq=91641 ok=12196 magic=1 header=2 sequence=5 crc=0 usb_off=79437 usb_short=0 release_timeout=0 irq_level=0 usb_sent=12196 queue=0 queue_high=1 crc_checked=2869 crc_skipped=88771
+#ESKFIRST 45 53 4B 31 02 07 A4 04 B3 10 00 00 2F 4A 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=910584 irq=91880 ok=12435 magic=1 header=2 sequence=5 crc=0 usb_off=79437 usb_short=0 release_timeout=0 irq_level=0 usb_sent=12435 queue=0 queue_high=1 crc_checked=2877 crc_skipped=89002
+#ESKFIRST 45 53 4B 31 02 07 A4 04 A2 11 00 00 1B 4E 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0

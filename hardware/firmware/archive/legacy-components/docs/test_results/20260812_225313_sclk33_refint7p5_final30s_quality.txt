@@ -1,0 +1,62 @@
+SCLK33 ADC-frequency sweep: final 7.5 MHz quality analysis
+source=20260812_225313_sclk33_refint7p5_final30s.bin
+duration_seconds=30
+parsed_frames=13181
+diagnostic_frames=12741
+complete_output_rate_hz=439.299
+transport_acceptance_percent=100
+sampled_crc_errors=0/398
+magic_errors=0
+header_errors=0
+sequence_errors=0
+
+configuration:
+- STM32 SYSCLK/HCLK/APB1/APB2=120 MHz
+- ADC SPI1 SCK=7.500 MHz, Mode 0
+- ACC SPI2 SCK=7.500 MHz
+- MAX11633 setup=0x78
+- 33-byte full-duplex SPI1 DMA per ADC and MUX address
+- no EOC polling
+- MUX settling=0 us
+
+timing:
+- fsr_us_median=1902
+- acc_us_median=212
+- pack_us_median=71
+
+fsr1:
+- raw_range=0..2915
+- windows_200_frames=65
+- boundary_code_percent=33.115..34.135
+- cell_unique_median=7..8
+- frozen_cell_percent=1.172..3.125
+- cells_with_at_most_3_unique_percent=5.859..9.375
+- changed_cell_percent=62.500..64.062
+- global_unique_codes_per_window=434..488
+
+fsr2:
+- raw_range=0..1272
+- windows_200_frames=65
+- boundary_code_percent=19.006..20.520
+- cell_unique_median=9..9
+- frozen_cell_percent=0.000..0.391
+- cells_with_at_most_3_unique_percent=0.000..2.734
+- changed_cell_percent=70.703..73.047
+- global_unique_codes_per_window=811..877
+
+acceptance_rules_per_200_frame_window_and_layer:
+- boundary codes <65 percent
+- median unique values per cell >=4
+- frozen cells <=5 percent
+- cells with <=3 unique values <=20 percent
+- changed cells between adjacent frames >=40 percent
+- no transport framing/sequence/checked-CRC errors
+
+result=PASS_ALL_65_WINDOWS_BOTH_LAYERS
+
+Scope:
+This rejects the previously observed digital bit-boundary collapse. The test
+was performed without controlled pressure, so it does not prove calibrated
+linearity, pressure accuracy, MUX crosstalk, or operation across all boards and
+temperatures. 7.5 MHz also exceeds the MAX11633 documented 4.8 MHz external
+conversion-clock limit and is therefore an empirical experimental setting.

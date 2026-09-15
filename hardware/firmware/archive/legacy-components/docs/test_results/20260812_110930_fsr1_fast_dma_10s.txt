@@ -1,0 +1,30 @@
+FSR1 standalone high-rate hardware test
+timestamp=2026-08-12 11:09:30 +01:00
+port=COM9
+duration_s=10.003
+valid_frames=3272
+fps=327.105
+first_seq=7215
+last_seq=10486
+sequence_gaps=0
+invalid_candidates=0
+discarded_bytes=0
+adc_range=0..2410
+
+Configuration:
+- STM32G474 SYSCLK/HCLK/APB1/APB2: 80 MHz
+- MAX11633: internal conversion clock mode 10, EOC checked
+- ADC FIFO SPI1: 10 MHz, Mode 0
+- MUX settling: 25 us, pipelined with preceding FIFO read
+- STM32 Host SPI3: 10 MHz full-duplex DMA slave
+- Teensy 4.1: ESKIN_FSR1_FAST_BRIDGE, 10 MHz Mode 0 master
+- Frame: 0xA5 + uint16 sequence + 256 little-endian uint16 samples (515 bytes)
+
+Observation:
+- Initial blocking HAL_SPI_TransmitReceive test produced 0.998 FPS because
+  SPI3 RX could not be drained reliably at 10 MHz and each frame reached the
+  1000 ms HAL timeout.
+- Replacing the Host SPI3 path with full-duplex DMA removed that timeout.
+- This test verifies transport continuity and raw 12-bit value bounds. It does
+  not yet validate pressure accuracy, adjacent-row crosstalk, or long-duration
+  thermal/reliability behaviour.

@@ -1,0 +1,39 @@
+MAX11633 internal-clock FIFO-DMA capture
+module=1
+gap_us=25
+mux_settle_us=0
+parsed_frames=2017
+complete_fsr_frames=2017
+parse_errors=0
+sequence_errors=0
+measured_output_rate_hz=403.426
+median_complete_fsr_scan_us=2346.000
+profile_complete_fsr_scan_hz=426.257
+transport_pass=True
+
+fsr1:
+raw_range=[0, 3840]
+windows=10
+windows_passed=7
+boundary_percent=43.627..45.316
+unique_median=7.500..9.000
+frozen_percent=3.516..5.469
+low_unique_percent=7.031..8.984
+changed_percent=56.715..60.327
+global_unique_codes=20..21
+all_windows_pass=False
+
+fsr2:
+raw_range=[0, 3840]
+windows=10
+windows_passed=10
+boundary_percent=33.984..34.742
+unique_median=11.000..12.000
+frozen_percent=0.000..0.000
+low_unique_percent=0.391..1.953
+changed_percent=58.598..65.705
+global_unique_codes=53..63
+all_windows_pass=True
+
+result=FAIL
+scope=Unloaded short-run digital validity only; controlled pressure is still required.

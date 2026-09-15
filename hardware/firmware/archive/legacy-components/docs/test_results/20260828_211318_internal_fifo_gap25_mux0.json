@@ -1,0 +1,89 @@
+{
+  "configuration": {
+    "port": "COM9",
+    "baud": 2000000,
+    "duration_seconds": 5.0,
+    "warmup_seconds": 2.5,
+    "module": 1,
+    "command_to_fifo_gap_us": 25,
+    "mux_settle_us": 0,
+    "max11633_setup": "0x64",
+    "fifo_data_sclk_hz": 10000000,
+    "stm32_sysclk_hz": 160000000
+  },
+  "parsed_frames": 2017,
+  "complete_fsr_frames": 2017,
+  "parse_errors": 0,
+  "sequence_errors": 0,
+  "measured_output_rate_hz": 403.42583778471504,
+  "median_complete_fsr_scan_us": 2346.0,
+  "profile_complete_fsr_scan_hz": 426.25745950554136,
+  "transport_pass": true,
+  "fsr1": {
+    "raw_range": [
+      0,
+      3840
+    ],
+    "windows": 10,
+    "windows_passed": 7,
+    "all_windows_pass": false,
+    "boundary_percent_range": [
+      43.626953125,
+      45.31640625
+    ],
+    "unique_median_range": [
+      7.5,
+      9.0
+    ],
+    "frozen_percent_range": [
+      3.515625,
+      5.46875
+    ],
+    "low_unique_percent_range": [
+      7.03125,
+      8.984375
+    ],
+    "changed_percent_range": [
+      56.71521670854271,
+      60.32702575376885
+    ],
+    "global_unique_codes_range": [
+      20.0,
+      21.0
+    ]
+  },
+  "fsr2": {
+    "raw_range": [
+      0,
+      3840
+    ],
+    "windows": 10,
+    "windows_passed": 10,
+    "all_windows_pass": true,
+    "boundary_percent_range": [
+      33.984375,
+      34.7421875
+    ],
+    "unique_median_range": [
+      11.0,
+      12.0
+    ],
+    "frozen_percent_range": [
+      0.0,
+      0.0
+    ],
+    "low_unique_percent_range": [
+      0.390625,
+      1.953125
+    ],
+    "changed_percent_range": [
+      58.59767587939698,
+      65.70548052763819
+    ],
+    "global_unique_codes_range": [
+      53.0,
+      63.0
+    ]
+  },
+  "result": "FAIL"
+}

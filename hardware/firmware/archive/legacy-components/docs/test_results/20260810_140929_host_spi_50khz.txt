@@ -1,0 +1,102 @@
+port=COM9
+baud=2000000
+duration_seconds=20
+raw_bytes=269049
+delta_irq=362
+delta_ok=219
+delta_crc=143
+delta_magic=0
+delta_header=0
+delta_release_timeout=0
+acceptance_percent=60.497
+crc_error_percent=39.503
+transfer_rate_hz=18.1
+
+#ESKDBG irq=399 ok=0 magic=0 header=0 crc=164 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 C1 9A 00 00 65 2E 23 00
+#ESKCRC wire=3563DB32 calc=3563DB32 spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=416 ok=9 magic=0 header=0 crc=172 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 D2 9A 00 00 42 32 23 00
+#ESKCRC wire=8DB3A013 calc=8DB3A013 spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=433 ok=20 magic=0 header=0 crc=178 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 E3 9A 00 00 1F 36 23 00
+#ESKCRC wire=80411507 calc=7CAF98FB spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=451 ok=32 magic=0 header=0 crc=184 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 F5 9A 00 00 36 3A 23 00
+#ESKCRC wire=AD4BC096 calc=AD4BC096 spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=468 ok=37 magic=0 header=0 crc=196 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 06 9B 00 00 13 3E 23 00
+#ESKCRC wire=F9F19F14 calc=249D4AA6 spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=485 ok=52 magic=0 header=0 crc=198 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 17 9B 00 00 F0 41 23 00
+#ESKCRC wire=234918B2 calc=234918B2 spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=502 ok=65 magic=0 header=0 crc=202 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 28 9B 00 00 CD 45 23 00
+#ESKCRC wire=12FD24DB calc=1CD22750 spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=520 ok=76 magic=0 header=0 crc=209 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 3A 9B 00 00 E4 49 23 00
+#ESKCRC wire=D08D1F31 calc=D71146BF spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=537 ok=87 magic=0 header=0 crc=215 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 4B 9B 00 00 C1 4D 23 00
+#ESKCRC wire=2628EA0D calc=F808FDFC spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=554 ok=96 magic=0 header=0 crc=223 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 5C 9B 00 00 9E 51 23 00
+#ESKCRC wire=9EAE2216 calc=9EAE2216 spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=571 ok=105 magic=0 header=0 crc=231 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 6D 9B 00 00 7B 55 23 00
+#ESKCRC wire=E90C83E3 calc=6CCCD57C spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=589 ok=117 magic=0 header=0 crc=237 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 7F 9B 00 00 93 59 23 00
+#ESKCRC wire=1623263C calc=78F77C45 spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=606 ok=132 magic=0 header=0 crc=239 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 90 9B 00 00 70 5D 23 00
+#ESKCRC wire=9963D692 calc=9963D692 spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=623 ok=141 magic=0 header=0 crc=247 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 A1 9B 00 00 4D 61 23 00
+#ESKCRC wire=8490D590 calc=8490D590 spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=640 ok=149 magic=0 header=0 crc=256 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 B2 9B 00 00 2A 65 23 00
+#ESKCRC wire=9B8B95A1 calc=6CE1FB91 spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=658 ok=159 magic=0 header=0 crc=264 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 C4 9B 00 00 41 69 23 00
+#ESKCRC wire=CA651072 calc=CA651072 spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=675 ok=167 magic=0 header=0 crc=273 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 D5 9B 00 00 1E 6D 23 00
+#ESKCRC wire=56ACE7BF calc=7862DA14 spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=692 ok=176 magic=0 header=0 crc=281 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 E6 9B 00 00 FB 70 23 00
+#ESKCRC wire=F9BA9C30 calc=F9BA9C30 spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=709 ok=181 magic=0 header=0 crc=293 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 F7 9B 00 00 D8 74 23 00
+#ESKCRC wire=3332FAA3 calc=741A77AB spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=727 ok=192 magic=0 header=0 crc=300 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 09 9C 00 00 E9 78 23 00
+#ESKCRC wire=662D250F calc=662D250F spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=744 ok=205 magic=0 header=0 crc=304 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 1A 9C 00 00 C3 7C 23 00
+#ESKCRC wire=347DABC7 calc=347DABC7 spi_hz=50000
+#ESKALIGN discarded_prefix=0
+#ESKDBG irq=761 ok=219 magic=0 header=0 crc=307 usb_off=235 usb_short=0 release_timeout=0 irq_level=0
+#ESKFIRST 45 53 4B 31 01 07 A4 04 2B 9C 00 00 A3 80 23 00
+#ESKCRC wire=5F92A80F calc=5F92A80F spi_hz=50000
+#ESKALIGN discarded_prefix=0

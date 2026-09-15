@@ -1,0 +1,43 @@
+port=COM9
+baud=2000000
+duration_seconds=5
+raw_bytes=2611871
+delta_irq=1757
+delta_ok=1757
+delta_crc=0
+delta_magic=0
+delta_header=0
+delta_sequence=0
+delta_crc_checked=55
+delta_crc_skipped=1702
+delta_usb_off=0
+delta_usb_short=0
+delta_release_timeout=0
+diagnostic_interval_seconds=4.001
+acceptance_percent=100
+crc_error_percent=0
+crc_coverage_percent=3.13
+transfer_rate_hz=439.14
+usb_ready_acceptance_percent=100
+usb_output_rate_hz=439.14
+
+#ESKDBG ms=2618585 irq=708133 ok=44121 magic=0 header=9 sequence=7 crc=0 usb_off=663996 usb_short=0 release_timeout=0 irq_level=0 usb_sent=44121 queue=0 queue_high=1 crc_checked=22135 crc_skipped=685998
+#ESKFIRST 45 53 4B 31 02 27 A4 04 1E AC 00 00 DC 8C 01 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=2619585 irq=708572 ok=44560 magic=0 header=9 sequence=7 crc=0 usb_off=663996 usb_short=0 release_timeout=0 irq_level=0 usb_sent=44560 queue=0 queue_high=1 crc_checked=22149 crc_skipped=686423
+#ESKFIRST 45 53 4B 31 02 27 A4 04 D5 AD 00 00 C6 90 01 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=2620585 irq=709012 ok=45000 magic=0 header=9 sequence=7 crc=0 usb_off=663996 usb_short=0 release_timeout=0 irq_level=0 usb_sent=45000 queue=0 queue_high=1 crc_checked=22163 crc_skipped=686849
+#ESKFIRST 45 53 4B 31 02 27 A4 04 8D AF 00 00 B0 94 01 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=2621585 irq=709450 ok=45438 magic=0 header=9 sequence=7 crc=0 usb_off=663996 usb_short=0 release_timeout=0 irq_level=0 usb_sent=45438 queue=0 queue_high=1 crc_checked=22177 crc_skipped=687273
+#ESKFIRST 45 53 4B 31 02 27 A4 04 43 B1 00 00 9A 98 01 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=2622586 irq=709890 ok=45878 magic=0 header=9 sequence=7 crc=0 usb_off=663996 usb_short=0 release_timeout=0 irq_level=0 usb_sent=45878 queue=0 queue_high=1 crc_checked=22190 crc_skipped=687700
+#ESKFIRST 45 53 4B 31 02 27 A4 04 FB B2 00 00 85 9C 01 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0

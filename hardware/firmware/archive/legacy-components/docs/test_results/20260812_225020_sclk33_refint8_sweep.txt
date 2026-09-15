@@ -1,0 +1,63 @@
+port=COM9
+baud=2000000
+duration_seconds=10
+raw_bytes=5072846
+delta_irq=3829
+delta_ok=3829
+delta_crc=0
+delta_magic=0
+delta_header=0
+delta_sequence=0
+delta_crc_checked=120
+delta_crc_skipped=3709
+delta_usb_off=0
+delta_usb_short=0
+delta_release_timeout=0
+diagnostic_interval_seconds=9
+acceptance_percent=100
+crc_error_percent=0
+crc_coverage_percent=3.134
+transfer_rate_hz=425.444
+usb_ready_acceptance_percent=100
+usb_output_rate_hz=425.444
+
+#ESKDBG ms=975001 irq=221523 ok=24927 magic=0 header=6 sequence=6 crc=0 usb_off=196584 usb_short=0 release_timeout=0 irq_level=0 usb_sent=24927 queue=0 queue_high=1 crc_checked=6927 crc_skipped=214596
+#ESKFIRST 45 53 4B 31 02 27 A4 04 6B 14 00 00 6A 32 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=976001 irq=221949 ok=25353 magic=0 header=6 sequence=6 crc=0 usb_off=196584 usb_short=0 release_timeout=0 irq_level=0 usb_sent=25353 queue=0 queue_high=1 crc_checked=6940 crc_skipped=215009
+#ESKFIRST 45 53 4B 31 02 27 A4 04 15 16 00 00 55 36 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=977001 irq=222387 ok=25791 magic=0 header=6 sequence=6 crc=0 usb_off=196584 usb_short=0 release_timeout=0 irq_level=0 usb_sent=25791 queue=0 queue_high=1 crc_checked=6954 crc_skipped=215433
+#ESKFIRST 45 53 4B 31 02 27 A4 04 CB 17 00 00 40 3A 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=978001 irq=222817 ok=26221 magic=0 header=6 sequence=6 crc=0 usb_off=196584 usb_short=0 release_timeout=0 irq_level=0 usb_sent=26221 queue=0 queue_high=1 crc_checked=6967 crc_skipped=215850
+#ESKFIRST 45 53 4B 31 02 27 A4 04 79 19 00 00 2A 3E 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=979001 irq=223231 ok=26635 magic=0 header=6 sequence=6 crc=0 usb_off=196584 usb_short=0 release_timeout=0 irq_level=0 usb_sent=26635 queue=0 queue_high=1 crc_checked=6980 crc_skipped=216251
+#ESKFIRST 45 53 4B 31 02 27 A4 04 17 1B 00 00 13 42 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=980001 irq=223667 ok=27071 magic=0 header=6 sequence=6 crc=0 usb_off=196584 usb_short=0 release_timeout=0 irq_level=0 usb_sent=27071 queue=0 queue_high=1 crc_checked=6994 crc_skipped=216673
+#ESKFIRST 45 53 4B 31 02 27 A4 04 CB 1C 00 00 FD 45 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=981001 irq=224085 ok=27489 magic=0 header=6 sequence=6 crc=0 usb_off=196584 usb_short=0 release_timeout=0 irq_level=0 usb_sent=27489 queue=0 queue_high=1 crc_checked=7007 crc_skipped=217078
+#ESKFIRST 45 53 4B 31 02 27 A4 04 6D 1E 00 00 E8 49 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=982001 irq=224506 ok=27910 magic=0 header=6 sequence=6 crc=0 usb_off=196584 usb_short=0 release_timeout=0 irq_level=0 usb_sent=27910 queue=0 queue_high=1 crc_checked=7020 crc_skipped=217486
+#ESKFIRST 45 53 4B 31 02 27 A4 04 12 20 00 00 D1 4D 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=983001 irq=224930 ok=28334 magic=0 header=6 sequence=6 crc=0 usb_off=196584 usb_short=0 release_timeout=0 irq_level=0 usb_sent=28334 queue=0 queue_high=1 crc_checked=7033 crc_skipped=217897
+#ESKFIRST 45 53 4B 31 02 27 A4 04 BA 21 00 00 BB 51 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=984001 irq=225352 ok=28756 magic=0 header=6 sequence=6 crc=0 usb_off=196584 usb_short=0 release_timeout=0 irq_level=0 usb_sent=28756 queue=0 queue_high=1 crc_checked=7047 crc_skipped=218305
+#ESKFIRST 45 53 4B 31 02 37 A4 04 60 23 00 00 A6 55 00 00
+#ESKCRC wire=F101BFEB calc=F101BFEB spi_hz=10000000 soft_spi=0 sampled=1
+#ESKALIGN discarded_prefix=0

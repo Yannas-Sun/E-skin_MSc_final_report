@@ -1,0 +1,179 @@
+ESKIN STM32 SWD comparison: fresh MCU versus two original MCUs
+Date: 2026-08-17
+Status: diagnostic record; no destructive erase was performed
+
+Scope
+-----
+Compare programming behaviour after replacing the STM32 with an unused device.
+The same DAPLink probe (LU_2022_8888), target name (stm32g474cetx), build
+toolchain and combined ELF were used for the comparison.
+
+Observed results
+----------------
+1. Unused / never-programmed STM32: user reports that it programmed normally.
+2. Original STM32 devices (two devices): repeated SWD connection failures.
+   Observed pyOCD forms included:
+     - pyocd list: Probe detected, Target=n/a
+     - DebugPortSetup: SWD/JTAG communication failure (No ACK)
+     - Unexpected ACK '5'
+     - DebugCoreStart / SCS / DWT / FPB / ITM / TPIU failures
+     - ResetCatchSet / ResetCatchClear failures
+3. A previous successful programming log for the same project showed:
+     - erased 16384 bytes (8 sectors)
+     - programmed 15360 bytes (15 pages)
+     - identical 0 bytes (0 pages)
+   This confirms that the build image and DAPLink toolchain can complete a
+   programming operation when the target responds.
+
+Build evidence before the latest failed attempt
+-----------------------------------------------
+- Build type: Release
+- RAM: 9096 B / 128 KiB (6.94%)
+- Flash: 15128 B / 512 KiB (2.89%)
+- Compiler warnings: unused legacy functions/variables only; no compile error
+- Latest failure occurred in pyOCD after the build, before an
+  erased/programmed line was printed.
+
+Current interpretation
+----------------------
+The fresh-device result rules out a general CMake, ELF, target-name or DAPLink
+USB failure. If the only changed item was the STM32 device and the same board,
+probe and SWD wiring were retained, the leading causes for the two original
+devices are:
+
+1. target-specific option-byte state (especially RDP/write protection), or
+2. damage or marginal behaviour of the original MCU's SWDIO, SWCLK, NRST or
+   power pins from earlier power/connection experiments.
+
+If a complete module rather than only the MCU was exchanged, the module's SWD
+trace, connector, ground or 3.3 V path remains an alternative explanation.
+Firmware contents alone should not normally prevent an under-reset SWD attach.
+
+Required next evidence (record one row per attempt)
+----------------------------------------------------
+- timestamp and module/MCU identity
+- probe UID and target name
+- connection mode: attach, pre-reset, under-reset or halt
+- SWD frequency
+- whether DAPLink nRESET is directly connected to the MCU NRST pad
+- VDD at the MCU, VTref at the probe, and NRST level before/during reset
+- power source (Teensy, external 3.3 V, or DAPLink; never parallel sources)
+- exact command and ELF SHA-256
+- first pyOCD milestone: DP IDR, DebugCoreStart, Loading, Erasing or Programming
+- erased/programmed/identical byte counts and exit code
+- whether the device was power-cycled between attempts
+- option-byte/RDP result if an independent ST-Link or STM32CubeProgrammer is used
+
+Decision gates
+--------------
+- Fresh MCU passes but original fails with the same direct SWD setup: compare
+  option bytes/RDP first, then test the original MCU with a second probe.
+- ST-Link and DAPLink both fail on an original MCU while a fresh MCU passes:
+  treat the original MCU/module as hardware-fault suspect.
+- A successful erased/programmed line followed only by reset/uninitialisation
+  error means the image may already be written; do not count it as a failed
+  flash without checking the programming counts.
+
+Clarification from the successful replacement-device test
+----------------------------------------------------------
+After a successful STM32 programming operation, `pyocd list` still displayed
+the DAPLink probe and `Target: n/a`. This is not proof that the STM32 was
+unrecognised. `pyocd list` primarily enumerates the probe and may leave the
+target column as `n/a` until a target session is opened. The actual flash
+session had already identified the STM32 and completed the erase/program
+operation. For future records, use `DP IDR`, `Cortex-M4`, `Erased`,
+`Programmed` and the pyOCD exit code as authoritative target/flash evidence;
+record `pyocd list` only as probe-enumeration information.
+
+Option-byte readback from the original STM32
+---------------------------------------------
+The following read-only pyOCD commander command completed at 1 kHz:
+
+  pyocd commander -u LU_2022_8888 -t stm32g474cetx -f 1k -M under-reset
+    -c "read32 0x40022020"
+
+Result:
+
+  0x40022020: 0xFBEFF8AA
+
+This is the STM32G474 FLASH_OPTR register. The low byte `0xAA` indicates RDP
+Level 0 (no read protection). Bit 26 `nSWBOOT0` is clear, bit 27 `nBOOT0`
+is set, and the option-byte boot selection therefore no longer depends on the
+physical PB8/BOOT0 level. The value exactly matches the previously recorded
+post-correction value (`0xFBEFF8AA`), not the earlier physical-BOOT0 value
+(`0xFFEFF8AA`). No option byte was written by this read-only command.
+
+This result also proves that the original target can answer a SWD memory read;
+the earlier `pyocd list` `Target: n/a` line is therefore not a reliable target
+presence test. The remaining intermittent flash failures should be tested as
+session/power/signal stability problems rather than assumed RDP protection.
+
+1 kHz no-reset flash confirmation
+----------------------------------
+The user then confirmed that this command completed the flash operation:
+
+  pyocd flash -v -W -u LU_2022_8888 -t stm32g474cetx
+    -f 1k -M under-reset --no-reset -e sector
+    "D:\study\programming\builds\ESKIN_COMBINED_SYSTEM\ESKIN_STM32.elf"
+
+The important differences from the normal script are:
+
+  - SWD clock reduced from 10 kHz to 1 kHz;
+  - post-program reset disabled with `--no-reset`;
+  - no separate `pyocd reset -m hw` was included.
+
+Interpretation:
+
+  - Flash programming/verification: PASS for this 1 kHz no-reset path.
+  - Normal automatic reset/session cleanup: unresolved; this remains the
+    path associated with the reported failure.
+  - New application boot: not proven by this result; use a separate reset or
+    power cycle and then verify runtime frames.
+
+Because the successful command changes both SWD frequency and reset handling,
+it is not yet possible to assign the cause exclusively to reset wiring or to
+10 kHz signal integrity. Test 1 kHz with reset enabled and 10 kHz with
+`--no-reset` separately before changing the production script.
+
+1 MHz comparison
+----------------
+The user additionally reports that a 1 MHz pyOCD operation completed normally.
+Since 1 MHz is higher than both 1 kHz and 10 kHz, this rules out a simple
+monotonic "higher SWD frequency always fails" explanation.
+
+The exact 1 MHz command and its reset flags were not supplied. Therefore this
+result is recorded as a frequency comparison, not yet as a complete A/B test
+of the normal reset path. Repeat 1 MHz with the normal reset options and with
+`--no-reset` separately, recording programming, uninitialisation and reset
+outcomes.
+
+1 MHz automatic-reset confirmation
+-----------------------------------
+The controlled automatic-reset repeat was executed as:
+
+  pyocd flash -v -W -u LU_2022_8888 -t stm32g474cetx
+    -f 1M -M under-reset -O reset_type=hw -e sector
+    "D:\study\programming\builds\ESKIN_COMBINED_SYSTEM\ESKIN_STM32.elf"
+
+Result: PASS, exit code 0. The log included reset assertion before connect,
+DP IDR `0x2ba01477`, Cortex-M4 discovery, reset deassertion after connect, and
+`Erased 0 bytes, programmed 0 bytes, identical 15360 bytes`.
+
+This is the first controlled result showing that hardware automatic reset can
+work on this target. It weakens the hypothesis of a generally broken NRST
+path. Since the normal script also runs a separate `pyocd reset` after
+flashing, isolate that second reset from the 10 kHz flash session next.
+
+Maintained Combined command update
+-----------------------------------
+The maintained `tools\commands\original\flash_combined.cmd` was updated to
+use the successful no-reset path:
+
+  pyocd flash -W -u LU_2022_8888 -t stm32g474cetx
+    -f 1M -M under-reset --no-reset -e sector ESKIN_STM32.elf
+
+The former 10 kHz automatic-reset invocation and its separate trailing
+`pyocd reset -m hw` were removed. The script now requires a manual reset or a
+complete power cycle after programming. This is a command-path workaround for
+the observed board-uninitialisation/reset instability; it is not evidence that
+the firmware image itself was changed.

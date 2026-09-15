@@ -1,0 +1,26 @@
+E-SKIN scalability single-module runtime capture
+Date: 2026-08-17
+Port: COM9
+Context: selectable/combined Teensy bridge GUI was open; target module ID was not visible in the capture
+
+Observed diagnostic lines (screenshot):
+#ESKDBG ms=54796 irq=0 ok=0 magic=0 header=0 sequence=0 crc=0 usb_off=0 usb_short=0 release_timeout=0 irq_level=0 usb_sent=0 ...
+#ESKFIRST 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=55796 irq=0 ok=0 magic=0 header=0 sequence=0 crc=0 usb_off=0 usb_short=0 release_timeout=0 irq_level=0 usb_sent=0 ...
+#ESKFIRST 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+
+Interpretation:
+- irq=0: the Teensy observed no STM32 HOST_IRQ assertion during the visible interval.
+- ok=0 and all frame error counters are zero: no Host SPI frame reached magic/header/CRC validation.
+- wire/calc CRC are zero because no frame was received; this is not a CRC failure.
+- irq_level=0: the selected Teensy IRQ input was low at both diagnostic snapshots.
+- spi_hz=10000000 and soft_spi=0 confirm hardware Host SPI at 10 MHz, but no transaction was started.
+
+Result: FAIL for runtime frame reception, localized upstream of frame validation. Check the
+selected module's STM32 boot/reset state, its HOST_IRQ and HOST_nCS wiring, and that the
+Teensy compile-time module ID matches the physical CS/IRQ pair. The module ID cannot be
+proven from this screenshot and must be recorded in the next capture.

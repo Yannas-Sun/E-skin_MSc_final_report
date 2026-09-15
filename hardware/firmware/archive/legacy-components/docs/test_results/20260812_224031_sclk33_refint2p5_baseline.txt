@@ -1,0 +1,63 @@
+port=COM9
+baud=2000000
+duration_seconds=10
+raw_bytes=2446158
+delta_irq=1849
+delta_ok=1849
+delta_crc=0
+delta_magic=0
+delta_header=0
+delta_sequence=0
+delta_crc_checked=58
+delta_crc_skipped=1791
+delta_usb_off=0
+delta_usb_short=0
+delta_release_timeout=0
+diagnostic_interval_seconds=9
+acceptance_percent=100
+crc_error_percent=0
+crc_coverage_percent=3.137
+transfer_rate_hz=205.444
+usb_ready_acceptance_percent=100
+usb_output_rate_hz=205.444
+
+#ESKDBG ms=385447 irq=109332 ok=4847 magic=0 header=3 sequence=1 crc=0 usb_off=104481 usb_short=0 release_timeout=0 irq_level=0 usb_sent=4847 queue=0 queue_high=1 crc_checked=3418 crc_skipped=105914
+#ESKFIRST 45 53 4B 31 02 27 A4 04 B9 08 00 00 9B 2E 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=386447 irq=109538 ok=5053 magic=0 header=3 sequence=1 crc=0 usb_off=104481 usb_short=0 release_timeout=0 irq_level=0 usb_sent=5053 queue=0 queue_high=1 crc_checked=3425 crc_skipped=106113
+#ESKFIRST 45 53 4B 31 02 27 A4 04 87 09 00 00 88 32 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=387447 irq=109743 ok=5258 magic=0 header=3 sequence=1 crc=0 usb_off=104481 usb_short=0 release_timeout=0 irq_level=0 usb_sent=5258 queue=0 queue_high=1 crc_checked=3431 crc_skipped=106312
+#ESKFIRST 45 53 4B 31 02 27 A4 04 54 0A 00 00 6F 36 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=388447 irq=109949 ok=5464 magic=0 header=3 sequence=1 crc=0 usb_off=104481 usb_short=0 release_timeout=0 irq_level=0 usb_sent=5464 queue=0 queue_high=1 crc_checked=3438 crc_skipped=106511
+#ESKFIRST 45 53 4B 31 02 27 A4 04 22 0B 00 00 5C 3A 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=389447 irq=110154 ok=5669 magic=0 header=3 sequence=1 crc=0 usb_off=104481 usb_short=0 release_timeout=0 irq_level=0 usb_sent=5669 queue=0 queue_high=1 crc_checked=3444 crc_skipped=106710
+#ESKFIRST 45 53 4B 31 02 27 A4 04 EF 0B 00 00 43 3E 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=390447 irq=110360 ok=5875 magic=0 header=3 sequence=1 crc=0 usb_off=104481 usb_short=0 release_timeout=0 irq_level=0 usb_sent=5875 queue=0 queue_high=1 crc_checked=3450 crc_skipped=106910
+#ESKFIRST 45 53 4B 31 02 27 A4 04 BD 0C 00 00 2F 42 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=391447 irq=110565 ok=6080 magic=0 header=3 sequence=1 crc=0 usb_off=104481 usb_short=0 release_timeout=0 irq_level=0 usb_sent=6080 queue=0 queue_high=1 crc_checked=3457 crc_skipped=107108
+#ESKFIRST 45 53 4B 31 02 27 A4 04 8A 0D 00 00 18 46 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=392447 irq=110771 ok=6286 magic=0 header=3 sequence=1 crc=0 usb_off=104481 usb_short=0 release_timeout=0 irq_level=0 usb_sent=6286 queue=0 queue_high=1 crc_checked=3463 crc_skipped=107308
+#ESKFIRST 45 53 4B 31 02 27 A4 04 58 0E 00 00 04 4A 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=393447 irq=110976 ok=6491 magic=0 header=3 sequence=1 crc=0 usb_off=104481 usb_short=0 release_timeout=0 irq_level=0 usb_sent=6491 queue=0 queue_high=1 crc_checked=3470 crc_skipped=107506
+#ESKFIRST 45 53 4B 31 02 27 A4 04 25 0F 00 00 EB 4D 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0
+#ESKDBG ms=394447 irq=111181 ok=6696 magic=0 header=3 sequence=1 crc=0 usb_off=104481 usb_short=0 release_timeout=0 irq_level=0 usb_sent=6696 queue=0 queue_high=1 crc_checked=3476 crc_skipped=107705
+#ESKFIRST 45 53 4B 31 02 27 A4 04 F2 0F 00 00 D4 51 00 00
+#ESKCRC wire=00000000 calc=00000000 spi_hz=10000000 soft_spi=0 sampled=0
+#ESKALIGN discarded_prefix=0

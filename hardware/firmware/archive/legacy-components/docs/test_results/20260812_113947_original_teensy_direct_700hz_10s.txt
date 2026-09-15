@@ -1,0 +1,32 @@
+Original Teensy-direct E-SKIN 700 Hz hardware test
+timestamp=2026-08-12 11:39:47 +01:00
+port=COM9
+duration_s=10.004
+valid_frames=7005
+wall_fps=700.210
+invalid_frames=0
+discarded_bytes=0
+fsr_range=0..29
+timestamp_samples=7004
+ts_delta_us_mean=1428.000
+ts_delta_us_median=1428.000
+ts_delta_us_min=1427
+ts_delta_us_p95=1429
+ts_delta_us_max=1429
+timestamp_rate_hz=700.280
+
+Configuration:
+- Teensy 4.1 installed in the original direct-scan hardware.
+- Original pin map and drivers from previous/src/Eskin.
+- Nominal FSR_SAMPLE_RATE=700 and interval_us=1000000/700=1428 us.
+- Each cycle reads all 16 accelerometers and both complete 16x16 FSR layers.
+- FSR ADC path: 10 MHz Mode-0 hardware SPI, SCLK-driven conversion, no EOC
+  polling, no explicit MUX settling delay.
+- USB packet: ESKN + ts_acc + ts_fsr + 96-byte ACC + 1024-byte FSR = 1132 B.
+
+Acceptance:
+- Complete-frame rate met the nominal 700 Hz target over this 10-second run.
+- No framing invalidity or resynchronisation bytes were observed.
+- FSR range was only 0..29 during the unattended run, so pressure response,
+  channel mapping, crosstalk and sustained-duration reliability remain to be
+  validated under controlled physical loading.

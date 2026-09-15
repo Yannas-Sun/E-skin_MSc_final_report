@@ -1,0 +1,136 @@
+{
+  "configuration": {
+    "port": "COM9",
+    "baud": 2000000,
+    "duration_seconds": 15.0,
+    "warmup_seconds": 2.5,
+    "module": 1,
+    "command_to_fifo_gap_us": 37,
+    "mux_settle_us": 0,
+    "max11633_setup": "0x64",
+    "fifo_data_sclk_hz": 10000000,
+    "stm32_sysclk_hz": 160000000
+  },
+  "parsed_frames": 5240,
+  "complete_fsr_frames": 5240,
+  "parse_errors": 0,
+  "sequence_errors": 0,
+  "measured_output_rate_hz": 349.3324785763039,
+  "median_complete_fsr_scan_us": 2730.0,
+  "profile_complete_fsr_scan_hz": 366.3003663003663,
+  "transport_pass": true,
+  "readout_status": "DIGITALLY_CREDIBLE_UNLOADED",
+  "fsr1": {
+    "raw_range": [
+      0,
+      533
+    ],
+    "windows": 26,
+    "windows_passed": 0,
+    "all_windows_pass": false,
+    "boundary_percent_range": [
+      71.404296875,
+      72.328125
+    ],
+    "unique_median_range": [
+      6.0,
+      7.0
+    ],
+    "frozen_percent_range": [
+      6.25,
+      10.9375
+    ],
+    "low_unique_percent_range": [
+      13.28125,
+      15.625
+    ],
+    "changed_percent_range": [
+      67.1855370603015,
+      69.92972675879398
+    ],
+    "global_unique_codes_range": [
+      38.0,
+      58.0
+    ],
+    "percentiles": {
+      "p99": 16.0,
+      "p99_9": 512.0,
+      "p99_99": 516.0
+    },
+    "samples_at_or_above": {
+      "1024": 0,
+      "2048": 0,
+      "3072": 0
+    },
+    "percent_at_or_above": {
+      "1024": 0.0,
+      "2048": 0.0,
+      "3072": 0.0
+    },
+    "maximum_location": {
+      "frame_index": 3540,
+      "cell_index": 238,
+      "row": 15,
+      "column": 15,
+      "value": 533
+    },
+    "early_read_signature": false
+  },
+  "fsr2": {
+    "raw_range": [
+      0,
+      579
+    ],
+    "windows": 26,
+    "windows_passed": 0,
+    "all_windows_pass": false,
+    "boundary_percent_range": [
+      65.080078125,
+      65.720703125
+    ],
+    "unique_median_range": [
+      6.0,
+      6.0
+    ],
+    "frozen_percent_range": [
+      5.859375,
+      6.25
+    ],
+    "low_unique_percent_range": [
+      7.8125,
+      10.15625
+    ],
+    "changed_percent_range": [
+      73.93608668341709,
+      76.4584641959799
+    ],
+    "global_unique_codes_range": [
+      88.0,
+      102.0
+    ],
+    "percentiles": {
+      "p99": 409.0,
+      "p99_9": 573.0,
+      "p99_99": 576.0
+    },
+    "samples_at_or_above": {
+      "1024": 0,
+      "2048": 0,
+      "3072": 0
+    },
+    "percent_at_or_above": {
+      "1024": 0.0,
+      "2048": 0.0,
+      "3072": 0.0
+    },
+    "maximum_location": {
+      "frame_index": 872,
+      "cell_index": 215,
+      "row": 14,
+      "column": 8,
+      "value": 579
+    },
+    "early_read_signature": false
+  },
+  "result": "FAIL"
+}

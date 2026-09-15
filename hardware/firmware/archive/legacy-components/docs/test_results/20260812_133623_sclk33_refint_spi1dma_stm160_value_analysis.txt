@@ -1,0 +1,41 @@
+SCLK33 160 MHz experiment - decoded sensor-value analysis
+source=20260812_133623_sclk33_refint_spi1dma_stm160_attempt4.bin
+parsed_frames=5816
+
+clock_configuration:
+- SYSCLK/HCLK/APB1/APB2=160 MHz
+- VCORE=Range 1 boost
+- Flash latency=4 wait states
+- ADC SPI1=10 MHz (/16)
+- ACC SPI2=10 MHz (/16)
+
+fsr1_range=0..3072
+fsr1_median_frame_max=3072
+fsr1_median_nonzero_cells=168
+fsr1_unique_codes_last_200_frames=57
+fsr1_top_codes=0,63,3,1,127,255,7,35,511,192
+
+fsr2_range=0..1023
+fsr2_median_frame_max=1023
+fsr2_median_nonzero_cells=188
+fsr2_unique_codes_last_200_frames=103
+fsr2_top_codes=0,511,255,1,3,1023,7,35,831,32
+
+fsr_status_bits=3
+mux_addresses_updated=16
+fsr_us_median=1426
+fsr_us_min=1426
+fsr_us_max=2424
+acc_us_median=159
+pack_us_median=53
+host_dma_wait_us_median=0
+crc_us_median=0
+valid_accelerometers_median=6
+
+Conclusion:
+- Increasing STM32 from 80 to 160 MHz reduced median FSR time from 1717 us
+  to 1426 us and raised complete output from 454.727 to 581.667 Hz.
+- FSR acquisition alone now consumes essentially the full 1428.6 us budget
+  for 700 Hz; ACC, packing and loop overhead still follow it.
+- Sensor values remain concentrated at bit-boundary codes. Clocking faster
+  improves throughput but does not correct the ADC conversion/readout failure.
