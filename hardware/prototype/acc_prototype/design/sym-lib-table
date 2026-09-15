@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "00_lcsc")(type "KiCad")(uri "../../../libraries/e_skin_custom_symbols.kicad_sym")(options "")(descr "Shared non-Eagle e-skin symbols"))
+  (lib (name "00_custom")(type "KiCad")(uri "../../../libraries/e_skin_custom_symbols.kicad_sym")(options "")(descr "Shared non-Eagle e-skin symbols"))
+  (lib (name "ACC_FPC")(type "KiCad")(uri "../../../libraries/e_skin_custom_symbols.kicad_sym")(options "")(descr "Shared non-Eagle e-skin symbols"))
+  (lib (name "MAX11632EEGT")(type "KiCad")(uri "../../../libraries/e_skin_custom_symbols.kicad_sym")(options "")(descr "Shared non-Eagle e-skin symbols"))
+  (lib (name "mainboard_custom")(type "KiCad")(uri "../../../libraries/e_skin_custom_symbols.kicad_sym")(options "")(descr "Shared non-Eagle e-skin symbols"))
+  (lib (name "usbB_stewart")(type "KiCad")(uri "../../../libraries/e_skin_custom_symbols.kicad_sym")(options "")(descr "Shared non-Eagle e-skin symbols"))
+)

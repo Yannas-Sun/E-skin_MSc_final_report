@@ -1,0 +1,152 @@
+﻿[
+    {
+        "Class":  "ACC",
+        "Source":  "ACC\\docs\\Datasheet\\ACC (LIS2DH12).pdf",
+        "Destination":  "docs\\datasheet\\ACC\\ACC (LIS2DH12).pdf",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "ACC",
+        "Source":  "ACC\\docs\\Datasheet\\ACC (LIS3DH).pdf",
+        "Destination":  "docs\\datasheet\\ACC\\ACC (LIS3DH).pdf",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "ACC",
+        "Source":  "ACC\\docs\\Datasheet\\CONNECTOR (AFC01-S22FCA-00).pdf",
+        "Destination":  "docs\\datasheet\\ACC\\CONNECTOR (AFC01-S22FCA-00).pdf",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "ACC",
+        "Source":  "ACC\\docs\\Datasheet\\CONNECTOR (HC-FPC-05-09-6RLTAG).pdf",
+        "Destination":  "docs\\datasheet\\ACC\\CONNECTOR (HC-FPC-05-09-6RLTAG).pdf",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "ACC",
+        "Source":  "ACC\\docs\\Datasheet\\CONNECTOR (HC-FPC-05-09-8RLTAG).PDF",
+        "Destination":  "docs\\datasheet\\ACC\\CONNECTOR (HC-FPC-05-09-8RLTAG).PDF",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "ACC",
+        "Source":  "ACC\\docs\\Datasheet\\MUX (cd74hc154).pdf",
+        "Destination":  "docs\\datasheet\\ACC\\MUX (cd74hc154).pdf",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "ACC",
+        "Source":  "ACC\\docs\\Datasheet\\OR GATE (SN74LVC1G32DCKR).pdf",
+        "Destination":  "docs\\datasheet\\ACC\\OR GATE (SN74LVC1G32DCKR).pdf",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.0\\docs\\Datasheets\\Mainboard\\ADC (MAX11626-MAX11633).pdf",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\ADC (MAX11626-MAX11633).pdf",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.0\\docs\\Datasheets\\Mainboard\\connector (AFC01-S16FCA-00).PDF",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\connector (AFC01-S16FCA-00).PDF",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.0\\docs\\Datasheets\\Mainboard\\converter (sn74lvc1t45).pdf",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\converter (sn74lvc1t45).pdf",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.0\\docs\\Datasheets\\Mainboard\\diode (SS14).pdf",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\diode (SS14).pdf",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.0\\docs\\Datasheets\\Mainboard\\MCU (stm32g474ce).pdf",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\MCU (stm32g474ce).pdf",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.0\\docs\\Datasheets\\Mainboard\\MUX (cd74hc4067).pdf",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\MUX (cd74hc4067).pdf",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.0\\docs\\Datasheets\\Mainboard\\regulator (AP2112K-3.3).PDF",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\regulator (AP2112K-3.3).PDF",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.0\\docs\\Datasheets\\Mainboard\\USB connector.pdf",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\USB connector.pdf",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.1\\docs\\Datasheets\\Mainboard\\ADC (MAX11626-MAX11633).pdf",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\ADC (MAX11626-MAX11633).pdf",
+        "Action":  "duplicate-identical-removed"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.1\\docs\\Datasheets\\Mainboard\\connector (AFC01-S16FCA-00).PDF",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\connector (AFC01-S16FCA-00).PDF",
+        "Action":  "duplicate-identical-removed"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.1\\docs\\Datasheets\\Mainboard\\converter (sn74lvc1t45).pdf",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\converter (sn74lvc1t45).pdf",
+        "Action":  "duplicate-identical-removed"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.1\\docs\\Datasheets\\Mainboard\\diode (SS14).pdf",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\diode (SS14).pdf",
+        "Action":  "duplicate-identical-removed"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.1\\docs\\Datasheets\\Mainboard\\MCU (stm32g474ce).pdf",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\MCU (stm32g474ce).pdf",
+        "Action":  "duplicate-identical-removed"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.1\\docs\\Datasheets\\Mainboard\\MUX (cd74hc4067).pdf",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\MUX (cd74hc4067).pdf",
+        "Action":  "duplicate-identical-removed"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.1\\docs\\Datasheets\\Mainboard\\regulator (AP2112K-3.3).PDF",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\regulator (AP2112K-3.3).PDF",
+        "Action":  "duplicate-identical-removed"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.1\\docs\\Datasheets\\Mainboard\\RES_array (A09-103JP).PDF",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\RES_array (A09-103JP).PDF",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.1\\docs\\Datasheets\\Mainboard\\RES_ARRAY (EXB2HV103JV).PDF",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\RES_ARRAY (EXB2HV103JV).PDF",
+        "Action":  "moved"
+    },
+    {
+        "Class":  "MAINBOARD",
+        "Source":  "mainbord\\2.1\\docs\\Datasheets\\Mainboard\\USB connector.pdf",
+        "Destination":  "docs\\datasheet\\MAINBOARD\\USB connector.pdf",
+        "Action":  "duplicate-identical-removed"
+    }
+]

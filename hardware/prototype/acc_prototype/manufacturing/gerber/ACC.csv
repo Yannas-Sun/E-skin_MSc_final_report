@@ -1,0 +1,6 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP"
+"C1,C3,C5,C7,C9,C11,C13,C15,C17","100n","","Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder","9",""
+"C2,C4,C6,C8,C10,C12,C14,C16,C18","1uF","","Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder","9",""
+"FFC_connector1","AFC01-S22FCA-00_FPC_TAIL","https://lcsc.com/product-detail/Others_JUSHUO-AFC01-S22FCA-00_C262668.html","000:AFC01-S22FCA-00_FPC_TAIL","1",""
+"U1,U2,U3,U4,U5,U6,U7,U8,U9","LIS2DH12TR","https://lcsc.com/product-detail/Motion-Sensors-Accelerometers_STMicroelectronics_LIS2DH12TR_STMicroelectronics-LIS2DH12TR_C110926.html","000:LIS2DH12TR","9",""
+"U17,U18,U19,U20,U21,U22,U23,U24,U25","SN74LVC1G32DCKR","https://lcsc.com/product-detail/74-Series_TI_SN74LVC1G32DCKR_SN74LVC1G32DCKR_C7840.html","000:SN74LVC1G32DCKR","9",""

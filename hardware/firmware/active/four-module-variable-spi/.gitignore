@@ -1,0 +1,6 @@
+build/
+stm32/combined-system/build/
+data/
+docs/test_results/
+__pycache__/
+*.pyc

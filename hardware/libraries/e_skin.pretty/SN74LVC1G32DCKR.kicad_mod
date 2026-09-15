@@ -1,0 +1,166 @@
+(footprint "SN74LVC1G32DCKR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "U27"
+		(at 0 -4.650001 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "21920cb8-a6e8-412f-9c00-76974a01541d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SN74LVC1G32DCKR"
+		(at 0 4.650001 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c01d86f-ef32-4902-96b3-81dfd3cfc560")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC1G32DCKR_SN74LVC1G32DCKR_C7840.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ec3e5bc-aac7-4b43-a674-049c986c545e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1d5560f-27ff-48cb-961d-a87981186a8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C7840"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d098e5b-d491-4f57-a581-de1858d6be0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field5" "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51311567-7b36-4ba0-89a7-1d0f024eeb90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "LIS3DH_unit11")
+	(sheetfile "LIS3DH_unit1.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.7 -0.26)
+		(end -0.7 0.26)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad786d21-549c-4be3-8ebb-8396af475fb6")
+	)
+	(fp_line
+		(start 0.7 -1.1)
+		(end -0.7 -1.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23b22b20-6070-41eb-94ac-da654612559d")
+	)
+	(fp_line
+		(start 0.7 1.1)
+		(end -0.7 1.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "015f2b46-aa78-4580-a621-b9fafefae019")
+	)
+	(fp_circle
+		(center 1.06 1.02)
+		(end 1.09 1.02)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8357c383-0455-4a63-978b-62d9ef087aae")
+	)
+	(pad "1" smd rect
+		(at 0.84 0.65)
+		(size 0.84 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "66b70278-5e99-4add-8948-a948dbdef725")
+	)
+	(pad "2" smd rect
+		(at 0.84 0)
+		(size 0.84 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "40868b85-bd2f-4680-a87d-9857c96d0825")
+	)
+	(pad "3" smd rect
+		(at 0.84 -0.65)
+		(size 0.84 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "83040575-631c-4707-a927-c5681a84a8d2")
+	)
+	(pad "4" smd rect
+		(at -0.84 -0.65)
+		(size 0.84 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "550ee12e-0e2a-4d4c-840c-040ee0efe8a9")
+	)
+	(pad "5" smd rect
+		(at -0.84 0.65)
+		(size 0.84 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b072f416-0a28-4d43-bf1f-c42963dfd233")
+	)
+	(embedded_fonts no)
+	(model "D:/OneDrive - Imperial College London/study/Imperial College/BIOE70025 - MSc Major Individual Project 2025-2026/E-SKIN/hardware/libraries/3dmodels/SN74LVC1G32DCKR.step"
+		(offset
+			(xyz -0.08 0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+)

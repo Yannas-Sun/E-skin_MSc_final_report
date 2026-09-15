@@ -1,0 +1,44 @@
+# Local inspection checkout
+.remote-inspect/
+
+# Generated Arduino/Teensy output
+.arduino-build/
+
+# Generated STM32/CMake output
+**/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Compiler and linker output
+*.a
+*.bin
+*.elf
+*.gch
+*.hex
+*.map
+*.o
+*.obj
+*.su
+
+# Python caches and local environments
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Live measurement output (historical calibration JSON remains versioned)
+teensy/applications/ESKIN_SPI_USB_BRIDGE/data/raw_frames/
+teensy/applications/ESKIN_SPI_USB_BRIDGE/data/row_tests/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.log
+
+# Embedded archived repository; keep it outside the outer release repository
+archive/legacy-components/simulation/software-simulation/
+

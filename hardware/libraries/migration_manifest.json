@@ -1,0 +1,709 @@
+﻿[
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1\\mainboard.pretty\\AFC01-S22FCA-00.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/AFC01-S22FCA-00.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "2473B09A5CCC20EA191D1CA41BD129E3909F7EA9642441683BDE223900CFA237"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "ACC\\ACC.pretty\\AFC01-S22FCA-00.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/AFC01-S22FCA-00.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "2473B09A5CCC20EA191D1CA41BD129E3909F7EA9642441683BDE223900CFA237"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.0\\mainboard.pretty\\AFC01-S22FCA-00.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/AFC01-S22FCA-00.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "2473B09A5CCC20EA191D1CA41BD129E3909F7EA9642441683BDE223900CFA237"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.1\\mainboard.pretty\\AFC01-S22FCA-00.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/AFC01-S22FCA-00.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "2473B09A5CCC20EA191D1CA41BD129E3909F7EA9642441683BDE223900CFA237"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.0\\mainboard.pretty\\AFC01-S22FCA-00.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/AFC01-S22FCA-00.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "2473B09A5CCC20EA191D1CA41BD129E3909F7EA9642441683BDE223900CFA237"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\mainboard.pretty\\AFC01-S22FCA-00.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/AFC01-S22FCA-00.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "2473B09A5CCC20EA191D1CA41BD129E3909F7EA9642441683BDE223900CFA237"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "ACC\\ACC.pretty\\C_01005_0402Metric.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/C_01005_0402Metric.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "AC3794C98E323A89870D9A8E60C11D935E3DF659C9581CC87A40CE8F5DE47A1D"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "ACC\\ACC.pretty\\HC-FPC-05-09-6RLTAG.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/HC-FPC-05-09-6RLTAG.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "E95CECE338BC0C7C5862A7BC94948275D1660AFDED1AC2D32F0A5BA1E572AD77"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "ACC\\ACC.pretty\\HC-FPC-05-09-8RLTAG.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/HC-FPC-05-09-8RLTAG.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "003C90A8F5B0217BD58B7BB0BEC52626547097240A45747C0EEDEC721CCCF29A"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "ACC\\ACC.pretty\\LIS2DH12TR.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/LIS2DH12TR.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "8F44CC2674CF1AB146F667981C001493DAC9394C9070A633FF452FA755ABFFA3"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "ACC\\ACC.pretty\\LIS3DH.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/LIS3DH.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "DC0B0DEDB488CEAE106063DB3877821EAD000FDBAAA576E8EC3E5284F91299E7"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "ACC\\ACC.pretty\\SN74LVC1G32DCKR.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SN74LVC1G32DCKR.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "8A9FE3B3EA364D99745783EDC3007CC10FC0AED0B8D35F43C62D2C5F1BF7AE7E"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "FSR-array\\FSR-array.pretty\\AFC01-S16FCA-00_FPC_TAIL.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/AFC01-S16FCA-00_FPC_TAIL.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "472C517302CA674E420DB3AAF95BD7851FB3DE9CF180599206B720925F848A8C"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1\\mainboard.pretty\\22-23-2081.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/22-23-2081.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "6F01D73AF78AC09BAEAFBB05A2D9CFDC1583C994D84A0EF0C94009F71C065124"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.0\\mainboard.pretty\\22-23-2081.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/22-23-2081.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "6F01D73AF78AC09BAEAFBB05A2D9CFDC1583C994D84A0EF0C94009F71C065124"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.1\\mainboard.pretty\\22-23-2081.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/22-23-2081.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "6F01D73AF78AC09BAEAFBB05A2D9CFDC1583C994D84A0EF0C94009F71C065124"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.0\\mainboard.pretty\\22-23-2081.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/22-23-2081.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "6F01D73AF78AC09BAEAFBB05A2D9CFDC1583C994D84A0EF0C94009F71C065124"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\mainboard.pretty\\22-23-2081.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/22-23-2081.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "6F01D73AF78AC09BAEAFBB05A2D9CFDC1583C994D84A0EF0C94009F71C065124"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1\\mainboard.pretty\\22-23-2091.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/22-23-2091.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "D2E59BA3F53CD7C7AC2BE89668E0C896A1E81F47546DE82EE32545694DDFA0FB"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.0\\mainboard.pretty\\22-23-2091.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/22-23-2091.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "D2E59BA3F53CD7C7AC2BE89668E0C896A1E81F47546DE82EE32545694DDFA0FB"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.1\\mainboard.pretty\\22-23-2091.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/22-23-2091.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "D2E59BA3F53CD7C7AC2BE89668E0C896A1E81F47546DE82EE32545694DDFA0FB"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.0\\mainboard.pretty\\22-23-2091.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/22-23-2091.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "D2E59BA3F53CD7C7AC2BE89668E0C896A1E81F47546DE82EE32545694DDFA0FB"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\mainboard.pretty\\22-23-2091.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/22-23-2091.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "D2E59BA3F53CD7C7AC2BE89668E0C896A1E81F47546DE82EE32545694DDFA0FB"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1\\mainboard.pretty\\AFC01-S16FCA-00.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/AFC01-S16FCA-00.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "74E793222ED96E8A694AFD47771EBA1904DBE1912FEA17C16236E3FEBE0BA8F0"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.0\\mainboard.pretty\\AFC01-S16FCA-00.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/AFC01-S16FCA-00.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "74E793222ED96E8A694AFD47771EBA1904DBE1912FEA17C16236E3FEBE0BA8F0"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.1\\mainboard.pretty\\AFC01-S16FCA-00.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/AFC01-S16FCA-00.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "74E793222ED96E8A694AFD47771EBA1904DBE1912FEA17C16236E3FEBE0BA8F0"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.0\\mainboard.pretty\\AFC01-S16FCA-00.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/AFC01-S16FCA-00.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "74E793222ED96E8A694AFD47771EBA1904DBE1912FEA17C16236E3FEBE0BA8F0"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\mainboard.pretty\\AFC01-S16FCA-00.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/AFC01-S16FCA-00.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "74E793222ED96E8A694AFD47771EBA1904DBE1912FEA17C16236E3FEBE0BA8F0"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1\\mainboard.pretty\\C0603.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/C0603.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "99A85DB91FBC32F6B763504AEAE1632FED73CDC7959DD723427F4F4F094D6B45"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.0\\mainboard.pretty\\C0603.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/C0603.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "99A85DB91FBC32F6B763504AEAE1632FED73CDC7959DD723427F4F4F094D6B45"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.1\\mainboard.pretty\\C0603.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/C0603.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "99A85DB91FBC32F6B763504AEAE1632FED73CDC7959DD723427F4F4F094D6B45"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.0\\mainboard.pretty\\C0603.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/C0603.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "99A85DB91FBC32F6B763504AEAE1632FED73CDC7959DD723427F4F4F094D6B45"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\mainboard.pretty\\C0603.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/C0603.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "99A85DB91FBC32F6B763504AEAE1632FED73CDC7959DD723427F4F4F094D6B45"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1\\mainboard.pretty\\HALP_RES.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/HALP_RES.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "462F2B19BA827E5E18A1190E7A336DCCC1357F9BC64475247A6BCFB374EF3A56"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.0\\mainboard.pretty\\HALP_RES.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/HALP_RES.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "462F2B19BA827E5E18A1190E7A336DCCC1357F9BC64475247A6BCFB374EF3A56"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.1\\mainboard.pretty\\HALP_RES.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/HALP_RES.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "462F2B19BA827E5E18A1190E7A336DCCC1357F9BC64475247A6BCFB374EF3A56"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.0\\mainboard.pretty\\HALP_RES.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/HALP_RES.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "462F2B19BA827E5E18A1190E7A336DCCC1357F9BC64475247A6BCFB374EF3A56"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\mainboard.pretty\\HALP_RES.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/HALP_RES.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "462F2B19BA827E5E18A1190E7A336DCCC1357F9BC64475247A6BCFB374EF3A56"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.0\\mainboard.pretty\\LOGO.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/mainbord_1_0_LOGO.kicad_mod",
+        "Action":  "copied-renamed-conflict",
+        "SHA256":  "1359F6C93375B5A2915B3B3E1DDD2AEF1D61655A4D7BBEE72C62E1CCA1C5200D"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.1\\mainboard.pretty\\LOGO.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/mainbord_1_1_LOGO.kicad_mod",
+        "Action":  "copied-renamed-conflict",
+        "SHA256":  "1359F6C93375B5A2915B3B3E1DDD2AEF1D61655A4D7BBEE72C62E1CCA1C5200D"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.0\\mainboard.pretty\\LOGO.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/mainbord_2_0_LOGO.kicad_mod",
+        "Action":  "copied-renamed-conflict",
+        "SHA256":  "BE02FE4439CA02B7BFBAB2CB1B1B08AA34A6DD5F2A0BFD6D4BED26A77C584F8A"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1\\mainboard.pretty\\LOGO.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/LOGO.kicad_mod",
+        "Action":  "copied-preferred-conflict",
+        "SHA256":  "BE02FE4439CA02B7BFBAB2CB1B1B08AA34A6DD5F2A0BFD6D4BED26A77C584F8A"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\mainboard.pretty\\LOGO.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/mainbord_2_1_backup_before_fpga_spi_20260612_175853_LOGO.kicad_mod",
+        "Action":  "copied-renamed-conflict",
+        "SHA256":  "BE02FE4439CA02B7BFBAB2CB1B1B08AA34A6DD5F2A0BFD6D4BED26A77C584F8A"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1\\mainboard.pretty\\MAX11632EEGT.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/MAX11632EEGT.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "62992CEB8FAA23482E6D610A8828DC49FB99F0DC937642927C4AFA3D95B7C11C"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.0\\mainboard.pretty\\MAX11632EEGT.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/MAX11632EEGT.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "62992CEB8FAA23482E6D610A8828DC49FB99F0DC937642927C4AFA3D95B7C11C"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.1\\mainboard.pretty\\MAX11632EEGT.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/MAX11632EEGT.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "62992CEB8FAA23482E6D610A8828DC49FB99F0DC937642927C4AFA3D95B7C11C"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.0\\mainboard.pretty\\MAX11632EEGT.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/MAX11632EEGT.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "62992CEB8FAA23482E6D610A8828DC49FB99F0DC937642927C4AFA3D95B7C11C"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\mainboard.pretty\\MAX11632EEGT.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/MAX11632EEGT.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "62992CEB8FAA23482E6D610A8828DC49FB99F0DC937642927C4AFA3D95B7C11C"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1\\mainboard.pretty\\SOIC127P1030X265-24N.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SOIC127P1030X265-24N.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "27BF47A724F19CC7D6CFCF64053139825833E8B79BA2BB070C394A04707F7472"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.0\\mainboard.pretty\\SOIC127P1030X265-24N.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SOIC127P1030X265-24N.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "27BF47A724F19CC7D6CFCF64053139825833E8B79BA2BB070C394A04707F7472"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.1\\mainboard.pretty\\SOIC127P1030X265-24N.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SOIC127P1030X265-24N.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "27BF47A724F19CC7D6CFCF64053139825833E8B79BA2BB070C394A04707F7472"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.0\\mainboard.pretty\\SOIC127P1030X265-24N.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SOIC127P1030X265-24N.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "27BF47A724F19CC7D6CFCF64053139825833E8B79BA2BB070C394A04707F7472"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\mainboard.pretty\\SOIC127P1030X265-24N.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SOIC127P1030X265-24N.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "27BF47A724F19CC7D6CFCF64053139825833E8B79BA2BB070C394A04707F7472"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1\\mainboard.pretty\\SOP64P602X175-24N.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SOP64P602X175-24N.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "BBF956B6D78064744D718112E2F415F70D0C5030F21459EF3082D31855801FFA"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.0\\mainboard.pretty\\SOP64P602X175-24N.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SOP64P602X175-24N.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "BBF956B6D78064744D718112E2F415F70D0C5030F21459EF3082D31855801FFA"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.1\\mainboard.pretty\\SOP64P602X175-24N.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SOP64P602X175-24N.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "BBF956B6D78064744D718112E2F415F70D0C5030F21459EF3082D31855801FFA"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.0\\mainboard.pretty\\SOP64P602X175-24N.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SOP64P602X175-24N.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "BBF956B6D78064744D718112E2F415F70D0C5030F21459EF3082D31855801FFA"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\mainboard.pretty\\SOP64P602X175-24N.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SOP64P602X175-24N.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "BBF956B6D78064744D718112E2F415F70D0C5030F21459EF3082D31855801FFA"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1\\mainboard.pretty\\SOP65P780X200-24N.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SOP65P780X200-24N.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "E682F9CC61CA70DFE7D6EB3686FE31020FE228B46ED5FD87E1757E2A055F9F26"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.0\\mainboard.pretty\\SOP65P780X200-24N.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SOP65P780X200-24N.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "E682F9CC61CA70DFE7D6EB3686FE31020FE228B46ED5FD87E1757E2A055F9F26"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.1\\mainboard.pretty\\SOP65P780X200-24N.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SOP65P780X200-24N.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "E682F9CC61CA70DFE7D6EB3686FE31020FE228B46ED5FD87E1757E2A055F9F26"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.0\\mainboard.pretty\\SOP65P780X200-24N.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SOP65P780X200-24N.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "E682F9CC61CA70DFE7D6EB3686FE31020FE228B46ED5FD87E1757E2A055F9F26"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\mainboard.pretty\\SOP65P780X200-24N.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SOP65P780X200-24N.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "E682F9CC61CA70DFE7D6EB3686FE31020FE228B46ED5FD87E1757E2A055F9F26"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1\\mainboard.pretty\\SS52300001.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SS52300001.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "0A54251AF07F287AA1A9FC8095FE3766224CF18ADFB4A8A91649D52D805D1084"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.0\\mainboard.pretty\\SS52300001.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SS52300001.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "0A54251AF07F287AA1A9FC8095FE3766224CF18ADFB4A8A91649D52D805D1084"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\1.1\\mainboard.pretty\\SS52300001.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SS52300001.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "0A54251AF07F287AA1A9FC8095FE3766224CF18ADFB4A8A91649D52D805D1084"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.0\\mainboard.pretty\\SS52300001.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SS52300001.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "0A54251AF07F287AA1A9FC8095FE3766224CF18ADFB4A8A91649D52D805D1084"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\mainboard.pretty\\SS52300001.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/SS52300001.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "0A54251AF07F287AA1A9FC8095FE3766224CF18ADFB4A8A91649D52D805D1084"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1\\mainboard.pretty\\IC_LOGO.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/IC_LOGO.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "7AB3C323EF2CABFA3FC2BB82DF6D45F88EBF67746CD73C06B21C3177D5202B68"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.0\\mainboard.pretty\\IC_LOGO.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/IC_LOGO.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "7AB3C323EF2CABFA3FC2BB82DF6D45F88EBF67746CD73C06B21C3177D5202B68"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\mainboard.pretty\\IC_LOGO.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/IC_LOGO.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "7AB3C323EF2CABFA3FC2BB82DF6D45F88EBF67746CD73C06B21C3177D5202B68"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1\\mainboard.pretty\\MAX11633EEGT.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/MAX11633EEGT.kicad_mod",
+        "Action":  "copied",
+        "SHA256":  "62992CEB8FAA23482E6D610A8828DC49FB99F0DC937642927C4AFA3D95B7C11C"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.0\\mainboard.pretty\\MAX11633EEGT.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/MAX11633EEGT.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "62992CEB8FAA23482E6D610A8828DC49FB99F0DC937642927C4AFA3D95B7C11C"
+    },
+    {
+        "Kind":  "footprint",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\mainboard.pretty\\MAX11633EEGT.kicad_mod",
+        "Destination":  "libraries/e_skin.pretty/MAX11633EEGT.kicad_mod",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "62992CEB8FAA23482E6D610A8828DC49FB99F0DC937642927C4AFA3D95B7C11C"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "ACC\\3D model\\ACC.step",
+        "Destination":  "libraries/3dmodels/ACC.step",
+        "Action":  "copied",
+        "SHA256":  "A3BB3032808CB374CDA57F6762D3CA66594AA507682E3A3EDDE4760145B74235"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "mainbord\\2.1\\3D model\\AFC01-S22FCA-00.step",
+        "Destination":  "libraries/3dmodels/AFC01-S22FCA-00.step",
+        "Action":  "copied",
+        "SHA256":  "2D224E84ED1B306131606A4753C0AF261149C0A0C10E0D7373964E5D985A2530"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "ACC\\3D model\\AFC01-S22FCA-00.step",
+        "Destination":  "libraries/3dmodels/AFC01-S22FCA-00.step",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "2D224E84ED1B306131606A4753C0AF261149C0A0C10E0D7373964E5D985A2530"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "mainbord\\2.0\\3D model\\AFC01-S22FCA-00.step",
+        "Destination":  "libraries/3dmodels/AFC01-S22FCA-00.step",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "2D224E84ED1B306131606A4753C0AF261149C0A0C10E0D7373964E5D985A2530"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\3D model\\AFC01-S22FCA-00.step",
+        "Destination":  "libraries/3dmodels/AFC01-S22FCA-00.step",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "2D224E84ED1B306131606A4753C0AF261149C0A0C10E0D7373964E5D985A2530"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "ACC\\3D model\\HC-FPC-05-09-6RLTAG.step",
+        "Destination":  "libraries/3dmodels/HC-FPC-05-09-6RLTAG.step",
+        "Action":  "copied",
+        "SHA256":  "DFE4D28822D78F4E8B537DED7C56799B7688273576655AFA45124082AAF99A12"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "ACC\\3D model\\HC-FPC-05-09-8RLTAG.step",
+        "Destination":  "libraries/3dmodels/HC-FPC-05-09-8RLTAG.step",
+        "Action":  "copied",
+        "SHA256":  "7E7B7A61013C5E250451BBE1C9B8DFFA4DCB188E5F7E2D696F4AE00392C57B05"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "ACC\\3D model\\LIS2DH12TR.step",
+        "Destination":  "libraries/3dmodels/LIS2DH12TR.step",
+        "Action":  "copied",
+        "SHA256":  "8F144C4A436F87EFFDB4B8C5B6AF86837C7C5EBEB277B9DEC62CF7B867D140E1"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "ACC\\3D model\\LIS3DH.step",
+        "Destination":  "libraries/3dmodels/LIS3DH.step",
+        "Action":  "copied",
+        "SHA256":  "3AFE51AFD20EB8CEAD0DDF5C36B1FCD22991CE3C4C270A53E3A69E9B8A6C213C"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "ACC\\3D model\\SN74LVC1G32DCKR.step",
+        "Destination":  "libraries/3dmodels/SN74LVC1G32DCKR.step",
+        "Action":  "copied",
+        "SHA256":  "2A27A3FCD20666421E1D72A55BE3ED07C886324CA3AA3C0A29397D08977C60A0"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "FSR-array\\3D models\\FSR_array.step",
+        "Destination":  "libraries/3dmodels/FSR_array.step",
+        "Action":  "copied",
+        "SHA256":  "6FCF1CD99F7B2D25DFF960306DDFC35FE8353E0E297FF6CED3BD28CA79FE07C3"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "FSR-array\\3D models\\FSR_array_bottom.step",
+        "Destination":  "libraries/3dmodels/FSR_array_bottom.step",
+        "Action":  "copied",
+        "SHA256":  "BEB10A35009C6776D59103C1813775AE076A798F3D23ADB7C3277798511B5EE1"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "FSR-array\\3D models\\FSR_array_seperate.step",
+        "Destination":  "libraries/3dmodels/FSR_array_seperate.step",
+        "Action":  "copied",
+        "SHA256":  "DC7ED92B03721057D7135EA7C46E5D3EEA28D2B0B1A1A00EA1959F7E84AF3E94"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "FSR-array\\3D models\\FSR_array_top.step",
+        "Destination":  "libraries/3dmodels/FSR_array_top.step",
+        "Action":  "copied",
+        "SHA256":  "1CC4AC8A9EFD42A1F571E2CE6214A7B9B36FDDD0501AE88BC892D5F2CACE7646"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "mainbord\\2.0\\mainboard.step",
+        "Destination":  "libraries/3dmodels/mainboard.step",
+        "Action":  "copied",
+        "SHA256":  "D7E5D82C5C478F61FC992FF332AB9B3D04E414919D6260019BD51DC9DAD8A12F"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "mainbord\\2.1\\3D model\\AFC01-S16FCA-00.step",
+        "Destination":  "libraries/3dmodels/AFC01-S16FCA-00.step",
+        "Action":  "copied",
+        "SHA256":  "6AF63EF472C9408F31F2FBE8C06ABC1F1F9E3F04B8DF12003F7096D1379AEC44"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "mainbord\\2.0\\3D model\\AFC01-S16FCA-00.step",
+        "Destination":  "libraries/3dmodels/AFC01-S16FCA-00.step",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "6AF63EF472C9408F31F2FBE8C06ABC1F1F9E3F04B8DF12003F7096D1379AEC44"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\3D model\\AFC01-S16FCA-00.step",
+        "Destination":  "libraries/3dmodels/AFC01-S16FCA-00.step",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "6AF63EF472C9408F31F2FBE8C06ABC1F1F9E3F04B8DF12003F7096D1379AEC44"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "mainbord\\2.1\\3D model\\CD74HC154M96.step",
+        "Destination":  "libraries/3dmodels/CD74HC154M96.step",
+        "Action":  "copied",
+        "SHA256":  "A1467FD641B9F7E12819C04D6D0FAAED0B94ADA784D5E1299DD17ED4F726C567"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "mainbord\\2.0\\3D model\\CD74HC154M96.step",
+        "Destination":  "libraries/3dmodels/CD74HC154M96.step",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "A1467FD641B9F7E12819C04D6D0FAAED0B94ADA784D5E1299DD17ED4F726C567"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\3D model\\CD74HC154M96.step",
+        "Destination":  "libraries/3dmodels/CD74HC154M96.step",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "A1467FD641B9F7E12819C04D6D0FAAED0B94ADA784D5E1299DD17ED4F726C567"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "mainbord\\2.1\\3D model\\MAX11633EEGT.step",
+        "Destination":  "libraries/3dmodels/MAX11633EEGT.step",
+        "Action":  "copied",
+        "SHA256":  "524492238EA926AE10C64308567D94F904C37F1DA913ED1EBE06B020AF7C51F3"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "mainbord\\2.0\\3D model\\MAX11633EEGT.step",
+        "Destination":  "libraries/3dmodels/MAX11633EEGT.step",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "524492238EA926AE10C64308567D94F904C37F1DA913ED1EBE06B020AF7C51F3"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\3D model\\MAX11633EEGT.step",
+        "Destination":  "libraries/3dmodels/MAX11633EEGT.step",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "524492238EA926AE10C64308567D94F904C37F1DA913ED1EBE06B020AF7C51F3"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "mainbord\\2.1\\3D model\\USB-B_TH_BF90.step",
+        "Destination":  "libraries/3dmodels/USB-B_TH_BF90.step",
+        "Action":  "copied",
+        "SHA256":  "59F6F7C39BC749A43BF1A2EE6A259726DE019035BB3548E70DEFFA8C265C8AFE"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "mainbord\\2.0\\3D model\\USB-B_TH_BF90.step",
+        "Destination":  "libraries/3dmodels/USB-B_TH_BF90.step",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "59F6F7C39BC749A43BF1A2EE6A259726DE019035BB3548E70DEFFA8C265C8AFE"
+    },
+    {
+        "Kind":  "3d",
+        "Source":  "mainbord\\2.1_backup_before_fpga_spi_20260612-175853\\3D model\\USB-B_TH_BF90.step",
+        "Destination":  "libraries/3dmodels/USB-B_TH_BF90.step",
+        "Action":  "duplicate-identical-skipped",
+        "SHA256":  "59F6F7C39BC749A43BF1A2EE6A259726DE019035BB3548E70DEFFA8C265C8AFE"
+    }
+]
